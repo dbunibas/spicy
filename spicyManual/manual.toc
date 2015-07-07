@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Overview}{1}
+\contentsline {subsection}{\numberline {1.1}Description}{2}
+\contentsline {section}{\numberline {2}Graphical User Interface}{3}
+\contentsline {subsection}{\numberline {2.1}Main Constructs}{4}
+\contentsline {subsection}{\numberline {2.2}Loading Tgds from Parser}{6}
+\contentsline {subsection}{\numberline {2.3}Spicy Matching Module}{6}
+\contentsline {section}{\numberline {3}Main Functionalities}{7}
+\contentsline {subsection}{\numberline {3.1}Executable Scripts}{7}
+\contentsline {subsection}{\numberline {3.2}Chase Engine}{8}
+\contentsline {section}{\numberline {4}Advanced Features}{9}

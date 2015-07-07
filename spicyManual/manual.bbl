@@ -1,0 +1,39 @@
+\begin{thebibliography}{1}
+
+\bibitem{Bonifati08b}
+B.~A., M.~G., P.~A., R.~S., and S.~G.
+\newblock The spicy system: towards a notion of mapping quality.
+\newblock In {\em SIGMOD Conference}, pages 1289--1294, 2008.
+
+\bibitem{Bonifati2008}
+A.~Bonifati, G.~Mecca, A.~Pappalardo, S.~Raunich, and G.~Summa.
+\newblock {Schema Mapping Verification: The Spicy Way}.
+\newblock In {\em {EDBT}}, pages 85 -- 96, 2008.
+
+\bibitem{Fagin2005b}
+R.~Fagin, P.~Kolaitis, and L.~Popa.
+\newblock {Data Exchange: Getting to the Core}.
+\newblock {\em ACM TODS}, 30(1):174--210, 2005.
+
+\bibitem{Marnette2010}
+B.~Marnette, G.~Mecca, and P.~Papotti.
+\newblock Scalable data exchange with functional dependencies.
+\newblock {\em PVLDB}, 3(1), 2010.
+
+\bibitem{Mecca2009}
+G.~Mecca, P.~Papotti, and S.~Raunich.
+\newblock {Core Schema Mappings}.
+\newblock In {\em {SIGMOD}}, pages 655--668, 2009.
+
+\bibitem{Mecca2011TR}
+G.~Mecca, P.~Papotti, and S.~Raunich.
+\newblock {Core Schema Mappings: Scalable Core Computations in Data Exchange}.
+\newblock Technical Report Spicy WR-01-2011, Dipartimento di Matematica e
+  Informatica - Universit{\aacc} della Basilicata, 2010.
+
+\bibitem{Mecca2009b}
+G.~Mecca, P.~Papotti, S.~Raunich, and M.~Buoncristiano.
+\newblock {Concise and Expressive Mappings with \textsc{+Spicy}}.
+\newblock {\em PVLDB}, 2(2):1582--1585, 2009.
+
+\end{thebibliography}
