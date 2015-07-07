@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.jdom">
-    <module_version install_time="1436282822170" last="true" origin="installer" specification_version="1.0">
-        <file crc="4271704547" name="config/Modules/org-jdom.xml"/>
-        <file crc="3727094234" name="modules/ext/jdom.jar"/>
-        <file crc="3872624036" name="modules/org-jdom.jar"/>
-    </module_version>
-</module>

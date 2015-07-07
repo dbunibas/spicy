@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="com.jgoodies.looks">
-    <module_version install_time="1436282817958" last="true" origin="installer" specification_version="1.0">
-        <file crc="660423961" name="config/Modules/com-jgoodies-looks.xml"/>
-        <file crc="676973224" name="modules/com-jgoodies-looks.jar"/>
-        <file crc="879679" name="modules/ext/looks-2.1.4.jar"/>
-    </module_version>
-</module>

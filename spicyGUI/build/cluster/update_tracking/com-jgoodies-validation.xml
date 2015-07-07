@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="com.jgoodies.validation">
-    <module_version install_time="1436282818196" last="true" origin="installer" specification_version="1.0">
-        <file crc="2084531765" name="config/Modules/com-jgoodies-validation.xml"/>
-        <file crc="1694296597" name="modules/com-jgoodies-validation.jar"/>
-        <file crc="41085092" name="modules/ext/validation-2.0.0.jar"/>
-    </module_version>
-</module>

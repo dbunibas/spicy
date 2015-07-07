@@ -23,3 +23,5 @@ spicyVerifier/dist
 spicyGUICommons/build
 spicyGUICommons/dist
 spicyGUI/*/build
+spicyGUI/build
+/spicyGUI/dist/

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.postgresql">
-    <module_version install_time="1436282823008" last="true" origin="installer" specification_version="1.0">
-        <file crc="1871335533" name="config/Modules/org-postgresql.xml"/>
-        <file crc="3648084980" name="modules/ext/postgresql-8.1-407.jdbc3.jar"/>
-        <file crc="2978554692" name="modules/org-postgresql.jar"/>
-    </module_version>
-</module>

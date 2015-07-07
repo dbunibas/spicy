@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.nfunk.jep">
-    <module_version install_time="1436282822807" last="true" origin="installer" specification_version="1.0">
-        <file crc="1274314459" name="config/Modules/org-nfunk-jep.xml"/>
-        <file crc="4209143427" name="modules/ext/jep-2.4.1.jar"/>
-        <file crc="3749115399" name="modules/org-nfunk-jep.jar"/>
-    </module_version>
-</module>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="it.unibas.spicygui">
-    <module_version install_time="1436284252605" last="true" origin="installer" specification_version="1.0.2">
-        <file crc="2964563579" name="config/Modules/it-unibas-spicygui.xml"/>
-        <file crc="1375508966" name="modules/docs/it-unibas-spicygui.jar"/>
-        <file crc="1721632840" name="modules/it-unibas-spicygui.jar"/>
-    </module_version>
-</module>

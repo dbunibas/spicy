@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="com.ibatis.common.jdbc">
-    <module_version install_time="1436282817790" last="true" origin="installer" specification_version="1.0">
-        <file crc="2446989478" name="config/Modules/com-ibatis-common-jdbc.xml"/>
-        <file crc="3208885086" name="modules/com-ibatis-common-jdbc.jar"/>
-        <file crc="256545227" name="modules/ext/ibatis-2.3.4.726.jar"/>
-    </module_version>
-</module>

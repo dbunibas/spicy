@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.antlr.runtime">
-    <module_version install_time="1436282820533" last="true" origin="installer" specification_version="1.0">
-        <file crc="3789521105" name="config/Modules/org-antlr-runtime.xml"/>
-        <file crc="3513701226" name="modules/ext/antlr-3.1.1-runtime.jar"/>
-        <file crc="1085057436" name="modules/org-antlr-runtime.jar"/>
-    </module_version>
-</module>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.apache.derby.jdbc">
-    <module_version install_time="1436282820719" last="true" origin="installer" specification_version="1.0">
-        <file crc="1125140975" name="config/Modules/org-apache-derby-jdbc.xml"/>
-        <file crc="2296454945" name="modules/ext/derbyclient.jar"/>
-        <file crc="455468783" name="modules/org-apache-derby-jdbc.jar"/>
-    </module_version>
-</module>
