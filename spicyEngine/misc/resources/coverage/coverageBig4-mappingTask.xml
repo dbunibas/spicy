@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>coverageBig4-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>coverageBig4-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>coverageBig4-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>TargetCoverage.Rs.R.b</from>
+          <to>TargetCoverage.Ss.S.b</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>TargetCoverage.Ss.S.c</from>
+          <to>TargetCoverage.Ts.T.c</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageBig.As.A.a</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.Rs.R.a</target-path>
+      <transformation-function>SourceCoverageBig.As.A.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageBig.As.A.b</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.Rs.R.b</target-path>
+      <transformation-function>SourceCoverageBig.As.A.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageBig.Bs.B.b</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.Ss.S.b</target-path>
+      <transformation-function>SourceCoverageBig.Bs.B.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageBig.Cs.C.a</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.Rs.R.a</target-path>
+      <transformation-function>SourceCoverageBig.Cs.C.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageBig.Cs.C.d</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.Ss.S.d</target-path>
+      <transformation-function>SourceCoverageBig.Cs.C.d</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageBig.Bs.B.d</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.Ss.S.d</target-path>
+      <transformation-function>SourceCoverageBig.Bs.B.d</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageBig.Bs.B.e</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.Ts.T.e</target-path>
+      <transformation-function>SourceCoverageBig.Bs.B.e</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

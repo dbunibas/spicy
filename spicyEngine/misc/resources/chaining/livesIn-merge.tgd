@@ -1,0 +1,12 @@
+Mapping task:
+
+Source schema:   chain:livesIn.tgd
+Source instance: generate
+Source schema:   file:/expenseDB.xsd
+Source instance: file:/expenseDB-instance.xml
+
+Target schema:   generate
+
+SOURCE TO TARGET TGDs:
+dataSource0_Home(homeName: $n, homeCity: $c) -> Person(name: $n).
+dataSource0_EmpDept(eName: $e, deptId: $d) -> Person(name: $e).

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CyclesEasySource>
+  <ASet>
+   <A>
+    <A1>1</A1>
+    <A2>1</A2>
+    <A3>1</A3>
+   </A>
+   <A>
+    <A1>1</A1>
+    <A2>2</A2>
+    <A3>3</A3>
+   </A>
+  </ASet>
+ <BSet>
+   <B>
+    <B1>1</B1>
+    <B2>1</B2>
+    <B3>1</B3>
+   </B>
+   <B>
+    <B1>1</B1>
+    <B2>2</B2>
+    <B3>3</B3>
+   </B>
+  </BSet>
+  <CSet>
+   <C>
+    <C1>1</C1>
+    <C2>1</C2>
+    <C3>1</C3>
+   </C>
+   <C>
+    <C1>1</C1>
+    <C2>2</C2>
+    <C3>3</C3>
+   </C>
+  </CSet>
+</CyclesEasySource>

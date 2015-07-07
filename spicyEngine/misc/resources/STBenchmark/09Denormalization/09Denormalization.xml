@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>denormS.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>denormS-I-red.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications>
+      <duplication>Source.NodeSet</duplication>
+    </duplications>
+    <selectionConditions>
+      <selectionCondition>
+        <setPath>Source.NodeSet_1_</setPath>
+        <condition>(Source.NodeSet_1_.Node.taxId == 2)</condition>
+      </selectionCondition>
+    </selectionConditions>
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>Source.NodeSet.Node.taxId</from>
+          <to>Source.NameSet.Name.id</to>
+        </join>
+        <foreignKey>true</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>denormT.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>denormT-I-exp.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions />
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.NameSet.Name.id</source-path>
+      </source-paths>
+      <target-path>Target.Taxon.Id</target-path>
+      <transformation-function>Source.NameSet.Name.id</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.NameSet.Name.name</source-path>
+      </source-paths>
+      <target-path>Target.Taxon.Name</target-path>
+      <transformation-function>Source.NameSet.Name.name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.NameSet.Name.uniqueName</source-path>
+      </source-paths>
+      <target-path>Target.Taxon.UniqueName</target-path>
+      <transformation-function>Source.NameSet.Name.uniqueName</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.NameSet.Name.class</source-path>
+      </source-paths>
+      <target-path>Target.Taxon.Class</target-path>
+      <transformation-function>Source.NameSet.Name.class</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.NodeSet.Node.parentId</source-path>
+      </source-paths>
+      <target-path>Target.Taxon.Parent</target-path>
+      <transformation-function>Source.NodeSet.Node.parentId</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.NodeSet.Node.rank</source-path>
+      </source-paths>
+      <target-path>Target.Taxon.Rank</target-path>
+      <transformation-function>Source.NodeSet.Node.rank</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.NodeSet.Node.emblCode</source-path>
+      </source-paths>
+      <target-path>Target.Taxon.EmblCode</target-path>
+      <transformation-function>Source.NodeSet.Node.emblCode</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

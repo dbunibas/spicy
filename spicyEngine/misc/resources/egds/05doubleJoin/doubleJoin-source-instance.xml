@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Source>
+  <employeeset>
+    <employee>	
+      <ssn>1</ssn>
+      <name>Alice</name>
+      <company>PZ</company>
+      <vid>v1</vid>
+    </employee>
+    <employee>	
+      <ssn>2</ssn>
+      <name>Bruno</name>
+      <company>DIA</company>
+      <vid>v2</vid>
+    </employee>
+    <employee>	
+      <ssn>3</ssn>
+      <name>John</name>
+      <company>IBM</company>
+      <vid>v3</vid>
+    </employee>
+   </employeeset>
+  
+  <vehicleset>
+    <vehicle>	
+      <vid>v1</vid>
+      <carplate>RM11</carplate>
+    </vehicle>
+    <vehicle>	
+      <vid>v2</vid>
+      <carplate>RM22</carplate>
+    </vehicle>
+    <vehicle>	
+      <vid>v3</vid>
+      <carplate>RM33</carplate>
+    </vehicle>
+   </vehicleset>
+   
+</Source>

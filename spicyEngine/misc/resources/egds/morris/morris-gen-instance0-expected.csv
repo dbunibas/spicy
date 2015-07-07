@@ -1,0 +1,4 @@
+person(12345, Maxwell, 1980, NULL)
+person(10022, Morris, 1982, 3030)
+person(25555, Bolte, 1979, NULL)
+person(99999, Lempel, NULL, 2020)

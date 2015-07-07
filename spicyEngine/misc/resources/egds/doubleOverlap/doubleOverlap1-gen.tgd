@@ -1,0 +1,20 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+R(x: $x, y: $y, z: $z) -> A(a: $x, b: $y, c: $I), B(a: $I, b: $z, c: $N).
+S(x: $x, y: $y, z: $z) -> A(a: $x, b: $N, c: $I), B(a: $I, b: $z, c: $y).
+
+SOURCE FDs:
+R : x -> y, z [pk]
+S : z -> x, y [pk]
+
+TARGET FDs:
+A: a -> b, c [pk]
+B: b -> a, c [pk]
+
+SOURCE INSTANCE:
+R(x: "x1", y: "y1", z: "z1")
+S(x: "x1", y: "y1", z: "z1")

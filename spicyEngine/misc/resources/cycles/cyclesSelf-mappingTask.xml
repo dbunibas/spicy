@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>cyclesSelf-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>cyclesSelf-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>CyclesSelfSource.ASet.A.A3</from>
+          <to>CyclesSelfSource.ASet.A.A1</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>CyclesSelfSource.BSet.B.B3</from>
+          <to>CyclesSelfSource.BSet.B.B1</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>cyclesSelf-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>CyclesSelfTarget.RSet.R.C</from>
+          <to>CyclesSelfTarget.RSet.R.A</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>CyclesSelfSource.ASet.A.A1</source-path>
+      </source-paths>
+      <target-path>CyclesSelfTarget.RSet.R.B</target-path>
+      <transformation-function>CyclesSelfSource.ASet.A.A1</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

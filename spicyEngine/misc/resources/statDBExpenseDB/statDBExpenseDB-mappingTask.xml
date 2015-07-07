@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>statDB.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>statDB-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions>
+      <selectionCondition>
+        <setPath>statDB</setPath>
+        <condition>(statDB.cityStat.city == "Seattle")</condition>
+      </selectionCondition>
+    </selectionConditions>
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>statDB.cityStat.organizations.organization.fundings.fund.financialIdRef</from>
+          <to>statDB.cityStat.financials.financial.financialId</to>
+        </join>
+        <foreignKey>true</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>expenseDB.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>expenseDB.grants.grant.projectRef</from>
+          <to>expenseDB.projects.project.projectName</to>
+        </join>
+        <foreignKey>true</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>expenseDB.grants.grant.grantee</from>
+          <to>expenseDB.companies.company.companyId</to>
+        </join>
+        <foreignKey>true</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>statDB.cityStat.organizations.organization.companyName</source-path>
+      </source-paths>
+      <target-path>expenseDB.companies.company.companyName</target-path>
+      <transformation-function>statDB.cityStat.organizations.organization.companyName</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>statDB.cityStat.organizations.organization.fundings.fund.principalInvestigator</source-path>
+      </source-paths>
+      <target-path>expenseDB.grants.grant.principalInvestigator</target-path>
+      <transformation-function>statDB.cityStat.organizations.organization.fundings.fund.principalInvestigator</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>statDB.cityStat.financials.financial.amount</source-path>
+      </source-paths>
+      <target-path>expenseDB.grants.grant.amount</target-path>
+      <transformation-function>statDB.cityStat.financials.financial.amount</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

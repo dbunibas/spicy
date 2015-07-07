@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="spicyEngine" default="build">
+    
+    <import file="../spicy-template-build.xml" /> 
+	
+    <property file="../common.properties" />
+
+    <target name="-init-classpath" depends="-init-folders">
+        <property name="build.sysclasspath" value="ignore" />
+        <path id="compile.classpath">
+            <pathelement location="${build.dir}" />
+			
+            <pathelement location="${lib.dir}/commons-logging-${commons-logging.ver}.jar" />
+            <pathelement location="${lib.dir}/jdom.jar" />
+            <pathelement location="${lib.dir}/postgresql-8.1-407.jdbc3.jar" />
+            <pathelement location="${lib.dir}/derbyclient.jar" />
+            <pathelement location="${lib.dir}/mysql-connector-java-5.0.3-bin.jar" /> 
+            <pathelement location="${lib.dir}/xercesImpl.jar" />
+            <pathelement location="${lib.dir}/saxon9.jar" />
+            <pathelement location="${lib.dir}/saxon9-xqj.jar" />
+            <pathelement location="${lib.dir}/antlr-3.1.1-runtime.jar" />            
+            <pathelement location="${lib.dir}/ibatis-${ibatis.ver}.jar" />
+            <pathelement location="${lib.dir}/jep-${jep.ver}.jar" />    
+        </path>
+        <path id="test.classpath">
+            <path refid="compile.classpath" />
+            <pathelement location="${test.build.dir}" />
+            <pathelement location="${lib.dir}/junit.jar" />
+            <pathelement location="${lib.dir}/log4j-${log4j.ver}.jar" />
+            <pathelement location="${lib.dir}/spicyBenchmark-${spicyBenchmark.ver}.jar" />    
+        </path>
+    </target>    
+	
+    <target name="-light-deploy-jep" depends="init">
+        <ant dir="${jep.dir}" inheritAll="false" target="light-deploy" />    
+    </target>	
+
+    <target name="build" depends="-light-deploy-jep, compile, compile-test" description="compila ed esegue i test">
+    </target>
+
+</project>

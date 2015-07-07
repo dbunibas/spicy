@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+    <source>
+        <type>XML</type>
+        <xml>
+            <xml-schema>personParent-source.xsd</xml-schema>
+            <xml-instances>
+                <xml-instance>personParent-source-instance.xml</xml-instance>
+            </xml-instances>
+        </xml>
+        <inclusions />
+        <exclusions />
+        <duplications />
+        <functionalDependencies>
+            <functionalDependency>
+                <leftPath>PeopleDB.PeopleSet.People.father</leftPath>
+                <rightPath>PeopleDB.PeopleSet.People.name</rightPath>
+            </functionalDependency>
+            <functionalDependency>
+                <leftPath>PeopleDB.PeopleSet.People.mother</leftPath>
+                <rightPath>PeopleDB.PeopleSet.People.name</rightPath>
+            </functionalDependency>
+        </functionalDependencies>
+        <selectionConditions />
+        <joinConditions />
+    </source>
+    <target>
+        <type>XML</type>
+        <xml>
+            <xml-schema>personParent-target.xsd</xml-schema>
+            <xml-instances />
+        </xml>
+        <inclusions />
+        <exclusions />
+        <duplications>
+            <duplication>PersonParentDB.ParentSet</duplication>
+        </duplications>
+        <functionalDependencies />
+        <selectionConditions />
+        <joinConditions>
+            <joinCondition>
+                <join>
+                    <from>PersonParentDB.PersonSet.Person.father</from>
+                    <to>PersonParentDB.ParentSet.Parent.id</to>
+                </join>
+                <foreignKey>false</foreignKey>
+                <mandatory>true</mandatory>
+            </joinCondition>
+            <joinCondition>
+                <join>
+                    <from>PersonParentDB.PersonSet.Person.mother</from>
+                    <to>PersonParentDB.ParentSet_1_.Parent.id</to>
+                </join>
+                <foreignKey>false</foreignKey>
+                <mandatory>true</mandatory>
+            </joinCondition>
+        </joinConditions>
+    </target>
+    <correspondences>
+        <correspondence>
+            <source-paths>
+                <source-path>PeopleDB.PeopleSet.People.name</source-path>
+            </source-paths>
+            <target-path>PersonParentDB.PersonSet.Person.name</target-path>
+            <transformation-function>PeopleDB.PeopleSet.People.name</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>PeopleDB.PeopleSet.People.age</source-path>
+            </source-paths>
+            <target-path>PersonParentDB.PersonSet.Person.age</target-path>
+            <transformation-function>PeopleDB.PeopleSet.People.age</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>PeopleDB.PeopleSet.People.fatherName</source-path>
+            </source-paths>
+            <target-path>PersonParentDB.ParentSet.Parent.name</target-path>
+            <transformation-function>PeopleDB.PeopleSet.People.fatherName</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>PeopleDB.PeopleSet.People.motherName</source-path>
+            </source-paths>
+            <target-path>PersonParentDB.ParentSet_1_.Parent.name</target-path>
+            <transformation-function>PeopleDB.PeopleSet.People.motherName</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+    </correspondences>
+</mappingtask>
+

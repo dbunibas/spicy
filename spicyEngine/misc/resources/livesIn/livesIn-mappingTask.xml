@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+    <source>
+        <type>XML</type>
+        <xml>
+            <xml-schema>livesIn-source.xsd</xml-schema>
+            <xml-instances>
+                <xml-instance>livesIn-source-instance.xml</xml-instance>
+            </xml-instances>
+        </xml>
+        <inclusions />
+        <exclusions />
+    </source>
+    <target>
+        <type>XML</type>
+        <xml>
+            <xml-schema>livesIn-target.xsd</xml-schema>
+            <xml-instances />
+        </xml>
+        <inclusions />
+        <exclusions />
+        <joinConditions>
+            <joinCondition>
+                <join>
+                    <from>livesInTarget.EmpDeptSet.EmpDept.deptId</from>
+                    <to>livesInTarget.DeptCitySet.DeptCity.dId</to>
+                </join>
+                <foreignKey>true</foreignKey>
+            </joinCondition>
+        </joinConditions>
+    </target>
+    <correspondences>
+        <correspondence>
+            <source-paths>
+                <source-path>livesInSource.EmpCitySet.EmpCity.empName</source-path>
+            </source-paths>
+            <target-path>livesInTarget.HomeSet.Home.homeName</target-path>
+            <transformation-function>livesInSource.EmpCitySet.EmpCity.empName</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>livesInSource.EmpCitySet.EmpCity.empName</source-path>
+            </source-paths>
+            <target-path>livesInTarget.EmpDeptSet.EmpDept.eName</target-path>
+            <transformation-function>livesInSource.EmpCitySet.EmpCity.empName</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>livesInSource.EmpCitySet.EmpCity.empCity</source-path>
+            </source-paths>
+            <target-path>livesInTarget.DeptCitySet.DeptCity.city</target-path>
+            <transformation-function>livesInSource.EmpCitySet.EmpCity.empCity</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>livesInSource.LivesInSet.LivesIn.name</source-path>
+            </source-paths>
+            <target-path>livesInTarget.HomeSet.Home.homeName</target-path>
+            <transformation-function>livesInSource.LivesInSet.LivesIn.name</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>livesInSource.LivesInSet.LivesIn.city</source-path>
+            </source-paths>
+            <target-path>livesInTarget.HomeSet.Home.homeCity</target-path>
+            <transformation-function>livesInSource.LivesInSet.LivesIn.city</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>livesInSource.LivesInSet.LivesIn.name</source-path>
+            </source-paths>
+            <target-path>livesInTarget.EmpDeptSet.EmpDept.eName</target-path>
+            <transformation-function>livesInSource.LivesInSet.LivesIn.name</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+    </correspondences>
+</mappingtask>

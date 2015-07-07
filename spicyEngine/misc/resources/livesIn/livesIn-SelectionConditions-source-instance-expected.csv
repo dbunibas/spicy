@@ -1,0 +1,7 @@
+homeset(Bob, LA)
+homeset(Alice, SF)
+homeset(Mary, MW)
+empdeptset(Alice, N_0)
+empdeptset(Bob, NULL)
+empdeptset(Mary, NULL)
+deptcityset(N_0, SJ)

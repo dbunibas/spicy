@@ -1,0 +1,4 @@
+hasBookSoldAtSet(J.R.Tolkien, Amazon.com)
+hasBookSoldAtSet(J.R.Tolkien, The Best Bookstore)
+hasBookSoldAtSet(Stephen King, The Best Bookstore)
+hasBookSoldAtSet(Stephen King, eBay.com)

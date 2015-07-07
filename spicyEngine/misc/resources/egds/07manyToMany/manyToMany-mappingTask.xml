@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>manyToMany-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>manyToMany-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>manyToMany-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>Target.authorbookset.authorbook.author</from>
+          <to>Target.authorset.author.aid</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>Target.authorbookset.authorbook.book</from>
+          <to>Target.bookset.book.bid</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.bookset.book.author</source-path>
+      </source-paths>
+      <target-path>Target.authorset.author.author_name</target-path>
+      <transformation-function>Source.bookset.book.author</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.bookset.book.title</source-path>
+      </source-paths>
+      <target-path>Target.bookset.book.book_name</target-path>
+      <transformation-function>Source.bookset.book.title</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.bookset.book.discount</source-path>
+      </source-paths>
+      <target-path>Target.authorbookset.authorbook.discount</target-path>
+      <transformation-function>Source.bookset.book.discount</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

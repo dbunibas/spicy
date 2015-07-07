@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<needsLabSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Tutorials>
+        <Tutorial>
+            <course>Java</course>
+            <tutor>Yves</tutor>
+        </Tutorial>
+    </Tutorials>
+    <BasicUnits>
+        <BasicUnit>
+            <course>Java</course>
+        </BasicUnit>
+    </BasicUnits>
+</needsLabSource>

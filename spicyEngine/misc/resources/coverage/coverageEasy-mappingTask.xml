@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>coverageEasy-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>coverageEasy-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>coverageEasy-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications>
+      <duplication>TargetEasy.Students</duplication>
+      <duplication>TargetEasy.Students</duplication>
+    </duplications>
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>TargetEasy.Students_1_.Student.Surname</from>
+          <to>TargetEasy.Teachers.Teacher.Name</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>TargetEasy.Tutors.Tutor.Name</from>
+          <to>TargetEasy.Students_2_.Student.Surname</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceEasy.People.Person.Name</source-path>
+      </source-paths>
+      <target-path>TargetEasy.Students.Student.Name</target-path>
+      <transformation-function>SourceEasy.People.Person.Name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceEasy.People.Person.Surname</source-path>
+      </source-paths>
+      <target-path>TargetEasy.Students.Student.Surname</target-path>
+      <transformation-function>SourceEasy.People.Person.Surname</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceEasy.People.Person.Name</source-path>
+      </source-paths>
+      <target-path>TargetEasy.Students_1_.Student.Name</target-path>
+      <transformation-function>SourceEasy.People.Person.Name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceEasy.People.Person.Surname</source-path>
+      </source-paths>
+      <target-path>TargetEasy.Teachers.Teacher.Surname</target-path>
+      <transformation-function>SourceEasy.People.Person.Surname</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceEasy.People.Person.Name</source-path>
+      </source-paths>
+      <target-path>TargetEasy.Students_2_.Student.Name</target-path>
+      <transformation-function>SourceEasy.People.Person.Name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceEasy.People.Person.Surname</source-path>
+      </source-paths>
+      <target-path>TargetEasy.Tutors.Tutor.Surname</target-path>
+      <transformation-function>SourceEasy.People.Person.Surname</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

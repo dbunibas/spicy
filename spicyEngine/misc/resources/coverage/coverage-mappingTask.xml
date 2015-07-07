@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>coverage-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>coverage-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>coverage-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications>
+      <duplication>TargetCoverage.Students</duplication>
+    </duplications>
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>TargetCoverage.Students_1_.Student.Name</from>
+          <to>TargetCoverage.Profs.Prof.PSurname</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverage.People.Person.Name</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.Students.Student.Name</target-path>
+      <transformation-function>SourceCoverage.People.Person.Name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverage.People.Person.Surname</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.Students.Student.Surname</target-path>
+      <transformation-function>SourceCoverage.People.Person.Surname</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverage.People.Person.Name</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.Profs.Prof.PName</target-path>
+      <transformation-function>SourceCoverage.People.Person.Name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverage.People.Person.Surname</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.Students_1_.Student.Surname</target-path>
+      <transformation-function>SourceCoverage.People.Person.Surname</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

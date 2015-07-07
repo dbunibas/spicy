@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Target>
+   <Gene>
+      <Name>14-A</Name>
+      <Protein>14-A-Protein</Protein>
+   </Gene>
+   <Gene>
+      <Name>15-A</Name>
+      <Protein>15-A-Protein</Protein>
+   </Gene>   
+   <Synonym>
+      <Name>14-A-Syn1</Name>
+      <GeneWID>14-A</GeneWID>
+   </Synonym>
+   <Synonym>
+      <Name>14-A-Syn2</Name>
+      <GeneWID>14-A</GeneWID>
+   </Synonym>
+</Target>

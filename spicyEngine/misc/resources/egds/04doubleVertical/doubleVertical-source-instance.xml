@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Source>
+  <employeeset>
+    <employee>	
+      <ssn>1</ssn>
+      <name>Alice</name>
+      <dept>LT</dept>
+      <company>PZ</company>
+    </employee>
+    <employee>	
+      <ssn>2</ssn>
+      <name>Bruno</name>
+      <dept>DB1</dept>
+      <company>DIA</company>
+    </employee>
+    <employee>	
+      <ssn>3</ssn>
+      <name>John</name>
+      <dept>IA</dept>
+      <company>IBM</company>
+    </employee>
+    <employee>	
+      <ssn>4</ssn>
+      <name>Mark</name>
+      <dept>DB2</dept>
+      <company>MS</company>
+    </employee>
+   </employeeset>
+   
+</Source>

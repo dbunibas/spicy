@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Source>
+  <bookset>
+    <book>	
+      <author>Eggers</author>
+      <title>Work</title>
+      <discount>10</discount>
+    </book>
+    <book>	
+      <author>Eggers</author>
+      <title>What</title>
+      <discount>5</discount>
+    </book>
+    <book>	
+      <author>Wallace</author>
+      <title>Geometry</title>
+      <discount>20</discount>
+    </book>
+   <book>	
+      <author>Wallace</author>
+      <title>Work</title>
+      <discount>10</discount>
+    </book>
+   <book>	
+      <author>Eco</author>
+      <title>Nome</title>
+      <discount>50</discount>
+    </book>
+   </bookset>
+</Source>

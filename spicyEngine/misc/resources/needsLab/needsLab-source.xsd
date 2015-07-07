@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="needsLabSource">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Tutorials" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Tutorial" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="course" nillable="true" type="xs:string"/>
+                    <xs:element name="tutor" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BasicUnits" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BasicUnit" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="course" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Source>
+	<Reaction>
+		<entry>R00001</entry>
+		<name>Polyphosphate polyphosphohydrolase</name>
+		<definition>Polyphosphate + H2O gives Oligophosphate</definition>
+		<equation>C00890 + C00001 gives C02174</equation>
+		<comment></comment>
+		<orthology></orthology>
+		<reference></reference>
+	</Reaction>
+	<Reaction>
+		<entry>R00002</entry>
+		<name>Reduced ferredoxin:dinitrogen oxidoreductase (ATP-hydrolysing)</name>
+		<definition>16 ATP + 16 H2O gives 8 e- + 8 H+ + 16 Orthophosphate + 16 ADP</definition>
+		<equation>16 C00002 + 16 C00001 gives 8 C05359 + 8 C00080 + 16 C00009 + 16</equation>
+		<comment></comment>
+		<orthology></orthology>
+		<reference></reference>
+	</Reaction>
+	<Reaction>
+		<entry>R00003</entry>
+		<name>Triphosphate phosphohydrolase</name>
+		<definition>16 ATP + 16 H2O gives 8 e- + 8 H+ + 16 Orthophosphate + 16 ADP</definition>
+		<equation>16 C00002 + 16 C00001 gives 8 C05359 + 8 C00080 + 16 C00009 + 16</equation>
+		<comment></comment>
+		<orthology></orthology>
+		<reference></reference>
+	</Reaction>
+	<Reaction>
+		<entry>R00004</entry>
+		<name>Pyrophosphate phosphohydrolase</name>
+		<definition>Pyrophosphate + H2O gives 2 Orthophosphate</definition>
+		<equation>C00013 + C00001 gives 2 C00009</equation>
+		<comment></comment>
+		<orthology></orthology>
+		<reference></reference>
+	</Reaction>
+	<Reaction>
+		<entry>R00005</entry>
+		<name>Urea-1-carboxylate amidohydrolase</name>
+		<definition>Urea-1-carboxylate + H2O gives 2 CO2 + 2 NH3</definition>
+		<equation>C01010 + C00001 gives 2 C00011 + 2 C00014</equation>
+		<comment>The yeast enzyme (but not that from green algae)</comment>
+		<orthology>KO: K01457 allophanate hydrolase</orthology>
+		<reference></reference>
+	</Reaction>
+	<Reaction>
+		<entry>R00006</entry>
+		<name>2-Acetolactate pyruvate-lyase (carboxylating)</name>
+		<definition>2-Acetolactate + CO2 gives 2 Pyruvate</definition>
+		<equation>C00900 + C00011 gives 2 C00022</equation>
+		<comment></comment>
+		<orthology>KO: K01651 acetolactate synthase</orthology>
+		<reference></reference>
+	</Reaction>
+	<Reaction>
+		<entry>R00007</entry>
+		<name>ATP:nicotinamide-nucleotide adenylyltransferase</name>
+		<definition>2-Acetolactate + CO2 gives 2 Pyruvate</definition>
+		<equation>C00900 + C00011 gives 2 C00022</equation>
+		<comment></comment>
+		<orthology>KO: K01651 acetolactate synthase</orthology>
+		<reference></reference>
+	</Reaction>
+	</Source>

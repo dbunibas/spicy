@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>coverageBig-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>coverageBig-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>coverageBig-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>TargetCoverage.R_Set.R.b</from>
+          <to>TargetCoverage.S_Set.S.a</to>
+        </join>
+        <foreignKey>true</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageBig.A_Set.A.a</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.R_Set.R.a</target-path>
+      <transformation-function>SourceCoverageBig.A_Set.A.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageBig.A_Set.A.b</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.R_Set.R.b</target-path>
+      <transformation-function>SourceCoverageBig.A_Set.A.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageBig.B_Set.B.a</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.S_Set.S.a</target-path>
+      <transformation-function>SourceCoverageBig.B_Set.B.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageBig.B_Set.B.b</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.S_Set.S.b</target-path>
+      <transformation-function>SourceCoverageBig.B_Set.B.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageBig.C_Set.C.a</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.R_Set.R.a</target-path>
+      <transformation-function>SourceCoverageBig.C_Set.C.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageBig.C_Set.C.b</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.S_Set.S.b</target-path>
+      <transformation-function>SourceCoverageBig.C_Set.C.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageBig.D_Set.D.a</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.R_Set.R.a</target-path>
+      <transformation-function>SourceCoverageBig.D_Set.D.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageBig.D_Set.D.b</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.R_Set.R.b</target-path>
+      <transformation-function>SourceCoverageBig.D_Set.D.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageBig.E_Set.E.a</source-path>
+      </source-paths>
+      <target-path>TargetCoverage.S_Set.S.b</target-path>
+      <transformation-function>SourceCoverageBig.E_Set.E.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

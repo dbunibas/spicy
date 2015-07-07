@@ -1,0 +1,478 @@
+<Target>
+	<Gene>
+		<Name>GF14A</Name>
+		<Protein>14-3-3-like protein A</Protein>
+	</Gene>
+	<Gene>
+		<Name>Ywhah</Name>
+		<Protein>14-3-3 protein eta</Protein>
+	</Gene>
+	<Gene>
+		<Name>YWHAZ</Name>
+		<Protein>14-3-3 protein zeta/delta</Protein>
+	</Gene>
+	<Gene>
+		<Name>hspX</Name>
+		<Protein>14 kDa antigen</Protein>
+	</Gene>
+	<Gene>
+		<Name>ACS9</Name>
+		<Protein>1-aminocyclopropane-1-carboxylate synthase 9</Protein>
+	</Gene>
+	<Gene>
+		<Name>HLA-A</Name>
+		<Protein>HLA class I histocompatibility antigen, A-26 alpha chain precursor</Protein>
+	</Gene>
+	<Gene>
+		<Name>HLA-B</Name>
+		<Protein>HLA class I histocompatibility antigen, B-38 alpha chain precursor</Protein>
+	</Gene>
+	<Gene>
+		<Name>PPP2R1A</Name>
+		<Protein>Serine/threonine-protein phosphatase 2A 65 kDa regulatory subunit A alpha isoform</Protein>
+	</Gene>
+	<Gene>
+		<Name>Ppp2r2b</Name>
+		<Protein>Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B beta isoform</Protein>
+	</Gene>
+	<Gene>
+		<Name>HLA-DOB</Name>
+		<Protein>HLA class II histocompatibility antigen, DO beta chain precursor</Protein>
+	</Gene>
+	<Gene>
+		<Name>Hsd3b7</Name>
+		<Protein>3 beta-hydroxysteroid dehydrogenase type 7</Protein>
+	</Gene>
+	<Gene>
+		<Name/>
+		<Protein>3-hydroxyanthranilate 3,4-dioxygenase</Protein>
+	</Gene>
+	<Gene>
+		<Name>alkA</Name>
+		<Protein>DNA-3-methyladenine glycosylase</Protein>
+	</Gene>
+	<Gene>
+		<Name/>
+		<Protein>Putative 3-methyladenine DNA glycosylase</Protein>
+	</Gene>
+	<Gene>
+		<Name/>
+		<Protein>Putative 3-methyladenine DNA glycosylase</Protein>
+	</Gene>
+	<Gene>
+		<Name/>
+		<Protein>Putative 3-methyladenine DNA glycosylase</Protein>
+	</Gene>
+	<Gene>
+		<Name/>
+		<Protein>Putative 3-methyladenine DNA glycosylase</Protein>
+	</Gene>
+	<Gene>
+		<Name>4CL1</Name>
+		<Protein>4-coumarate--CoA ligase 1</Protein>
+	</Gene>
+	<Gene>
+		<Name>htr1a-A</Name>
+		<Protein>5-hydroxytryptamine 1A-alpha receptor</Protein>
+	</Gene>
+	<Gene>
+		<Name>HTR1D</Name>
+		<Protein>5-hydroxytryptamine 1D receptor</Protein>
+	</Gene>
+	<Gene>
+		<Name>Htr2b</Name>
+		<Protein>5-hydroxytryptamine 2B receptor</Protein>
+	</Gene>
+	<Gene>
+		<Name>5HTB1</Name>
+		<Protein>5-hydroxytryptamine 1 receptor</Protein>
+	</Gene>
+	<Gene>
+		<Name>gnd</Name>
+		<Protein>6-phosphogluconate dehydrogenase, decarboxylating</Protein>
+	</Gene>
+	<Gene>
+		<Name>gnd</Name>
+		<Protein>6-phosphogluconate dehydrogenase, decarboxylating</Protein>
+	</Gene>
+	<Gene>
+		<Name>pgl</Name>
+		<Protein>6-phosphogluconolactonase</Protein>
+	</Gene>
+	<Gene>
+		<Name>pgl</Name>
+		<Protein>6-phosphogluconolactonase</Protein>
+	</Gene>
+	<Gene>
+		<Name>ORM1</Name>
+		<Protein>Alpha-1-acid glycoprotein precursor</Protein>
+	</Gene>
+	<Gene>
+		<Name>SERPINA1</Name>
+		<Protein>Alpha-1-antitrypsin precursor</Protein>
+	</Gene>
+	<Gene>
+		<Name>A2m</Name>
+		<Protein>Alpha-2-macroglobulin precursor</Protein>
+	</Gene>
+	<Gene>
+		<Name>App</Name>
+		<Protein>Amyloid beta A4 protein precursor</Protein>
+	</Gene>
+	<Gene>
+		<Name>fbpB</Name>
+		<Protein>Antigen 85-B precursor</Protein>
+	</Gene>
+	<Gene>
+		<Name>ADORA2B</Name>
+		<Protein>Adenosine A2b receptor</Protein>
+	</Gene>
+	<Gene>
+		<Name>AAAS</Name>
+		<Protein>Aladin</Protein>
+	</Gene>
+	<Gene>
+		<Name>aacA-aphD</Name>
+		<Protein>Bifunctional AAC/APH</Protein>
+	</Gene>
+	<Gene>
+		<Name>aaeA</Name>
+		<Protein>p-hydroxybenzoic acid efflux pump subunit aaeA</Protein>
+	</Gene>
+	<Gene>
+		<Name>aaeX</Name>
+		<Protein>Protein aaeX</Protein>
+	</Gene>
+	<Gene>
+		<Name>Prkag3</Name>
+		<Protein>5'-AMP-activated protein kinase subunit gamma-3</Protein>
+	</Gene>
+	<Gene>
+		<Name>aak-1</Name>
+		<Protein>5'-AMP-activated protein kinase catalytic subunit alpha-1</Protein>
+	</Gene>
+	<Gene>
+		<Name>AASS</Name>
+		<Protein>Alpha-aminoadipic semialdehyde synthase, mitochondrial precursor</Protein>
+	</Gene>
+	<Gene>
+		<Name/>
+		<Protein>Probable aspartate aminotransferase, cytoplasmic</Protein>
+	</Gene>
+	<Gene>
+		<Name>AAT1</Name>
+		<Protein>Aspartate aminotransferase, mitochondrial precursor</Protein>
+	</Gene>
+	<Gene>
+		<Name>aau3</Name>
+		<Protein>Protein aau3</Protein>
+	</Gene>
+	<Gene>
+		<Name>CYP707A2</Name>
+		<Protein>Abscisic acid 8'-hydroxylase 2</Protein>
+	</Gene>
+	<Gene>
+		<Name>APOBEC3G</Name>
+		<Protein>DNA dC-&gt;dU-editing enzyme APOBEC-3G</Protein>
+	</Gene>
+	<Gene>
+		<Name>ABCA13</Name>
+		<Protein>ATP-binding cassette sub-family A member 13</Protein>
+	</Gene>
+	<Gene>
+		<Name>ABCD1</Name>
+		<Protein>ATP-binding cassette sub-family D member 1</Protein>
+	</Gene>
+	<Gene>
+		<Name>ABCG2</Name>
+		<Protein>ATP-binding cassette sub-family G member 2</Protein>
+	</Gene>
+	<Gene>
+		<Name>ydcW</Name>
+		<Protein>Gamma-aminobutyraldehyde dehydrogenase</Protein>
+	</Gene>
+	<Gene>
+		<Name>Apobec4</Name>
+		<Protein>Putative C-&gt;U-editing enzyme APOBEC-4</Protein>
+	</Gene>
+	<Gene>
+		<Name>ABHD2</Name>
+		<Protein>Abhydrolase domain-containing protein 2</Protein>
+	</Gene>
+	<Gene>
+		<Name>ABHD10</Name>
+		<Protein>Abhydrolase domain-containing protein 10, mitochondrial precursor</Protein>
+	</Gene>
+	<Gene>
+		<Name>Abi3</Name>
+		<Protein>ABI gene family member 3</Protein>
+	</Gene>
+	<Gene>
+		<Name>ABL</Name>
+		<Protein>Tyrosine-protein kinase transforming protein Abl</Protein>
+	</Gene>
+	<Gene>
+		<Name>Abra</Name>
+		<Protein>Actin-binding Rho-activating protein</Protein>
+	</Gene>
+	<Gene>
+		<Name>ACA2</Name>
+		<Protein>Calcium-transporting ATPase 2, plasma membrane-type</Protein>
+	</Gene>
+	<Gene>
+		<Name>ACADS</Name>
+		<Protein>Short-chain specific acyl-CoA dehydrogenase, mitochondrial precursor</Protein>
+	</Gene>
+	<Gene>
+		<Name>Acbd5</Name>
+		<Protein>Acyl-CoA-binding domain-containing protein 5</Protein>
+	</Gene>
+	<Gene>
+		<Name>DBI</Name>
+		<Protein>Acyl-CoA-binding protein</Protein>
+	</Gene>
+	<Gene>
+		<Name>accA</Name>
+		<Protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</Protein>
+	</Gene>
+	<Gene>
+		<Name>accA</Name>
+		<Protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</Protein>
+	</Gene>
+	<Gene>
+		<Name>accA</Name>
+		<Protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</Protein>
+	</Gene>
+	<Gene>
+		<Name>accA</Name>
+		<Protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</Protein>
+	</Gene>
+	<Gene>
+		<Name>accA</Name>
+		<Protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</Protein>
+	</Gene>
+	<Gene>
+		<Name>accD</Name>
+		<Protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta</Protein>
+	</Gene>
+	<Synonym>
+		<Name>Mb2057c</Name>
+		<Protein>14 kDa antigen</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>ETO3</Name>
+		<Protein>1-aminocyclopropane-1-carboxylate synthase 9</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>At3g49700</Name>
+		<Protein>1-aminocyclopropane-1-carboxylate synthase 9</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>T16K5.50</Name>
+		<Protein>1-aminocyclopropane-1-carboxylate synthase 9</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>HLAA</Name>
+		<Protein>HLA class I histocompatibility antigen, A-26 alpha chain precursor</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>HLAB</Name>
+		<Protein>HLA class I histocompatibility antigen, B-38 alpha chain precursor</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>Cca2</Name>
+		<Protein>3 beta-hydroxysteroid dehydrogenase type 7</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>K06A4.5</Name>
+		<Protein>3-hydroxyanthranilate 3,4-dioxygenase</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>BSU01800</Name>
+		<Protein>DNA-3-methyladenine glycosylase</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>CD1493</Name>
+		<Protein>Putative 3-methyladenine DNA glycosylase</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>lpp0929</Name>
+		<Protein>Putative 3-methyladenine DNA glycosylase</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>RPB_2889</Name>
+		<Protein>Putative 3-methyladenine DNA glycosylase</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>CYB_2817</Name>
+		<Protein>Putative 3-methyladenine DNA glycosylase</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>At1g51680</Name>
+		<Protein>4-coumarate--CoA ligase 1</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>F19C24.11</Name>
+		<Protein>4-coumarate--CoA ligase 1</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>HTR1DA</Name>
+		<Protein>5-hydroxytryptamine 1D receptor</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>HTRL</Name>
+		<Protein>5-hydroxytryptamine 1D receptor</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>Srl</Name>
+		<Protein>5-hydroxytryptamine 2B receptor</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>SE_1192</Name>
+		<Protein>6-phosphogluconate dehydrogenase, decarboxylating</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>devB</Name>
+		<Protein>6-phosphogluconolactonase</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>CPn_0239</Name>
+		<Protein>6-phosphogluconolactonase</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>CP_0523</Name>
+		<Protein>6-phosphogluconolactonase</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>CPj0239</Name>
+		<Protein>6-phosphogluconolactonase</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>CpB0245</Name>
+		<Protein>6-phosphogluconolactonase</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>SBO_0654</Name>
+		<Protein>6-phosphogluconolactonase</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>AGP</Name>
+		<Protein>Alpha-1-acid glycoprotein precursor</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>Pzp</Name>
+		<Protein>Alpha-2-macroglobulin precursor</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>BCG_1923c</Name>
+		<Protein>Antigen 85-B precursor</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>ADRACALA</Name>
+		<Protein>Aladin</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>GL003</Name>
+		<Protein>Aladin</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>Z4600</Name>
+		<Protein>p-hydroxybenzoic acid efflux pump subunit aaeA</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>ECs4114</Name>
+		<Protein>p-hydroxybenzoic acid efflux pump subunit aaeA</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>SPA3233</Name>
+		<Protein>Protein aaeX</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>PAR2.3</Name>
+		<Protein>5'-AMP-activated protein kinase catalytic subunit alpha-1</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>T01C8.5</Name>
+		<Protein>Probable aspartate aminotransferase, cytoplasmic</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>YKL106W</Name>
+		<Protein>Aspartate aminotransferase, mitochondrial precursor</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>YKL461</Name>
+		<Protein>Aspartate aminotransferase, mitochondrial precursor</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>R00730</Name>
+		<Protein>Protein aau3</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>SMc00785</Name>
+		<Protein>Protein aau3</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>At2g29090</Name>
+		<Protein>Abscisic acid 8'-hydroxylase 2</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>T9I4.17</Name>
+		<Protein>Abscisic acid 8'-hydroxylase 2</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>ALD</Name>
+		<Protein>ATP-binding cassette sub-family D member 1</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>BMDP</Name>
+		<Protein>ATP-binding cassette sub-family G member 2</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>Z2275</Name>
+		<Protein>Gamma-aminobutyraldehyde dehydrogenase</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>ECs2048</Name>
+		<Protein>Gamma-aminobutyraldehyde dehydrogenase</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>Nesh</Name>
+		<Protein>ABI gene family member 3</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>Ms1</Name>
+		<Protein>Actin-binding Rho-activating protein</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>At4g37640</Name>
+		<Protein>Calcium-transporting ATPase 2, plasma membrane-type</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>F19F18.130</Name>
+		<Protein>Calcium-transporting ATPase 2, plasma membrane-type</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>BPP2285</Name>
+		<Protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>ECA1047</Name>
+		<Protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>Pcar_1223</Name>
+		<Protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>SF0175</Name>
+		<Protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>S_0178</Name>
+		<Protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</Protein>
+	</Synonym>
+	<Synonym>
+		<Name>VV2540</Name>
+		<Protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</Protein>
+	</Synonym>
+</Target>

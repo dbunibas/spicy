@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="kidsPresentsDB">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" name="kids" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="kid" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" name="id" nillable="true" type="xs:int"/>
+                    <xs:element minOccurs="1" name="name" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="contactPhone" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="affiliation" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="busSchedule" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="familyIncome" nillable="true" type="xs:float"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="presents" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="present" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" name="toy" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="gives" nillable="true" type="xs:int"/>
+                    <xs:element minOccurs="1" name="receives" nillable="true" type="xs:int"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:key name="key1">
+      <xs:selector xpath=".//kid"/>
+      <xs:field xpath="id"/>
+    </xs:key>
+    <xs:key name="key2">
+      <xs:selector xpath=".//kid"/>
+      <xs:field xpath="id"/>
+    </xs:key>
+    <xs:keyref name="keyRef1" refer="key1">
+      <xs:selector xpath=".//present"/>
+      <xs:field xpath="gives"/>
+    </xs:keyref>
+    <xs:keyref name="keyRef2" refer="key1">
+      <xs:selector xpath=".//present"/>
+      <xs:field xpath="receives"/>
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

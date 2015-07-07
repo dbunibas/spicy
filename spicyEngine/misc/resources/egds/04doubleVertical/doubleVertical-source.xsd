@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Source">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="employeeset" minOccurs="0" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="employee" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+										<xs:element name="ssn" nillable="false" type="xs:string"/>
+                                        <xs:element name="name" nillable="false" type="xs:string"/>
+                                        <xs:element name="dept" nillable="false" type="xs:string"/>
+                                        <xs:element name="company" nillable="false" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>                          
+            </xs:sequence>
+        </xs:complexType>
+      <xs:key name="key1">
+      <xs:selector xpath=".//employee"/>
+      <xs:field xpath="ssn"/>
+    </xs:key>
+    </xs:element>
+</xs:schema>

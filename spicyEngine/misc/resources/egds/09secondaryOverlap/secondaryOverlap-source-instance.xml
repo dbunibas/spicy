@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Source>
+  <employeeset>
+    <employee>	
+      <ename>Mario</ename>
+      <carmodel>Bravo</carmodel>
+    </employee>
+    <employee>	
+      <ename>Paolo</ename>
+      <carmodel>Megane</carmodel>
+    </employee>
+    <employee>	
+      <ename>Gianni</ename>
+      <carmodel>Corsa</carmodel>
+    </employee>
+    <employee>	
+      <ename>Anne</ename>
+      <carmodel>Corsa</carmodel>
+    </employee>
+   </employeeset>
+
+  <driverset>
+    <driver>	
+      <dname>Mario</dname>
+      <team>Fiat</team>
+    </driver>
+    <driver>	
+      <dname>John</dname>
+      <team>Ferrari</team>
+    </driver>
+    <driver>	
+      <dname>Gianni</dname>
+      <team>Opel</team>
+    </driver>
+    <driver>	
+      <dname>Luca</dname>
+      <team>Fiat</team>
+    </driver>
+   </driverset>
+</Source>

@@ -1,0 +1,54 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+
+CityRegion(cityName: $x16, region: $x17) ->
+    City(id: $Y18, name: $x16, region: $x17).
+PersonCar2(personName: $x19, carModel: $x20) ->
+    Person(id: $Y21, name: $x19, age: $Y22, carId: $Y26, cityId: $Y23),
+    Car(id: $Y26, model: $x20, plate: $Y24, makeId: $Y25).
+PersonCity(personName: $x27, cityName: $x28) ->
+    Person(id: $Y29, name: $x27, age: $Y30, carId: $Y31, cityId: $Y33),
+    City(id: $Y33, name: $x28, region: $Y32).
+CarMake(carModel: $x34, makeName: $x35) ->
+    Car(id: $Y36, model: $x34, plate: $Y37, makeId: $Y38),
+    Make(id: $Y38, name: $x35).
+PersonCar1(personName: $x39, age: $x40, carPlate: $x41) ->
+    Person(id: $Y42, name: $x39, age: $x40, carId: $Y46, cityId: $Y43),
+    Car(id: $Y46, model: $Y44, plate: $x41, makeId: $Y45).
+
+SOURCE FDs:
+CityRegion : cityName -> region [pk]
+PersonCar2 : personName -> carModel [pk]
+PersonCity : personName -> cityName [pk]
+CarMake : carModel -> makeName [pk]
+PersonCar1 : personName -> age, carPlate [pk]
+
+TARGET FDs:
+Person : id -> name, age, carId, cityId [pk]
+Person : name -> id, age, carId, cityId [key]
+Car: id -> model, plate, makeId [pk]
+Car: plate -> model, id, makeId [key]
+Make: id -> name [pk]
+Make: name -> id [key]
+City: id -> name, region [pk]
+City: name -> id, region [key]
+
+SOURCE INSTANCE:
+PersonCar1 (personName: "John", age: "18", carPlate: "AB1234")
+PersonCar1 (personName: "Frank", age: "21", carPlate: "AC5678")
+
+PersonCar2 (personName: "John", carModel: "Punto")
+PersonCar2 (personName: "Mark", carModel: "Fiesta")
+
+PersonCity (personName: "John", cityName: "Roma")
+PersonCity (personName: "Anthony", cityName: "Milano")
+
+CarMake (carModel: "Punto", makeName: "Fiat")
+CarMake (carModel: "Corolla", makeName: "Toyota")
+
+CityRegion (cityName: "Roma", region: "Lazio")
+CityRegion (cityName: "Milano", region: "Lombardia")

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>copyS.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>copyS-I-red.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>copyT.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>copyT-I-exp.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.Protein.name</source-path>
+      </source-paths>
+      <target-path>Target.Protein.Name</target-path>
+      <transformation-function>Source.Protein.name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.Protein.accession</source-path>
+      </source-paths>
+      <target-path>Target.Protein.Accession</target-path>
+      <transformation-function>Source.Protein.accession</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.Protein.created</source-path>
+      </source-paths>
+      <target-path>Target.Protein.Created</target-path>
+      <transformation-function>Source.Protein.created</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

@@ -1,0 +1,31 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+Employee(name: $n, age: $a, salary: $s), _isNotNull($a), _isNotNull($s)  -> Employee(name: $n, age: $a, salary: $s).
+Employee(name: $n, age: $a, salary: #NULL#), _isNotNull($a) -> Employee(name: $n, age: $a, salary: $N).
+Employee(name: $n, age: #NULL#, salary: $s), _isNotNull($s) -> Employee(name: $n, age: $N, salary: $s).
+Employee(name: $n, age: #NULL#, salary: #NULL#) -> Employee(name: $n, age: $N1, salary: $N2).
+
+TARGET FDs:
+Employee : name -> age, salary [pk]
+
+SOURCE INSTANCE:
+Employee(name: "Charlie", age: 1978, salary: 32000)
+Employee(name: "Paul", age: 1978, salary: #NULL#)
+Employee(name: "Melanie", age: 1990, salary: #NULL#)
+Employee(name: "Bob", age: 1977, salary: #NULL#)
+Employee(name: "Paul", age: #NULL#, salary: 29000.5)
+Employee(name: "Bob", age: #NULL#, salary: 37000)
+Employee(name: "Jack", age: #NULL#, salary: #NULL#)
+
+CONFIG:
+// SUBSUMPTIONS: 1
+// COVERAGES: 1
+// SELFJOINS: 1
+EGDS: 1
+// LOCALSKOLEMS: 0
+// SORTSTRATEGY: -1
+// SKOLEMTABLESTRATEGY: 1

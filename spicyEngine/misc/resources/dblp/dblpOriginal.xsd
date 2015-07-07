@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="dblp">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="articles" minOccurs="0" nillable="true">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" minOccurs="0" name="article" nillable="true">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" maxOccurs="unbounded" name="author" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="title" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="pages" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="volume" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="journal" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="number" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="ee" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="url" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="cdrom" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="editor" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="month" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="publisher" nillable="true" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="key" type="xs:string"/>
+                                    <xs:attribute name="rating" type="xs:string"/>
+                                    <xs:attribute name="reviewid" type="xs:string"/>
+                                    <xs:attribute name="mdate" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="books" minOccurs="0" nillable="true">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" minOccurs="0" name="book" nillable="true">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" maxOccurs="unbounded" name="author" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="title" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="publisher" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="isbn" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="cdrom" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="editor" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="ee" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="month" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="url" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="volume" nillable="true" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="key" type="xs:string"/>
+                                    <xs:attribute name="mdate" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="proceedings" minOccurs="0" nillable="true">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" minOccurs="0" name="inproceedings" nillable="true">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" maxOccurs="unbounded" name="author" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="title" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="pages" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="crossref" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="booktitle" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="ee" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="url" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="cdrom" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="month" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="note" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="number" nillable="true" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="key" type="xs:string"/>
+                                    <xs:attribute name="mdate" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="masters" minOccurs="0" nillable="true">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" minOccurs="0" name="mastersthesis" nillable="true">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" maxOccurs="unbounded" name="author" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="title" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="school" nillable="true" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="key" type="xs:string"/>
+                                    <xs:attribute name="mdate" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="phds" minOccurs="0" nillable="true">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" minOccurs="0" name="phdthesis" nillable="true">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" maxOccurs="unbounded" name="author" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="ee" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="isbn" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="month" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="number" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="publisher" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="school" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="series" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="title" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="key" type="xs:string"/>
+                                    <xs:attribute name="mdate" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="wwws" minOccurs="0" nillable="true">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element maxOccurs="unbounded" minOccurs="0" name="www" nillable="true">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="0" maxOccurs="unbounded" name="author" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="editor" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="title" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="booktitle" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="year" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="0" name="url" nillable="true" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="key" type="xs:string"/>
+                                    <xs:attribute name="mdate" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

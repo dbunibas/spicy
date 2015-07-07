@@ -1,0 +1,33 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+employee(ename: $x28, city: $x29) ->
+    person(personname: $x28, cityid: $Y30),
+    city(cityid: $Y30, cityname: $x29).
+cityregion(regionname: $x31, cityname: $x32) ->
+    region(regionname: $x31, cityid: $Y33),
+    city(cityid: $Y33, cityname: $x32).
+
+SOURCE FDs:
+employee : ename -> city [pk]
+cityregion : cityname -> regionname [pk]
+
+TARGET FDs:
+person: personname -> cityid [pk]
+city: cityid -> cityname [pk]
+city: cityname -> cityid [key]
+region: cityid -> regionname [pk]
+
+SOURCE INSTANCE:
+employee(ename: "Mario", city: "Rome")
+employee(ename: "Paolo", city: "Rome")
+employee(ename: "Gianni", city: "Potenza")
+employee(ename: "Anne", city: "SanJose")
+employee(ename: "Bruno", city: "Oxford")
+cityregion(regionname: "Lazio", cityname: "Rome")
+cityregion(regionname: "Basilicata", cityname: "Potenza")
+cityregion(regionname: "Lazio", cityname: "Latina")
+cityregion(regionname: "Lazio", cityname: "Rieti")

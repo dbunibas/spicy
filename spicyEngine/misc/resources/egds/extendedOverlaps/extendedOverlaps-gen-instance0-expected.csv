@@ -1,0 +1,6 @@
+S(a1, b1, c1)
+S(a3, b3, c3)
+S(a6, NULL, NULL)
+S(a4, b4, NULL)
+S(a2, b2, NULL)
+S(a5, NULL, c5)

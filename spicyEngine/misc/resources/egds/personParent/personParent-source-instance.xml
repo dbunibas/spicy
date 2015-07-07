@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PeopleDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Source.xsd">
+    <PeopleSet>
+        <People>
+            <name>P1</name>
+            <age>18</age>
+            <fatherName>F1</fatherName>
+            <motherName>M1</motherName>
+        </People>
+        <People>
+            <name>P2</name>
+            <age>21</age>
+            <fatherName>F1</fatherName>
+            <motherName>M1</motherName>
+        </People>
+        <People>
+            <name>P3</name>
+            <age>22</age>
+            <fatherName>F1</fatherName>
+            <motherName>M2</motherName>
+        </People>
+        <People>
+            <name>P4</name>
+            <age>25</age>
+            <fatherName>F2</fatherName>
+            <motherName>M1</motherName>
+        </People>
+        <People>
+            <name>P5</name>
+            <age>30</age>
+            <fatherName>F2</fatherName>
+            <motherName>M2</motherName>
+        </People>
+    </PeopleSet>
+</PeopleDB>

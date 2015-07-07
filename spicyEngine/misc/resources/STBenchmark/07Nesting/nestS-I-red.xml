@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Source>
+<Publication>
+    <title>Trie Methods for Text and Spatial Data on Secondary Storage.</title>
+    <year>1994</year>
+    <publishedIn>Published by McGill University</publishedIn>
+    <name>Heping Shang</name>
+</Publication>
+<Publication>
+    <title>Efficient External-Memory Data Structures and Applications.</title>
+    <year>1996</year>
+    <publishedIn>Published by University of Aarhus</publishedIn>
+    <name>Heping Shang</name>
+</Publication>
+<Publication>
+    <title>Management of Sequence Data</title>
+    <year>1996</year>
+    <publishedIn>Published by Univ. of Wisconsin-Madison, CS Department</publishedIn>
+    <name>Praveen Seshadri</name>
+</Publication>
+<Publication>
+    <title>The Temporal Deductive Database System ChronoLog</title>
+    <year>1996</year>
+    <publishedIn>Published by Departement Informatik, ETH Zrich</publishedIn>
+    <name>Praveen Seshadri</name>
+</Publication>
+<Publication>
+    <title>System Support for Software Fault Tolerance in Highly Available Database Management Systems.</title>
+    <year>1994</year>
+    <publishedIn>Published by University of California at Berkeley</publishedIn>
+    <name>Mark Sullivan</name>
+</Publication>
+<Publication>
+    <title>Spatial Queues.</title>
+    <year>2000</year>
+    <publishedIn>Published by Univ. Trier, FB 4, Informatik</publishedIn>
+    <name>Lothar Breuer</name>
+</Publication>
+</Source>

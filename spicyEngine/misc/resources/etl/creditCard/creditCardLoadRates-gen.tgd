@@ -1,0 +1,22 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+EuropeanRate(code: $c, rate: $r) -> LoadRate(code: $c, rate: $r).
+AmericanRate(isoCode: $i, eurorate: $r, date: $d) -> LoadRate(code: $i, rate: $r).
+WorldRate(code: $c, usdrate: $u, isoCode: $i), AmericanRate(isoCode: $i, eurorate: $e, date: $d) -> LoadRate(code: $c, rate: {round($e * $u,2)}).
+
+SOURCE FDs:
+EuropeanRate : code -> rate [pk]
+
+TARGET FDs:
+LoadRate : code -> rate [pk]
+
+SOURCE INSTANCE:
+EuropeanRate(code: "GBP", rate: 0.87)
+EuropeanRate(code: "CHF", rate: 0.73)
+AmericanRate(isoCode: "USD", eurorate: 1.40)
+AmericanRate(isoCode: "CAD", eurorate: 1.39)
+WorldRate(code: "CNY", usdrate: 6.40, isoCode: "USD")

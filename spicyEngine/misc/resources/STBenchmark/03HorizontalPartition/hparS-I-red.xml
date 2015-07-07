@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Source>
+    <GeneSet>
+        <Gene>
+            <name>GF14A</name>
+            <type>primary</type>
+            <protein>14-3-3-like protein A</protein>
+        </Gene>
+        <Gene>
+            <name>Ywhah</name>
+            <type>primary</type>
+            <protein>14-3-3 protein eta</protein>
+        </Gene>
+        <Gene>
+            <name>hspX</name>
+            <type>primary</type>
+            <protein>14 kDa antigen</protein>
+        </Gene>
+        <Gene>
+            <name>Mb2057c</name>
+            <type>ordered locus</type>
+            <protein>14 kDa antigen</protein>
+        </Gene>
+        <Gene>
+            <name>ACS9</name>
+            <type>primary</type>
+            <protein>1-aminocyclopropane-1-carboxylate synthase 9</protein>
+        </Gene>
+        <Gene>
+            <name>ETO3</name>
+            <type>synonym</type>
+            <protein>1-aminocyclopropane-1-carboxylate synthase 9</protein>
+        </Gene>
+        <Gene>
+            <name>At3g49700</name>
+            <type>ordered locus</type>
+            <protein>1-aminocyclopropane-1-carboxylate synthase 9</protein>
+        </Gene>
+        <Gene>
+            <name>T16K5.50</name>
+            <type>ORF</type>
+            <protein>1-aminocyclopropane-1-carboxylate synthase 9</protein>
+        </Gene>
+        <Gene>
+            <name>HLA-A</name>
+            <type>primary</type>
+            <protein>HLA class I histocompatibility antigen A-26 alpha chain precursor</protein>
+        </Gene>
+    </GeneSet>
+</Source>

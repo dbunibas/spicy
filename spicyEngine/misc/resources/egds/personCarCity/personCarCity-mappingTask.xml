@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+    <source>
+        <type>XML</type>
+        <xml>
+            <xml-schema>personCarCity-source.xsd</xml-schema>
+            <xml-instances>
+                <xml-instance>personCarCity-source-instance.xml</xml-instance>
+            </xml-instances>
+        </xml>
+        <inclusions />
+        <exclusions />
+        <duplications />
+        <functionalDependencies />
+        <selectionConditions />
+        <joinConditions />
+    </source>
+    <target>
+        <type>XML</type>
+        <xml>
+            <xml-schema>personCarCity-target.xsd</xml-schema>
+            <xml-instances />
+        </xml>
+        <inclusions />
+        <exclusions />
+        <duplications />
+        <functionalDependencies />
+        <selectionConditions />
+        <joinConditions>
+            <joinCondition>
+                <join>
+                    <from>PersonCarCityTarget.PersonSet.Person.carId</from>
+                    <to>PersonCarCityTarget.CarSet.Car.id</to>
+                </join>
+                <foreignKey>true</foreignKey>
+                <mandatory>false</mandatory>
+            </joinCondition>
+            <joinCondition>
+                <join>
+                    <from>PersonCarCityTarget.PersonSet.Person.cityId</from>
+                    <to>PersonCarCityTarget.CitySet.City.id</to>
+                </join>
+                <foreignKey>true</foreignKey>
+                <mandatory>false</mandatory>
+            </joinCondition>
+            <joinCondition>
+                <join>
+                    <from>PersonCarCityTarget.CarSet.Car.makeId</from>
+                    <to>PersonCarCityTarget.MakeSet.Make.id</to>
+                </join>
+                <foreignKey>true</foreignKey>
+                <mandatory>false</mandatory>
+            </joinCondition>
+        </joinConditions>
+    </target>
+    <correspondences>
+        <correspondence>
+            <source-paths>
+                <source-path>PersonCarCitySource.PersonCarSet1.PersonCar1.personName</source-path>
+            </source-paths>
+            <target-path>PersonCarCityTarget.PersonSet.Person.name</target-path>
+            <transformation-function>PersonCarCitySource.PersonCarSet1.PersonCar1.personName</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>PersonCarCitySource.PersonCarSet1.PersonCar1.age</source-path>
+            </source-paths>
+            <target-path>PersonCarCityTarget.PersonSet.Person.age</target-path>
+            <transformation-function>PersonCarCitySource.PersonCarSet1.PersonCar1.age</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>PersonCarCitySource.PersonCarSet1.PersonCar1.carPlate</source-path>
+            </source-paths>
+            <target-path>PersonCarCityTarget.CarSet.Car.plate</target-path>
+            <transformation-function>PersonCarCitySource.PersonCarSet1.PersonCar1.carPlate</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>PersonCarCitySource.PersonCarSet2.PersonCar2.personName</source-path>
+            </source-paths>
+            <target-path>PersonCarCityTarget.PersonSet.Person.name</target-path>
+            <transformation-function>PersonCarCitySource.PersonCarSet2.PersonCar2.personName</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>PersonCarCitySource.PersonCarSet2.PersonCar2.carModel</source-path>
+            </source-paths>
+            <target-path>PersonCarCityTarget.CarSet.Car.model</target-path>
+            <transformation-function>PersonCarCitySource.PersonCarSet2.PersonCar2.carModel</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>PersonCarCitySource.PersonCitySet.PersonCity.personName</source-path>
+            </source-paths>
+            <target-path>PersonCarCityTarget.PersonSet.Person.name</target-path>
+            <transformation-function>PersonCarCitySource.PersonCitySet.PersonCity.personName</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>PersonCarCitySource.PersonCitySet.PersonCity.cityName</source-path>
+            </source-paths>
+            <target-path>PersonCarCityTarget.CitySet.City.name</target-path>
+            <transformation-function>PersonCarCitySource.PersonCitySet.PersonCity.cityName</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>PersonCarCitySource.CarMakeSet.CarMake.carModel</source-path>
+            </source-paths>
+            <target-path>PersonCarCityTarget.CarSet.Car.model</target-path>
+            <transformation-function>PersonCarCitySource.CarMakeSet.CarMake.carModel</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>PersonCarCitySource.CarMakeSet.CarMake.makeName</source-path>
+            </source-paths>
+            <target-path>PersonCarCityTarget.MakeSet.Make.name</target-path>
+            <transformation-function>PersonCarCitySource.CarMakeSet.CarMake.makeName</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>PersonCarCitySource.CityRegionSet.City.cityName</source-path>
+            </source-paths>
+            <target-path>PersonCarCityTarget.CitySet.City.name</target-path>
+            <transformation-function>PersonCarCitySource.CityRegionSet.City.cityName</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>PersonCarCitySource.CityRegionSet.City.region</source-path>
+            </source-paths>
+            <target-path>PersonCarCityTarget.CitySet.City.region</target-path>
+            <transformation-function>PersonCarCitySource.CityRegionSet.City.region</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+    </correspondences>
+</mappingtask>
+

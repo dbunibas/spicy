@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>cyclesTransitive-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>cyclesTransitive-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>CyclesTransitiveSource.ASet.A.A2</from>
+          <to>CyclesTransitiveSource.BSet.B.B2</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>CyclesTransitiveSource.BSet.B.B3</from>
+          <to>CyclesTransitiveSource.CSet.C.C3</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>CyclesTransitiveSource.CSet.C.C1</from>
+          <to>CyclesTransitiveSource.ASet.A.A1</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>cyclesTransitive-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>CyclesTransitiveTarget.RSet.R.B</from>
+          <to>CyclesTransitiveTarget.TSet.T.B</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>CyclesTransitiveTarget.TSet.T.C</from>
+          <to>CyclesTransitiveTarget.VSet.V.C</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>CyclesTransitiveTarget.VSet.V.A</from>
+          <to>CyclesTransitiveTarget.RSet.R.A</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>CyclesTransitiveSource.ASet.A.A1</source-path>
+      </source-paths>
+      <target-path>CyclesTransitiveTarget.RSet.R.C</target-path>
+      <transformation-function>CyclesTransitiveSource.ASet.A.A1</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>CyclesTransitiveSource.ASet.A.A2</source-path>
+      </source-paths>
+      <target-path>CyclesTransitiveTarget.TSet.T.A</target-path>
+      <transformation-function>CyclesTransitiveSource.ASet.A.A2</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>CyclesTransitiveSource.ASet.A.A3</source-path>
+      </source-paths>
+      <target-path>CyclesTransitiveTarget.VSet.V.B</target-path>
+      <transformation-function>CyclesTransitiveSource.ASet.A.A3</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

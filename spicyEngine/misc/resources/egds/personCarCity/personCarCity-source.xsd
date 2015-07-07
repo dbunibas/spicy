@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="PersonCarCitySource">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="PersonCarSet1" minOccurs="1" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="PersonCar1" maxOccurs="unbounded" minOccurs="1" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="personName" minOccurs="1" nillable="true" type="xs:string"/>
+                                        <xs:element name="age" minOccurs="1" nillable="true" type="xs:string"/>
+                                        <xs:element name="carPlate" minOccurs="1" nillable="true" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="PersonCarSet2" minOccurs="1" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="PersonCar2" maxOccurs="unbounded" minOccurs="1" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="personName" minOccurs="1" nillable="true" type="xs:string"/>
+                                        <xs:element name="carModel" minOccurs="1" nillable="true" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="PersonCitySet" minOccurs="1" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="PersonCity" maxOccurs="unbounded" minOccurs="1" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="personName" minOccurs="1" nillable="true" type="xs:string"/>
+                                        <xs:element name="cityName" minOccurs="1" nillable="true" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="CarMakeSet" minOccurs="1" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="CarMake" maxOccurs="unbounded" minOccurs="1" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="carModel" minOccurs="1" nillable="true" type="xs:string"/>
+                                        <xs:element name="makeName" minOccurs="1" nillable="true" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="CityRegionSet" minOccurs="1" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="City" maxOccurs="unbounded" minOccurs="1" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="cityName" minOccurs="1" nillable="true" type="xs:string"/>
+                                        <xs:element name="region" minOccurs="1" nillable="true" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:key name="keyPersonCar1">
+            <xs:selector xpath=".//PersonCar1"/>
+            <xs:field xpath="personName"/>
+        </xs:key>
+        <xs:key name="keyPersonCar2">
+            <xs:selector xpath=".//PersonCar2"/>
+            <xs:field xpath="personName"/>
+        </xs:key>
+        <xs:key name="keyPersonCity">
+            <xs:selector xpath=".//PersonCity"/>
+            <xs:field xpath="personName"/>
+        </xs:key>
+        <xs:key name="keyCarMake">
+            <xs:selector xpath=".//CarMake"/>
+            <xs:field xpath="carModel"/>
+        </xs:key>
+        <xs:key name="keyCity">
+            <xs:selector xpath=".//City"/>
+            <xs:field xpath="cityName"/>
+        </xs:key>
+    </xs:element>
+</xs:schema>

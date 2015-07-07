@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="PeopleDB">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="PeopleSet" minOccurs="1" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="People" maxOccurs="unbounded" minOccurs="1" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element minOccurs="1" name="name" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="1" name="age" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="1" name="fatherName" nillable="true" type="xs:string"/>
+                                        <xs:element minOccurs="1" name="motherName" nillable="true" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:key name="key1">
+            <xs:selector xpath=".//People"/>
+            <xs:field xpath="name"/>
+        </xs:key>
+    </xs:element>
+</xs:schema>

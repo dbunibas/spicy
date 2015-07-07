@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>constS.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>constS-I.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>constT.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>constT-I-exp.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths />
+      <source-value>"SwissProt"</source-value>
+      <target-path>Target.Dataset.Name</target-path>
+      <transformation-function>"SwissProt"</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths />
+      <source-value>"July 4th"</source-value>
+      <target-path>Target.Dataset.LoadingDate</target-path>
+      <transformation-function>"July 4th"</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

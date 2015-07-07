@@ -1,0 +1,32 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+employee(ssn: $x0, name: $x1, company: $x2) ->
+    person(ssn: $x0, name: $x1, bd: $Y3, company: $Y2),
+    company(cid: $Y2, company: $x2).
+student(ssn: $x4, name: $x5, bd: $x6) ->  
+    person(ssn: $x4, name: $x5, bd: $x6, company: $Y7).
+
+
+SOURCE FDs:
+employee : ssn -> name, company [pk]
+student : ssn -> name, bd [pk]
+
+TARGET FDs:
+person : ssn -> name, bd, company [pk]
+company : cid -> company [pk]
+company : company -> cid [key]
+
+SOURCE INSTANCE:
+employee(ssn: "1", name: "Alice", company: "DIA")
+employee(ssn: "2", name: "Bruno", company: "DIA")
+employee(ssn: "3", name: "John", company: "IBM")
+employee(ssn: "4", name: "Mark", company: "Microsoft")
+
+student(ssn: "1", name: "Alice", bd: "bd1")
+student(ssn: "2", name: "Bruno", bd: "bd2")
+student(ssn: "3", name: "John", bd: "bd3")
+student(ssn: "5", name: "Mike", bd: "bd5")

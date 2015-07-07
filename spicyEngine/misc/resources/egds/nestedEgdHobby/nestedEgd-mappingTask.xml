@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <config>
+    <rewriteSubsumptions>true</rewriteSubsumptions>
+    <rewriteCoverages>true</rewriteCoverages>
+    <rewriteSelfJoins>true</rewriteSelfJoins>
+    <rewriteEGDs>true</rewriteEGDs>
+    <sortStrategy>-1</sortStrategy>
+    <skolemTableStrategy>-1</skolemTableStrategy>
+    <useLocalSkolem>true</useLocalSkolem>
+  </config>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>nestedEgd-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>nestedEgd-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <functionalDependencies />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>nestedEgd-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <functionalDependencies />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>Target.personset.person.companyId</from>
+          <to>Target.cities.city.companyset.company.cId</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.company</source-path>
+      </source-paths>
+      <target-path>Target.cities.city.companyset.company.name</target-path>
+      <transformation-function>Source.employeeset.employee.company</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.ssn</source-path>
+      </source-paths>
+      <target-path>Target.personset.person.ssn</target-path>
+      <transformation-function>Source.employeeset.employee.ssn</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.name</source-path>
+      </source-paths>
+      <target-path>Target.personset.person.name</target-path>
+      <transformation-function>Source.employeeset.employee.name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.studentset.student.ssn</source-path>
+      </source-paths>
+      <target-path>Target.personset.person.ssn</target-path>
+      <transformation-function>Source.studentset.student.ssn</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.studentset.student.name</source-path>
+      </source-paths>
+      <target-path>Target.personset.person.name</target-path>
+      <transformation-function>Source.studentset.student.name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.studentset.student.hobby</source-path>
+      </source-paths>
+      <target-path>Target.personset.person.hobbyset.hobby.description</target-path>
+      <transformation-function>Source.studentset.student.hobby</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.city</source-path>
+      </source-paths>
+      <target-path>Target.cities.city.name</target-path>
+      <transformation-function>Source.employeeset.employee.city</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.salary</source-path>
+      </source-paths>
+      <target-path>Target.personset.person.salary</target-path>
+      <transformation-function>Source.employeeset.employee.salary</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

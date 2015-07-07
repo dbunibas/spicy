@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<morrisSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gottlob05_source.xsd">
+ <students>
+  <student>
+    <studname>Maxwell</studname>
+    <birthdate>1980</birthdate>
+    <ssn>12345</ssn>
+  </student>
+  <student>
+    <studname>Morris</studname>
+    <birthdate>1982</birthdate>
+    <ssn>10022</ssn>
+  </student>
+  <student>
+    <studname>Bolte</studname>
+    <birthdate>1979</birthdate>
+    <ssn>25555</ssn>
+  </student>
+</students>
+<employees>
+  <employee>
+    <empname>Lempel</empname>
+    <ssn>99999</ssn>
+    <phone>2020</phone>
+  </employee>
+  <employee>
+    <empname>Morris</empname>
+    <ssn>10022</ssn>
+    <phone>3030</phone>
+  </employee>
+</employees>
+</morrisSource>

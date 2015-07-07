@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="TargetCoverage">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="R_Set" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+			              <xs:element name="R" minOccurs="1" maxOccurs="unbounded">
+			                <xs:complexType>
+			                  <xs:sequence>
+			                    <xs:element name="a" type="xs:string" nillable="true"/>
+			                    <xs:element name="b" type="xs:string" nillable="true"/>
+			                  </xs:sequence>
+			                </xs:complexType>
+			              </xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="S_Set" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+			              <xs:element name="S" minOccurs="1" maxOccurs="unbounded">
+			                <xs:complexType>
+			                  <xs:sequence>
+			                    <xs:element name="a" type="xs:string" nillable="true"/>
+			                    <xs:element name="b" type="xs:string" nillable="true"/>
+			                  </xs:sequence>
+			                </xs:complexType>
+			              </xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="T_Set" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+			              <xs:element name="T" minOccurs="1" maxOccurs="unbounded">
+			                <xs:complexType>
+			                  <xs:sequence>
+			                    <xs:element name="a" type="xs:string" nillable="true"/>
+			                    <xs:element name="b" type="xs:string" nillable="true"/>
+			                  </xs:sequence>
+			                </xs:complexType>
+			              </xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="W_Set" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+			              <xs:element name="W" minOccurs="1" maxOccurs="unbounded">
+			                <xs:complexType>
+			                  <xs:sequence>
+			                    <xs:element name="a" type="xs:string" nillable="true"/>
+			                    <xs:element name="b" type="xs:string" nillable="true"/>
+			                  </xs:sequence>
+			                </xs:complexType>
+			              </xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

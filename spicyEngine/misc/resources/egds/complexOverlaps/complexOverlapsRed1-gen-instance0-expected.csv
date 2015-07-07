@@ -1,0 +1,7 @@
+City(N_116, Roma, Lazio)
+City(N_192, Milano, Lombardia)
+Person(NULL, John, NULL, N_123, N_116)
+Person(NULL, Mark, NULL, N_148, NULL)
+Person(NULL, Anthony, NULL, NULL, N_192)
+Car(N_123, Punto, NULL, NULL)
+Car(N_148, Fiesta, NULL, NULL)

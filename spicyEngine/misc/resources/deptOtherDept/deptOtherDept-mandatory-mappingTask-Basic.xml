@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>depts.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>depts-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>otherDepts.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>otherDepts-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>tdepts.tdept.emps.emp.projectRefs.projectRef.projectIdRef</from>
+          <to>tdepts.tdept.projects.project.projectId</to>
+        </join>
+        <foreignKey>true</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>depts.dept.deptName</source-path>
+      </source-paths>
+      <target-path>tdepts.tdept.deptName</target-path>
+      <transformation-function>depts.dept.deptName</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>depts.dept.emps.emp.empName</source-path>
+      </source-paths>
+      <target-path>tdepts.tdept.emps.emp.empName</target-path>
+      <transformation-function>depts.dept.emps.emp.empName</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

@@ -1,0 +1,12 @@
+Mapping task:
+Source schema: 		file:/chaseRS-source.xsd
+Source instance:	file:/chaseRS-source-instance.xml
+Target schema:		file:/chaseRS-target.xsd
+
+SOURCE TO TARGET TGDs:
+RSet(a: $a, b: $b, c: $c, d: $d) -> SSet(a: $x5, b: $b, c: $x1, d: $x2, e: $a),
+                                             SSet(a: $x5, b: $c, c: $x3, d: $x4, e: $a),
+                                             SSet(a: $d, b: $c, c: $x3, d: $x4, e: $b).
+RSet(a: $a, b: $b, c: $c, d: $d) -> SSet(a: $d, b: $a, c: $a, d: $x1, e: $b),
+                                             SSet(a: $x5, b: $a, c: $a, d: $x1, e: $a),
+                                             SSet(a: $x5, b: $c, c: $x2, d: $x3, e: $x4).

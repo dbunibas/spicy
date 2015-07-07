@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Target>
+    <Publication>
+        <Title>Trie Methods for Text and Spatial Data on Secondary Storage.</Title>
+        <Year>1994</Year>
+        <PublishedIn>Published by McGill University</PublishedIn>
+        <Name>Heping Shang</Name>
+    </Publication>
+    <Publication>
+        <Title>Trie Methods for Text and Spatial Data on Secondary Storage.</Title>
+        <Year>1994</Year>
+        <PublishedIn>Published by McGill University</PublishedIn>
+        <Name>Michael J. Carey</Name>
+    </Publication>
+    <Publication>
+        <Title>Trie Methods for Text and Spatial Data on Secondary Storage.</Title>
+        <Year>1994</Year>
+        <PublishedIn>Published by McGill University</PublishedIn>
+        <Name>Frank Smith</Name>
+    </Publication>
+    <Publication>
+        <Title>Efficient External-Memory Data Structures and Applications.</Title>
+        <Year>1996</Year>
+        <PublishedIn>Published by University of Aarhus</PublishedIn>
+        <Name>Heping Shang</Name>
+    </Publication>
+    <Publication>
+        <Title>Management of Sequence Data</Title>
+        <Year>1996</Year>
+        <PublishedIn>Published by Univ. of Wisconsin-Madison, CS Department</PublishedIn>
+        <Name>Praveen Seshadri</Name>
+    </Publication>
+    <Publication>
+        <Title>Management of Sequence Data</Title>
+        <Year>1996</Year>
+        <PublishedIn>Published by Univ. of Wisconsin-Madison, CS Department</PublishedIn>
+        <Name>Anthony Hopkins</Name>
+    </Publication>
+    <Publication>
+        <Title>Management of Sequence Data</Title>
+        <Year>1996</Year>
+        <PublishedIn>Published by Univ. of Wisconsin-Madison, CS Department</PublishedIn>
+        <Name>Mario Puzo</Name>
+    </Publication>
+    <Publication>
+        <Title>The Temporal Deductive Database System ChronoLog</Title>
+        <Year>1994</Year>
+        <PublishedIn>Published by Departement Informatik, ETH Zrich</PublishedIn>
+        <Name>Praveen Seshadri</Name>
+    </Publication>
+    <Publication>
+        <Title>The Temporal Deductive Database System ChronoLog</Title>
+        <Year>1994</Year>
+        <PublishedIn>Published by Departement Informatik, ETH Zrich</PublishedIn>
+        <Name>Lothar Breuer</Name>
+    </Publication>
+    <Publication>
+        <Title>System Support for Software Fault Tolerance in Highly Available Database Management Systems.</Title>
+        <Year>1993</Year>
+        <PublishedIn>Published by University of California at Berkeley</PublishedIn>
+        <Name>Praveen Seshadri</Name>
+    </Publication>
+    <Publication>
+        <Title>Spatial Queues.</Title>
+        <Year>2000</Year>
+        <PublishedIn>Published by Univ. Trier, FB 4, Informatik</PublishedIn>
+        <Name>Lothar Breuer</Name>
+    </Publication>
+</Target>

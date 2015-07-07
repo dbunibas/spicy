@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="needsLabTarget">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Tutors" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Tutor" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="idt" nillable="false" type="xs:string"/>
+                                        <xs:element name="tutor" nillable="false" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="TeachesSet" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Teaches" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="id_tutor" nillable="false" type="xs:string"/>
+                                        <xs:element name="id_course" nillable="false" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Courses" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Course" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="idc" nillable="false" type="xs:string"/>
+                                        <xs:element name="course" nillable="false" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="NeedsLabSet" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="NeedsLab" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="id_tutor" nillable="false" type="xs:string"/>
+                                        <xs:element name="lab" nillable="false" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+<!--
+    <xs:key name="key1">
+      <xs:selector xpath=".//NeedsLab"/>
+      <xs:field xpath="id_tutor"/>
+    </xs:key>
+    <xs:key name="key2">
+      <xs:selector xpath=".//Course"/>
+      <xs:field xpath="idc"/>
+    </xs:key>
+    <xs:keyref name="keyRef1" refer="key1">
+      <xs:selector xpath=".//Teaches"/>
+      <xs:field xpath="id_tutor"/>
+    </xs:keyref>
+	<xs:keyref name="keyRef2" refer="key2">
+      <xs:selector xpath=".//Teaches"/>
+      <xs:field xpath="id_course"/>
+    </xs:keyref>
+-->
+        <xs:key name="key1">
+            <xs:selector xpath=".//NeedsLab"/>
+            <xs:field xpath="id_tutor"/>
+        </xs:key>
+<!--
+    <xs:key name="key2">
+      <xs:selector xpath=".//Teaches"/>
+      <xs:field xpath="id_course"/>
+    </xs:key>
+-->
+        <xs:keyref name="keyRef1" refer="key1">
+            <xs:selector xpath=".//Teaches"/>
+            <xs:field xpath="id_tutor"/>
+        </xs:keyref>
+<!--
+	<xs:keyref name="keyRef2" refer="key2">
+      <xs:selector xpath=".//Course"/>
+      <xs:field xpath="idc"/>
+    </xs:keyref>
+-->
+    </xs:element>
+</xs:schema>

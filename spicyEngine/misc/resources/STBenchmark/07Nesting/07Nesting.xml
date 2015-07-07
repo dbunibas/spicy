@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>nestS.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>nestS-I-red.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>nestT.xsd</xml-schema>
+      <xml-instances>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.Publication.name</source-path>
+      </source-paths>
+      <target-path>Target.Period.AuthorSet.Author.Name</target-path>
+      <transformation-function>Source.Publication.name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.Publication.title</source-path>
+      </source-paths>
+      <target-path>Target.Period.AuthorSet.Author.PublicationSet.Publication.Title</target-path>
+      <transformation-function>Source.Publication.title</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.Publication.year</source-path>
+      </source-paths>
+      <target-path>Target.Period.Year</target-path>
+      <transformation-function>Source.Publication.year</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.Publication.publishedIn</source-path>
+      </source-paths>
+      <target-path>Target.Period.AuthorSet.Author.PublicationSet.Publication.PublishedIn</target-path>
+      <transformation-function>Source.Publication.publishedIn</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

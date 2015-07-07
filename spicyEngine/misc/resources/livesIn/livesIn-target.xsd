@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="livesInTarget">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="HomeSet" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Home" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="homeName" nillable="false" type="xs:string"/>
+                    <xs:element name="homeCity" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EmpDeptSet" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmpDept" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="eName" nillable="false" type="xs:string"/>
+                    <xs:element name="deptId" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DeptCitySet" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DeptCity" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="dId" nillable="false" type="xs:string"/>
+                    <xs:element name="city" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:key name="key1">
+      <xs:selector xpath=".//DeptCity"/>
+      <xs:field xpath="did"/>
+    </xs:key>
+    <xs:key name="key2">
+      <xs:selector xpath=".//DeptCity"/>
+      <xs:field xpath="city"/>
+    </xs:key>
+    <xs:key name="key3">
+      <xs:selector xpath=".//EmpDept"/>
+      <xs:field xpath="eName"/>
+    </xs:key>
+    <xs:keyref name="keyRef1" refer="key1">
+      <xs:selector xpath=".//EmpDept"/>
+      <xs:field xpath="deptid"/>
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

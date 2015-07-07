@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="childrenDB">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" name="children" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="child" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" name="childId" nillable="true" type="xs:int"/>
+                    <xs:element minOccurs="1" name="childName" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="age" nillable="true" type="xs:int"/>
+                    <xs:element minOccurs="1" name="motherRefId" nillable="true" type="xs:int"/>
+                    <xs:element minOccurs="1" name="motherRefName" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="fatherRefId" nillable="true" type="xs:int"/>
+                    <xs:element minOccurs="1" name="fatherRefName" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="parents" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="parent" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" name="parentId" nillable="true" type="xs:int"/>
+                    <xs:element minOccurs="1" name="parentName" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="affiliation" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="salary" nillable="true" type="xs:float"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="xmasBoxes" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="xmasBox" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" name="toy" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="giveRef" nillable="true" type="xs:int"/>
+                    <xs:element minOccurs="1" name="receiveRef" nillable="true" type="xs:int"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="phoneNumbers" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="phoneNumber" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" name="type" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="number" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="parentRefId" nillable="true" type="xs:int"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="SBPS" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="schedule" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" name="location" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="time" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="childRef" nillable="true" type="xs:int"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:key name="key1">
+      <xs:selector xpath=".//parent"/>
+      <xs:field xpath="parentId"/>
+      <xs:field xpath="parentName"/>
+    </xs:key>
+    <xs:key name="key2">
+      <xs:selector xpath=".//child"/>
+      <xs:field xpath="childId"/>
+    </xs:key>
+    <xs:key name="key3">
+      <xs:selector xpath=".//child"/>
+      <xs:field xpath="childId"/>
+    </xs:key>
+    <xs:keyref name="keyRef1" refer="key1">
+      <xs:selector xpath=".//child"/>
+      <xs:field xpath="fatherRefId"/>
+      <xs:field xpath="fatherRefName"/>
+    </xs:keyref>
+    <xs:keyref name="keyRef2" refer="key2">
+      <xs:selector xpath=".//xmasBox"/>
+      <xs:field xpath="giveRef"/>
+    </xs:keyref>
+    <xs:keyref name="keyRef3" refer="key2">
+      <xs:selector xpath=".//xmasBox"/>
+      <xs:field xpath="receiveRef"/>
+    </xs:keyref>
+    <xs:keyref name="keyRef4" refer="key1">
+      <xs:selector xpath=".//child"/>
+      <xs:field xpath="fatherRefId"/>
+      <xs:field xpath="fatherRefName"/>
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Target">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Taxon" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Id" type="xs:string" nillable="true"/>
+							<xs:element name="Name" type="xs:string" nillable="true"/>
+							<xs:element name="UniqueName" type="xs:string" nillable="true"/>
+							<xs:element name="Class" type="xs:string" nillable="true"/>
+							<xs:element name="Parent" type="xs:string" nillable="true"/>
+							<xs:element name="Rank" type="xs:string" nillable="true"/>
+							<xs:element name="EmblCode" type="xs:string" nillable="true"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

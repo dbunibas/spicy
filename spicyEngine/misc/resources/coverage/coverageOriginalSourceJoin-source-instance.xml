@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="S.xsd">
+  <A_Set>
+    <A>
+      <a>a1</a>
+      <b>a1</b>
+      <c>c1</c>
+    </A>
+  </A_Set>
+  <B_Set>
+    <B>
+      <a>c1</a>
+      <b>e2</b>
+    </B>
+  </B_Set>
+  <C_Set>
+    <C>
+      <a>c1</a>
+      <b>d1</b>
+      <c>e3</c>
+    </C>
+    <C>
+      <a>c1</a>
+      <b>d2</b>
+      <c>e2</c>
+    </C>
+  </C_Set>
+  <D_Set>
+    <D>
+      <a>c1</a>
+      <b>d1</b>
+      <c>e1</c>
+    </D>
+  </D_Set>
+</S>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>coverageDoubleCoverage-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>coverageDoubleCoverage-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>coverageDoubleCoverage-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>TargetCoverageDoubleCoverage.Rs.R.b</from>
+          <to>TargetCoverageDoubleCoverage.Ss.S.a</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>TargetCoverageDoubleCoverage.Rs.R.b</from>
+          <to>TargetCoverageDoubleCoverage.Ts.T.a</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>TargetCoverageDoubleCoverage.Rs.R.b</from>
+          <to>TargetCoverageDoubleCoverage.Ws.W.a</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageDoubleCoverage.As.A.a</source-path>
+      </source-paths>
+      <target-path>TargetCoverageDoubleCoverage.Rs.R.a</target-path>
+      <transformation-function>SourceCoverageDoubleCoverage.As.A.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageDoubleCoverage.As.A.b</source-path>
+      </source-paths>
+      <target-path>TargetCoverageDoubleCoverage.Ss.S.b</target-path>
+      <transformation-function>SourceCoverageDoubleCoverage.As.A.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageDoubleCoverage.As.A.c</source-path>
+      </source-paths>
+      <target-path>TargetCoverageDoubleCoverage.Ts.T.b</target-path>
+      <transformation-function>SourceCoverageDoubleCoverage.As.A.c</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageDoubleCoverage.Bs.B.a</source-path>
+      </source-paths>
+      <target-path>TargetCoverageDoubleCoverage.Rs.R.a</target-path>
+      <transformation-function>SourceCoverageDoubleCoverage.Bs.B.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageDoubleCoverage.Bs.B.b</source-path>
+      </source-paths>
+      <target-path>TargetCoverageDoubleCoverage.Ss.S.b</target-path>
+      <transformation-function>SourceCoverageDoubleCoverage.Bs.B.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageDoubleCoverage.Bs.B.d</source-path>
+      </source-paths>
+      <target-path>TargetCoverageDoubleCoverage.Ws.W.b</target-path>
+      <transformation-function>SourceCoverageDoubleCoverage.Bs.B.d</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageDoubleCoverage.Cs.C.a</source-path>
+      </source-paths>
+      <target-path>TargetCoverageDoubleCoverage.Ws.W.a</target-path>
+      <transformation-function>SourceCoverageDoubleCoverage.Cs.C.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageDoubleCoverage.Cs.C.c</source-path>
+      </source-paths>
+      <target-path>TargetCoverageDoubleCoverage.Ws.W.b</target-path>
+      <transformation-function>SourceCoverageDoubleCoverage.Cs.C.c</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageDoubleCoverage.Cs.C.a</source-path>
+      </source-paths>
+      <target-path>TargetCoverageDoubleCoverage.Ts.T.a</target-path>
+      <transformation-function>SourceCoverageDoubleCoverage.Cs.C.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceCoverageDoubleCoverage.Cs.C.c</source-path>
+      </source-paths>
+      <target-path>TargetCoverageDoubleCoverage.Ts.T.b</target-path>
+      <transformation-function>SourceCoverageDoubleCoverage.Cs.C.c</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

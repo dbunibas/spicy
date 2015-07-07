@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+    <source>
+        <type>XML</type>
+        <xml>
+            <xml-schema>morris-source.xsd</xml-schema>
+            <xml-instances>
+                <xml-instance>morris-source-instance.xml</xml-instance>
+            </xml-instances>
+        </xml>
+        <inclusions />
+        <exclusions />
+    </source>
+    <target>
+        <type>XML</type>
+        <xml>
+            <xml-schema>morris-target.xsd</xml-schema>
+            <xml-instances/>
+        </xml>
+        <inclusions />
+        <exclusions />
+    </target>
+    <correspondences>
+        <correspondence>
+            <source-paths>
+                <source-path>morrisSource.students.student.studname</source-path>
+            </source-paths>
+            <target-path>morrisTarget.persons.person.name</target-path>
+            <transformation-function>morrisSource.students.student.studname</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>morrisSource.students.student.birthdate</source-path>
+            </source-paths>
+            <target-path>morrisTarget.persons.person.birthdate</target-path>
+            <transformation-function>morrisSource.students.student.birthdate</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>morrisSource.students.student.ssn</source-path>
+            </source-paths>
+            <target-path>morrisTarget.persons.person.ssn</target-path>
+            <transformation-function>morrisSource.students.student.ssn</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>morrisSource.employees.employee.empname</source-path>
+            </source-paths>
+            <target-path>morrisTarget.persons.person.name</target-path>
+            <transformation-function>morrisSource.employees.employee.empname</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>morrisSource.employees.employee.ssn</source-path>
+            </source-paths>
+            <target-path>morrisTarget.persons.person.ssn</target-path>
+            <transformation-function>morrisSource.employees.employee.ssn</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>morrisSource.employees.employee.phone</source-path>
+            </source-paths>
+            <target-path>morrisTarget.persons.person.phone</target-path>
+            <transformation-function>morrisSource.employees.employee.phone</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+    </correspondences>
+</mappingtask>
+

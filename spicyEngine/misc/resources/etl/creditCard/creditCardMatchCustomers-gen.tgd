@@ -1,0 +1,29 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+Transaction(id: $t, cid: $i, amount: $a, currency: $c, date: $d),
+   Customer(id: $i, name: $n, limit: $l) -> MatchCustomer(tid: $t, cid: $i, cname: $n, climit: $l, amount: $a, currency: $c).
+Transaction(id: $t, cid: #NULL#, amount: $a, currency: $c, date: $d) -> MatchCustomer(tid: $t, cid: $N1, cname: $N2, climit: $N3, amount: $a, currency: $c).
+
+SOURCE FDs:
+Transaction : id -> cid, amount, currency, date [pk]
+Customer : id -> name, limit [pk]
+
+TARGET FDs:
+MatchCustomer : tid -> cid, cname, climit, amount, currency [pk]
+
+SOURCE INSTANCE:
+Transaction(id: 1, cid: 100, amount: 1000.0, currency: "EUR", date: "20110101")
+Transaction(id: 2, cid: 100, amount: 2500.0, currency: "EUR", date: "20110101")
+Transaction(id: 3, cid: 101, amount: 200.0, currency: "GBP", date: "20110101")
+Transaction(id: 4, cid: 101, amount: 100.0, currency: "CNY", date: "20110101")
+Transaction(id: 5, cid: 102, amount: 20000.0, currency: "MYR", date: "20110101")
+Transaction(id: 6, cid: 103, amount: 5000.0, currency: "USD", date: "20110101")
+Transaction(id: 7, cid: #NULL#, amount: 50.0, currency: "EUR", date: "20110101")
+Customer(id: 100, name: "Alice", limit: 2000)
+Customer(id: 101, name: "Bob", limit: 2000)
+Customer(id: 102, name: "Charlie", limit: 5000)
+Customer(id: 103, name: "Daniel", limit: 3000)

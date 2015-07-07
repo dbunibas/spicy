@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Target xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="nestT.xsd">
+    <Period>
+        <Year>1994</Year>
+        <Author>
+            <Name>Heping Shang</Name>
+            <Affiliation>NULL</Affiliation>
+            <Publication>
+                <Title>Trie Methods for Text and Spatial Data on Secondary Storage.</Title>
+                <PublishedIn>Published by McGill University</PublishedIn>
+            </Publication>
+        </Author>
+        <Author>
+            <Name>Mark Sullivan</Name>
+            <Affiliation>NULL</Affiliation>
+            <Publication>
+                <Title>System Support for Software Fault Tolerance in Highly Available Database Management Systems.</Title>
+                <PublishedIn>Published by University of California at Berkeley</PublishedIn>
+            </Publication>
+        </Author>
+    </Period>
+    <Period>
+        <Year>1996</Year>
+        <Author>
+            <Name>Heping Shang</Name>
+            <Affiliation>NULL</Affiliation>
+            <Publication>
+                <Title>Efficient External-Memory Data Structures and Applications.</Title>
+                <PublishedIn>Published by University of Aarhus</PublishedIn>
+            </Publication>
+        </Author>
+        <Author>
+            <Name>Praveen Seshadri</Name>
+            <Affiliation>NULL</Affiliation>
+            <Publication>
+                <Title>Management of Sequence Data</Title>
+                <PublishedIn>Published by Univ. of Wisconsin-Madison, CS Department</PublishedIn>
+            </Publication>
+            <Publication>
+                <Title>The Temporal Deductive Database System ChronoLog</Title>
+                <PublishedIn>Published by Departement Informatik, ETH Zrich</PublishedIn>
+            </Publication>
+        </Author>
+    </Period>
+    <Period>
+        <Year>2000</Year>
+        <Author>
+            <Name>Lothar Breuer</Name>
+            <Affiliation>NULL</Affiliation>
+            <Publication>
+                <Title>Spatial Queues.</Title>
+                <PublishedIn>Published by Univ. Trier, FB 4, Informatik</PublishedIn>
+            </Publication>
+        </Author>
+    </Period>
+</Target>

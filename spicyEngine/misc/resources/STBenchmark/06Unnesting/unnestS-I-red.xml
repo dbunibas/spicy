@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Source>
+	<Reference>
+		<title>Trie Methods for Text and Spatial Data on Secondary Storage.</title>
+		<year>1994</year>
+		<publishedIn>Published by McGill University</publishedIn>
+		<Author>
+			<name>Heping Shang</name>
+		</Author>
+		<Author>
+			<name>Michael J. Carey</name>
+		</Author>
+		<Author>
+			<name>Frank Smith</name>
+		</Author>
+	</Reference>
+	<Reference>
+		<title>Efficient External-Memory Data Structures and Applications.</title>
+		<year>1996</year>
+		<publishedIn>Published by University of Aarhus</publishedIn>
+		<Author>
+			<name>Heping Shang</name>
+		</Author>
+	</Reference>
+	<Reference>
+		<title>Management of Sequence Data</title>
+		<year>1996</year>
+		<publishedIn>Published by Univ. of Wisconsin-Madison, CS Department</publishedIn>
+		<Author>
+			<name>Praveen Seshadri</name>
+		</Author>
+		<Author>
+			<name>Anthony Hopkins</name>
+		</Author>
+		<Author>
+			<name>Mario Puzo</name>
+		</Author>
+	</Reference>
+	<Reference>
+		<title>The Temporal Deductive Database System ChronoLog</title>
+		<year>1994</year>
+		<publishedIn>Published by Departement Informatik, ETH Zrich</publishedIn>
+		<Author>
+			<name>Praveen Seshadri</name>
+		</Author>
+		<Author>
+			<name>Lothar Breuer</name>
+		</Author>
+	</Reference>
+	<Reference>
+		<title>System Support for Software Fault Tolerance in Highly Available Database Management Systems.</title>
+		<year>1993</year>
+		<publishedIn>Published by University of California at Berkeley</publishedIn>
+		<Author>
+			<name>Praveen Seshadri</name>
+		</Author>
+	</Reference>
+	<Reference>
+		<title>Spatial Queues.</title>
+		<year>2000</year>
+		<publishedIn>Published by Univ. Trier, FB 4, Informatik</publishedIn>
+		<Author>
+			<name>Lothar Breuer</name>
+		</Author>
+	</Reference>
+</Source>

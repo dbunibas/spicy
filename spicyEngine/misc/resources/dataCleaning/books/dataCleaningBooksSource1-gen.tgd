@@ -1,0 +1,18 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+IBDBook(title: $t) -> Book(title: $t, publisher: $N).
+LOC(title: $t, publisher: $p) -> Book(title: $t, publisher: $p).
+
+TARGET FDs:
+Book : title -> publisher [pk]
+
+SOURCE INSTANCE:
+IBDBook(title: "TheHobbit")
+IBDBook(title: "TheDaVinciCode")
+IBDBook(title: "TheLordOfTheRings")
+LOC(title: "TheLordOfTheRings", publisher: "Houghton")
+LOC(title: "TheCatcherInTheRye", publisher: "LbBooks")

@@ -1,0 +1,38 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+A(a: $x0, b: $x1, c: $x2), B(a: $x0, b: $x3) and not exists(
+                          C(a: $x0, b: $x6) and not exists(D(a: $x0, b : $x6)
+                                                  and not exists(E(a: $x6, b : $x7)))) ->
+                                 S(a: $x3, b: $x0, c: $x0, d: $Y0, e: $x1),
+                                 T(a: $Y).
+                                 
+A(a: $x0, b: $x1, c: $x2), B(a: $x0, b: $x3) and not exists(
+                          C(a: $x0, b: $x6), D(a: $x5, b : $x6) 
+                           and not exists(E(a: $x6, b : $x7))) ->
+                                 S1(a: $x3, b: $x0, c: $x0, d: $Y0, e: $x1),
+                                 S2(a: $Y1, b: $x0, c: $x0, d: $Y0, e: $x0),
+                                 T1(a: $Y1).
+SOURCE INSTANCE:
+A(a: "0", b: "1", c: "2")
+A(a: "0", b: "0", c: "2")
+A(a: "1", b: "0", c: "2")
+A(a: "10", b: "11", c: "12")
+B(a: "0", b: "3")
+B(a: "10", b: "13")
+C(a: "0", b: "4")
+D(a: "4", b: "3")
+E(a: "4", b: "3")
+
+
+CONFIG:
+SUBSUMPTIONS: 0
+COVERAGES: 0
+SELFJOINS: 0
+// EGDS: 1
+// LOCALSKOLEMS: 1
+// SORTSTRATEGY: -1
+SKOLEMTABLESTRATEGY: 1

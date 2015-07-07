@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>starJoin-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>starJoin-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <functionalDependencies>
+      <functionalDependency>
+        <leftPath>Source.employeeset.employee.dept</leftPath>
+        <rightPath>Source.employeeset.employee.company</rightPath>
+      </functionalDependency>
+      <functionalDependency>
+        <leftPath>Source.employeeset.employee.research</leftPath>
+        <rightPath>Source.employeeset.employee.dept</rightPath>
+      </functionalDependency>
+    </functionalDependencies>
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>starJoin-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>Target.deptset.dept.cid</from>
+          <to>Target.companyset.company.cid</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>Target.deptset.dept.did</from>
+          <to>Target.personset.person.dept</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>Target.deptset.dept.did</from>
+          <to>Target.researchset.research.dept</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.ssn</source-path>
+      </source-paths>
+      <target-path>Target.personset.person.ssn</target-path>
+      <transformation-function>Source.employeeset.employee.ssn</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.name</source-path>
+      </source-paths>
+      <target-path>Target.personset.person.name</target-path>
+      <transformation-function>Source.employeeset.employee.name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.dept</source-path>
+      </source-paths>
+      <target-path>Target.deptset.dept.deptname</target-path>
+      <transformation-function>Source.employeeset.employee.dept</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.company</source-path>
+      </source-paths>
+      <target-path>Target.companyset.company.company</target-path>
+      <transformation-function>Source.employeeset.employee.company</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.research</source-path>
+      </source-paths>
+      <target-path>Target.researchset.research.research_subj</target-path>
+      <transformation-function>Source.employeeset.employee.research</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

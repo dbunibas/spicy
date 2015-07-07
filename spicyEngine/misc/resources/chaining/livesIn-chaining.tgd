@@ -1,0 +1,8 @@
+Mapping task:
+Source schema: 		chain:livesIn.tgd
+Source instance:        generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+Home(homeName: $n, homeCity: $c) -> Person(name: $n).
+EmpDept(eName: $e, deptId: $d) -> Person(name: $e).

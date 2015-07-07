@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:element name="Target">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Reaction" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Entry" type="xs:string"/>
+                            <xs:element name="Name" type="xs:string"/>
+                            <xs:element name="Comment" type="xs:string"/>
+                            <xs:element name="Orthology" type="xs:string"/>
+                            <xs:element name="CoFactor" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ChemicalInfo" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Definition" type="xs:string"/>
+                            <xs:element name="Equation" type="xs:string"/>
+                            <xs:element name="CoFactor" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:key name="key1">
+            <xs:selector xpath=".//ChemicalInfo"/>
+            <xs:field xpath="CoFactor"/>
+        </xs:key>
+		<xs:key name="key2">
+			<xs:selector xpath=".//ChemicalInfo"/>
+			<xs:field xpath="Definition"/>
+			<xs:field xpath="Equation"/>
+		</xs:key>
+        <xs:keyref name="keyRef1" refer="key1">
+            <xs:selector xpath=".//Reaction"/>
+            <xs:field xpath="CoFactor"/>
+        </xs:keyref> 
+    </xs:element> 
+</xs:schema>

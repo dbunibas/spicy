@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<kidsPresentsDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="kidsPresentsDB.xsd">
+  <kids>
+    <kid>
+      <id>1</id>
+      <name>John</name>
+      <contactPhone>201-0001</contactPhone>
+      <affiliation>Cisco</affiliation>
+      <busSchedule>MW</busSchedule>
+      <familyIncome>20000.00</familyIncome>
+    </kid>
+    <kid>
+      <id>2</id>
+      <name>Micky</name>
+      <contactPhone>201-0001</contactPhone>
+      <affiliation>Cisco</affiliation>
+      <busSchedule>MW</busSchedule>
+      <familyIncome>20000.00</familyIncome>
+    </kid>
+    <kid>
+      <id>3</id>
+      <name>Carol</name>
+      <contactPhone>201-0002</contactPhone>
+      <affiliation>IBM</affiliation>
+      <busSchedule>MTW</busSchedule>
+      <familyIncome>15000.00</familyIncome>
+    </kid>
+    <kid>
+      <id>4</id>
+      <name>Maya</name>
+      <contactPhone>201-0003</contactPhone>
+      <affiliation>Microsoft</affiliation>
+      <busSchedule>MWS</busSchedule>
+      <familyIncome>18000.00</familyIncome>
+    </kid>
+  </kids>
+  <presents>
+    <present>
+      <toy>PlayStation</toy>
+      <gives>1</gives>
+      <receives>3</receives>
+    </present>
+    <present>
+      <toy>Gift Card</toy>
+      <gives>2</gives>
+      <receives>4</receives>
+    </present>
+    <present>
+      <toy>Pencils</toy>
+      <gives>3</gives>
+      <receives>2</receives>
+    </present>
+  </presents>
+</kidsPresentsDB>

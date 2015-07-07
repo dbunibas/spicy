@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:element name="Source">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Reaction" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="entry" type="xs:string"/>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="definition" type="xs:string"/>
+                            <xs:element name="equation" type="xs:string"/>
+                            <xs:element name="comment" type="xs:string"/>
+                            <xs:element name="orthology" type="xs:string"/>
+                            <xs:element name="reference" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <!--
+        <xs:key name="key1">
+            <xs:selector xpath=".//Reaction"/>
+            <xs:field xpath="entry"/>
+        </xs:key>
+        -->
+        <xs:key name="key1">
+            <xs:selector xpath=".//Reaction"/>
+            <xs:field xpath="name"/>
+        </xs:key>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,6 @@
+<Target>
+   <Dataset>
+      <Name>SwissProt</Name>
+      <LoadingDate>July 4th</LoadingDate>
+   </Dataset>
+</Target>

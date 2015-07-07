@@ -1,0 +1,5 @@
+LoadRate(GBP, 0.87)
+LoadRate(CHF, 0.73)
+LoadRate(USD, 1.40)
+LoadRate(CAD, 1.39)
+LoadRate(CNY, 8.96)

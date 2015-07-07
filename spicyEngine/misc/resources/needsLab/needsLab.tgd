@@ -1,0 +1,15 @@
+Mapping task:
+Source schema: 		file:/needsLab-source.xsd
+Source instance:	file:/needsLab-source-instance.xml
+Target schema:		file:/needsLab-target.xsd
+
+SOURCE TO TARGET TGDs:
+BasicUnits(course: $c) -> Courses(idc: $IDC, course: $c).
+Tutorials(course: $c, tutor: $t) -> Courses(idc: $IDC, course: $c),
+                                             Tutors(idt: $IDT, tutor: $t),
+                                             TeachesSet(id_tutor: $IDT, id_course: $IDC).
+
+TARGET TGDs:
+Courses(idc: $idc, course: $c) -> TeachesSet(id_tutor: $IDT, id_course: $idc).
+TeachesSet(id_tutor: $idt, id_course: $idc) -> Tutors(idt: $idt, tutor: $T).
+TeachesSet(id_tutor: $idt, id_course: $idc) -> NeedsLabSet(id_tutor: $idt, lab: $L).

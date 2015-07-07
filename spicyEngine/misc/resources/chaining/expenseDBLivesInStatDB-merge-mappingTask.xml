@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+    <source>
+        <type>MERGE</type>
+        <!-- expenseDB Source -->
+        <source>
+            <type>CHAINING</type>
+            <mappingTask>statDBExpenseDB-chaining-mappingTask.xml</mappingTask>
+            <inclusions />
+            <exclusions />
+            <duplications />
+            <selectionConditions />
+            <joinConditions />
+        </source>
+
+        <source>
+            <type>XML</type>
+            <xml>
+                <xml-schema>expenseDB.xsd</xml-schema>
+                <xml-instances>
+                    <xml-instance>expenseDB-instance.xml</xml-instance>
+                </xml-instances>
+            </xml>
+            <inclusions />
+            <exclusions />
+            <duplications />
+            <selectionConditions />
+            <joinConditions>
+<!--               <joinCondition>
+                    <join>
+                        <from>expenseDB.grants.grant.projectRef</from>
+                        <to>expenseDB.projects.project.projectName</to>
+                    </join>
+                    <foreignKey>true</foreignKey>
+                    <mandatory>false</mandatory>
+                </joinCondition>
+                <joinCondition>
+                    <join>
+                        <from>expenseDB.grants.grant.grantee</from>
+                        <to>expenseDB.companies.company.companyId</to>
+                    </join>
+                    <foreignKey>true</foreignKey>
+                    <mandatory>false</mandatory>
+                </joinCondition>-->
+            </joinConditions>
+        </source>
+
+        <source>
+            <type>XML</type>
+            <xml>
+                <xml-schema>statDB.xsd</xml-schema>
+                <xml-instances>
+                    <xml-instance>statDB-instance.xml</xml-instance>
+                </xml-instances>
+            </xml>
+            <inclusions />
+            <exclusions />
+            <duplications />
+            <selectionConditions />
+            <joinConditions>
+            </joinConditions>
+        </source>
+<!--
+        <source>
+            <type>XML</type>
+            <xml>
+                <xml-schema>livesIn-source.xsd</xml-schema>
+                <xml-instances>
+                    <xml-instance>livesIn-source-instance.xml</xml-instance>
+                </xml-instances>
+            </xml>
+            <inclusions />
+            <exclusions />
+        </source>
+-->
+<!--        <source>
+            <type>CHAINING</type>
+            <mappingTask>expenseDBStatDB-mappingTask.xml</mappingTask>
+            <inclusions />
+            <exclusions />
+            <duplications />
+            <selectionConditions />
+            <joinConditions />
+        </source>-->
+    
+        <inclusions />
+        <exclusions />
+        <duplications />
+        <selectionConditions />
+        <joinConditions/>
+    </source>
+    <target>
+        <type>XML</type>
+        <xml>
+            <xml-schema>statDB.xsd</xml-schema>
+            <xml-instances />
+        </xml>
+        <inclusions />
+        <exclusions />
+        <duplications />
+        <selectionConditions/>
+        <joinConditions>
+            <joinCondition>
+                <join>
+                    <from>statDB.cityStat.organizations.organization.fundings.fund.financialIdRef</from>
+                    <to>statDB.cityStat.financials.financial.financialId</to>
+                </join>
+                <foreignKey>true</foreignKey>
+                <mandatory>false</mandatory>
+            </joinCondition>
+        </joinConditions>
+    </target>
+    <correspondences>
+        <correspondence>
+            <source-paths>
+                <source-path>merge.dataSource0_expenseDB.companies.company.companyName</source-path>
+            </source-paths>
+            <target-path>statDB.cityStat.organizations.organization.companyName</target-path>
+            <transformation-function>merge.dataSource0_expenseDB.companies.company.companyName</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>merge.dataSource0_expenseDB.grants.grant.principalInvestigator</source-path>
+            </source-paths>
+            <target-path>statDB.cityStat.organizations.organization.fundings.fund.principalInvestigator</target-path>
+            <transformation-function>merge.dataSource0_expenseDB.grants.grant.principalInvestigator</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>merge.dataSource0_expenseDB.grants.grant.amount</source-path>
+            </source-paths>
+            <target-path>statDB.cityStat.financials.financial.amount</target-path>
+            <transformation-function>merge.dataSource0_expenseDB.grants.grant.amount</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+    </correspondences>
+<!--    <correspondences>
+        <correspondence>
+            <source-paths>
+                <source-path>merge.dataSource0_companies.company.companyName</source-path>
+            </source-paths>
+            <target-path>statDB.cityStat.organizations.organization.companyName</target-path>
+            <transformation-function>merge.dataSource0_companies.company.companyName</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>merge.dataSource0_grants.grant.principalInvestigator</source-path>
+            </source-paths>
+            <target-path>statDB.cityStat.organizations.organization.fundings.fund.principalInvestigator</target-path>
+            <transformation-function>merge.dataSource0_grants.grant.principalInvestigator</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>merge.dataSource0_grants.grant.amount</source-path>
+            </source-paths>
+            <target-path>statDB.cityStat.financials.financial.amount</target-path>
+            <transformation-function>merge.dataSource0_grants.grant.amount</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+    </correspondences>-->
+</mappingtask>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<RSSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Source.xsd">
+    <RSet1>
+        <R>
+            <a>a</a>
+            <b>a</b>
+            <c>a</c>
+        </R>
+    </RSet1>
+    <RSet2>
+        <R>
+            <a>a</a>
+            <b>a</b>
+            <c>a</c>
+        </R>
+    </RSet2>
+    <RSet3>
+        <R>
+            <a>a</a>
+            <b>b</b>
+            <c>c</c>
+        </R>
+    </RSet3>
+</RSSource>

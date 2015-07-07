@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+    <source>
+        <type>XML</type>
+        <xml>
+            <xml-schema>needsLab-source.xsd</xml-schema>
+            <xml-instances>
+                <xml-instance>needsLab-source-instance.xml</xml-instance>
+            </xml-instances>
+        </xml>
+        <inclusions />
+        <exclusions />
+    </source>
+    <target>
+        <type>XML</type>
+        <xml>
+            <xml-schema>needsLab-target.xsd</xml-schema>
+            <xml-instances />
+        </xml>
+        <inclusions />
+        <exclusions />
+        <joinConditions>
+            <joinCondition>
+                <join>
+                    <from>needsLabTarget.TeachesSet.Teaches.id_tutor</from>>
+                    <to>needsLabTarget.NeedsLabSet.NeedsLab.id_tutor</to>
+                </join>
+                <foreignKey>true</foreignKey>
+                <mandatory>true</mandatory>
+            </joinCondition>
+            <joinCondition>
+                <join>
+                    <from>needsLabTarget.Courses.Course.idc</from>>
+                    <to>needsLabTarget.TeachesSet.Teaches.id_course</to>
+                </join>
+                <foreignKey>true</foreignKey>
+                <mandatory>true</mandatory>
+            </joinCondition>
+            <joinCondition>
+                <join>
+                    <from>needsLabTarget.TeachesSet.Teaches.id_tutor</from>>
+                    <to>needsLabTarget.Tutors.Tutor.idt</to>
+                </join>
+                <foreignKey>false</foreignKey>
+                <mandatory>true</mandatory>
+            </joinCondition>
+        </joinConditions>
+    </target>
+    <correspondences>
+        <correspondence>
+            <source-paths>
+                <source-path>needsLabSource.BasicUnits.BasicUnit.course</source-path>
+            </source-paths>
+            <target-path>needsLabTarget.Courses.Course.course</target-path>
+            <transformation-function>needsLabSource.BasicUnits.BasicUnit.course</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>needsLabSource.Tutorials.Tutorial.course</source-path>
+            </source-paths>
+            <target-path>needsLabTarget.Courses.Course.course</target-path>
+            <transformation-function>needsLabSource.Tutorials.Tutorial.course</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>needsLabSource.Tutorials.Tutorial.tutor</source-path>
+            </source-paths>
+            <target-path>needsLabTarget.Tutors.Tutor.tutor</target-path>
+            <transformation-function>needsLabSource.Tutorials.Tutorial.tutor</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+    </correspondences>
+</mappingtask>
+

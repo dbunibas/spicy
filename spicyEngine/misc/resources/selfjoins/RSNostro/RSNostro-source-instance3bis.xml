@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<chaseRSSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Source.xsd">
+    <RSet>
+        <R>
+            <a>g</a>
+            <b>b</b>
+            <c>h</c>
+            <d>a</d>
+        </R>
+        <R>
+            <a>d</a>
+            <b>g</b>
+            <c>b</c>
+            <d>f</d>
+        </R>
+        <R>
+            <a>f</a>
+            <b>g</b>
+            <c>b</c>
+            <d>d</d>
+        </R>
+    </RSet>
+</chaseRSSource>

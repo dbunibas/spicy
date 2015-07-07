@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Source>
+    <Gene>
+      <name>AAAS</name>
+      <type>primary</type>
+      <protein>Aladin</protein>
+   </Gene>
+   <Gene>
+      <name>ADRACALA</name>
+      <type>synonym</type>
+      <protein>Aladin</protein>
+   </Gene>
+   <Gene>
+      <name>GL003</name>
+      <type>ORF</type>
+      <protein>Aladin</protein>
+   </Gene>
+   <Gene>
+      <name>aacA-aphD</name>
+      <type>primary</type>
+      <protein>Bifunctional AAC/APH</protein>
+   </Gene>
+   <Gene>
+      <name>aaeA</name>
+      <type>primary</type>
+      <protein>p-hydroxybenzoic acid efflux pump subunit aaeA</protein>
+   </Gene>
+   <Gene>
+      <name>Z4600</name>
+      <type>ordered locus</type>
+      <protein>p-hydroxybenzoic acid efflux pump subunit aaeA</protein>
+   </Gene>
+   <Gene>
+      <name>ECs4114</name>
+      <type>ordered locus</type>
+      <protein>p-hydroxybenzoic acid efflux pump subunit aaeA</protein>
+   </Gene>
+   <Gene>
+      <name>aaeX</name>
+      <type>primary</type>
+      <protein>Protein aaeX</protein>
+   </Gene>
+   <Gene>
+      <name>SPA3233</name>
+      <type>ordered locus</type>
+      <protein>Protein aaeX</protein>
+   </Gene>
+   <Gene>
+      <name>Prkag3</name>
+      <type>primary</type>
+      <protein>5'-AMP-activated protein kinase subunit gamma-3</protein>
+   </Gene>
+   <Gene>
+      <name>aak-1</name>
+      <type>primary</type>
+      <protein>5'-AMP-activated protein kinase catalytic subunit alpha-1</protein>
+   </Gene>
+   <Gene>
+      <name>PAR2.3</name>
+      <type>ORF</type>
+      <protein>5'-AMP-activated protein kinase catalytic subunit alpha-1</protein>
+   </Gene>
+   <Gene>
+      <name>AASS</name>
+      <type>primary</type>
+      <protein>Alpha-aminoadipic semialdehyde synthase, mitochondrial precursor</protein>
+   </Gene>
+   <Gene>
+      <name/>
+      <type>primary</type>
+      <protein>Probable aspartate aminotransferase, cytoplasmic</protein>
+   </Gene>
+   <Gene>
+      <name>T01C8.5</name>
+      <type>ORF</type>
+      <protein>Probable aspartate aminotransferase, cytoplasmic</protein>
+   </Gene>
+   <Gene>
+      <name>AAT1</name>
+      <type>primary</type>
+      <protein>Aspartate aminotransferase, mitochondrial precursor</protein>
+   </Gene>
+   <Gene>
+      <name>YKL106W</name>
+      <type>ordered locus</type>
+      <protein>Aspartate aminotransferase, mitochondrial precursor</protein>
+   </Gene>
+   <Gene>
+      <name>YKL461</name>
+      <type>ORF</type>
+      <protein>Aspartate aminotransferase, mitochondrial precursor</protein>
+   </Gene>
+   <Gene>
+      <name>aau3</name>
+      <type>primary</type>
+      <protein>Protein aau3</protein>
+   </Gene>
+   <Gene>
+      <name>R00730</name>
+      <type>ordered locus</type>
+      <protein>Protein aau3</protein>
+   </Gene>
+   <Gene>
+      <name>SMc00785</name>
+      <type>ORF</type>
+      <protein>Protein aau3</protein>
+   </Gene>
+   <Gene>
+      <name>CYP707A2</name>
+      <type>primary</type>
+      <protein>Abscisic acid 8'-hydroxylase 2</protein>
+   </Gene>
+   <Gene>
+      <name>At2g29090</name>
+      <type>ordered locus</type>
+      <protein>Abscisic acid 8'-hydroxylase 2</protein>
+   </Gene>
+   <Gene>
+      <name>T9I4.17</name>
+      <type>ORF</type>
+      <protein>Abscisic acid 8'-hydroxylase 2</protein>
+   </Gene>
+   <Gene>
+      <name>APOBEC3G</name>
+      <type>primary</type>
+      <protein>DNA dC-&gt;dU-editing enzyme APOBEC-3G</protein>
+   </Gene>
+   <Gene>
+      <name>ABCA13</name>
+      <type>primary</type>
+      <protein>ATP-binding cassette sub-family A member 13</protein>
+   </Gene>
+   <Gene>
+      <name>ABCD1</name>
+      <type>primary</type>
+      <protein>ATP-binding cassette sub-family D member 1</protein>
+   </Gene>
+   <Gene>
+      <name>ALD</name>
+      <type>synonym</type>
+      <protein>ATP-binding cassette sub-family D member 1</protein>
+   </Gene>
+   <Gene>
+      <name>ABCG2</name>
+      <type>primary</type>
+      <protein>ATP-binding cassette sub-family G member 2</protein>
+   </Gene>
+   <Gene>
+      <name>BMDP</name>
+      <type>synonym</type>
+      <protein>ATP-binding cassette sub-family G member 2</protein>
+   </Gene>
+   <Gene>
+      <name>ydcW</name>
+      <type>primary</type>
+      <protein>Gamma-aminobutyraldehyde dehydrogenase</protein>
+   </Gene>
+   <Gene>
+      <name>Z2275</name>
+      <type>ordered locus</type>
+      <protein>Gamma-aminobutyraldehyde dehydrogenase</protein>
+   </Gene>
+   <Gene>
+      <name>ECs2048</name>
+      <type>ordered locus</type>
+      <protein>Gamma-aminobutyraldehyde dehydrogenase</protein>
+   </Gene>
+   <Gene>
+      <name>Apobec4</name>
+      <type>primary</type>
+      <protein>Putative C-&gt;U-editing enzyme APOBEC-4</protein>
+   </Gene>
+   <Gene>
+      <name>ABHD2</name>
+      <type>primary</type>
+      <protein>Abhydrolase domain-containing protein 2</protein>
+   </Gene>
+   <Gene>
+      <name>ABHD10</name>
+      <type>primary</type>
+      <protein>Abhydrolase domain-containing protein 10, mitochondrial precursor</protein>
+   </Gene>
+   <Gene>
+      <name>Abi3</name>
+      <type>primary</type>
+      <protein>ABI gene family member 3</protein>
+   </Gene>
+   <Gene>
+      <name>Nesh</name>
+      <type>synonym</type>
+      <protein>ABI gene family member 3</protein>
+   </Gene>
+   <Gene>
+      <name>ABL</name>
+      <type>primary</type>
+      <protein>Tyrosine-protein kinase transforming protein Abl</protein>
+   </Gene>
+   <Gene>
+      <name>Abra</name>
+      <type>primary</type>
+      <protein>Actin-binding Rho-activating protein</protein>
+   </Gene>
+   <Gene>
+      <name>Ms1</name>
+      <type>synonym</type>
+      <protein>Actin-binding Rho-activating protein</protein>
+   </Gene>
+   <Gene>
+      <name>ACA2</name>
+      <type>primary</type>
+      <protein>Calcium-transporting ATPase 2, plasma membrane-type</protein>
+   </Gene>
+   <Gene>
+      <name>At4g37640</name>
+      <type>ordered locus</type>
+      <protein>Calcium-transporting ATPase 2, plasma membrane-type</protein>
+   </Gene>
+   <Gene>
+      <name>F19F18.130</name>
+      <type>ORF</type>
+      <protein>Calcium-transporting ATPase 2, plasma membrane-type</protein>
+   </Gene>
+   <Gene>
+      <name>ACADS</name>
+      <type>primary</type>
+      <protein>Short-chain specific acyl-CoA dehydrogenase, mitochondrial precursor</protein>
+   </Gene>
+   <Gene>
+      <name>Acbd5</name>
+      <type>primary</type>
+      <protein>Acyl-CoA-binding domain-containing protein 5</protein>
+   </Gene>
+   <Gene>
+      <name>DBI</name>
+      <type>primary</type>
+      <protein>Acyl-CoA-binding protein</protein>
+   </Gene>
+   <Gene>
+      <name>accA</name>
+      <type>primary</type>
+      <protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</protein>
+   </Gene>
+   <Gene>
+      <name>BPP2285</name>
+      <type>ordered locus</type>
+      <protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</protein>
+   </Gene>
+   <Gene>
+      <name>accA</name>
+      <type>primary</type>
+      <protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</protein>
+   </Gene>
+   <Gene>
+      <name>ECA1047</name>
+      <type>ordered locus</type>
+      <protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</protein>
+   </Gene>
+   <Gene>
+      <name>accA</name>
+      <type>primary</type>
+      <protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</protein>
+   </Gene>
+   <Gene>
+      <name>Pcar_1223</name>
+      <type>ordered locus</type>
+      <protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</protein>
+   </Gene>
+   <Gene>
+      <name>accA</name>
+      <type>primary</type>
+      <protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</protein>
+   </Gene>
+   <Gene>
+      <name>SF0175</name>
+      <type>ordered locus</type>
+      <protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</protein>
+   </Gene>
+   <Gene>
+      <name>S_0178</name>
+      <type>ordered locus</type>
+      <protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</protein>
+   </Gene>
+   <Gene>
+      <name>accA</name>
+      <type>primary</type>
+      <protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</protein>
+   </Gene>
+   <Gene>
+      <name>VV2540</name>
+      <type>ordered locus</type>
+      <protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha</protein>
+   </Gene>
+   <Gene>
+      <name>accD</name>
+      <type>primary</type>
+      <protein>Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta</protein>
+   </Gene>
+   </Source>

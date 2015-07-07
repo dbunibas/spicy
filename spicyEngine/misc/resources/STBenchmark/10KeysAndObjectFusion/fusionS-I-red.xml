@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Source>
+	<Experiment>
+		<eid>1</eid>
+		<contact>Heping Shang</contact>
+		<date>2008-05-14</date>
+		<description>Experiment 1</description>
+		<ExperimentalData>
+			<data>aaaaa</data>
+			<role>termical</role>		
+		</ExperimentalData>
+	</Experiment>
+	<Experiment>
+		<eid>2</eid>
+		<contact>Gianni Mecca</contact>
+		<date>2008-05-14</date>
+		<description>Experiment 2</description>
+		<ExperimentalData>
+			<data>bbbbbb</data>
+			<role>machine</role>		
+		</ExperimentalData>
+	</Experiment>
+	<Experiment>
+		<eid>3</eid>
+		<contact>Salvatore Raunich</contact>
+		<date>2008-05-16</date>
+		<description>Experiment 3</description>
+		<ExperimentalData>
+			<data>ccccccc</data>
+			<role>termical</role>		
+		</ExperimentalData>
+	</Experiment>
+	<Experiment>
+		<eid>4</eid>
+		<contact>Salvatore Raunich</contact>
+		<date>2008-05-18</date>
+		<description>Experiment 4</description>
+		<ExperimentalData>
+			<data>ddddd</data>
+			<role>genome</role>		
+		</ExperimentalData>
+	</Experiment>
+	<Experiment>
+		<eid>5</eid>
+		<contact>Marcello Buoncristiano</contact>
+		<date>2008-05-18</date>
+		<description>Experiment 5</description>
+		<ExperimentalData>
+			<data>dddddd</data>
+			<role>machine</role>		
+		</ExperimentalData>
+	</Experiment>
+
+	<FlowCytometrySample>
+		<id>100</id>
+		<contact>Heping Shang</contact>
+		<date>2008-05-14</date>
+		<Probe>
+			<data>abcdrf</data>
+			<type>termical</type>		
+		</Probe>
+	</FlowCytometrySample>
+	<FlowCytometrySample>
+		<id>101</id>
+		<contact>Salvatore Raunich</contact>
+		<date>2008-05-16</date>
+		<Probe>
+			<data>ccccccc</data>
+			<type>fungus</type>		
+		</Probe>
+	</FlowCytometrySample>	
+	<FlowCytometrySample>
+		<id>102</id>
+		<contact>Salvatore Raunich</contact>
+		<date>2008-05-18</date>
+		<Probe>
+			<data>ddddddd</data>
+			<type>termical</type>		
+		</Probe>
+	</FlowCytometrySample>	
+	<FlowCytometrySample>
+		<id>103</id>
+		<contact>Gian Summa</contact>
+		<date>2008-05-19</date>
+		<Probe>
+			<data>abcdrf</data>
+			<type>termical</type>		
+		</Probe>
+	</FlowCytometrySample>	
+</Source>

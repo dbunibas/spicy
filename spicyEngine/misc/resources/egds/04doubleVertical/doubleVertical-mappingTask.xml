@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>doubleVertical-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>doubleVertical-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <functionalDependencies>
+      <functionalDependency>
+        <leftPath>Source.employeeset.employee.dept</leftPath>
+        <rightPath>Source.employeeset.employee.company</rightPath>
+      </functionalDependency>
+    </functionalDependencies>
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>doubleVertical-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <functionalDependencies />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>Target.companyset.company.cid</from>
+          <to>Target.deptset.dept.cid</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>Target.personset.person.dept</from>
+          <to>Target.deptset.dept.did</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.ssn</source-path>
+      </source-paths>
+      <target-path>Target.personset.person.ssn</target-path>
+      <transformation-function>Source.employeeset.employee.ssn</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.name</source-path>
+      </source-paths>
+      <target-path>Target.personset.person.name</target-path>
+      <transformation-function>Source.employeeset.employee.name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.dept</source-path>
+      </source-paths>
+      <target-path>Target.deptset.dept.dept</target-path>
+      <transformation-function>Source.employeeset.employee.dept</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.company</source-path>
+      </source-paths>
+      <target-path>Target.companyset.company.company</target-path>
+      <transformation-function>Source.employeeset.employee.company</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

@@ -1,0 +1,26 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+book(author: $x23, title: $x24, discount: $x25) ->
+    author(aid: $Y26, author_name: $x23),
+    authorbook(author: $Y26, book: $Y27, discount: $x25),
+    book(bid: $Y27, book_name: $x24).
+
+SOURCE FDs:
+book : author, title -> discount [pk]
+
+TARGET FDs:
+author: aid -> author_name [pk]
+author: author_name -> aid [key]
+book: bid -> book_name [pk]
+book: book_name -> bid [key]
+
+SOURCE INSTANCE:
+book(author: "Eggers", title: "Work", discount: "10")
+book(author: "Eggers", title: "What", discount: "5")
+book(author: "Wallace",title: "Geometry", discount: "20")
+book(author: "Wallace",title: "Work", discount: "10")
+book(author: "Eco", title: "Nome", discount: "50")

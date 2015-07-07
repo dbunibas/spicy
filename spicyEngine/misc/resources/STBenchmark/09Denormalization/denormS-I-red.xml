@@ -1,0 +1,63 @@
+<?xml version='1.0' ?>
+<Source>
+<Name>
+	<id>1</id>
+	<name>root</name>
+	<uniqueName>Root</uniqueName>
+	<class></class>
+</Name>
+<Name>
+	<id>2</id>
+	<name>Bacteria</name>
+	<uniqueName>Bacteria bacteria</uniqueName>
+	<class>Bacteria bacteria</class>
+</Name>
+<Name>
+	<id>3</id>
+	<name>Monera</name>
+	<uniqueName>Monera Bacteria</uniqueName>
+	<class>Monera Bacteria</class>
+</Name>
+<Name>
+	<id>4</id>
+	<name>Procaryotae</name>
+	<uniqueName>Procaryotae #1</uniqueName>
+	<class>Procaryotae #1</class>
+</Name>
+<Name>
+	<id>5</id>
+	<name>Prokaryota</name>
+	<uniqueName>Prokaryota #2</uniqueName>
+	<class>Prokaryota #2</class>
+</Name>
+<Name>
+	<id>6</id>
+	<name>Prokaryotae</name>
+	<uniqueName>Prokaryotae #3</uniqueName>
+	<class>Prokaryotae #3</class>
+</Name>
+<Node>
+	<taxId>4</taxId>
+	<parentId>6</parentId>
+	<rank>species</rank>
+	<emblCode>AC</emblCode>
+</Node>
+<Node>
+	<taxId>5</taxId>
+	<parentId>1</parentId>
+	<rank>species</rank>
+	<emblCode>CG</emblCode>
+</Node>
+<Node>
+	<taxId>5</taxId>
+	<parentId>2</parentId>
+	<rank>species</rank>
+	<emblCode>DT</emblCode>
+</Node>
+<Node>
+	<taxId>6</taxId>
+	<parentId>1</parentId>
+	<rank>species</rank>
+	<emblCode>MM</emblCode>
+</Node>
+</Source>

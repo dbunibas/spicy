@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<statDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="statDB.xsd">
+  <cityStat>
+    <city>New York</city>
+    <organizations>
+      <organization>
+        <companyId>1</companyId>
+        <companyName>IBM</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Frank Miller</principalInvestigator>
+            <financialIdRef>101</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Neal Adams</principalInvestigator>
+            <financialIdRef>102</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>101</financialId>
+        <amount>1000.0</amount>
+        <project>Clio</project>
+        <year>2000</year>
+      </financial>
+      <financial>
+        <financialId>102</financialId>
+        <amount>5000.0</amount>
+        <project>DB2</project>
+        <year>1980</year>
+      </financial>
+    </financials>
+  </cityStat>
+  <cityStat>
+    <city>Seattle</city>
+    <organizations>
+      <organization>
+        <companyId>2</companyId>
+        <companyName>Microsoft</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Stan Lee</principalInvestigator>
+            <financialIdRef>103</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+      <organization>
+        <companyId>3</companyId>
+        <companyName>Boing</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Steve Ditko</principalInvestigator>
+            <financialIdRef>104</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>103</financialId>
+        <amount>100000.0</amount>
+        <project>SQL Server</project>
+        <year>1980</year>
+      </financial>
+      <financial>
+        <financialId>104</financialId>
+        <amount>100000.0</amount>
+        <project>B530</project>
+        <year>2006</year>
+      </financial>
+      <financial>
+        <financialId>105</financialId>
+        <amount>20000.0</amount>
+        <project>Dummy Financial</project>
+        <year>2006</year>
+      </financial>
+    </financials>
+  </cityStat>
+</statDB>

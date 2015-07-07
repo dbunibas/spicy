@@ -1,0 +1,17 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+R(a: $x0, b: $x1, c: $x2) and not exists (R(a: $x3, b: $x4, c: $x5) with $x0=$x3,$x0=$x4, $x2=$x5) -> S(a: $Y0, b: $x0, c: $Y1, d: $Y2), S(a: $Y0, b: $x1, c: $x2, d: $Y3).
+R(a: $x0, b: $x1, c: $x2) and not exists (R(a: $x3, b: $x4, c: $x5) with $x1=$x4,$x2=$x5 and not exists ( R(a: $x6, b: $x7, c: $x8) with $x4=$x6,$x4=$x7, $x5=$x8))-> S(a: $Y0, b: $x1, c: $x2, d: $Y3).
+
+
+SOURCE INSTANCE:
+R(a: "0", b: "1", c: "2")
+R(a: "0", b: "0", c: "2")
+R(a: "1", b: "0", c: "2")
+R(a: "10", b: "11", c: "12")
+
+

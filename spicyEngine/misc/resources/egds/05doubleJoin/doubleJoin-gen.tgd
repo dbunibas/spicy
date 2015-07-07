@@ -1,0 +1,30 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+employee(ssn: $x7, name: $x8, company: $x9, vid: $x11),
+vehicle(vid: $x11, carplate: $x10) ->
+    person(ssn: $x7, name: $x8, bd: $Y12, car_id: $Y14, cid: $Y13),
+    company(cid: $Y13, company: $x9),
+    car(car_id: $Y14, plate: $x10).
+
+SOURCE FDs:
+employee : ssn -> name, company, vid [pk]
+vehicle : vid -> carplate [pk]
+
+TARGET FDs:
+person: ssn -> name, bd, car_id, cid [pk]
+company: cid -> company [pk]
+company: company -> cid [key]
+car: car_id -> plate [pk]
+car: plate -> car_id [key]
+
+SOURCE INSTANCE:
+employee(ssn: "1", name: "Alice", company:"PZ", vid:"v1")
+employee(ssn: "2", name: "Bruno", company:"DIA", vid:"v2")
+employee(ssn: "3", name: "John", company:"IBM", vid:"v3")
+vehicle(vid:"v1", carplate:"RM11")
+vehicle(vid:"v2", carplate:"RM22")
+vehicle(vid:"v3", carplate:"RM33")

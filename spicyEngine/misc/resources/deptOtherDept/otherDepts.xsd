@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="tdepts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element  name="tdept" minOccurs="0" maxOccurs="unbounded" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="deptName" nillable="false" type="xs:string"/>
+              <xs:element name="location" nillable="false" type="xs:string"/>
+              <xs:element name="researchSubject" nillable="false" type="xs:string"/>
+              <xs:element name="emps" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="emp" minOccurs="0" maxOccurs="unbounded" nillable="false">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="empName" nillable="false" type="xs:string"/>
+                          <xs:element name="salary" nillable="false" type="xs:string"/>
+                          <xs:element name="dependents" nillable="false">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="dependent" minOccurs="0" maxOccurs="unbounded" nillable="false">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="dependentName" nillable="false" type="xs:string"/>
+                                      <xs:element name="age" nillable="false" type="xs:string"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="projectRefs" nillable="true">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="projectRef" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="projectIdRef" nillable="false" type="xs:string"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="projects" nillable="true">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="project" minOccurs="0" maxOccurs="unbounded" nillable="false">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="projectId" nillable="false" type="xs:string"/>
+                          <xs:element name="projectName" nillable="false" type="xs:string"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:key name="key1">
+      <xs:selector xpath=".//project"/>
+      <xs:field xpath="projectId"/>
+    </xs:key>
+    <xs:keyref name="keyRef1" refer="key1">
+      <xs:selector xpath=".//projectRef"/>
+      <xs:field xpath="projectIdRef"/>
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

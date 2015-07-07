@@ -1,0 +1,12 @@
+INSERT INTO a VALUES ('a1', 'b1');
+INSERT INTO a VALUES ('a2', 'b2');
+
+INSERT INTO b VALUES ('a3', 'b3');
+INSERT INTO b VALUES ('a4', 'b4');
+
+INSERT INTO c VALUES ('a1', 'c1');
+INSERT INTO c VALUES ('a3', 'c3');
+INSERT INTO c VALUES ('a5', 'c5');
+
+INSERT INTO d VALUES ('a1');
+INSERT INTO d VALUES ('a6');

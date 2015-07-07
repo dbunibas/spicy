@@ -1,0 +1,41 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+SCity(cityName: $x0, region: $x1) -> City(id: $N2, name: $x0, region: $x1).
+
+SPersonCar(personName: $x3, carModel: $x4) -> Person(id: $N5, name: $x3, age: $N6, carId: $N10, cityId: $N7),
+                                              Car(id: $N10, model: $x4, plate: $N8, makeId: $N9).
+
+SPersonCity(personName: $x11, cityName: $x12) -> Person(id: $N13, name: $x11, age: $N14, carId: $N15, cityId: $N17),
+                                                 City(id: $N17, name: $x12, region: $N16).
+
+SCarMake(carModel: $x18, makeName: $x19) -> Car(id: $N20, model: $x18, plate: $N21, makeId: $N22),
+                                            Make(id: $N22, name: $x19).
+
+SOURCE FDs:
+SCity : cityName -> region [pk]
+SPersonCar : personName -> carModel [pk]
+SPersonCity : personName -> cityName [pk]
+SCarMake : carModel -> makeName [pk]
+
+TARGET FDs:
+Person : name -> id, age, carId, cityId [key]
+City : id -> name, region [pk]
+City : name -> id, region [key]
+Car : id -> model, plate, makeId [pk]
+Car : model -> id, plate, makeId [key]
+Make : id -> name [pk]
+Make : name -> id [key]
+
+SOURCE INSTANCE:
+SPersonCar(personName: "John", carModel: "Punto")
+SPersonCar(personName: "Mark", carModel: "Fiesta")
+SPersonCity(personName: "John", cityName: "Roma")
+SPersonCity(personName: "Anthony", cityName: "Milano")
+SCity(cityName: "Roma", region: "Lazio")
+SCity(cityName: "Milano", region: "Lombardia")
+SCarMake(carModel: "Punto", makeName: "Fiat")
+SCarMake(carModel: "Corolla", makeName: "Toyota")

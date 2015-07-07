@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:element name="CyclesTransitiveSource">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ASet" minOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="A" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="A1" type="xs:string" nillable="true"/>
+                                        <xs:element name="A2" type="xs:string" nillable="true"/>
+                                        <xs:element name="A3" type="xs:string" nillable="true"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="BSet" minOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="B" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="B1" type="xs:string" nillable="true"/>
+                                        <xs:element name="B2" type="xs:string" nillable="true"/>
+                                        <xs:element name="B3" type="xs:string" nillable="true"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="CSet" minOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="C" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="C1" type="xs:string" nillable="true"/>
+                                        <xs:element name="C2" type="xs:string" nillable="true"/>
+                                        <xs:element name="C3" type="xs:string" nillable="true"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Target">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="personset" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="person" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="personname" nillable="false" type="xs:string"/>
+                    <xs:element name="carid" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>        
+        <xs:element name="carset" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="car" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="carid" nillable="false" type="xs:string"/>
+                    <xs:element name="cmodel" nillable="false" type="xs:string"/>
+                    <xs:element name="team" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+  
+      </xs:sequence>
+    </xs:complexType>
+    
+    <xs:key name="key1">
+      <xs:selector xpath=".//person"/>
+      <xs:field xpath="personname"/>
+    </xs:key>
+        <xs:key name="key2">
+      <xs:selector xpath=".//car"/>
+      <xs:field xpath="carid"/>
+    </xs:key>
+	
+  </xs:element>
+</xs:schema>

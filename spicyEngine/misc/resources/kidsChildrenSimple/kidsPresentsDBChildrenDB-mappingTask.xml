@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>../childrenDBKidsPresentsDB/kidsPresentsDB.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>../childrenDBKidsPresentsDB/kidsPresentsDBSelfJoin-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications>
+      <duplication>kidsPresentsDB.kids</duplication>
+    </duplications>
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>kidsPresentsDB.presents.present.gives</from>
+          <to>kidsPresentsDB.kids.kid.id</to>
+        </join>
+        <foreignKey>true</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>kidsPresentsDB.presents.present.receives</from>
+          <to>kidsPresentsDB.kids_1_.kid.id</to>
+        </join>
+        <foreignKey>true</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>../childrenDBKidsPresentsDB/childrenDB.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications>
+      <duplication>childrenDB.children</duplication>
+    </duplications>
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>childrenDB.children.child.motherRefId</from>
+          <to>childrenDB.parents.parent.parentId</to>
+        </join>
+        <foreignKey>true</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>childrenDB.xmasBoxes.xmasBox.giveRef</from>
+          <to>childrenDB.children.child.childId</to>
+        </join>
+        <foreignKey>true</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>childrenDB.xmasBoxes.xmasBox.receiveRef</from>
+          <to>childrenDB.children_1_.child.childId</to>
+        </join>
+        <foreignKey>true</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>kidsPresentsDB.kids.kid.name</source-path>
+      </source-paths>
+      <target-path>childrenDB.children.child.childName</target-path>
+      <transformation-function>kidsPresentsDB.kids.kid.name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>kidsPresentsDB.kids.kid.affiliation</source-path>
+      </source-paths>
+      <target-path>childrenDB.parents.parent.affiliation</target-path>
+      <transformation-function>kidsPresentsDB.kids.kid.affiliation</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>kidsPresentsDB.kids_1_.kid.name</source-path>
+      </source-paths>
+      <target-path>childrenDB.children_1_.child.childName</target-path>
+      <transformation-function>kidsPresentsDB.kids_1_.kid.name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>kidsPresentsDB.kids.kid.contactPhone</source-path>
+      </source-paths>
+      <target-path>childrenDB.children.child.motherRefName</target-path>
+      <transformation-function>kidsPresentsDB.kids.kid.contactPhone</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

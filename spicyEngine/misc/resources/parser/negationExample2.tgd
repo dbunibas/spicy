@@ -1,0 +1,21 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+Student(a: $x0, b: $x1) -> Person(a: $x0, b: $x1, c: $Y0, d: $Y1).
+Employee(a: $x0, b: $x1) and not exists(Student(a: $x0, b: $x2)) -> Person(a: $x0, b: $Y0, c: $x1, d: $Y1).
+Driver(a: $x0, b: $x1) and not exists(Student(a: $x0, b: $x2)) and not exists(Employee(a: $x0, b : $x3)) ->
+                                 Car(a: $x0, b: $x1).
+                                 
+SOURCE INSTANCE:
+Student(a: "Jim", b: "1980")
+Student(a: "Ray", b: "1990")
+Employee(a: "Jim", b: "25000")
+Employee(a: "Mike", b: "17000")
+Driver(a: "Jim", b: "abc123")
+Driver(a: "Joe", b: "abc123")
+Driver(a: "Mike", b: "abc123")
+
+

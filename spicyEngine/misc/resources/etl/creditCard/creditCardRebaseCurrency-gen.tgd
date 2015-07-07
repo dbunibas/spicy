@@ -1,0 +1,20 @@
+Mapping task:
+
+Source schema:   chain:creditCardMatchCustomers-gen.tgd
+Source instance: generate
+Source schema:   chain:creditCardLoadRates-gen.tgd
+Source instance: generate
+
+Target schema:   generate
+
+SOURCE TO TARGET TGDs:
+dataSource0_MatchCustomer(tid: $t, cid: $i, cname: $n, climit: $l, amount: $a, currency: $c), $c == "EUR" ->
+            RebaseCurrency(tid: $t, cid: $i, cname: $n, climit: $l, amount: $a).
+
+// Aggiorniamo gli importi utilizzando i rate disponibili
+dataSource0_MatchCustomer(tid: $t, cid: $i, cname: $n, climit: $l, amount: $a, currency: $c), dataSource1_LoadRate(code: $c, rate: $r) ->
+            RebaseCurrency(tid: $t, cid: $i, cname: $n, climit: $l, amount: {round($a / $r, 2)}).
+
+// Infine selezioniamo le operazioni che sono in una valuta sconosciuta
+dataSource0_MatchCustomer(tid: $t, cid: $i, cname: $n, climit: $l, amount: $a, currency: $c), $c != "EUR" and not exists(dataSource1_LoadRate(code: $c, rate: $r)) ->
+            RebaseCurrency(tid: $t, cid: $i, cname: $n, climit: $l, amount: $N).

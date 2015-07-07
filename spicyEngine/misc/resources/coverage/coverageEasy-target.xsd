@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:element name="TargetEasy">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Students" minOccurs="0" >
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Student" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Name" type="xs:string" nillable="true"/>
+                                        <xs:element name="Surname" type="xs:string" nillable="true"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Teachers" minOccurs="0" >
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Teacher" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Name" type="xs:string" nillable="true"/>
+                                        <xs:element name="Surname" type="xs:string" nillable="true"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Tutors" minOccurs="0" >
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Tutor" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Name" type="xs:string" nillable="true"/>
+                                        <xs:element name="Surname" type="xs:string" nillable="true"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,33 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+EmpCity(empName: $x34, empCity: $x35) ->
+    Home(homeName: $x34, homeCity: $Y36).
+LivesIn(name: $x37, city: $x38) ->
+    EmpDept(eName: $x37, deptId: $Y40),
+    DeptCity(dId: $Y40, city: $Y39).
+LivesIn(name: $x41, city: $x42) ->
+    Home(homeName: $x41, homeCity: $x42).
+EmpCity(empName: $x43, empCity: $x44) ->
+    EmpDept(eName: $x43, deptId: $Y45),
+    DeptCity(dId: $Y45, city: $x44).
+
+SOURCE FDs:
+EmpCity : empName -> empCity [pk]
+
+TARGET FDs:
+EmpDept: eName -> deptId [pk]
+DeptCity: dId -> city [pk]
+DeptCity: city -> dId [key]
+
+SOURCE INSTANCE:
+EmpCity(empName: "Alice", empCity: "SJ")
+EmpCity(empName: "Mark", empCity: "SJ")
+EmpCity(empName: "Bob", empCity: "SD")
+EmpCity(empName: "Carl", empCity: "SD")
+LivesIn(name: "Alice", city: "SF")
+LivesIn(name: "Bob", city: "LA")
+LivesIn(name: "Mary", city: "MW")

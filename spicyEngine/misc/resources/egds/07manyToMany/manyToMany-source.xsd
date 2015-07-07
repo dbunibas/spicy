@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Source">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="bookset" minOccurs="0" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="book" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+											<xs:element name="author" nillable="false" type="xs:string"/>
+                                        <xs:element name="title" nillable="false" type="xs:string"/>
+                                        <xs:element name="discount" nillable="false" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>                                
+            </xs:sequence>
+        </xs:complexType>
+ 
+    <xs:key name="key1">
+      <xs:selector xpath=".//book"/>
+      <xs:field xpath="author"/>
+      <xs:field xpath="title"/>
+    </xs:key>
+    
+  </xs:element>
+</xs:schema>

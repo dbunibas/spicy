@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Target>
+    <Taxon>
+        <Id>4</Id>
+        <Name>Procaryotae</Name>
+        <UniqueName>Procaryotae #1</UniqueName>
+        <Class>Procaryotae #1</Class>
+        <Parent>6</Parent>
+        <Rank>species</Rank>
+        <EmblCode>AC</EmblCode>
+    </Taxon>
+    <Taxon>
+        <Id>5</Id>
+        <Name>Prokaryota</Name>
+        <UniqueName>Prokaryota #2</UniqueName>
+        <Class>Prokaryota #2</Class>
+        <Parent>1</Parent>
+        <Rank>species</Rank>
+        <EmblCode>CG</EmblCode>
+    </Taxon>
+    <Taxon>
+        <Id>5</Id>
+        <Name>Prokaryota</Name>
+        <UniqueName>Prokaryota #2</UniqueName>
+        <Class>Prokaryota #2</Class>
+        <Parent>2</Parent>
+        <Rank>species</Rank>
+        <EmblCode>DT</EmblCode>
+    </Taxon>
+    <Taxon>
+        <Id>6</Id>
+        <Name>Prokaryotae</Name>
+        <UniqueName>Prokaryotae #3</UniqueName>
+        <Class>Prokaryotae #3</Class>
+        <Parent>1</Parent>
+        <Rank>species</Rank>
+        <EmblCode>MM</EmblCode>
+    </Taxon>
+</Target>

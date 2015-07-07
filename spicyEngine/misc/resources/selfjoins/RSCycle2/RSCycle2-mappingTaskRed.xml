@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>RSCycle2-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>RSCycle2-source-instance.xml</xml-instance>
+        <!--<xml-instance>RSCycle2-source-instance6.xml</xml-instance>
+        <xml-instance>RSCycle2-source-instance10.xml</xml-instance>
+        <xml-instance>RSCycle2-source-instance20.xml</xml-instance>-->
+<!--
+        <xml-instance>RSCycle2-source-instance100.xml</xml-instance>
+        <xml-instance>RSCycle2-source-instance200.xml</xml-instance>
+        <xml-instance>RSCycle2-source-instance64.xml</xml-instance>
+        <xml-instance>RSCycle2-source-instance128.xml</xml-instance> -->
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>RSCycle2-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications>
+      <duplication>RSTarget.SSet</duplication>
+      <duplication>RSTarget.SSet</duplication>
+      <duplication>RSTarget.SSet</duplication>
+    </duplications>
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>RSTarget.SSet.S.c</from>
+          <to>RSTarget.SSet_1_.S.c</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>RSTarget.SSet_2_.S.c</from>
+          <to>RSTarget.SSet_3_.S.c</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>RSSource.RSet1.R.a</source-path>
+      </source-paths>
+      <target-path>RSTarget.SSet.S.a</target-path>
+      <transformation-function>RSSource.RSet1.R.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>RSSource.RSet1.R.b</source-path>
+      </source-paths>
+      <target-path>RSTarget.SSet.S.b</target-path>
+      <transformation-function>RSSource.RSet1.R.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>RSSource.RSet1.R.c</source-path>
+      </source-paths>
+      <target-path>RSTarget.SSet_1_.S.a</target-path>
+      <transformation-function>RSSource.RSet1.R.c</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>RSSource.RSet2.R.a</source-path>
+      </source-paths>
+      <target-path>RSTarget.SSet_2_.S.a</target-path>
+      <transformation-function>RSSource.RSet2.R.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>RSSource.RSet2.R.b</source-path>
+      </source-paths>
+      <target-path>RSTarget.SSet_2_.S.b</target-path>
+      <transformation-function>RSSource.RSet2.R.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>RSSource.RSet2.R.c</source-path>
+      </source-paths>
+      <target-path>RSTarget.SSet_3_.S.b</target-path>
+      <transformation-function>RSSource.RSet2.R.c</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

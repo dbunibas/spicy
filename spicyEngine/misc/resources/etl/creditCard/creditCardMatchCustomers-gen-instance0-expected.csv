@@ -1,0 +1,7 @@
+MatchCustomer(1, 100, Alice, 2000, 1000.0, EUR)
+MatchCustomer(2, 100, Alice, 2000, 2500.0, EUR)
+MatchCustomer(3, 101, Bob, 2000, 200.0, GBP)
+MatchCustomer(4, 101, Bob, 2000, 100.0, CNY)
+MatchCustomer(5, 102, Charlie, 5000, 20000.0, MYR)
+MatchCustomer(6, 103, Daniel, 3000, 5000.0, USD)
+MatchCustomer(7, NULL, NULL, NULL, 50.0, EUR)

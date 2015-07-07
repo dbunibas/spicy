@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personsBooks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="personsBooks.xsd">
+    <personSet>
+        <person>
+            <pname>J.R.Tolkien</pname>
+        </person>
+        <person>
+            <pname>Stephen King</pname>
+        </person>
+        <person>
+            <pname>J.K.Rowling</pname>
+        </person>
+    </personSet>
+    <writesSet>
+        <writes>
+            <pname>J.R.Tolkien</pname>
+            <bid>The Lord Of The Rings</bid>
+        </writes>
+        <writes>
+            <pname>J.R.Tolkien</pname>
+            <bid>The Hobbit</bid>
+        </writes>
+        <writes>
+            <pname>Stephen King</pname>
+            <bid>Misery</bid>
+        </writes>
+        <writes>
+            <pname>Stephen King</pname>
+            <bid>Cujo</bid>
+        </writes>
+        <writes>
+            <pname>J.K.Rowling</pname>
+            <bid>Harry Potter</bid>
+        </writes>
+    </writesSet>
+    <bookSet>
+        <book>
+            <bid>The Lord Of The Rings</bid>
+        </book>
+        <book>
+            <bid>The Hobbit</bid>
+        </book>
+        <book>
+            <bid>Misery</bid>
+        </book>
+        <book>
+            <bid>Cujo</bid>
+        </book>
+        <book>
+            <bid>Harry Potter</bid>
+        </book>
+    </bookSet>
+    <soldAtSet>
+        <soldAt>
+            <bid>The Lord Of The Rings</bid>
+            <sid>Amazon.com</sid>
+        </soldAt>
+        <soldAt>
+            <bid>The Lord Of The Rings</bid>
+            <sid>The Best Bookstore</sid>
+        </soldAt>
+        <soldAt>
+            <bid>Misery</bid>
+            <sid>The Best Bookstore</sid>
+        </soldAt>
+        <soldAt>
+            <bid>Misery</bid>
+            <sid>eBay.com</sid>
+        </soldAt>
+    </soldAtSet>
+    <bookstoreSet>
+        <bookstore>
+            <sid>Amazon.com</sid>
+        </bookstore>
+        <bookstore>
+            <sid>eBay.com</sid>
+        </bookstore>
+        <bookstore>
+            <sid>The Best Bookstore</sid>
+        </bookstore>
+    </bookstoreSet>
+</personsBooks>

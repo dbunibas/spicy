@@ -1,0 +1,9 @@
+Mapping task:
+Source schema: 		chain:creditCardRebaseCurrency-gen.tgd
+Source instance:        generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+RebaseCurrency(tid: $t, cid: #NULL#, cname: $n, climit: $l, amount: $a) -> MissCustomerID(tid: $t).
+RebaseCurrency(tid: $t, cid: $c, cname: $n, climit: $l, amount: #NULL#) -> MissCurrency(tid: $t).
+RebaseCurrency(tid: $t, cid: $c, cname: $n, climit: $l, amount: $a), _isNotNull($a), _isNotNull($l), $a > $l -> RiskOperation(tid: $t, diff: {round($a - $l, 2)}).

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SourceCoverageBig>
+    <As>
+        <A>
+            <a>A</a>
+            <b>B</b>
+        </A>
+        <A>
+            <a>O</a>
+            <b>L</b>
+        </A>
+    </As>
+    <Bs>
+        <B>
+            <b>B</b>
+            <c>C</c>
+            <d>D</d>
+            <e>E</e>
+        </B>
+    </Bs>
+    <Cs>
+        <C>
+            <a>A</a>
+            <b>B</b>
+            <c>C</c>
+            <d>D</d>
+            <e>E</e>
+        </C>
+    </Cs>
+</SourceCoverageBig>

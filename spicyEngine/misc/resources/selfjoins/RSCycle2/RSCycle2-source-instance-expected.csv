@@ -1,0 +1,4 @@
+sset(a, b, N_2)
+sset(c, N_1, N_2)
+sset(c, b, N_3)
+sset(N_4, a, N_3)

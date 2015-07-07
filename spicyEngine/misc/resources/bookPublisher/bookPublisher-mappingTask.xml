@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>bookPublisher-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>bookPublisher-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <functionalDependencies />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>bookPublisher-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <functionalDependencies />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>target.BookSet.Book.pubId</from>
+          <to>target.PublisherSet.Publisher.id</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>source.IBDBookSet.IBDBook.title</source-path>
+      </source-paths>
+      <target-path>target.BookSet.Book.title</target-path>
+      <transformation-function>source.IBDBookSet.IBDBook.title</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>source.LOCSet.LOC.title</source-path>
+      </source-paths>
+      <target-path>target.BookSet.Book.title</target-path>
+      <transformation-function>source.LOCSet.LOC.title</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>source.LOCSet.LOC.publisher</source-path>
+      </source-paths>
+      <target-path>target.PublisherSet.Publisher.name</target-path>
+      <transformation-function>source.LOCSet.LOC.publisher</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>source.IBLBookSet.IBLBook.title</source-path>
+      </source-paths>
+      <target-path>target.BookSet.Book.title</target-path>
+      <transformation-function>source.IBLBookSet.IBLBook.title</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>source.IBLBookSet.IBLBook.pubId</source-path>
+      </source-paths>
+      <target-path>target.BookSet.Book.pubId</target-path>
+      <transformation-function>source.IBLBookSet.IBLBook.pubId</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>source.IBLPublisherSet.IBLPublisher.id</source-path>
+      </source-paths>
+      <target-path>target.PublisherSet.Publisher.id</target-path>
+      <transformation-function>source.IBLPublisherSet.IBLPublisher.id</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>source.IBLPublisherSet.IBLPublisher.name</source-path>
+      </source-paths>
+      <target-path>target.PublisherSet.Publisher.name</target-path>
+      <transformation-function>source.IBLPublisherSet.IBLPublisher.name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

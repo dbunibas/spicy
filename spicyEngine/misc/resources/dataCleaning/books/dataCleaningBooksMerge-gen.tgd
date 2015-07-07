@@ -1,0 +1,20 @@
+Mapping task:
+Source schema:   chain:dataCleaningBooksSource1-gen.tgd
+Source instance: generate
+Source schema:   chain:dataCleaningBooksSource2-gen.tgd
+Source instance: generate
+
+Target schema:   generate
+
+SOURCE TO TARGET TGDs:
+dataSource0_Book(title: $t, publisher: $p) ->
+            AllBook(title: $t, publisher: $p).
+dataSource1_MoreBook(title: $t, publisher: $p, year: $y) ->
+            AllBook(title: $t, publisher: $p).
+//TARGET FDs:
+//AllBook : title -> publisher [pk]
+
+
+CONFIG:
+SOURCENULLS: 1
+//EGDS: 1

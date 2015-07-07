@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>atomicS.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>atomicS-I-red.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>atomicT.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.Contact.phone</source-path>
+      </source-paths>
+      <target-path>Target.Contact.Phone</target-path>
+      <transformation-function>Source.Contact.phone</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.Contact.address.street</source-path>
+        <source-path>Source.Contact.address.city</source-path>
+        <source-path>Source.Contact.address.zip</source-path>
+      </source-paths>
+      <target-path>Target.Contact.Address</target-path>
+      <transformation-function>append(Source.Contact.address.street, " - ", Source.Contact.address.city, " - ", Source.Contact.address.zip)</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.Contact.name</source-path>
+      </source-paths>
+      <target-path>Target.Contact.FirstName</target-path>
+      <transformation-function>split(Source.Contact.name, ", ", 0.0)</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.Contact.name</source-path>
+      </source-paths>
+      <target-path>Target.Contact.LastName</target-path>
+      <transformation-function>split(Source.Contact.name, ", ", 1.0)</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

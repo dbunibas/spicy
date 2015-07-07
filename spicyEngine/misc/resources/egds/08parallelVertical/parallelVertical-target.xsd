@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Target">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="personset" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="person" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="personname" nillable="false" type="xs:string"/>
+                                        <xs:element name="cityid" nillable="false" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="cityset" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="city" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="cityid" nillable="false" type="xs:string"/>
+                                        <xs:element name="cityname" nillable="false" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="regionset" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="region" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="regionname" nillable="false" type="xs:string"/>
+                                        <xs:element name="cityid" nillable="false" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:key name="key1">
+            <xs:selector xpath=".//person"/>
+            <xs:field xpath="personname"/>
+        </xs:key>
+        <xs:key name="key2">
+            <xs:selector xpath=".//city"/>
+            <xs:field xpath="cityid"/>
+        </xs:key>
+        <xs:key name="key3">
+            <xs:selector xpath=".//city"/>
+            <xs:field xpath="cityname"/>
+        </xs:key>
+        <xs:key name="key4">
+            <xs:selector xpath=".//region"/>
+            <xs:field xpath="cityid"/>
+        </xs:key>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,7 @@
+RebaseCurrency(4, 101, Bob, 2000, 11.16)
+RebaseCurrency(5, 102, Charlie, 5000, NULL)
+RebaseCurrency(7, NULL, NULL, NULL, 50.0)
+RebaseCurrency(1, 100, Alice, 2000, 1000.0)
+RebaseCurrency(2, 100, Alice, 2000, 2500.0)
+RebaseCurrency(3, 101, Bob, 2000, 229.89)
+RebaseCurrency(6, 103, Daniel, 3000, 3571.43)

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Target">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="authorset" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="author" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="aid" nillable="false" type="xs:string"/>
+                    <xs:element name="author_name" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>        
+        <xs:element name="authorbookset" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="authorbook" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="author" nillable="false" type="xs:string"/>
+                    <xs:element name="book" nillable="false" type="xs:string"/>
+                    <xs:element name="discount" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="bookset" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="book" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="bid" nillable="false" type="xs:string"/>
+                    <xs:element name="book_name" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+      </xs:sequence>
+    </xs:complexType>
+    
+    <xs:key name="key1">
+      <xs:selector xpath=".//author"/>
+      <xs:field xpath="aid"/>
+    </xs:key>
+        <xs:key name="key2">
+      <xs:selector xpath=".//book"/>
+      <xs:field xpath="bid"/>
+    </xs:key>
+    <xs:key name="key3">
+      <xs:selector xpath=".//author"/>
+      <xs:field xpath="author_name"/>
+    </xs:key>
+        <xs:key name="key4">
+      <xs:selector xpath=".//book"/>
+      <xs:field xpath="book_name"/>
+    </xs:key>
+    
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,31 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+employee(ename: $x0, carmodel: $x1) ->
+    person(personname: $x0, carid: $Y3),
+    car(carid: $Y3, cmodel: $x1, team: $Y2).
+driver(dname: $x4, team: $x5) ->
+    person(personname: $x4, carid: $Y7),
+    car(carid: $Y7, cmodel: $Y6, team: $x5).
+
+SOURCE FDs:
+employee : ename -> carmodel [pk]
+driver : dname -> team [pk]
+
+TARGET FDs:
+person : personname -> carid [pk]
+car : carid -> cmodel, team [pk]
+
+SOURCE INSTANCE:
+employee(ename: "Mario", carmodel: "Bravo")
+employee(ename: "Paolo", carmodel: "Megane")
+employee(ename: "Gianni", carmodel: "Corsa")
+employee(ename: "Anne", carmodel: "Corsa")
+
+driver(dname: "Mario", team: "Fiat")
+driver(dname: "John", team: "Ferrari")
+driver(dname: "Gianni", team: "Opel")
+driver(dname: "Luca", team: "Fiat")

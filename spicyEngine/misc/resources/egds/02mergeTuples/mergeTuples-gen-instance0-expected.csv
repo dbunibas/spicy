@@ -1,0 +1,4 @@
+person(1, Alice, bd1, 1000)
+person(2, Bruno, bd2, 900)
+person(3, Mark, NULL, 1100)
+person(4, Mike, bd4, NULL)

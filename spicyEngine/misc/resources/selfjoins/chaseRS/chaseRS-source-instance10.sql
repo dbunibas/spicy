@@ -1,0 +1,10 @@
+INSERT INTO rset VALUES ('c', 'c', 'c', 'd');
+INSERT INTO rset VALUES ('b', 'b', 'd', 'a');
+INSERT INTO rset VALUES ('c', 'b', 'd', 'b');
+INSERT INTO rset VALUES ('c', 'd', 'a', 'b');
+INSERT INTO rset VALUES ('a', 'd', 'a', 'd');
+INSERT INTO rset VALUES ('d', 'a', 'c', 'a');
+INSERT INTO rset VALUES ('c', 'b', 'd', 'c');
+INSERT INTO rset VALUES ('d', 'd', 'c', 'd');
+INSERT INTO rset VALUES ('b', 'd', 'd', 'a');
+INSERT INTO rset VALUES ('b', 'd', 'd', 'b');

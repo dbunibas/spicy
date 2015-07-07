@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>nestedS.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>nestedS-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>nestedT.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications>
+      <duplication>T.R_Set.R.S_Set</duplication>
+    </duplications>
+    <selectionConditions />
+    <joinConditions />
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>S.A_Set.A.a</source-path>
+      </source-paths>
+      <target-path>T.R_Set.R.a</target-path>
+      <transformation-function>S.A_Set.A.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>S.A_Set.A.b</source-path>
+      </source-paths>
+      <target-path>T.R_Set.R.S_Set.S.b</target-path>
+      <transformation-function>S.A_Set.A.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>S.A_Set.A.c</source-path>
+      </source-paths>
+      <target-path>T.R_Set.R.S_Set.S.c</target-path>
+      <transformation-function>S.A_Set.A.c</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>S.B_Set.B.c</source-path>
+      </source-paths>
+      <target-path>T.R_Set.R.S_Set_1_.S.c</target-path>
+      <transformation-function>S.B_Set.B.c</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>S.A_Set.A.b</source-path>
+      </source-paths>
+      <target-path>T.R_Set.R.S_Set_1_.S.b</target-path>
+      <transformation-function>S.A_Set.A.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>S.A_Set.A.a</source-path>
+      </source-paths>
+      <target-path>T.V_Set.V.a</target-path>
+      <transformation-function>S.A_Set.A.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>S.A_Set.A.b</source-path>
+      </source-paths>
+      <target-path>T.V_Set.V.b</target-path>
+      <transformation-function>S.A_Set.A.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>S.B_Set.B.c</source-path>
+      </source-paths>
+      <target-path>T.R_Set.R.W_Set.W.c</target-path>
+      <transformation-function>S.B_Set.B.c</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>selfJoinsT.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>selfJoinInverse-source-instance.xml</xml-instance>
+        <xml-instance>selfJoinInverse-source-instance100.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>Target.SynonymSet.Synonym.GeneWID</from>
+          <to>Target.GeneSet.Gene.Name</to>
+        </join>
+        <foreignKey>true</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>selfJoinsS.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications>
+      <duplication>Source.SourceGeneSet</duplication>
+    </duplications>
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>Source.SourceGeneSet_1_.Gene.protein</from>
+          <to>Source.SourceGeneSet.Gene.protein</to>
+        </join>
+        <foreignKey>true</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>Target.GeneSet.Gene.Name</source-path>
+      </source-paths>
+      <target-path>Source.SourceGeneSet.Gene.name</target-path>
+      <transformation-function>Target.GeneSet.Gene.Name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Target.SynonymSet.Synonym.Name</source-path>
+      </source-paths>
+      <target-path>Source.SourceGeneSet_1_.Gene.name</target-path>
+      <transformation-function>Target.SynonymSet.Synonym.Name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Target.GeneSet.Gene.Protein</source-path>
+      </source-paths>
+      <target-path>Source.SourceGeneSet.Gene.protein</target-path>
+      <transformation-function>Target.GeneSet.Gene.Protein</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths />
+      <source-value>"primary"</source-value>
+      <target-path>Source.SourceGeneSet.Gene.type</target-path>
+      <transformation-function>"primary"</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Target.GeneSet.Gene.Protein</source-path>
+      </source-paths>
+      <target-path>Source.SourceGeneSet_1_.Gene.protein</target-path>
+      <transformation-function>Target.GeneSet.Gene.Protein</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

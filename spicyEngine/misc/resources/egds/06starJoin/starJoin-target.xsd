@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Target">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="personset" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="person" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ssn" nillable="false" type="xs:string"/>
+                    <xs:element name="name" nillable="false" type="xs:string"/>
+                    <xs:element name="dept" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>        
+        <xs:element name="companyset" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="company" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="cid" nillable="false" type="xs:string"/>
+                    <xs:element name="company" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="deptset" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dept" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="did" nillable="false" type="xs:string"/>
+                    <xs:element name="deptname" nillable="false" type="xs:string"/>
+                    <xs:element name="cid" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="researchset" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="research" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="rid" nillable="false" type="xs:string"/>
+                    <xs:element name="dept" nillable="false" type="xs:string"/>
+                    <xs:element name="research_subj" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>        
+      </xs:sequence>
+    </xs:complexType>
+    
+    <xs:key name="key1">
+      <xs:selector xpath="./personset/person"/>
+      <xs:field xpath="ssn"/>
+    </xs:key>
+        <xs:key name="key2">
+      <xs:selector xpath="./deptset/dept"/>
+      <xs:field xpath="did"/>
+    </xs:key>
+      <xs:key name="key5">
+      <xs:selector xpath="./deptset/dept"/>
+      <xs:field xpath="deptname"/>
+    </xs:key>
+        <xs:key name="key3">
+      <xs:selector xpath="./companyset/company"/>
+      <xs:field xpath="cid"/>
+    </xs:key>
+        <xs:key name="key4">
+      <xs:selector xpath="./companyset/company"/>
+      <xs:field xpath="company"/>
+    </xs:key>        
+    <xs:key name="key6">
+      <xs:selector xpath="./researchset/research"/>
+      <xs:field xpath="rid"/>
+    </xs:key>
+    <xs:key name="key7">
+      <xs:selector xpath="./researchset/research"/>
+      <xs:field xpath="research_subj"/>
+    </xs:key>
+  </xs:element>
+</xs:schema>

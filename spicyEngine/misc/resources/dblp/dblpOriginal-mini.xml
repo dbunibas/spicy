@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dblp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dblp.xsd">
+    <articles>
+        <article key="journals/eik/HupbachR83" mdate="2003-06-30">
+            <author>Ulrich L. Hupbach</author>
+            <author>Horst Reichel</author>
+            <title/>
+            <pages>297-305</pages>
+            <year>1983</year>
+            <volume>19</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>6</number>
+            <url>db/journals/eik/eik19.html#HupbachR83</url>
+        </article>
+        <article key="journals/eik/Shyamasundar78" mdate="2003-06-30">
+            <author>R. K. Shyamasundar</author>
+            <title/>
+            <pages>361-376</pages>
+            <year>1978</year>
+            <volume>14</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7/8</number>
+            <url>db/journals/eik/eik14.html#Shyamasundar78</url>
+        </article>
+        <article key="journals/eik/BornerPG85" mdate="2003-07-07">
+            <author>Ferdinand Borner</author>
+            <author>Reinhard Poschel</author>
+            <author>Michael Gussel</author>
+            <title/>
+            <pages>331-342</pages>
+            <year>1985</year>
+            <volume>21</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7/8</number>
+            <url>db/journals/eik/eik21.html#BornerPG85</url>
+        </article>
+        <article key="journals/eik/FrankeK77" mdate="2003-06-30">
+            <author>Gunter Franke</author>
+            <author>Manfred Koegst</author>
+            <title/>
+            <pages>281-294</pages>
+            <year>1977</year>
+            <volume>13</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>6</number>
+            <url>db/journals/eik/eik13.html#FrankeK77</url>
+        </article>
+    </articles>
+    <books>
+        <book mdate="2002-01-03" key="books/bc/MaierW88">
+            <author>David Maier</author>
+            <author>David Scott Warren</author>
+            <title>Computing with Logic: Logic Programming with Prolog</title>
+            <publisher>Benjamin/Cummings</publisher>
+            <year>1988</year>
+            <isbn>0-8053-6681-4</isbn>
+        </book>        
+        <book mdate="2002-01-03" key="books/bc/Booch90">
+            <author>Grady Booch</author>
+            <title>Object-Oriented Design with Applications</title>
+            <publisher>Benjamin/Cummings</publisher>
+            <year>1990</year>
+        </book>        
+        <book mdate="2002-01-03" key="books/bc/BatiniCN92">
+            <author>Carlo Batini</author>
+            <author>Stefano Ceri</author>
+            <author>Shamkant B. Navathe</author>
+            <title>Conceptual Database Design: An Entity-Relationship Approach.</title>
+            <publisher>Benjamin/Cummings</publisher>
+            <year>1992</year>
+            <isbn>0-8053-0244-1</isbn>
+        </book>
+    </books>
+    <proceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/ZhaoBC03">
+            <author>J. Leon Zhao</author>
+            <author>Henry H. Bi</author>
+            <author>Hsinchun Chen</author>
+            <title>Collaborative Workflow Management for Interagency Crime Analysis.</title>
+            <pages>266-280</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650266.htm</ee>
+            <url>db/conf/isi/isi2003.html#ZhaoBC03</url>
+        </inproceedings>
+    </proceedings>
+    <masters>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+    </masters>    
+</dblp>

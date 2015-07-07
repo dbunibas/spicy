@@ -1,0 +1,4 @@
+Person(Jim,1980,NULL,NULL)
+Person(Ray,1990,NULL,NULL)
+Person(Mike,NULL,17000,NULL)
+Car(Joe,abc123)

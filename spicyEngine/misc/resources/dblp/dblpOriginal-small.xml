@@ -1,0 +1,2486 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dblp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dblp.xsd">
+    <articles>     
+        <article key="journals/eik/HupbachR83" mdate="2003-06-30">
+            <author>Ulrich L. Hupbach</author>
+            <author>Horst Reichel</author>
+            <title/>
+            <pages>297-305</pages>
+            <year>1983</year>
+            <volume>19</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>6</number>
+            <url>db/journals/eik/eik19.html#HupbachR83</url>
+        </article>
+        <article key="journals/eik/Shyamasundar78" mdate="2003-06-30">
+            <author>R. K. Shyamasundar</author>
+            <title/>
+            <pages>361-376</pages>
+            <year>1978</year>
+            <volume>14</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7/8</number>
+            <url>db/journals/eik/eik14.html#Shyamasundar78</url>
+        </article>
+        <article key="journals/eik/BornerPG85" mdate="2003-07-07">
+            <author>Ferdinand Borner</author>
+            <author>Reinhard Poschel</author>
+            <author>Michael Gussel</author>
+            <title/>
+            <pages>331-342</pages>
+            <year>1985</year>
+            <volume>21</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7/8</number>
+            <url>db/journals/eik/eik21.html#BornerPG85</url>
+        </article>
+        <article key="journals/eik/FrankeK77" mdate="2003-06-30">
+            <author>Gunter Franke</author>
+            <author>Manfred Koegst</author>
+            <title/>
+            <pages>281-294</pages>
+            <year>1977</year>
+            <volume>13</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>6</number>
+            <url>db/journals/eik/eik13.html#FrankeK77</url>
+        </article>
+        <article key="journals/eik/Franken66" mdate="2003-06-16">
+            <author>Peter Franken</author>
+            <title/>
+            <pages>223-233</pages>
+            <year>1966</year>
+            <volume>2</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>4</number>
+            <url>db/journals/eik/eik2.html#Franken66</url>
+        </article>
+        <article key="journals/eik/Franken68" mdate="2003-06-16">
+            <author>Peter Franken</author>
+            <title/>
+            <pages>197-204</pages>
+            <year>1968</year>
+            <volume>4</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>3</number>
+            <url>db/journals/eik/eik4.html#Franken68</url>
+        </article>
+        <article key="journals/eik/Fischer77" mdate="2003-06-30">
+            <author>Thomas R. M. Fischer</author>
+            <title/>
+            <pages>125-135</pages>
+            <year>1977</year>
+            <volume>13</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>3</number>
+            <url>db/journals/eik/eik13.html#Fischer77</url>
+        </article>
+        <article key="journals/eik/Fischer89" mdate="2003-07-07">
+            <author>Thomas Fischer</author>
+            <title/>
+            <pages>233-238</pages>
+            <year>1989</year>
+            <volume>25</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>5/6</number>
+            <url>db/journals/eik/eik25.html#Fischer89</url>
+        </article>
+        <article key="journals/eik/Sonntag87a" mdate="2003-07-07">
+            <author>Martin Sonntag</author>
+            <title/>
+            <pages>323-329</pages>
+            <year>1987</year>
+            <volume>23</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7</number>
+            <url>db/journals/eik/eik23.html#Sonntag87a</url>
+        </article>
+        <article key="journals/eik/Sonntag91a" mdate="2003-07-14">
+            <author>Martin Sonntag</author>
+            <title/>
+            <pages>385-386</pages>
+            <year>1991</year>
+            <volume>27</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7</number>
+            <url>db/journals/eik/eik27.html#Sonntag91a</url>
+        </article>
+        <article key="journals/eik/QuynhK79" mdate="2003-06-30">
+            <author>Nguyen Xuan Quynh</author>
+            <author>Edward Kacki</author>
+            <title/>
+            <pages>279-300</pages>
+            <year>1979</year>
+            <volume>15</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>5/6</number>
+            <url>db/journals/eik/eik15.html#QuynhK79</url>
+        </article>
+        <article key="journals/eik/ModrowG73a" mdate="2003-06-30">
+            <author>Heinz D. Modrow</author>
+            <author>Michael Gossel</author>
+            <title/>
+            <pages>549-567</pages>
+            <year>1973</year>
+            <volume>9</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>9</number>
+            <url>db/journals/eik/eik9.html#ModrowG73a</url>
+        </article>
+        <article key="journals/eik/EhrichSS90" mdate="2003-07-07">
+            <author>Hans-Dieter Ehrich</author>
+            <author>Amilcar Sernadas</author>
+            <author>Cristina Sernadas</author>
+            <title/>
+            <pages>33-48</pages>
+            <year>1990</year>
+            <volume>26</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>1/2</number>
+            <url>db/journals/eik/eik26.html#EhrichSS90</url>
+        </article>
+        <article key="journals/eik/DisneyF82" mdate="2003-06-30">
+            <author>Ralph L. Disney</author>
+            <author>Peter Franken</author>
+            <title/>
+            <pages>595-602</pages>
+            <year>1982</year>
+            <volume>18</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>10/11</number>
+            <url>db/journals/eik/eik18.html#DisneyF82</url>
+        </article>
+        <article key="journals/eik/HendrichS92" mdate="2003-07-14">
+            <author>U. Hendrich</author>
+            <author>Michael Stiebitz</author>
+            <title/>
+            <pages>113-125</pages>
+            <year>1992</year>
+            <volume>28</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>3</number>
+            <url>db/journals/eik/eik28.html#HendrichS92</url>
+        </article>
+        <article key="journals/eik/SlotB85" mdate="2003-07-07">
+            <author>Cees F. Slot</author>
+            <author>Peter van Emde Boas</author>
+            <title/>
+            <pages>246-253</pages>
+            <year>1985</year>
+            <volume>21</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>4/5</number>
+            <url>db/journals/eik/eik21.html#SlotB85</url>
+        </article>
+        <article key="journals/eik/LeschLS80" mdate="2003-06-30">
+            <author>Jurgen Lesch</author>
+            <author>Manfred Lesch</author>
+            <author>Irmgard Schmeichel</author>
+            <title/>
+            <pages>63-68</pages>
+            <year>1980</year>
+            <volume>16</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>1-3</number>
+            <url>db/journals/eik/eik16.html#LeschLS80</url>
+        </article>
+        <article key="journals/eik/Gerber70a" mdate="2003-06-16">
+            <author>Siegmar Gerber</author>
+            <title/>
+            <pages>325-339</pages>
+            <year>1970</year>
+            <volume>6</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>6</number>
+            <url>db/journals/eik/eik6.html#Gerber70a</url>
+        </article>
+        <article key="journals/eik/GerberH85" mdate="2003-07-07">
+            <author>Siegmar Gerber</author>
+            <author>Harald Hoyer</author>
+            <title/>
+            <pages>385-400</pages>
+            <year>1985</year>
+            <volume>21</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7/8</number>
+            <url>db/journals/eik/eik21.html#GerberH85</url>
+        </article>
+        <article key="journals/eik/GerberS76" mdate="2003-06-30">
+            <author>Siegmar Gerber</author>
+            <author>Holger Schackert</author>
+            <title/>
+            <pages>415-420</pages>
+            <year>1976</year>
+            <volume>12</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>8/9</number>
+            <url>db/journals/eik/eik12.html#GerberS76</url>
+        </article>
+        <article key="journals/eik/Mecke66" mdate="2003-06-16">
+            <author>Joseph Mecke</author>
+            <title/>
+            <pages>83-94</pages>
+            <year>1966</year>
+            <volume>2</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>2</number>
+            <url>db/journals/eik/eik2.html#Mecke66</url>
+        </article>
+        <article key="journals/eik/Streller80" mdate="2003-06-30">
+            <author>Arnfried Streller</author>
+            <title/>
+            <pages>449-460</pages>
+            <year>1980</year>
+            <volume>16</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>8/9</number>
+            <url>db/journals/eik/eik16.html#Streller80</url>
+        </article>
+        <article key="journals/eik/Grabowski74a" mdate="2003-06-30">
+            <author>Jan Grabowski</author>
+            <title/>
+            <pages>393-397</pages>
+            <year>1974</year>
+            <volume>10</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7</number>
+            <url>db/journals/eik/eik10.html#Grabowski74a</url>
+        </article>
+        <article key="journals/eik/Barthel71" mdate="2003-06-30">
+            <author>Dieter Barthel</author>
+            <title/>
+            <pages>191-211</pages>
+            <year>1971</year>
+            <volume>7</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>3</number>
+            <url>db/journals/eik/eik7.html#Barthel71</url>
+        </article>
+        <article key="journals/eik/Barthel79" mdate="2003-06-30">
+            <author>Dieter Barthel</author>
+            <title/>
+            <pages>213-220</pages>
+            <year>1979</year>
+            <volume>15</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>4</number>
+            <url>db/journals/eik/eik15.html#Barthel79</url>
+        </article>
+        <article key="journals/eik/Barthel83" mdate="2003-06-30">
+            <author>Dieter Barthel</author>
+            <title/>
+            <pages>393-396</pages>
+            <year>1983</year>
+            <volume>19</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7/8</number>
+            <url>db/journals/eik/eik19.html#Barthel83</url>
+        </article>
+        <article key="journals/eik/Mehta78" mdate="2003-06-30">
+            <author>F. C. Mehta</author>
+            <title/>
+            <pages>639-651</pages>
+            <year>1978</year>
+            <volume>14</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>12</number>
+            <url>db/journals/eik/eik14.html#Mehta78</url>
+        </article>
+        <article key="journals/eik/Mehta80" mdate="2003-06-30">
+            <author>F. C. Mehta</author>
+            <title/>
+            <pages>353-361</pages>
+            <year>1980</year>
+            <volume>16</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7</number>
+            <url>db/journals/eik/eik16.html#Mehta80</url>
+        </article>
+        <article key="journals/eik/Muntefering72" mdate="2003-06-30">
+            <author>Peter Muntefering</author>
+            <title/>
+            <pages>269-273</pages>
+            <year>1972</year>
+            <volume>8</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>5</number>
+            <url>db/journals/eik/eik8.html#Muntefering72</url>
+        </article>
+        <article key="journals/eik/Muntefering73" mdate="2003-06-30">
+            <author>Peter Muntefering</author>
+            <title/>
+            <pages>395-421</pages>
+            <year>1973</year>
+            <volume>9</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7/8</number>
+            <url>db/journals/eik/eik9.html#Muntefering73</url>
+        </article>
+        <article key="journals/eik/Muntefering75" mdate="2003-06-30">
+            <author>Peter Muntefering</author>
+            <title/>
+            <pages>687-694</pages>
+            <year>1975</year>
+            <volume>11</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>10-12</number>
+            <url>db/journals/eik/eik11.html#Muntefering75</url>
+        </article>
+        <article key="journals/eik/BottcherN76" mdate="2003-06-30">
+            <author>Gunter Bottcher</author>
+            <author>Kurt Nawrotzki</author>
+            <title/>
+            <pages>459-470</pages>
+            <year>1976</year>
+            <volume>12</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>10</number>
+            <url>db/journals/eik/eik12.html#BottcherN76</url>
+        </article>
+        <article key="journals/eik/Fiksel84a" mdate="2003-07-07">
+            <author>Thomas Fiksel</author>
+            <title/>
+            <pages>480-487</pages>
+            <year>1984</year>
+            <volume>20</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7-9</number>
+            <url>db/journals/eik/eik20.html#Fiksel84a</url>
+        </article>
+        <article key="journals/eik/BrandstadtK86" mdate="2003-07-07">
+            <author>Andreas Brandstadt</author>
+            <author>Dieter Kratsch</author>
+            <title/>
+            <pages>263-273</pages>
+            <year>1986</year>
+            <volume>22</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>5/6</number>
+            <url>db/journals/eik/eik22.html#BrandstadtK86</url>
+        </article>
+        <article key="journals/eik/BrandstadtS77" mdate="2003-06-30">
+            <author>Andreas Brandstadt</author>
+            <author>Dietrich Saalfeld</author>
+            <title/>
+            <pages>571-583</pages>
+            <year>1977</year>
+            <volume>13</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>11</number>
+            <url>db/journals/eik/eik13.html#BrandstadtS77</url>
+        </article>
+        <article key="journals/eik/HublerK79" mdate="2003-06-30">
+            <author>Albrecht Hubler</author>
+            <author>Reinhard Klette</author>
+            <title/>
+            <pages>599-609</pages>
+            <year>1979</year>
+            <volume>15</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>12</number>
+            <url>db/journals/eik/eik15.html#HublerK79</url>
+        </article>
+        <article key="journals/eik/ReifSS94" mdate="2003-07-14">
+            <author>Wolfgang Reif</author>
+            <author>Gerhard Schellhorn</author>
+            <author>Kurt Stenzel</author>
+            <title/>
+            <pages>293-310</pages>
+            <year>1994</year>
+            <volume>30</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>5/6</number>
+            <url>db/journals/eik/eik30.html#ReifSS94</url>
+        </article>
+        <article key="journals/eik/Simanovskis94" mdate="2003-07-14">
+            <author>Raimonds Simanovskis</author>
+            <title/>
+            <pages>45-54</pages>
+            <year>1994</year>
+            <volume>30</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>1</number>
+            <url>db/journals/eik/eik30.html#Simanovskis94</url>
+        </article>
+        <article key="journals/eik/TittmannB91" mdate="2003-07-14">
+            <author>Peter Tittmann</author>
+            <author>Andrea Blechschmidt</author>
+            <title/>
+            <pages>317-326</pages>
+            <year>1991</year>
+            <volume>27</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>5/6</number>
+            <url>db/journals/eik/eik27.html#TittmannB91</url>
+        </article>
+        <article key="journals/eik/Metz65a" mdate="2003-06-16">
+            <author>Joachim Metz</author>
+            <title/>
+            <pages>233-246</pages>
+            <year>1965</year>
+            <volume>1</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>4</number>
+            <url>db/journals/eik/eik1.html#Metz65a</url>
+        </article>
+        <article key="journals/eik/Ottmann75" mdate="2003-06-30">
+            <author>Thomas Ottmann</author>
+            <title/>
+            <pages>27-38</pages>
+            <year>1975</year>
+            <volume>11</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>1/2</number>
+            <url>db/journals/eik/eik11.html#Ottmann75</url>
+        </article>
+        <article key="journals/eik/Ottmann77" mdate="2003-06-30">
+            <author>Thomas Ottmann</author>
+            <title/>
+            <pages>465-471</pages>
+            <year>1977</year>
+            <volume>13</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>9</number>
+            <url>db/journals/eik/eik13.html#Ottmann77</url>
+        </article>
+        <article key="journals/eik/BrunnerDPS93" mdate="2003-07-14">
+            <author>J. Brunner</author>
+            <author>Th. Drescher</author>
+            <author>Reinhard Poschel</author>
+            <author>H. Seidel</author>
+            <title/>
+            <pages>293-302</pages>
+            <year>1993</year>
+            <volume>29</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>5</number>
+            <url>db/journals/eik/eik29.html#BrunnerDPS93</url>
+        </article>
+        <article key="journals/eik/BergstraK82" mdate="2003-06-30">
+            <author>Jan A. Bergstra</author>
+            <author>Jan Willem Klop</author>
+            <title/>
+            <pages>403-417</pages>
+            <year>1982</year>
+            <volume>18</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7/8</number>
+            <url>db/journals/eik/eik18.html#BergstraK82</url>
+        </article>
+        <article key="journals/eik/BergstraK83" mdate="2003-06-30">
+            <author>Jan A. Bergstra</author>
+            <author>Jan Willem Klop</author>
+            <title/>
+            <pages>17-31</pages>
+            <year>1983</year>
+            <volume>19</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>1/2</number>
+            <url>db/journals/eik/eik19.html#BergstraK83</url>
+        </article>
+        <article key="journals/eik/BergstraM84" mdate="2003-07-07">
+            <author>Jan A. Bergstra</author>
+            <author>John-Jules Ch. Meyer</author>
+            <title/>
+            <pages>531-541</pages>
+            <year>1984</year>
+            <volume>20</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>10/11</number>
+            <url>db/journals/eik/eik20.html#BergstraM84</url>
+        </article>
+        <article key="journals/eik/Lorenzen78a" mdate="2003-06-30">
+            <author>Hans-Peter Lorenzen</author>
+            <title/>
+            <pages>291-295</pages>
+            <year>1978</year>
+            <volume>14</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>6</number>
+            <url>db/journals/eik/eik14.html#Lorenzen78a</url>
+        </article>
+        <article key="journals/eik/Maluszynski75" mdate="2003-06-30">
+            <author>Jan Maluszynski</author>
+            <title/>
+            <pages>290-295</pages>
+            <year>1975</year>
+            <volume>11</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>4-6</number>
+            <url>db/journals/eik/eik11.html#Maluszynski75</url>
+        </article>
+        <article key="journals/eik/Kuenle87" mdate="2003-07-07">
+            <author>Heinz-Uwe Kuenle</author>
+            <title/>
+            <pages>265-266</pages>
+            <year>1987</year>
+            <volume>23</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>6</number>
+            <url>db/journals/eik/eik23.html#Kuenle87</url>
+        </article>
+        <article key="journals/eik/HublerKV81" mdate="2003-06-30">
+            <author>Albrecht Hubler</author>
+            <author>Reinhard Klette</author>
+            <author>Klaus Voss</author>
+            <title/>
+            <pages>121-139</pages>
+            <year>1981</year>
+            <volume>17</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>2/3</number>
+            <url>db/journals/eik/eik17.html#HublerKV81</url>
+        </article>
+        <article key="journals/eik/HublerKW82" mdate="2003-06-30">
+            <author>Albrecht Hubler</author>
+            <author>Reinhard Klette</author>
+            <author>Gunter Werner</author>
+            <title/>
+            <pages>141-151</pages>
+            <year>1982</year>
+            <volume>18</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>3</number>
+            <url>db/journals/eik/eik18.html#HublerKW82</url>
+        </article>
+        <article key="journals/eik/Kammerer66" mdate="2003-06-16">
+            <author>Wilhelm Kammerer</author>
+            <title/>
+            <pages>165-175</pages>
+            <year>1966</year>
+            <volume>2</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>3</number>
+            <url>db/journals/eik/eik2.html#Kammerer66</url>
+        </article>
+        <article key="journals/eik/Kammerer72" mdate="2003-06-30">
+            <author>Wilhelm Kammerer</author>
+            <title/>
+            <pages>523-524</pages>
+            <year>1972</year>
+            <volume>8</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>8/9</number>
+            <url>db/journals/eik/eik8.html#Kammerer72</url>
+        </article>
+        <article key="journals/eik/Kammerer74" mdate="2003-06-30">
+            <author>Wilhelm Kammerer</author>
+            <title/>
+            <pages>3-16</pages>
+            <year>1974</year>
+            <volume>10</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>1</number>
+            <url>db/journals/eik/eik10.html#Kammerer74</url>
+        </article>
+        <article key="journals/eik/ArnoldN90" mdate="2003-07-07">
+            <author>Andre Arnold</author>
+            <author>Damian Niwinski</author>
+            <title/>
+            <pages>451-459</pages>
+            <year>1990</year>
+            <volume>26</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>8/9</number>
+            <url>db/journals/eik/eik26.html#ArnoldN90</url>
+        </article>
+        <article key="journals/eik/Makinen90" mdate="2003-07-07">
+            <author>Erkki Makinen</author>
+            <title/>
+            <pages>129-135</pages>
+            <year>1990</year>
+            <volume>26</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>3</number>
+            <url>db/journals/eik/eik26.html#Makinen90</url>
+        </article>
+        <article key="journals/eik/Stohr90" mdate="2003-07-07">
+            <author>Elena Stohr</author>
+            <title/>
+            <pages>525-536</pages>
+            <year>1990</year>
+            <volume>26</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>10</number>
+            <url>db/journals/eik/eik26.html#Stohr90</url>
+        </article>
+        <article key="journals/eik/BaumlerWM77" mdate="2003-06-30">
+            <author>Hans Baumler</author>
+            <author>Klaus-Dieter Wernecke</author>
+            <author>Josef Michel</author>
+            <title/>
+            <pages>561-570</pages>
+            <year>1977</year>
+            <volume>13</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>11</number>
+            <url>db/journals/eik/eik13.html#BaumlerWM77</url>
+        </article>
+        <article key="journals/eik/IonescuP94" mdate="2003-07-14">
+            <author>Cecilia Magdalena Ionescu</author>
+            <author>Octavian Procopiuc</author>
+            <title/>
+            <pages>97-110</pages>
+            <year>1994</year>
+            <volume>30</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>2</number>
+            <url>db/journals/eik/eik30.html#IonescuP94</url>
+        </article>
+        <article key="journals/eik/BudachM82a" mdate="2003-06-30">
+            <author>Lothar Budach</author>
+            <author>Christoph Meinel</author>
+            <title/>
+            <pages>115-139</pages>
+            <year>1982</year>
+            <volume>18</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>3</number>
+            <url>db/journals/eik/eik18.html#BudachM82a</url>
+        </article>
+        <article key="journals/eik/Enskonatus83" mdate="2003-06-30">
+            <author>Peter Enskonatus</author>
+            <title/>
+            <pages>387-392</pages>
+            <year>1983</year>
+            <volume>19</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7/8</number>
+            <url>db/journals/eik/eik19.html#Enskonatus83</url>
+        </article>
+        <article key="journals/eik/Olejar92" mdate="2003-07-14">
+            <author>Daniel Olejar</author>
+            <title/>
+            <pages>47-69</pages>
+            <year>1992</year>
+            <volume>28</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>2</number>
+            <url>db/journals/eik/eik28.html#Olejar92</url>
+        </article>
+        <article key="journals/eik/Sustal74" mdate="2003-06-30">
+            <author>Jiri Sustal</author>
+            <title/>
+            <pages>203-214</pages>
+            <year>1974</year>
+            <volume>10</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>4</number>
+            <url>db/journals/eik/eik10.html#Sustal74</url>
+        </article>
+        <article key="journals/eik/Sustal75" mdate="2003-06-30">
+            <author>Jiri Sustal</author>
+            <title/>
+            <pages>533-544</pages>
+            <year>1975</year>
+            <volume>11</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>9</number>
+            <url>db/journals/eik/eik11.html#Sustal75</url>
+        </article>
+        <article key="journals/eik/Sujan83" mdate="2003-06-30">
+            <author>Stefan Sujan</author>
+            <title/>
+            <pages>375-385</pages>
+            <year>1983</year>
+            <volume>19</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7/8</number>
+            <url>db/journals/eik/eik19.html#Sujan83</url>
+        </article>
+        <article key="journals/eik/Kindler76" mdate="2003-06-30">
+            <author>Evzen Kindler</author>
+            <title/>
+            <pages>497-504</pages>
+            <year>1976</year>
+            <volume>12</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>10</number>
+            <url>db/journals/eik/eik12.html#Kindler76</url>
+        </article>
+        <article key="journals/eik/Kindler78" mdate="2003-06-30">
+            <author>Evzen Kindler</author>
+            <title/>
+            <pages>519-526</pages>
+            <year>1978</year>
+            <volume>14</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>10</number>
+            <url>db/journals/eik/eik14.html#Kindler78</url>
+        </article>
+        <article key="journals/eik/Kindler79" mdate="2003-06-30">
+            <author>Evzen Kindler</author>
+            <title/>
+            <pages>513-524</pages>
+            <year>1979</year>
+            <volume>15</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>10</number>
+            <url>db/journals/eik/eik15.html#Kindler79</url>
+        </article>
+        <article key="journals/eik/RaykovW82" mdate="2003-06-30">
+            <author>Tenko Raykov</author>
+            <author>Walter Warmuth</author>
+            <title/>
+            <pages>275-277</pages>
+            <year>1982</year>
+            <volume>18</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>4/5</number>
+            <url>db/journals/eik/eik18.html#RaykovW82</url>
+        </article>
+        <article key="journals/eik/RaykovW83" mdate="2003-06-30">
+            <author>Tenko Raykov</author>
+            <author>Walter Warmuth</author>
+            <title/>
+            <pages>643-649</pages>
+            <year>1983</year>
+            <volume>19</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>12</number>
+            <url>db/journals/eik/eik19.html#RaykovW83</url>
+        </article>
+        <article key="journals/eik/Meissner76a" mdate="2003-06-30">
+            <author>Hansgeorg Meissner</author>
+            <title/>
+            <pages>525-549</pages>
+            <year>1976</year>
+            <volume>12</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>11/12</number>
+            <url>db/journals/eik/eik12.html#Meissner76a</url>
+        </article>
+        <article key="journals/eik/JankowskiSW83" mdate="2003-06-30">
+            <author>M. Jankowski</author>
+            <author>Alicja Smoktunowicz</author>
+            <author>Henryk Wozniakowski</author>
+            <title/>
+            <pages>435-440</pages>
+            <year>1983</year>
+            <volume>19</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>9</number>
+            <url>db/journals/eik/eik19.html#JankowskiSW83</url>
+        </article>
+        <article key="journals/eik/Pulkkis82" mdate="2003-06-30">
+            <author>Goran Pulkkis</author>
+            <title/>
+            <pages>41-55</pages>
+            <year>1982</year>
+            <volume>18</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>1/2</number>
+            <url>db/journals/eik/eik18.html#Pulkkis82</url>
+        </article>
+        <article key="journals/eik/Brandstadt78" mdate="2003-06-30">
+            <author>Andreas Brandstadt</author>
+            <title/>
+            <pages>331-339</pages>
+            <year>1978</year>
+            <volume>14</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7/8</number>
+            <url>db/journals/eik/eik14.html#Brandstadt78</url>
+        </article>
+        <article key="journals/eik/Brandstadt87" mdate="2003-07-07">
+            <author>Andreas Brandstadt</author>
+            <title/>
+            <pages>471-477</pages>
+            <year>1987</year>
+            <volume>23</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>8/9</number>
+            <url>db/journals/eik/eik23.html#Brandstadt87</url>
+        </article>
+        <article key="journals/eik/Hemmerling77a" mdate="2003-06-30">
+            <author>Armin Hemmerling</author>
+            <title/>
+            <pages>295-309</pages>
+            <year>1977</year>
+            <volume>13</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>6</number>
+            <url>db/journals/eik/eik13.html#Hemmerling77a</url>
+        </article>
+        <article key="journals/eik/Hemmerling77b" mdate="2003-06-30">
+            <author>Armin Hemmerling</author>
+            <title/>
+            <pages>523-528</pages>
+            <year>1977</year>
+            <volume>13</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>10</number>
+            <url>db/journals/eik/eik13.html#Hemmerling77b</url>
+        </article>
+        <article key="journals/eik/Hemmerling79a" mdate="2003-06-30">
+            <author>Armin Hemmerling</author>
+            <title/>
+            <pages>143-158</pages>
+            <year>1979</year>
+            <volume>15</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>3</number>
+            <url>db/journals/eik/eik15.html#Hemmerling79a</url>
+        </article>
+        <article key="journals/eik/Parchmann84" mdate="2003-07-07">
+            <author>Rainer Parchmann</author>
+            <title/>
+            <pages>543-556</pages>
+            <year>1984</year>
+            <volume>20</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>10/11</number>
+            <url>db/journals/eik/eik20.html#Parchmann84</url>
+        </article>
+        <article key="journals/eik/Wiedermann89" mdate="2003-07-07">
+            <author>Juraj Wiedermann</author>
+            <title/>
+            <pages>499-506</pages>
+            <year>1989</year>
+            <volume>25</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>10</number>
+            <url>db/journals/eik/eik25.html#Wiedermann89</url>
+        </article>
+        <article key="journals/eik/Vu-Dinh-Hoa94" mdate="2003-07-14">
+            <author>Vu-Dinh-Hoa</author>
+            <title/>
+            <pages>55-60</pages>
+            <year>1994</year>
+            <volume>30</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>1</number>
+            <url>db/journals/eik/eik30.html#Vu-Dinh-Hoa94</url>
+        </article>
+        <article key="journals/eik/HerrlichDK85" mdate="2003-07-07">
+            <author>Ottomar Herrlich</author>
+            <author>Rolf Detering</author>
+            <author>Mieczyslaw A. Klopotek</author>
+            <title/>
+            <pages>441-451</pages>
+            <year>1985</year>
+            <volume>21</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>9</number>
+            <url>db/journals/eik/eik21.html#HerrlichDK85</url>
+        </article>
+        <article key="journals/eik/Hemmerling76" mdate="2003-06-30">
+            <author>Armin Hemmerling</author>
+            <title/>
+            <pages>379-402</pages>
+            <year>1976</year>
+            <volume>12</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>8/9</number>
+            <url>db/journals/eik/eik12.html#Hemmerling76</url>
+        </article>
+        <article key="journals/eik/Hemmerling77" mdate="2003-06-30">
+            <author>Armin Hemmerling</author>
+            <title/>
+            <pages>217-230</pages>
+            <year>1977</year>
+            <volume>13</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>4/5</number>
+            <url>db/journals/eik/eik13.html#Hemmerling77</url>
+        </article>
+        <article key="journals/eik/Hemmerling78" mdate="2003-06-30">
+            <author>Armin Hemmerling</author>
+            <title/>
+            <pages>145-152</pages>
+            <year>1978</year>
+            <volume>14</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>3</number>
+            <url>db/journals/eik/eik14.html#Hemmerling78</url>
+        </article>
+        <article key="journals/eik/Hemmerling79" mdate="2003-06-30">
+            <author>Armin Hemmerling</author>
+            <title/>
+            <pages>47-72</pages>
+            <year>1979</year>
+            <volume>15</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>1/2</number>
+            <url>db/journals/eik/eik15.html#Hemmerling79</url>
+        </article>
+        <article key="journals/eik/Hemmerling82" mdate="2003-06-30">
+            <author>Armin Hemmerling</author>
+            <title/>
+            <pages>423-434</pages>
+            <year>1982</year>
+            <volume>18</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7/8</number>
+            <url>db/journals/eik/eik18.html#Hemmerling82</url>
+        </article>
+        <article key="journals/eik/Hemmerling83" mdate="2003-06-30">
+            <author>Armin Hemmerling</author>
+            <title/>
+            <pages>85-94</pages>
+            <year>1983</year>
+            <volume>19</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>1/2</number>
+            <url>db/journals/eik/eik19.html#Hemmerling83</url>
+        </article>
+        <article key="journals/eik/Hemmerling87" mdate="2003-07-07">
+            <author>Armin Hemmerling</author>
+            <title/>
+            <pages>453-470</pages>
+            <year>1987</year>
+            <volume>23</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>8/9</number>
+            <url>db/journals/eik/eik23.html#Hemmerling87</url>
+        </article>
+        <article key="journals/eik/Hemmerling94" mdate="2003-07-14">
+            <author>Armin Hemmerling</author>
+            <title/>
+            <pages>77-96</pages>
+            <year>1994</year>
+            <volume>30</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>2</number>
+            <url>db/journals/eik/eik30.html#Hemmerling94</url>
+        </article>
+        <article key="journals/eik/Kochel80" mdate="2003-06-30">
+            <author>Peter Kochel</author>
+            <title/>
+            <pages>553-567</pages>
+            <year>1980</year>
+            <volume>16</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>10-12</number>
+            <url>db/journals/eik/eik16.html#Kochel80</url>
+        </article>
+        <article key="journals/eik/Kochel84" mdate="2003-07-07">
+            <author>Peter Kochel</author>
+            <title/>
+            <pages>448-461</pages>
+            <year>1984</year>
+            <volume>20</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7-9</number>
+            <url>db/journals/eik/eik20.html#Kochel84</url>
+        </article>
+        <article key="journals/eik/Kochel87" mdate="2003-07-07">
+            <author>Peter Kochel</author>
+            <title/>
+            <pages>267-268</pages>
+            <year>1987</year>
+            <volume>23</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>6</number>
+            <url>db/journals/eik/eik23.html#Kochel87</url>
+        </article>
+        <article key="journals/eik/LofflerK80" mdate="2003-06-30">
+            <author>Helmut Loffler</author>
+            <author>V. Kalchev</author>
+            <title/>
+            <pages>577-584</pages>
+            <year>1980</year>
+            <volume>16</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>10-12</number>
+            <url>db/journals/eik/eik16.html#LofflerK80</url>
+        </article>
+        <article key="journals/eik/Zunic90" mdate="2003-07-07">
+            <author>Jovisa D. Zunic</author>
+            <title/>
+            <pages>137-148</pages>
+            <year>1990</year>
+            <volume>26</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>3</number>
+            <url>db/journals/eik/eik26.html#Zunic90</url>
+        </article>
+        <article key="journals/eik/Zunic91" mdate="2003-07-14">
+            <author>Jovisa D. Zunic</author>
+            <title/>
+            <pages>75-83</pages>
+            <year>1991</year>
+            <volume>27</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>2</number>
+            <url>db/journals/eik/eik27.html#Zunic91</url>
+        </article>
+        <article key="journals/eik/ReschkeLD88" mdate="2003-07-07">
+            <author>Marlies Reschke</author>
+            <author>Otfried Luders</author>
+            <author>Klaus Denecke</author>
+            <title/>
+            <pages>65-78</pages>
+            <year>1988</year>
+            <volume>24</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>1/2</number>
+            <url>db/journals/eik/eik24.html#ReschkeLD88</url>
+        </article>
+        <article key="journals/eik/Knodel83" mdate="2003-06-30">
+            <author>Walter Knodel</author>
+            <title/>
+            <pages>427-433</pages>
+            <year>1983</year>
+            <volume>19</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>9</number>
+            <url>db/journals/eik/eik19.html#Knodel83</url>
+        </article>
+        <article key="journals/eik/Rowicki69" mdate="2003-06-16">
+            <author>Andrzej Rowicki</author>
+            <title/>
+            <pages>147-151</pages>
+            <year>1969</year>
+            <volume>5</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>3</number>
+            <url>db/journals/eik/eik5.html#Rowicki69</url>
+        </article>
+        <article key="journals/eik/Landskron94" mdate="2003-07-14">
+            <author>Katja Landskron</author>
+            <title/>
+            <pages>19-27</pages>
+            <year>1994</year>
+            <volume>30</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>1</number>
+            <url>db/journals/eik/eik30.html#Landskron94</url>
+        </article>
+        <article key="journals/eik/AroldBS72" mdate="2003-06-30">
+            <author>Dorothee Arold</author>
+            <author>Lutz Bernhardt</author>
+            <author>Ludwig Staiger</author>
+            <title/>
+            <pages>99-114</pages>
+            <year>1972</year>
+            <volume>8</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>2/3</number>
+            <url>db/journals/eik/eik8.html#AroldBS72</url>
+        </article>
+        <article key="journals/eik/Kochel87a" mdate="2003-07-07">
+            <author>Peter Kochel</author>
+            <title/>
+            <pages>268-269</pages>
+            <year>1987</year>
+            <volume>23</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>6</number>
+            <url>db/journals/eik/eik23.html#Kochel87a</url>
+        </article>
+        <article key="journals/eik/Dassow74" mdate="2003-06-30">
+            <author>Jurgen Dassow</author>
+            <title/>
+            <pages>287-295</pages>
+            <year>1974</year>
+            <volume>10</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>5/6</number>
+            <url>db/journals/eik/eik10.html#Dassow74</url>
+        </article>
+        <article key="journals/eik/Dassow75" mdate="2003-06-30">
+            <author>Jurgen Dassow</author>
+            <title/>
+            <pages>557-560</pages>
+            <year>1975</year>
+            <volume>11</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>9</number>
+            <url>db/journals/eik/eik11.html#Dassow75</url>
+        </article>
+        <article key="journals/eik/Dassow76" mdate="2003-06-30">
+            <author>Jurgen Dassow</author>
+            <title/>
+            <pages>515-521</pages>
+            <year>1976</year>
+            <volume>12</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>11/12</number>
+            <url>db/journals/eik/eik12.html#Dassow76</url>
+        </article>
+        <article key="journals/eik/Dassow79" mdate="2003-06-30">
+            <author>Jurgen Dassow</author>
+            <title/>
+            <pages>87-94</pages>
+            <year>1979</year>
+            <volume>15</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>1/2</number>
+            <url>db/journals/eik/eik15.html#Dassow79</url>
+        </article>
+     
+     
+        <article key="journals/eik/BaegerDM76" mdate="2003-06-30">
+            <author>Ingo Baeger</author>
+            <author>Peter Doring</author>
+            <author>Roswitha Marz</author>
+            <title/>
+            <pages>133-146</pages>
+            <year>1976</year>
+            <volume>12</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>3</number>
+            <url>db/journals/eik/eik12.html#BaegerDM76</url>
+        </article>
+        <article key="journals/eik/Koegst74" mdate="2003-06-30">
+            <author>Manfred Koegst</author>
+            <title/>
+            <pages>431-443</pages>
+            <year>1974</year>
+            <volume>10</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>7</number>
+            <url>db/journals/eik/eik10.html#Koegst74</url>
+        </article>
+        <article key="journals/eik/Ejsmont84" mdate="2003-07-07">
+            <author>Marek Ejsmont</author>
+            <title/>
+            <pages>623-632</pages>
+            <year>1984</year>
+            <volume>20</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>12</number>
+            <url>db/journals/eik/eik20.html#Ejsmont84</url>
+        </article>
+        <article key="journals/eik/Hexel88a" mdate="2003-07-07">
+            <author>Erhard Hexel</author>
+            <title/>
+            <pages>553-560</pages>
+            <year>1988</year>
+            <volume>24</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>11/12</number>
+            <url>db/journals/eik/eik24.html#Hexel88a</url>
+        </article>
+        <article key="journals/eik/Sydow77" mdate="2003-06-30">
+            <author>Achim Sydow</author>
+            <title/>
+            <pages>535-547</pages>
+            <year>1977</year>
+            <volume>13</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>10</number>
+            <url>db/journals/eik/eik13.html#Sydow77</url>
+        </article>
+        <article key="journals/eik/Eichner73" mdate="2003-06-30">
+            <author>Lutz Eichner</author>
+            <title/>
+            <pages>587-613</pages>
+            <year>1973</year>
+            <volume>9</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>10</number>
+            <url>db/journals/eik/eik9.html#Eichner73</url>
+        </article>
+        <article key="journals/eik/Eichner80" mdate="2003-06-30">
+            <author>Lutz Eichner</author>
+            <title/>
+            <pages>237-243</pages>
+            <year>1980</year>
+            <volume>16</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>5/6</number>
+            <url>db/journals/eik/eik16.html#Eichner80</url>
+        </article>
+        <article key="journals/eik/KahleT87" mdate="2003-07-07">
+            <author>Waltraud Kahle</author>
+            <author>Jurgen Tiedge</author>
+            <title/>
+            <pages>269</pages>
+            <year>1987</year>
+            <volume>23</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>6</number>
+            <url>db/journals/eik/eik23.html#KahleT87</url>
+        </article>
+        <article key="journals/eik/Szabo83" mdate="2003-06-30">
+            <author>Laszlo Szabo</author>
+            <title/>
+            <pages>603-610</pages>
+            <year>1983</year>
+            <volume>19</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>12</number>
+            <url>db/journals/eik/eik19.html#Szabo83</url>
+        </article>
+        <article key="journals/eik/Bordihn92" mdate="2003-07-14">
+            <author>Henning Bordihn</author>
+            <title/>
+            <pages>231-240</pages>
+            <year>1992</year>
+            <volume>28</volume>
+            <journal>Elektronische Informationsverarbeitung und Kybernetik</journal>
+            <number>5</number>
+            <url>db/journals/eik/eik28.html#Bordihn92</url>
+        </article>
+    </articles>
+    <books>
+        <book mdate="2002-01-03" key="books/bc/MaierW88">
+            <author>David Maier</author>
+            <author>David Scott Warren</author>
+            <title>Computing with Logic: Logic Programming with Prolog</title>
+            <publisher>Benjamin/Cummings</publisher>
+            <year>1988</year>
+            <isbn>0-8053-6681-4</isbn>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/bc/Booch90">
+            <author>Grady Booch</author>
+            <title>Object-Oriented Design with Applications</title>
+            <publisher>Benjamin/Cummings</publisher>
+            <year>1990</year>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/bc/BatiniCN92">
+            <author>Carlo Batini</author>
+            <author>Stefano Ceri</author>
+            <author>Shamkant B. Navathe</author>
+            <title>Conceptual Database Design: An Entity-Relationship Approach.</title>
+            <publisher>Benjamin/Cummings</publisher>
+            <year>1992</year>
+            <isbn>0-8053-0244-1</isbn>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/bc/TanselCGJSS93">
+            <author>Abdullah Uz Tansel</author>
+            <author>James Clifford</author>
+            <author>Shashi K. Gadia</author>
+            <author>Sushil Jajodia</author>
+            <author>Arie Segev</author>
+            <author>Richard T. Snodgrass</author>
+            <title>Temporal Databases: Theory, Design, and Implementation</title>
+            <publisher>Benjamin/Cummings</publisher>
+            <year>1993</year>
+            <isbn>0-8053-2413-5</isbn>
+            <url>db/books/collections/tansel93.html</url>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/eh/AbramskyH87">
+            <author>Samson Abramsky</author>
+            <author>Chris Hankin</author>
+            <title>Abstract Interpretation of Declarative Languages</title>
+            <publisher>Ellis Horwood</publisher>
+            <year>1987</year>
+            <isbn>0-7458-0109-9</isbn>
+        </book>
+        
+        
+        <book mdate="2004-01-13" key="books/eh/PembertonD1982">
+            <author>Steven Pemberton</author>
+            <author>Martin Daniels</author>
+            <title>Pascal Implementation: The P4 Compiler and Interpreter</title>
+            <publisher>Ellis Horwood</publisher>
+            <year>1982</year>
+            <isbn>0-13-653-0311</isbn>
+            <url>http://homepages.cwi.nl/~steven/pascal/</url>
+        </book>
+        
+        
+        <book mdate="2002-01-03" key="books/el/Alba85">
+            <author>Antonio Albano</author>
+            <author>Valeria De Antonellis</author>
+            <author>Antonio Di Leva</author>
+            <title>Computer-Aided Database Design: the DATAID approach.</title>
+            <publisher>North-Holland</publisher>
+            <year>1985</year>
+            <isbn>0-444-87735-5</isbn>
+            <url>db/books/collections/dataid85.html</url>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/el/Ceri83">
+            <author>Stefano Ceri</author>
+            <title>Methodology and Tools for Data Base Design.</title>
+            <publisher>North-Holland</publisher>
+            <year>1983</year>
+            <url>db/books/collections/Ceri83.html</url>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/el/RobinsonV01">
+            <author>John Alan Robinson</author> 
+            <author>Andrei Voronkov</author> 
+            <title>Handbook of Automated Reasoning (in 2 volumes)</title>
+            <publisher>Elsevier and MIT Press</publisher>
+            <year>2001</year>
+            <isbn>0-444-50813-9</isbn>
+            <url>db/books/collections/RobinsonV01.html</url>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/el/YoungC74">
+            <author>Tzay Y. Young</author>
+            <author>Thomas W. Calvert</author>
+            <title>Classification, Estimation and Pattern Recognition.</title>
+            <publisher>Elsevier</publisher>
+            <year>1974</year>
+        </book>
+        
+
+        <book mdate="2003-07-16" key="books/bj/JacksonM02">
+            <author>Peter Jackson</author>
+            <author>Isabelle Moulinier</author>
+            <title>Natural Language Processing for Online Applications: Text Retrieval, Extraction e Categorization</title>
+            <publisher>John Benjamins</publisher>
+            <year>2002</year>
+            <isbn>90-272-4989-X</isbn>
+            <url>http://members.aol.com/JacksonPE/music1/nlp4olap.htm</url>
+        </book>
+ 
+        <book mdate="2002-01-03" key="books/kl/GuidaLZ99">
+            <author>Giovanni Guida</author>
+            <author>Gianfranco Lamperti</author>
+            <author>Marina Zanella</author>
+            <title>Software Prototyping in Data and Knowledge Engineering</title>
+            <publisher>Kluwer</publisher>
+            <year>1999</year>
+            <isbn>0-7923-6016-8</isbn>
+        </book>
+        <book mdate="2002-01-03" key="books/bc/MaierW88">
+            <author>David Maier</author>
+            <author>David Scott Warren</author>
+            <title>Computing with Logic: Logic Programming with Prolog</title>
+            <publisher>Benjamin/Cummings</publisher>
+            <year>1988</year>
+            <isbn>0-8053-6681-4</isbn>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/bc/Booch90">
+            <author>Grady Booch</author>
+            <title>Object-Oriented Design with Applications</title>
+            <publisher>Benjamin/Cummings</publisher>
+            <year>1990</year>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/bc/BatiniCN92">
+            <author>Carlo Batini</author>
+            <author>Stefano Ceri</author>
+            <author>Shamkant B. Navathe</author>
+            <title>Conceptual Database Design: An Entity-Relationship Approach.</title>
+            <publisher>Benjamin/Cummings</publisher>
+            <year>1992</year>
+            <isbn>0-8053-0244-1</isbn>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/bc/TanselCGJSS93">
+            <author>Abdullah Uz Tansel</author>
+            <author>James Clifford</author>
+            <author>Shashi K. Gadia</author>
+            <author>Sushil Jajodia</author>
+            <author>Arie Segev</author>
+            <author>Richard T. Snodgrass</author>
+            <title>Temporal Databases: Theory, Design, and Implementation</title>
+            <publisher>Benjamin/Cummings</publisher>
+            <year>1993</year>
+            <isbn>0-8053-2413-5</isbn>
+            <url>db/books/collections/tansel93.html</url>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/eh/AbramskyH87">
+            <author>Samson Abramsky</author>
+            <author>Chris Hankin</author>
+            <title>Abstract Interpretation of Declarative Languages</title>
+            <publisher>Ellis Horwood</publisher>
+            <year>1987</year>
+            <isbn>0-7458-0109-9</isbn>
+        </book>
+        
+        
+        <book mdate="2004-01-13" key="books/eh/PembertonD1982">
+            <author>Steven Pemberton</author>
+            <author>Martin Daniels</author>
+            <title>Pascal Implementation: The P4 Compiler and Interpreter</title>
+            <publisher>Ellis Horwood</publisher>
+            <year>1982</year>
+            <isbn>0-13-653-0311</isbn>
+            <url>http://homepages.cwi.nl/~steven/pascal/</url>
+        </book>
+        
+        
+        <book mdate="2002-01-03" key="books/el/Alba85">
+            <author>Antonio Albano</author>
+            <author>Valeria De Antonellis</author>
+            <author>Antonio Di Leva</author>
+            <title>Computer-Aided Database Design: the DATAID approach.</title>
+            <publisher>North-Holland</publisher>
+            <year>1985</year>
+            <isbn>0-444-87735-5</isbn>
+            <url>db/books/collections/dataid85.html</url>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/el/Ceri83">
+            <author>Stefano Ceri</author>
+            <title>Methodology and Tools for Data Base Design.</title>
+            <publisher>North-Holland</publisher>
+            <year>1983</year>
+            <url>db/books/collections/Ceri83.html</url>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/el/RobinsonV01">
+            <author>John Alan Robinson</author> 
+            <author>Andrei Voronkov</author> 
+            <title>Handbook of Automated Reasoning (in 2 volumes)</title>
+            <publisher>Elsevier and MIT Press</publisher>
+            <year>2001</year>
+            <isbn>0-444-50813-9</isbn>
+            <url>db/books/collections/RobinsonV01.html</url>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/el/YoungC74">
+            <author>Tzay Y. Young</author>
+            <author>Thomas W. Calvert</author>
+            <title>Classification, Estimation and Pattern Recognition.</title>
+            <publisher>Elsevier</publisher>
+            <year>1974</year>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/el/Leeuwen90a">
+            <author>Jan van Leeuwen</author> 
+            <title>Handbook of Theoretical Computer Science, Volume B: Formal Models and Sematics</title>
+            <publisher>Elsevier and MIT Press</publisher>
+            <year>1990</year>
+            <isbn>0-444-88074-7</isbn>
+            <url>db/books/collections/leeuwen90a.html</url>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/el/Leeuwen90">
+            <author>Jan van Leeuwen</author> 
+            <title>Handbook of Theoretical Computer Science, Volume A: Algorithms and Complexity</title>
+            <publisher>Elsevier and MIT Press</publisher>
+            <year>1990</year>
+            <isbn>0-444-88071-2</isbn>
+            <url>db/books/collections/leeuwen90.html</url>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/fm/Mandelbrot77">
+            <author>Benoit Mandelbrot</author>
+            <title>Fractal Geometry of Nature.</title>
+            <publisher>W. H. Freeman</publisher>
+            <year>1977</year>
+        </book>
+
+        <book mdate="2003-06-02" key="books/fm/GareyJ79">
+            <author>M. R. Garey</author>
+            <author>David S. Johnson</author>
+            <title>Computer and Intractability: A Guide to the Theory of NP-Completeness.</title>
+            <publisher>W. H. Freeman</publisher>
+            <year>1979</year>
+            <isbn>0-7167-1044-7</isbn>
+        </book>
+
+        <book mdate="2002-01-03" key="books/fm/Schroeder91">
+            <author>Manfred Schroeder</author>
+            <title>Fractals, Chaos, Power Laws: Minutes From an Infinite Paradise.</title>
+            <publisher>W. H. Freeman</publisher>
+            <year>1991</year>
+        </book>
+
+        <book mdate="2002-01-03" key="books/ft/FotheringhamR94">
+            <author>A. Stewart Fotheringham</author>
+            <author>Peter Rogerson</author>
+            <title>Spatial Analysis and GIS.</title>
+            <publisher>Taylor e Francis</publisher>
+            <year>1994</year>
+            <isbn>0-7484-0103-2</isbn>
+        </book>
+  
+        <book mdate="2003-07-16" key="books/bj/JacksonM02">
+            <author>Peter Jackson</author>
+            <author>Isabelle Moulinier</author>
+            <title>Natural Language Processing for Online Applications: Text Retrieval, Extraction e Categorization</title>
+            <publisher>John Benjamins</publisher>
+            <year>2002</year>
+            <isbn>90-272-4989-X</isbn>
+            <url>http://members.aol.com/JacksonPE/music1/nlp4olap.htm</url>
+        </book>
+ 
+        <book mdate="2002-01-03" key="books/kl/GuidaLZ99">
+            <author>Giovanni Guida</author>
+            <author>Gianfranco Lamperti</author>
+            <author>Marina Zanella</author>
+            <title>Software Prototyping in Data and Knowledge Engineering</title>
+            <publisher>Kluwer</publisher>
+            <year>1999</year>
+            <isbn>0-7923-6016-8</isbn>
+        </book>
+        <book mdate="2002-01-03" key="books/bc/MaierW88">
+            <author>David Maier</author>
+            <author>David Scott Warren</author>
+            <title>Computing with Logic: Logic Programming with Prolog</title>
+            <publisher>Benjamin/Cummings</publisher>
+            <year>1988</year>
+            <isbn>0-8053-6681-4</isbn>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/bc/Booch90">
+            <author>Grady Booch</author>
+            <title>Object-Oriented Design with Applications</title>
+            <publisher>Benjamin/Cummings</publisher>
+            <year>1990</year>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/bc/BatiniCN92">
+            <author>Carlo Batini</author>
+            <author>Stefano Ceri</author>
+            <author>Shamkant B. Navathe</author>
+            <title>Conceptual Database Design: An Entity-Relationship Approach.</title>
+            <publisher>Benjamin/Cummings</publisher>
+            <year>1992</year>
+            <isbn>0-8053-0244-1</isbn>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/bc/TanselCGJSS93">
+            <author>Abdullah Uz Tansel</author>
+            <author>James Clifford</author>
+            <author>Shashi K. Gadia</author>
+            <author>Sushil Jajodia</author>
+            <author>Arie Segev</author>
+            <author>Richard T. Snodgrass</author>
+            <title>Temporal Databases: Theory, Design, and Implementation</title>
+            <publisher>Benjamin/Cummings</publisher>
+            <year>1993</year>
+            <isbn>0-8053-2413-5</isbn>
+            <url>db/books/collections/tansel93.html</url>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/eh/AbramskyH87">
+            <author>Samson Abramsky</author>
+            <author>Chris Hankin</author>
+            <title>Abstract Interpretation of Declarative Languages</title>
+            <publisher>Ellis Horwood</publisher>
+            <year>1987</year>
+            <isbn>0-7458-0109-9</isbn>
+        </book>
+        
+        
+        <book mdate="2004-01-13" key="books/eh/PembertonD1982">
+            <author>Steven Pemberton</author>
+            <author>Martin Daniels</author>
+            <title>Pascal Implementation: The P4 Compiler and Interpreter</title>
+            <publisher>Ellis Horwood</publisher>
+            <year>1982</year>
+            <isbn>0-13-653-0311</isbn>
+            <url>http://homepages.cwi.nl/~steven/pascal/</url>
+        </book>
+        
+        
+        <book mdate="2002-01-03" key="books/el/Alba85">
+            <author>Antonio Albano</author>
+            <author>Valeria De Antonellis</author>
+            <author>Antonio Di Leva</author>
+            <title>Computer-Aided Database Design: the DATAID approach.</title>
+            <publisher>North-Holland</publisher>
+            <year>1985</year>
+            <isbn>0-444-87735-5</isbn>
+            <url>db/books/collections/dataid85.html</url>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/el/Ceri83">
+            <author>Stefano Ceri</author>
+            <title>Methodology and Tools for Data Base Design.</title>
+            <publisher>North-Holland</publisher>
+            <year>1983</year>
+            <url>db/books/collections/Ceri83.html</url>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/el/RobinsonV01">
+            <author>John Alan Robinson</author> 
+            <author>Andrei Voronkov</author> 
+            <title>Handbook of Automated Reasoning (in 2 volumes)</title>
+            <publisher>Elsevier and MIT Press</publisher>
+            <year>2001</year>
+            <isbn>0-444-50813-9</isbn>
+            <url>db/books/collections/RobinsonV01.html</url>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/el/YoungC74">
+            <author>Tzay Y. Young</author>
+            <author>Thomas W. Calvert</author>
+            <title>Classification, Estimation and Pattern Recognition.</title>
+            <publisher>Elsevier</publisher>
+            <year>1974</year>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/el/Leeuwen90a">
+            <author>Jan van Leeuwen</author> 
+            <title>Handbook of Theoretical Computer Science, Volume B: Formal Models and Sematics</title>
+            <publisher>Elsevier and MIT Press</publisher>
+            <year>1990</year>
+            <isbn>0-444-88074-7</isbn>
+            <url>db/books/collections/leeuwen90a.html</url>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/el/Leeuwen90">
+            <author>Jan van Leeuwen</author> 
+            <title>Handbook of Theoretical Computer Science, Volume A: Algorithms and Complexity</title>
+            <publisher>Elsevier and MIT Press</publisher>
+            <year>1990</year>
+            <isbn>0-444-88071-2</isbn>
+            <url>db/books/collections/leeuwen90.html</url>
+        </book>
+        
+        <book mdate="2002-01-03" key="books/fm/Mandelbrot77">
+            <author>Benoit Mandelbrot</author>
+            <title>Fractal Geometry of Nature.</title>
+            <publisher>W. H. Freeman</publisher>
+            <year>1977</year>
+        </book>
+
+        <book mdate="2003-06-02" key="books/fm/GareyJ79">
+            <author>M. R. Garey</author>
+            <author>David S. Johnson</author>
+            <title>Computer and Intractability: A Guide to the Theory of NP-Completeness.</title>
+            <publisher>W. H. Freeman</publisher>
+            <year>1979</year>
+            <isbn>0-7167-1044-7</isbn>
+        </book>
+
+        <book mdate="2002-01-03" key="books/fm/Schroeder91">
+            <author>Manfred Schroeder</author>
+            <title>Fractals, Chaos, Power Laws: Minutes From an Infinite Paradise.</title>
+            <publisher>W. H. Freeman</publisher>
+            <year>1991</year>
+        </book>
+
+        <book mdate="2002-01-03" key="books/ft/FotheringhamR94">
+            <author>A. Stewart Fotheringham</author>
+            <author>Peter Rogerson</author>
+            <title>Spatial Analysis and GIS.</title>
+            <publisher>Taylor e Francis</publisher>
+            <year>1994</year>
+            <isbn>0-7484-0103-2</isbn>
+        </book>
+  
+        <book mdate="2003-07-16" key="books/bj/JacksonM02">
+            <author>Peter Jackson</author>
+            <author>Isabelle Moulinier</author>
+            <title>Natural Language Processing for Online Applications: Text Retrieval, Extraction e Categorization</title>
+            <publisher>John Benjamins</publisher>
+            <year>2002</year>
+            <isbn>90-272-4989-X</isbn>
+            <url>http://members.aol.com/JacksonPE/music1/nlp4olap.htm</url>
+        </book>
+ 
+        <book mdate="2002-01-03" key="books/kl/GuidaLZ99">
+            <author>Giovanni Guida</author>
+            <author>Gianfranco Lamperti</author>
+            <author>Marina Zanella</author>
+            <title>Software Prototyping in Data and Knowledge Engineering</title>
+            <publisher>Kluwer</publisher>
+            <year>1999</year>
+            <isbn>0-7923-6016-8</isbn>
+        </book>
+    </books>
+    <proceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/ZhaoBC03">
+            <author>J. Leon Zhao</author>
+            <author>Henry H. Bi</author>
+            <author>Hsinchun Chen</author>
+            <title>Collaborative Workflow Management for Interagency Crime Analysis.</title>
+            <pages>266-280</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650266.htm</ee>
+            <url>db/conf/isi/isi2003.html#ZhaoBC03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/DolotovS03">
+            <author>Alexander Dolotov</author>
+            <author>Mary Strickler</author>
+            <title>Web-Based Intelligence Reports System.</title>
+            <pages>3990-5800</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650039.htm</ee>
+            <url>db/conf/isi/isi2003.html#DolotovS03</url>
+        </inproceedings>
+   
+   
+        <inproceedings mdate="2002-02-05" key="conf/ita/ChanH93">
+            <author>Francois Chan</author>
+            <author>David Haccoun</author>
+            <title>Variable-rate punctured trellis-coded modulation and applications.</title>
+            <pages>253-269</pages>
+            <year>1993</year>
+            <crossref>conf/ita/1993</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1993.html#ChanH93</url>
+        </inproceedings>
+        <inproceedings mdate="2002-02-05" key="conf/ita/Sablatash93">
+            <author>Mike Sablatash</author>
+            <title>Error-control coding, modulation and equalization for all-digital advanced television: state of the art and future possibilities.</title>
+            <pages>45-66</pages>
+            <year>1993</year>
+            <crossref>conf/ita/1993</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1993.html#Sablatash93</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/ZhaoBC03">
+            <author>J. Leon Zhao</author>
+            <author>Henry H. Bi</author>
+            <author>Hsinchun Chen</author>
+            <title>Collaborative Workflow Management for Interagency Crime Analysis.</title>
+            <pages>266-280</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650266.htm</ee>
+            <url>db/conf/isi/isi2003.html#ZhaoBC03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/DolotovS03">
+            <author>Alexander Dolotov</author>
+            <author>Mary Strickler</author>
+            <title>Web-Based Intelligence Reports System.</title>
+            <pages>39-58</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650039.htm</ee>
+            <url>db/conf/isi/isi2003.html#DolotovS03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/ZhengQHC03">
+            <author>Rong Zheng</author>
+            <author>Yi Qin</author>
+            <author>Zan Huang</author>
+            <author>Hsinchun Chen</author>
+            <title>Authorship Analysis in Cybercrime Investigation.</title>
+            <pages>59-73</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650059.htm</ee>
+            <url>db/conf/isi/isi2003.html#ZhengQHC03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/WangLSD03">
+            <author>Jau-Hwang Wang</author>
+            <author>Bill T. Lin</author>
+            <author>Ching-Chin Shieh</author>
+            <author>Peter S. Deng</author>
+            <title>Criminal Record Matching Based on the Vector Space Model.</title>
+            <pages>386</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650386.htm</ee>
+            <url>db/conf/isi/isi2003.html#WangLSD03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/PatmanT03">
+            <author>Frankie Patman</author>
+            <author>Paul Thompson</author>
+            <title>Names: A New Frontier in Text Mining.</title>
+            <pages>27-38</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650027.htm</ee>
+            <url>db/conf/isi/isi2003.html#PatmanT03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/Chawathe03">
+            <author>Sudarshan S. Chawathe</author>
+            <title>Tracking Hidden Groups Using Communications.</title>
+            <pages>195-208</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650195.htm</ee>
+            <url>db/conf/isi/isi2003.html#Chawathe03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/BerndtHS03">
+            <author>Donald J. Berndt</author>
+            <author>Alan R. Hevner</author>
+            <author>James Studnicki</author>
+            <title>Bioterrorism Surveillance with Real-Time Data Warehousing.</title>
+            <pages>322-335</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650322.htm</ee>
+            <url>db/conf/isi/isi2003.html#BerndtHS03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/HammerOS03">
+            <author>Joachim Hammer</author>
+            <author>William O'Brien</author>
+            <author>Mark S. Schmalz</author>
+            <title>Scalable Knowledge Extraction from Legacy Sources with SEEK.</title>
+            <pages>346-349</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650346.htm</ee>
+            <url>db/conf/isi/isi2003.html#HammerOS03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/StolfoHWNH03">
+            <author>Salvatore J. Stolfo</author>
+            <author>Shlomo Hershkop</author>
+            <author>Ke Wang</author>
+            <author>Olivier Nimeskern</author>
+            <author>Chia-Wei Hu</author>
+            <title>Behavior Profiling of Email.</title>
+            <pages>74-90</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650074.htm</ee>
+            <url>db/conf/isi/isi2003.html#StolfoHWNH03</url>
+        </inproceedings>
+        <inproceedings mdate="2002-02-05" key="conf/ita/KamounA93">
+            <author>Faouzi Kamoun</author>
+            <author>Mustafa K. Mehmet Ali</author>
+            <title>Statistical analysis of the traffic generated by the superposition of N independent interrupted Poisson processes.</title>
+            <pages>325-342</pages>
+            <year>1993</year>
+            <crossref>conf/ita/1993</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1993.html#KamounA93</url>
+        </inproceedings>
+        <inproceedings mdate="2002-02-05" key="conf/ita/PolemiS93">
+            <author>Despina Polemi</author>
+            <author>Takis Sakkalis</author>
+            <title>Singular algebraic curves over finite fields.</title>
+            <pages>24-37</pages>
+            <year>1993</year>
+            <crossref>conf/ita/1993</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1993.html#PolemiS93</url>
+        </inproceedings>
+        <inproceedings mdate="2002-01-03" key="conf/ita/AakvaagLD95">
+            <author>N. D. Aakvaag</author>
+            <author>Bernard Lacaze</author>
+            <author>A. Duverdier</author>
+            <title>On the Use of Periodic Timebase Companding in the Scrambling of Stationary Processes.</title>
+            <pages>53-63</pages>
+            <year>1995</year>
+            <crossref>conf/ita/1995</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1995.html#AakvaagLD95</url>
+        </inproceedings>
+        <inproceedings mdate="2002-02-05" key="conf/ita/MarkmanA93">
+            <author>Ivonete Markman</author>
+            <author>John B. Anderson</author>
+            <title>Sequential decoding on intersymbol interference channels under the Pe-criterion.</title>
+            <pages>203-222</pages>
+            <year>1993</year>
+            <crossref>conf/ita/1993</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1993.html#MarkmanA93</url>
+        </inproceedings>
+
+        <inproceedings mdate="2003-06-03" key="conf/isi/ZhaoBC03">
+            <author>J. Leon Zhao</author>
+            <author>Henry H. Bi</author>
+            <author>Hsinchun Chen</author>
+            <title>Collaborative Workflow Management for Interagency Crime Analysis.</title>
+            <pages>266-280</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650266.htm</ee>
+            <url>db/conf/isi/isi2003.html#ZhaoBC03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/DolotovS03">
+            <author>Alexander Dolotov</author>
+            <author>Mary Strickler</author>
+            <title>Web-Based Intelligence Reports System.</title>
+            <pages>39-58</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650039.htm</ee>
+            <url>db/conf/isi/isi2003.html#DolotovS03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/ZhengQHC03">
+            <author>Rong Zheng</author>
+            <author>Yi Qin</author>
+            <author>Zan Huang</author>
+            <author>Hsinchun Chen</author>
+            <title>Authorship Analysis in Cybercrime Investigation.</title>
+            <pages>59-73</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650059.htm</ee>
+            <url>db/conf/isi/isi2003.html#ZhengQHC03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/WangLSD03">
+            <author>Jau-Hwang Wang</author>
+            <author>Bill T. Lin</author>
+            <author>Ching-Chin Shieh</author>
+            <author>Peter S. Deng</author>
+            <title>Criminal Record Matching Based on the Vector Space Model.</title>
+            <pages>386</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650386.htm</ee>
+            <url>db/conf/isi/isi2003.html#WangLSD03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/PatmanT03">
+            <author>Frankie Patman</author>
+            <author>Paul Thompson</author>
+            <title>Names: A New Frontier in Text Mining.</title>
+            <pages>27-38</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650027.htm</ee>
+            <url>db/conf/isi/isi2003.html#PatmanT03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/Chawathe03">
+            <author>Sudarshan S. Chawathe</author>
+            <title>Tracking Hidden Groups Using Communications.</title>
+            <pages>195-208</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650195.htm</ee>
+            <url>db/conf/isi/isi2003.html#Chawathe03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/BerndtHS03">
+            <author>Donald J. Berndt</author>
+            <author>Alan R. Hevner</author>
+            <author>James Studnicki</author>
+            <title>Bioterrorism Surveillance with Real-Time Data Warehousing.</title>
+            <pages>322-335</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650322.htm</ee>
+            <url>db/conf/isi/isi2003.html#BerndtHS03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/HammerOS03">
+            <author>Joachim Hammer</author>
+            <author>William O'Brien</author>
+            <author>Mark S. Schmalz</author>
+            <title>Scalable Knowledge Extraction from Legacy Sources with SEEK.</title>
+            <pages>346-349</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650346.htm</ee>
+            <url>db/conf/isi/isi2003.html#HammerOS03</url>
+        </inproceedings>
+        <inproceedings mdate="2003-06-03" key="conf/isi/StolfoHWNH03">
+            <author>Salvatore J. Stolfo</author>
+            <author>Shlomo Hershkop</author>
+            <author>Ke Wang</author>
+            <author>Olivier Nimeskern</author>
+            <author>Chia-Wei Hu</author>
+            <title>Behavior Profiling of Email.</title>
+            <pages>74-90</pages>
+            <year>2003</year>
+            <crossref>conf/isi/2003</crossref>
+            <booktitle>ISI</booktitle>
+            <ee>http://link.springer.de/link/service/series/0558/bibs/2665/26650074.htm</ee>
+            <url>db/conf/isi/isi2003.html#StolfoHWNH03</url>
+        </inproceedings>
+        <inproceedings mdate="2002-02-05" key="conf/ita/KamounA93">
+            <author>Faouzi Kamoun</author>
+            <author>Mustafa K. Mehmet Ali</author>
+            <title>Statistical analysis of the traffic generated by the superposition of N independent interrupted Poisson processes.</title>
+            <pages>325-342</pages>
+            <year>1993</year>
+            <crossref>conf/ita/1993</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1993.html#KamounA93</url>
+        </inproceedings>
+        <inproceedings mdate="2002-02-05" key="conf/ita/PolemiS93">
+            <author>Despina Polemi</author>
+            <author>Takis Sakkalis</author>
+            <title>Singular algebraic curves over finite fields.</title>
+            <pages>24-37</pages>
+            <year>1993</year>
+            <crossref>conf/ita/1993</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1993.html#PolemiS93</url>
+        </inproceedings>
+        <inproceedings mdate="2002-01-03" key="conf/ita/AakvaagLD95">
+            <author>N. D. Aakvaag</author>
+            <author>Bernard Lacaze</author>
+            <author>A. Duverdier</author>
+            <title>On the Use of Periodic Timebase Companding in the Scrambling of Stationary Processes.</title>
+            <pages>53-63</pages>
+            <year>1995</year>
+            <crossref>conf/ita/1995</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1995.html#AakvaagLD95</url>
+        </inproceedings>
+        <inproceedings mdate="2002-02-05" key="conf/ita/MarkmanA93">
+            <author>Ivonete Markman</author>
+            <author>John B. Anderson</author>
+            <title>Sequential decoding on intersymbol interference channels under the Pe-criterion.</title>
+            <pages>203-222</pages>
+            <year>1993</year>
+            <crossref>conf/ita/1993</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1993.html#MarkmanA93</url>
+        </inproceedings>
+        <inproceedings mdate="2002-01-03" key="conf/ita/JurgensenK95">
+            <author>Helmut Jumlrgensen</author>
+            <author>Stavros Konstantinidis</author>
+            <title>Error Corrections for Channels with Substitutions, Insertions, and Deletions.</title>
+            <pages>149-163</pages>
+            <year>1995</year>
+            <crossref>conf/ita/1995</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1995.html#JurgensenK95</url>
+        </inproceedings>
+        <inproceedings mdate="2002-01-03" key="conf/ita/DuverdierLA95">
+            <author>A. Duverdier</author>
+            <author>Bernard Lacaze</author>
+            <author>N. D. Aakvaag</author>
+            <title>A Novel Approach to Spread Spectrum Communication Using Linear Periodic Time-Varying Filters.</title>
+            <pages>64-75</pages>
+            <year>1995</year>
+            <crossref>conf/ita/1995</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1995.html#DuverdierLA95</url>
+        </inproceedings>
+        <inproceedings mdate="2002-01-03" key="conf/ita/DAmoursY95">
+            <author>Claude D'Amours</author>
+            <author>Abbas Yongacoglu</author>
+            <title>Comparison of MFSK Variants for a Hybrid DS/FH-CDMA System.</title>
+            <pages>200-224</pages>
+            <year>1995</year>
+            <crossref>conf/ita/1995</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1995.html#DAmoursY95</url>
+        </inproceedings>
+        <inproceedings mdate="2002-01-03" key="conf/ita/LeeK95">
+            <author>Ryan Chi-Kong Lee</author>
+            <author>Frank R. Kschischang</author>
+            <title>Non-Minimal Trellises for Linear Block Codes.</title>
+            <pages>111-129</pages>
+            <year>1995</year>
+            <crossref>conf/ita/1995</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1995.html#LeeK95</url>
+        </inproceedings>
+        <inproceedings mdate="2002-02-05" key="conf/ita/LinP93">
+            <author>Victor S. Lin</author>
+            <author>Gregory J. Pottie</author>
+            <title>Channel coding for a frequency-hopped wireless transceiver.</title>
+            <pages>109-124</pages>
+            <year>1993</year>
+            <crossref>conf/ita/1993</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1993.html#LinP93</url>
+        </inproceedings>
+        <inproceedings mdate="2002-02-05" key="conf/ita/Zarowski93">
+            <author>Christopher J. Zarowski</author>
+            <title>A divisionless form of the Schur Berlekamp-Massey algorithm.</title>
+            <pages>38-44</pages>
+            <year>1993</year>
+            <crossref>conf/ita/1993</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1993.html#Zarowski93</url>
+        </inproceedings>
+        <inproceedings mdate="2002-02-05" key="conf/ita/Boudreau93">
+            <author>Daniel Boudreau</author>
+            <title>A unified view of noncoherent detection and differential detection of phase modulated signals.</title>
+            <pages>125-135</pages>
+            <year>1993</year>
+            <crossref>conf/ita/1993</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1993.html#Boudreau93</url>
+        </inproceedings>
+        <inproceedings mdate="2002-01-03" key="conf/ita/YoussefT95">
+            <author>Amr M. Youssef</author>
+            <author>Stafford E. Tavares</author>
+            <title>Information Leakage of a Randomly Selected Boolean Function.</title>
+            <pages>41-52</pages>
+            <year>1995</year>
+            <crossref>conf/ita/1995</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1995.html#YoussefT95</url>
+        </inproceedings>
+        <inproceedings mdate="2002-01-03" key="conf/ita/GallantMP95">
+            <author>Peter J. Gallant</author>
+            <author>Evelyn L. Morin</author>
+            <author>Lloyd E. Peppard</author>
+            <title>Improving Myoelectric Signal Classifier Generalization by Preprocessing with Exploratory Projections.</title>
+            <pages>278-295</pages>
+            <year>1995</year>
+            <crossref>conf/ita/1995</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1995.html#GallantMP95</url>
+        </inproceedings>
+        <inproceedings mdate="2002-01-03" key="conf/ita/Poor95">
+            <author>H. Vincent Poor</author>
+            <title>Finite-Field Wavelet Transforms.</title>
+            <pages>225-238</pages>
+            <year>1995</year>
+            <crossref>conf/ita/1995</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1995.html#Poor95</url>
+        </inproceedings>
+        <inproceedings mdate="2002-02-05" key="conf/ita/Drolet93">
+            <author>Germain Drolet</author>
+            <title>A finite field arithmetic unit VLSI chip.</title>
+            <pages>67-77</pages>
+            <year>1993</year>
+            <crossref>conf/ita/1993</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1993.html#Drolet93</url>
+        </inproceedings>
+        <inproceedings mdate="2002-02-05" key="conf/ita/RoyF93">
+            <author>Sebastien Roy</author>
+            <author>Paul Fortier</author>
+            <title>Adapting the strongly-connected trellis concept for use with trellis-coded modulation.</title>
+            <pages>241-252</pages>
+            <year>1993</year>
+            <crossref>conf/ita/1993</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1993.html#RoyF93</url>
+        </inproceedings>
+        <inproceedings mdate="2002-02-05" key="conf/ita/ChanH93">
+            <author>Francois Chan</author>
+            <author>David Haccoun</author>
+            <title>Variable-rate punctured trellis-coded modulation and applications.</title>
+            <pages>253-269</pages>
+            <year>1993</year>
+            <crossref>conf/ita/1993</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1993.html#ChanH93</url>
+        </inproceedings>
+        <inproceedings mdate="2002-02-05" key="conf/ita/Sablatash93">
+            <author>Mike Sablatash</author>
+            <title>Error-control coding, modulation and equalization for all-digital advanced television: state of the art and future possibilities.</title>
+            <pages>45-66</pages>
+            <year>1993</year>
+            <crossref>conf/ita/1993</crossref>
+            <booktitle>Information Theory and Applications</booktitle>
+            <url>db/conf/ita/ita1993.html#Sablatash93</url>
+        </inproceedings>
+    </proceedings>
+    <masters>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Brown92">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Yurek97">
+            <author>Tolga Yurek</author>
+            <title>Efficient View Maintenance at Data Warehouses.</title>
+            <year>1997</year>
+            <school>University of California at Santa Barbara, Department of Computer Science</school>
+        </mastersthesis>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Brown92">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Yurek97">
+            <author>Tolga Yurek</author>
+            <title>Efficient View Maintenance at Data Warehouses.</title>
+            <year>1997</year>
+            <school>University of California at Santa Barbara, Department of Computer Science</school>
+        </mastersthesis>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Brown92">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Yurek97">
+            <author>Tolga Yurek</author>
+            <title>Efficient View Maintenance at Data Warehouses.</title>
+            <year>1997</year>
+            <school>University of California at Santa Barbara, Department of Computer Science</school>
+        </mastersthesis>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Brown92">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Yurek97">
+            <author>Tolga Yurek</author>
+            <title>Efficient View Maintenance at Data Warehouses.</title>
+            <year>1997</year>
+            <school>University of California at Santa Barbara, Department of Computer Science</school>
+        </mastersthesis>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Brown92">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Yurek97">
+            <author>Tolga Yurek</author>
+            <title>Efficient View Maintenance at Data Warehouses.</title>
+            <year>1997</year>
+            <school>University of California at Santa Barbara, Department of Computer Science</school>
+        </mastersthesis>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Brown92">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Yurek97">
+            <author>Tolga Yurek</author>
+            <title>Efficient View Maintenance at Data Warehouses.</title>
+            <year>1997</year>
+            <school>University of California at Santa Barbara, Department of Computer Science</school>
+        </mastersthesis>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Brown92">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Yurek97">
+            <author>Tolga Yurek</author>
+            <title>Efficient View Maintenance at Data Warehouses.</title>
+            <year>1997</year>
+            <school>University of California at Santa Barbara, Department of Computer Science</school>
+        </mastersthesis>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Yurek97">
+            <author>Tolga Yurek</author>
+            <title>Efficient View Maintenance at Data Warehouses.</title>
+            <year>1997</year>
+            <school>University of California at Santa Barbara, Department of Computer Science</school>
+        </mastersthesis>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Brown92">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Yurek97">
+            <author>Tolga Yurek</author>
+            <title>Efficient View Maintenance at Data Warehouses.</title>
+            <year>1997</year>
+            <school>University of California at Santa Barbara, Department of Computer Science</school>
+        </mastersthesis>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Brown92">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Yurek97">
+            <author>Tolga Yurek</author>
+            <title>Efficient View Maintenance at Data Warehouses.</title>
+            <year>1997</year>
+            <school>University of California at Santa Barbara, Department of Computer Science</school>
+        </mastersthesis>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Brown92">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Yurek97">
+            <author>Tolga Yurek</author>
+            <title>Efficient View Maintenance at Data Warehouses.</title>
+            <year>1997</year>
+            <school>University of California at Santa Barbara, Department of Computer Science</school>
+        </mastersthesis>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Brown92">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Yurek97">
+            <author>Tolga Yurek</author>
+            <title>Efficient View Maintenance at Data Warehouses.</title>
+            <year>1997</year>
+            <school>University of California at Santa Barbara, Department of Computer Science</school>
+        </mastersthesis>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Brown92">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Yurek97">
+            <author>Tolga Yurek</author>
+            <title>Efficient View Maintenance at Data Warehouses.</title>
+            <year>1997</year>
+            <school>University of California at Santa Barbara, Department of Computer Science</school>
+        </mastersthesis>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Brown92">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Yurek97">
+            <author>Tolga Yurek</author>
+            <title>Efficient View Maintenance at Data Warehouses.</title>
+            <year>1997</year>
+            <school>University of California at Santa Barbara, Department of Computer Science</school>
+        </mastersthesis>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Brown92">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Yurek97">
+            <author>Tolga Yurek</author>
+            <title>Efficient View Maintenance at Data Warehouses.</title>
+            <year>1997</year>
+            <school>University of California at Santa Barbara, Department of Computer Science</school>
+        </mastersthesis>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Brown92">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Yurek97">
+            <author>Tolga Yurek</author>
+            <title>Efficient View Maintenance at Data Warehouses.</title>
+            <year>1997</year>
+            <school>University of California at Santa Barbara, Department of Computer Science</school>
+        </mastersthesis>
+        <mastersthesis key="ms/Brown92" mdate="2002-01-03">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+        
+        <mastersthesis mdate="2002-01-03" key="ms/Brown92">
+            <author>Kurt P. Brown</author>
+            <title>PRPL: A Database Workload Specification Language, v1.3.</title>
+            <year>1992</year>
+            <school>Univ. of Wisconsin-Madison</school>
+        </mastersthesis>
+
+    </masters>
+    
+</dblp>

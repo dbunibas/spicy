@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Source>
+  <employeeset>
+    <employee>
+      <name>Alice</name>
+      <city>Seattle</city>
+      <company>SJSU</company>
+      <boss_name>Mark</boss_name>
+    </employee>
+    <employee>
+      <name>John</name>
+      <city>Seattle</city>
+      <company>IBM</company>
+      <boss_name>Harry</boss_name>
+    </employee>
+    <employee>
+      <name>Mark</name>
+      <city>Seattle</city>
+      <company>SJSU</company>
+      <boss_name>George</boss_name>
+    </employee>
+   </employeeset>
+</Source>

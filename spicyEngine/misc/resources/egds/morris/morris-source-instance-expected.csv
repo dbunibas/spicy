@@ -1,0 +1,4 @@
+persons(10022, Morris, 1982, 3030)
+persons(99999, Lempel, NULL, 2020)
+persons(12345, Maxwell, 1980, NULL)
+persons(25555, Bolte, 1979, NULL)

@@ -1,0 +1,12 @@
+Mapping task:
+Source schema: 		file:/livesIn-source.xsd
+Source instance:	file:/livesIn-source-instance.xml
+Target schema:		file:/livesIn-target.xsd
+
+SOURCE TO TARGET TGDs:
+EmpCitySet(empName: $e, empCity: $c) -> HomeSet(homeName: $e, homeCity: $H).
+EmpCitySet(empName: $e, empCity: $c) -> EmpDeptSet(eName: $e, deptId: $D),
+                                        DeptCitySet(dId: $D, city: $c).
+LivesInSet(name: $e, city: $h) -> HomeSet(homeName: $e, homeCity: $h).
+LivesInSet(name: $e, city: $h) -> EmpDeptSet(eName: $e, deptId: $D),
+                                  DeptCitySet(dId: $D, city: $C).

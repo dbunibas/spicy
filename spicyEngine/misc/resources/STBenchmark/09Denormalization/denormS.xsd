@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:element name="Source">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Name" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="id" type="xs:string"/>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="uniqueName" type="xs:string"/>
+                            <xs:element name="class" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Node" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="taxId" type="xs:string"/>
+                            <xs:element name="parentId" type="xs:string"/>
+                            <xs:element name="rank" type="xs:string"/>
+                            <xs:element name="emblCode" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:key name="key1">
+            <xs:selector xpath=".//Name"/>
+            <xs:field xpath="id"/>
+        </xs:key>
+        <xs:keyref name="keyRef1" refer="key1">
+            <xs:selector xpath=".//Node"/>
+            <xs:field xpath="taxId"/>
+        </xs:keyref> 
+        <xs:keyref name="keyRef2" refer="key1">
+            <xs:selector xpath=".//Node"/>
+            <xs:field xpath="parentId"/>
+        </xs:keyref>         
+    </xs:element> 
+</xs:schema>

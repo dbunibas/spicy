@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>secondaryOverlap-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>secondaryOverlap-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>secondaryOverlap-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>Target.personset.person.carid</from>
+          <to>Target.carset.car.carid</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.ename</source-path>
+      </source-paths>
+      <target-path>Target.personset.person.personname</target-path>
+      <transformation-function>Source.employeeset.employee.ename</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.driverset.driver.dname</source-path>
+      </source-paths>
+      <target-path>Target.personset.person.personname</target-path>
+      <transformation-function>Source.driverset.driver.dname</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.carmodel</source-path>
+      </source-paths>
+      <target-path>Target.carset.car.cmodel</target-path>
+      <transformation-function>Source.employeeset.employee.carmodel</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.driverset.driver.team</source-path>
+      </source-paths>
+      <target-path>Target.carset.car.team</target-path>
+      <transformation-function>Source.driverset.driver.team</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

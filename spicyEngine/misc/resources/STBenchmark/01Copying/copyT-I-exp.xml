@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Target>
+    <Protein>
+        <Name>12-alpha-hydroxysteroid dehydrogenase</Name>
+        <Accession>P21215</Accession>
+        <Created>1991-08-01</Created>
+    </Protein>
+    <Protein>
+        <Name>14-3-3-like protein A</Name>
+        <Accession>Q96450</Accession>
+        <Created>1998-07-15</Created>
+    </Protein>
+    <Protein>
+        <Name>SGF14A</Name>
+        <Accession>Q96450</Accession>
+        <Created>1998-07-15</Created>
+    </Protein>
+    <Protein>
+        <Name>14-3-3 protein eta</Name>
+        <Accession>P68510</Accession>
+        <Created>2004-11-23</Created>
+    </Protein>
+    <Protein>
+        <Name>Protein kinase C inhibitor protein 1</Name>
+        <Accession>P29361</Accession>
+        <Created>1992-12-01</Created>
+    </Protein>
+    <Protein>
+        <Name>KCIP-1</Name>
+        <Accession>P29361</Accession>
+        <Created>1992-12-01</Created>
+    </Protein>
+</Target>

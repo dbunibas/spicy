@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>cyclesEasy-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>cyclesEasy-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>CyclesEasySource.ASet.A.A1</from>
+          <to>CyclesEasySource.BSet.B.B1</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>CyclesEasySource.BSet.B.B3</from>
+          <to>CyclesEasySource.ASet.A.A3</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>cyclesEasy-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>CyclesEasyTarget.RSet.R.C</from>
+          <to>CyclesEasyTarget.TSet.T.C</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>CyclesEasyTarget.TSet.T.A</from>
+          <to>CyclesEasyTarget.RSet.R.A</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>CyclesEasySource.ASet.A.A1</source-path>
+      </source-paths>
+      <target-path>CyclesEasyTarget.RSet.R.B</target-path>
+      <transformation-function>CyclesEasySource.ASet.A.A1</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>CyclesEasySource.ASet.A.A3</source-path>
+      </source-paths>
+      <target-path>CyclesEasyTarget.TSet.T.B</target-path>
+      <transformation-function>CyclesEasySource.ASet.A.A3</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>CyclesEasySource.CSet.C.C3</source-path>
+      </source-paths>
+      <target-path>CyclesEasyTarget.TSet.T.B</target-path>
+      <transformation-function>CyclesEasySource.CSet.C.C3</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>CyclesEasySource.CSet.C.C1</source-path>
+      </source-paths>
+      <target-path>CyclesEasyTarget.RSet.R.B</target-path>
+      <transformation-function>CyclesEasySource.CSet.C.C1</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

@@ -1,0 +1,17 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+Amazon(title: $t, year: $y) -> MoreBook(title: $t, publisher: $p, year: $y).
+GoogleBooks(title: $t, publisher: $p) -> MoreBook(title: $t, publisher: $p, year: $N).
+
+TARGET FDs:
+MoreBook : title -> publisher, year [pk]
+
+SOURCE INSTANCE:
+GoogleBooks(title: "TheHobbit", publisher: "Allen")
+GoogleBooks(title: "TheDaVinciCode", publisher: "Transworld")
+GoogleBooks(title: "TheLordOfTheRings", publisher: "Houghton")
+Amazon(title: "TheCatcherInTheRye", year: "1951")

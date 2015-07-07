@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>hparS.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>hparS-I-red.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications>
+        <duplication>Source.GeneSet</duplication>
+    </duplications>
+    <selectionConditions>
+        <selectionCondition>
+            <setPath>Source.GeneSet</setPath>
+            <condition>(Source.GeneSet.Gene.type == "primary")</condition>
+        </selectionCondition>
+        <selectionCondition>
+            <setPath>Source.GeneSet_1_</setPath>
+            <condition>(Source.GeneSet_1_.Gene.type != "primary")</condition>
+        </selectionCondition>-->
+    </selectionConditions>
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>hparT.xsd</xml-schema>
+      <xml-instances>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.GeneSet.Gene.name</source-path>
+      </source-paths>
+      <target-path>Target.GeneSet.Gene.Name</target-path>
+      <transformation-function>Source.GeneSet.Gene.name</transformation-function>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.GeneSet.Gene.protein</source-path>
+      </source-paths>
+      <target-path>Target.GeneSet.Gene.Protein</target-path>
+      <transformation-function>Source.GeneSet.Gene.protein</transformation-function>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.GeneSet_1_.Gene.name</source-path>
+      </source-paths>
+      <target-path>Target.SynonymSet.Synonym.Name</target-path>
+      <transformation-function>Source.GeneSet_1_.Gene.name</transformation-function>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.GeneSet_1_.Gene.protein</source-path>
+      </source-paths>
+      <target-path>Target.SynonymSet.Synonym.Protein</target-path>
+      <transformation-function>Source.GeneSet_1_.Gene.protein</transformation-function>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

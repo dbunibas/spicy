@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Source>
+  <employeeset>
+    <employee>
+      <ssn>1</ssn>	
+      <name>Alice</name>
+      <company>SJSU</company>
+    </employee>
+    <employee>
+      <ssn>2</ssn>	
+      <name>John</name>
+      <company>IBM</company>
+    </employee>
+    <employee>
+      <ssn>3</ssn>	
+      <name>Mark</name>
+      <company>SJSU</company>
+    </employee>
+   </employeeset>
+</Source>

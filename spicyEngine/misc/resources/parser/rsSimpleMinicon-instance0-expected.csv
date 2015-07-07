@@ -1,0 +1,4 @@
+s(N_2, 0, 2, NULL)
+s(N_1, 10, NULL, NULL)
+s(N_2, 1, NULL, NULL)
+s(N_1, 11, 12, NULL)

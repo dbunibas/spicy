@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>parallelVertical-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>parallelVertical-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <functionalDependencies />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>parallelVertical-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <functionalDependencies />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>Target.personset.person.cityid</from>
+          <to>Target.cityset.city.cityid</to>
+        </join>
+        <foreignKey>true</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>Target.regionset.region.cityid</from>
+          <to>Target.cityset.city.cityid</to>
+        </join>
+        <foreignKey>true</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.city</source-path>
+      </source-paths>
+      <target-path>Target.cityset.city.cityname</target-path>
+      <transformation-function>Source.employeeset.employee.city</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.cityregionset.cityregion.cityname</source-path>
+      </source-paths>
+      <target-path>Target.cityset.city.cityname</target-path>
+      <transformation-function>Source.cityregionset.cityregion.cityname</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.employeeset.employee.ename</source-path>
+      </source-paths>
+      <target-path>Target.personset.person.personname</target-path>
+      <transformation-function>Source.employeeset.employee.ename</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.cityregionset.cityregion.regionname</source-path>
+      </source-paths>
+      <target-path>Target.regionset.region.regionname</target-path>
+      <transformation-function>Source.cityregionset.cityregion.regionname</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>selfJoinsS.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>selfJoinsS-I-red.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications>
+        <duplication>Source.GeneSet</duplication>
+        <duplication>Source.GeneSet</duplication>
+    </duplications>
+    <selectionConditions>
+        <selectionCondition>
+            <setPath>Source.GeneSet</setPath>
+            <condition>(Source.GeneSet.Gene.type == "primary")</condition>
+        </selectionCondition>
+        <selectionCondition>
+            <setPath>Source.GeneSet_1_</setPath>
+            <condition>(Source.GeneSet_1_.Gene.type == "primary")</condition>
+        </selectionCondition>
+        <selectionCondition>
+            <setPath>Source.GeneSet_2_</setPath>
+            <condition>(Source.GeneSet_2_.Gene.type != "primary")</condition>
+        </selectionCondition>
+    </selectionConditions>
+    <joinConditions>
+        <joinCondition>
+            <join>
+                <from>Source.GeneSet_1_.Gene.protein</from>
+                <to>Source.GeneSet_2_.Gene.protein</to>
+            </join>
+            <foreignKey>false</foreignKey>
+            <mandatory>true</mandatory>
+        </joinCondition>
+    </joinConditions>
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>selfJoinsT.xsd</xml-schema>
+      <xml-instances>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.GeneSet.Gene.name</source-path>
+      </source-paths>
+      <target-path>Target.GeneSet.Gene.Name</target-path>
+      <transformation-function>Source.GeneSet.Gene.name</transformation-function>
+      <!-- <filter>(Source.GeneSet.Gene.type == "primary")</filter> -->
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.GeneSet.Gene.protein</source-path>
+      </source-paths>
+      <target-path>Target.GeneSet.Gene.Protein</target-path>
+      <transformation-function>Source.GeneSet.Gene.protein</transformation-function>
+      <!-- <filter>(Source.GeneSet.Gene.type == "primary")</filter> -->
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.GeneSet_2_.Gene.name</source-path>
+      </source-paths>
+      <target-path>Target.SynonymSet.Synonym.Name</target-path>
+      <transformation-function>Source.GeneSet_2_.Gene.name</transformation-function>
+      <!-- <filter>(Source.GeneSet_1_.Gene.type != "primary")</filter> -->
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>Source.GeneSet_1_.Gene.name</source-path>
+      </source-paths>
+      <target-path>Target.SynonymSet.Synonym.GeneWID</target-path>
+      <transformation-function>Source.GeneSet_1_.Gene.name</transformation-function>
+      <!-- <filter>(Source.GeneSet_1_.Gene.type != "primary")</filter> -->
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

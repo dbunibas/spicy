@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Target">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cities" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="city" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="name" nillable="false" type="xs:string"/>
+                                        <xs:element name="companyset" nillable="false">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="company" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="cId" nillable="false" type="xs:string"/>
+                                                                <xs:element name="company" nillable="false" type="xs:string"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>    
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="personset" nillable="false">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="person" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ssn" nillable="false" type="xs:string"/>
+                                        <xs:element name="name" nillable="false" type="xs:string"/>
+                                        <xs:element name="salary" nillable="false" type="xs:string"/>
+                                        <xs:element name="address" nillable="false" type="xs:string"/>
+                                        <xs:element name="companyId" nillable="false" type="xs:string"/>
+                                        <xs:element name="sports" nillable="false">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="sport" maxOccurs="unbounded" minOccurs="0" nillable="false">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="name" nillable="false" type="xs:string"/>
+                                                                <xs:element name="level" nillable="false" type="xs:string"/>
+                                                                <xs:element name="days" nillable="false" type="xs:string"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:key name="key1">
+            <xs:selector xpath=".//person"/>
+            <xs:field xpath="ssn"/>
+        </xs:key>
+        <xs:key name="key2">
+            <xs:selector xpath=".//companyset/company"/>
+            <xs:field xpath="cid"/>
+        </xs:key>
+        <xs:key name="key3">
+            <xs:selector xpath=".//companyset/company"/>
+            <xs:field xpath="company"/>
+        </xs:key>
+        <xs:key name="key4">
+            <xs:selector xpath=".//sport"/>
+            <xs:field xpath="name"/>
+        </xs:key>
+    </xs:element>
+</xs:schema>

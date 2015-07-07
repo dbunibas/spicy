@@ -1,0 +1,25 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+People(name: $x0, age: $x1, fatherName: $x2, motherName: $x3) ->
+    Person(name: $x0, age: $x1, father: $Y4, mother: $Y5),
+    Parent(id: $Y4, name: $x2),
+    Parent(id: $Y5, name: $x3).
+
+SOURCE FDs:
+People : name -> age, fatherName, motherName [pk]
+
+TARGET FDs:
+Person: name -> age, father, mother [pk]
+Parent: id -> name [pk]
+Parent: name -> id [key]
+
+SOURCE INSTANCE:
+People(name: "P1", age: "18", fatherName: "F1", motherName: "M1")
+People(name: "P2", age: "21", fatherName: "F1", motherName: "M1")
+People(name: "P3", age: "22", fatherName: "F1", motherName: "M2")
+People(name: "P4", age: "25", fatherName: "F2", motherName: "M1")
+People(name: "P5", age: "30", fatherName: "F2", motherName: "M2")

@@ -1,0 +1,8 @@
+Mapping task:
+Source schema: 		file:/morris-source.xsd
+Source instance:	file:/morris-source-instance.xml
+Target schema:		file:/morris-target.xsd
+
+SOURCE TO TARGET TGDs:
+students(ssn: $ssn, studname: $sn, birthdate: $bd) -> persons(ssn: $ssn, name: $sn, birthdate: $bd, phone: $PH).
+employees(ssn: $ssn, empname: $en, phone: $ph) -> persons(ssn: $ssn, name: $en, birthdate: $BD, phone: $ph).

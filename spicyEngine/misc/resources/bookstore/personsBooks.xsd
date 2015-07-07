@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="personsBooks">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" name="personSet" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="person" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" name="pname" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="writesSet" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="writes" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" name="pname" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="bid" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="bookSet" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="book" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" name="bid" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="soldAtSet" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="soldAt" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" name="bid" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="sid" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="bookstoreSet" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="bookstore" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" name="sid" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:key name="keyPerson">
+      <xs:selector xpath=".//person"/>
+      <xs:field xpath="pname"/>
+    </xs:key>
+    <xs:key name="keyBook">
+      <xs:selector xpath=".//book"/>
+      <xs:field xpath="bid"/>
+    </xs:key>
+    <xs:key name="keyBookstore">
+      <xs:selector xpath=".//bookstore"/>
+      <xs:field xpath="sid"/>
+    </xs:key>
+    <xs:keyref name="keyRefWritesPerson" refer="keyPerson">
+      <xs:selector xpath=".//writes"/>
+      <xs:field xpath="pname"/>
+    </xs:keyref>
+    <xs:keyref name="keyRefWritesBook" refer="keyBook">
+      <xs:selector xpath=".//book"/>
+      <xs:field xpath="bid"/>
+    </xs:keyref>
+    <xs:keyref name="keyRefSoldAtBook" refer="keyBook">
+      <xs:selector xpath=".//book"/>
+      <xs:field xpath="bid"/>
+    </xs:keyref>
+    <xs:keyref name="keyRefSoldAtBookstore" refer="keyBookstore">
+      <xs:selector xpath=".//bookstore"/>
+      <xs:field xpath="sid"/>
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,5 @@
+person(1, Alice, NULL, N_1)
+person(2, John, NULL, N_2)
+person(3, Mark, NULL, N_1)
+company(N_1, SJSU)
+company(N_2, IBM)

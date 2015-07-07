@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Source>
+   <Gene>
+      <name>GF14A</name>
+      <type>primary</type>
+      <protein>14-3-3-like protein A</protein>
+   </Gene>
+   <Gene>
+      <name>Ywhah</name>
+      <type>primary</type>
+      <protein>14-3-3 protein eta</protein>
+   </Gene>
+   <Gene>
+      <name>YWHAZ</name>
+      <type>primary</type>
+      <protein>14-3-3 protein zeta/delta</protein>
+   </Gene>
+   <Gene>
+      <name>hspX</name>
+      <type>primary</type>
+      <protein>14 kDa antigen</protein>
+   </Gene>
+   <Gene>
+      <name>Mb2057c</name>
+      <type>ordered locus</type>
+      <protein>14 kDa antigen</protein>
+   </Gene>
+   <Gene>
+      <name>ACS9</name>
+      <type>primary</type>
+      <protein>1-aminocyclopropane-1-carboxylate synthase 9</protein>
+   </Gene>
+   <Gene>
+      <name>ETO3</name>
+      <type>synonym</type>
+      <protein>1-aminocyclopropane-1-carboxylate synthase 9</protein>
+   </Gene>
+   <Gene>
+      <name>At3g49700</name>
+      <type>ordered locus</type>
+      <protein>1-aminocyclopropane-1-carboxylate synthase 9</protein>
+   </Gene>
+   <Gene>
+      <name>T16K5.50</name>
+      <type>ORF</type>
+      <protein>1-aminocyclopropane-1-carboxylate synthase 9</protein>
+   </Gene>
+   <Gene>
+      <name>HLA-A</name>
+      <type>primary</type>
+      <protein>HLA class I histocompatibility antigen, A-26 alpha chain precursor</protein>
+   </Gene>
+   <Gene>
+      <name>HLAA</name>
+      <type>synonym</type>
+      <protein>HLA class I histocompatibility antigen, A-26 alpha chain precursor</protein>
+   </Gene>
+   <Gene>
+      <name>HLA-B</name>
+      <type>primary</type>
+      <protein>HLA class I histocompatibility antigen, B-38 alpha chain precursor</protein>
+   </Gene>
+   <Gene>
+      <name>HLAB</name>
+      <type>synonym</type>
+      <protein>HLA class I histocompatibility antigen, B-38 alpha chain precursor</protein>
+   </Gene>
+   <Gene>
+      <name>PPP2R1A</name>
+      <type>primary</type>
+      <protein>Serine/threonine-protein phosphatase 2A 65 kDa regulatory subunit A alpha isoform</protein>
+   </Gene>
+   <Gene>
+      <name>Ppp2r2b</name>
+      <type>primary</type>
+      <protein>Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B beta isoform</protein>
+   </Gene>
+   <Gene>
+      <name>HLA-DOB</name>
+      <type>primary</type>
+      <protein>HLA class II histocompatibility antigen, DO beta chain precursor</protein>
+   </Gene>
+   <Gene>
+      <name>Hsd3b7</name>
+      <type>primary</type>
+      <protein>3 beta-hydroxysteroid dehydrogenase type 7</protein>
+   </Gene>
+   <Gene>
+      <name>Cca2</name>
+      <type>synonym</type>
+      <protein>3 beta-hydroxysteroid dehydrogenase type 7</protein>
+   </Gene>
+   <Gene>
+      <name/>
+      <type>primary</type>
+      <protein>3-hydroxyanthranilate 3,4-dioxygenase</protein>
+   </Gene>
+   <Gene>
+      <name>K06A4.5</name>
+      <type>ORF</type>
+      <protein>3-hydroxyanthranilate 3,4-dioxygenase</protein>
+   </Gene>
+   <Gene>
+      <name>alkA</name>
+      <type>primary</type>
+      <protein>DNA-3-methyladenine glycosylase</protein>
+   </Gene>
+   <Gene>
+      <name>BSU01800</name>
+      <type>ordered locus</type>
+      <protein>DNA-3-methyladenine glycosylase</protein>
+   </Gene>
+   <Gene>
+      <name/>
+      <type>primary</type>
+      <protein>Putative 3-methyladenine DNA glycosylase</protein>
+   </Gene>
+   <Gene>
+      <name>CD1493</name>
+      <type>ordered locus</type>
+      <protein>Putative 3-methyladenine DNA glycosylase</protein>
+   </Gene>
+   <Gene>
+      <name/>
+      <type>primary</type>
+      <protein>Putative 3-methyladenine DNA glycosylase</protein>
+   </Gene>
+   <Gene>
+      <name>lpp0929</name>
+      <type>ordered locus</type>
+      <protein>Putative 3-methyladenine DNA glycosylase</protein>
+   </Gene>
+   <Gene>
+      <name/>
+      <type>primary</type>
+      <protein>Putative 3-methyladenine DNA glycosylase</protein>
+   </Gene>
+   <Gene>
+      <name>RPB_2889</name>
+      <type>ordered locus</type>
+      <protein>Putative 3-methyladenine DNA glycosylase</protein>
+   </Gene>
+   <Gene>
+      <name/>
+      <type>primary</type>
+      <protein>Putative 3-methyladenine DNA glycosylase</protein>
+   </Gene>
+   <Gene>
+      <name>CYB_2817</name>
+      <type>ordered locus</type>
+      <protein>Putative 3-methyladenine DNA glycosylase</protein>
+   </Gene>
+   <Gene>
+      <name>4CL1</name>
+      <type>primary</type>
+      <protein>4-coumarate--CoA ligase 1</protein>
+   </Gene>
+   <Gene>
+      <name>At1g51680</name>
+      <type>ordered locus</type>
+      <protein>4-coumarate--CoA ligase 1</protein>
+   </Gene>
+   <Gene>
+      <name>F19C24.11</name>
+      <type>ORF</type>
+      <protein>4-coumarate--CoA ligase 1</protein>
+   </Gene>
+   <Gene>
+      <name>htr1a-A</name>
+      <type>primary</type>
+      <protein>5-hydroxytryptamine 1A-alpha receptor</protein>
+   </Gene>
+   <Gene>
+      <name>HTR1D</name>
+      <type>primary</type>
+      <protein>5-hydroxytryptamine 1D receptor</protein>
+   </Gene>
+   <Gene>
+      <name>HTR1DA</name>
+      <type>synonym</type>
+      <protein>5-hydroxytryptamine 1D receptor</protein>
+   </Gene>
+   <Gene>
+      <name>HTRL</name>
+      <type>synonym</type>
+      <protein>5-hydroxytryptamine 1D receptor</protein>
+   </Gene>
+   <Gene>
+      <name>Htr2b</name>
+      <type>primary</type>
+      <protein>5-hydroxytryptamine 2B receptor</protein>
+   </Gene>
+   <Gene>
+      <name>Srl</name>
+      <type>synonym</type>
+      <protein>5-hydroxytryptamine 2B receptor</protein>
+   </Gene>
+   <Gene>
+      <name>5HTB1</name>
+      <type>primary</type>
+      <protein>5-hydroxytryptamine 1 receptor</protein>
+   </Gene>
+   <Gene>
+      <name>gnd</name>
+      <type>primary</type>
+      <protein>6-phosphogluconate dehydrogenase, decarboxylating</protein>
+   </Gene>
+   <Gene>
+      <name>gnd</name>
+      <type>primary</type>
+      <protein>6-phosphogluconate dehydrogenase, decarboxylating</protein>
+   </Gene>
+   <Gene>
+      <name>SE_1192</name>
+      <type>ordered locus</type>
+      <protein>6-phosphogluconate dehydrogenase, decarboxylating</protein>
+   </Gene>
+   <Gene>
+      <name>pgl</name>
+      <type>primary</type>
+      <protein>6-phosphogluconolactonase</protein>
+   </Gene>
+   <Gene>
+      <name>devB</name>
+      <type>synonym</type>
+      <protein>6-phosphogluconolactonase</protein>
+   </Gene>
+   <Gene>
+      <name>CPn_0239</name>
+      <type>ordered locus</type>
+      <protein>6-phosphogluconolactonase</protein>
+   </Gene>
+   <Gene>
+      <name>CP_0523</name>
+      <type>ordered locus</type>
+      <protein>6-phosphogluconolactonase</protein>
+   </Gene>
+   <Gene>
+      <name>CPj0239</name>
+      <type>ordered locus</type>
+      <protein>6-phosphogluconolactonase</protein>
+   </Gene>
+   <Gene>
+      <name>CpB0245</name>
+      <type>ordered locus</type>
+      <protein>6-phosphogluconolactonase</protein>
+   </Gene>
+   <Gene>
+      <name>pgl</name>
+      <type>primary</type>
+      <protein>6-phosphogluconolactonase</protein>
+   </Gene>
+   <Gene>
+      <name>SBO_0654</name>
+      <type>ordered locus</type>
+      <protein>6-phosphogluconolactonase</protein>
+   </Gene>
+   <Gene>
+      <name>ORM1</name>
+      <type>primary</type>
+      <protein>Alpha-1-acid glycoprotein precursor</protein>
+   </Gene>
+   <Gene>
+      <name>AGP</name>
+      <type>synonym</type>
+      <protein>Alpha-1-acid glycoprotein precursor</protein>
+   </Gene>
+   <Gene>
+      <name>SERPINA1</name>
+      <type>primary</type>
+      <protein>Alpha-1-antitrypsin precursor</protein>
+   </Gene>
+   <Gene>
+      <name>A2m</name>
+      <type>primary</type>
+      <protein>Alpha-2-macroglobulin precursor</protein>
+   </Gene>
+   <Gene>
+      <name>Pzp</name>
+      <type>synonym</type>
+      <protein>Alpha-2-macroglobulin precursor</protein>
+   </Gene>
+   <Gene>
+      <name>App</name>
+      <type>primary</type>
+      <protein>Amyloid beta A4 protein precursor</protein>
+   </Gene>
+   <Gene>
+      <name>fbpB</name>
+      <type>primary</type>
+      <protein>Antigen 85-B precursor</protein>
+   </Gene>
+   <Gene>
+      <name>BCG_1923c</name>
+      <type>ordered locus</type>
+      <protein>Antigen 85-B precursor</protein>
+   </Gene>
+   <Gene>
+      <name>ADORA2B</name>
+      <type>primary</type>
+      <protein>Adenosine A2b receptor</protein>
+   </Gene>
+   </Source>

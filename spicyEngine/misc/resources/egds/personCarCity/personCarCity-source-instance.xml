@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PersonCarCitySource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="personCarCity-source.xsd">
+    <PersonCarSet1>
+        <PersonCar1>
+            <personName>John</personName>
+            <age>18</age>
+            <carPlate>AB1234</carPlate>
+        </PersonCar1>
+        <PersonCar1>
+            <personName>Frank</personName>
+            <age>21</age>
+            <carPlate>AC5678</carPlate>
+        </PersonCar1>
+    </PersonCarSet1>
+    <PersonCarSet2>
+        <PersonCar2>
+            <personName>John</personName>
+            <carModel>Punto</carModel>
+        </PersonCar2>
+        <PersonCar2>
+            <personName>Mark</personName>
+            <carModel>Fiesta</carModel>
+        </PersonCar2>
+    </PersonCarSet2>
+    <PersonCitySet>
+        <PersonCity>
+            <personName>John</personName>
+            <cityName>Roma</cityName>
+        </PersonCity>
+        <PersonCity>
+            <personName>Anthony</personName>
+            <cityName>Milano</cityName>
+        </PersonCity>
+    </PersonCitySet>
+    <CarMakeSet>
+        <CarMake>
+            <carModel>Punto</carModel>
+            <makeName>Fiat</makeName>
+        </CarMake>
+        <CarMake>
+            <carModel>Corolla</carModel>
+            <makeName>Toyota</makeName>
+        </CarMake>
+    </CarMakeSet>
+    <CityRegionSet>
+        <City>
+            <cityName>Roma</cityName>
+            <region>Lazio</region>
+        </City>
+        <City>
+            <cityName>Milano</cityName>
+            <region>Lombardia</region>
+        </City>
+    </CityRegionSet>
+</PersonCarCitySource>
+

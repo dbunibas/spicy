@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Source>
+  <employeeset>
+    <employee>	
+      <ename>Mario</ename>
+      <city>Rome</city>
+    </employee>
+    <employee>	
+      <ename>Paolo</ename>
+      <city>Rome</city>
+    </employee>
+    <employee>	
+      <ename>Gianni</ename>
+      <city>Potenza</city>
+    </employee>
+    <employee>	
+      <ename>Anne</ename>
+      <city>San Jose</city>
+    </employee>
+   <employee>	
+      <ename>Bruno</ename>
+      <city>Oxford</city>
+    </employee>
+   </employeeset>
+
+  <cityregionset>
+    <cityregion>	
+      <regionname>Lazio</regionname>
+      <cityname>Rome</cityname>
+    </cityregion>
+    <cityregion>	
+      <regionname>Basilicata</regionname>
+      <cityname>Potenza</cityname>
+    </cityregion>
+    <cityregion>	
+      <regionname>Lazio</regionname>
+      <cityname>Latina</cityname>
+    </cityregion>
+    <cityregion>	
+      <regionname>Lazio</regionname>
+      <cityname>Rieti</cityname>
+    </cityregion>
+   </cityregionset>
+</Source>

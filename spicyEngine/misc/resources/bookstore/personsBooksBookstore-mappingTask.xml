@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>personsBooks.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>personsBooks-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+        <joinConditions>
+            <joinCondition>
+                <join>
+                    <from>personsBooks.writesSet.writes.pname</from>
+                    <to>personsBooks.personSet.person.pname</to>
+                </join>
+                <foreignKey>false</foreignKey>
+                <mandatory>true</mandatory>
+            </joinCondition>
+            <joinCondition>
+                <join>
+                    <from>personsBooks.writesSet.writes.bid</from>
+                    <to>personsBooks.bookSet.book.bid</to>
+                </join>
+                <foreignKey>false</foreignKey>
+                <mandatory>true</mandatory>
+            </joinCondition>
+            <joinCondition>
+                <join>
+                    <from>personsBooks.soldAtSet.soldAt.bid</from>
+                    <to>personsBooks.bookSet.book.bid</to>
+                </join>
+                <foreignKey>false</foreignKey>
+                <mandatory>true</mandatory>
+            </joinCondition>
+            <joinCondition>
+                <join>
+                    <from>personsBooks.soldAtSet.soldAt.sid</from>
+                    <to>personsBooks.bookstoreSet.bookstore.sid</to>
+                </join>
+                <foreignKey>false</foreignKey>
+                <mandatory>true</mandatory>
+            </joinCondition>
+        </joinConditions>
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>bookstore.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions />
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>personsBooks.personSet.person.pname</source-path>
+      </source-paths>
+      <target-path>bookstore.hasBookSoldAtSet.hasBookSoldAt.aname</target-path>
+      <transformation-function>personsBooks.personSet.person.pname</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>personsBooks.bookstoreSet.bookstore.sid</source-path>
+      </source-paths>
+      <target-path>bookstore.hasBookSoldAtSet.hasBookSoldAt.sid</target-path>
+      <transformation-function>personsBooks.bookstoreSet.bookstore.sid</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+
