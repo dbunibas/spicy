@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>houstonBig4-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>houstonBig4-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>houstonBig4-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>TargetHouston.Rs.R.b</from>
+          <to>TargetHouston.Ss.S.b</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>TargetHouston.Ss.S.c</from>
+          <to>TargetHouston.Ts.T.c</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonBig.As.A.a</source-path>
+      </source-paths>
+      <target-path>TargetHouston.Rs.R.a</target-path>
+      <transformation-function>SourceHoustonBig.As.A.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonBig.As.A.b</source-path>
+      </source-paths>
+      <target-path>TargetHouston.Rs.R.b</target-path>
+      <transformation-function>SourceHoustonBig.As.A.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonBig.Bs.B.b</source-path>
+      </source-paths>
+      <target-path>TargetHouston.Ss.S.b</target-path>
+      <transformation-function>SourceHoustonBig.Bs.B.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonBig.Cs.C.a</source-path>
+      </source-paths>
+      <target-path>TargetHouston.Rs.R.a</target-path>
+      <transformation-function>SourceHoustonBig.Cs.C.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonBig.Cs.C.d</source-path>
+      </source-paths>
+      <target-path>TargetHouston.Ss.S.d</target-path>
+      <transformation-function>SourceHoustonBig.Cs.C.d</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonBig.Bs.B.d</source-path>
+      </source-paths>
+      <target-path>TargetHouston.Ss.S.d</target-path>
+      <transformation-function>SourceHoustonBig.Bs.B.d</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonBig.Bs.B.e</source-path>
+      </source-paths>
+      <target-path>TargetHouston.Ts.T.e</target-path>
+      <transformation-function>SourceHoustonBig.Bs.B.e</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

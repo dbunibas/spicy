@@ -1,0 +1,18 @@
+--------------------------------------------------------
+MatchResult of simMatrix [7,3]
+ + Name: Mapping2
+ + Info: COMA
+ + Source: Source_dblp_xsd|SIMPLIFIED
+ + Target: Target_amalgam_pub1_xsd|SIMPLIFIED
+ + Matcher: COMA
+ + Config: 124|COMA|101|DOWNPATHS|114,117,119,120,121|AVERAGE|BOTH|MULTIPLE(0,0.0080,0.5)|AVERAGE
+ - dblp.masters.mastersthesis.mastersthesis_Sequence.year <-> amalgam.pub1.pub1_TUPLE.year: 0.6665411
+ - dblp.books.book.book_Sequence.volume <-> amalgam.pub1.pub1_TUPLE.volume: 0.6775291
+ - dblp.books.book.book_Sequence.year <-> amalgam.pub1.pub1_TUPLE.year: 0.6671969
+ - dblp.articles.article.article_Sequence.pages <-> amalgam.pub1.pub1_TUPLE.pages: 0.6839193
+ - dblp.articles.article.article_Sequence.volume <-> amalgam.pub1.pub1_TUPLE.volume: 0.679839
+ - dblp.articles.article.article_Sequence.year <-> amalgam.pub1.pub1_TUPLE.year: 0.66985404
+ - dblp.phds.phdthesis.phdthesis_Sequence.year <-> amalgam.pub1.pub1_TUPLE.year: 0.66615534
+ + Total: 7 correspondences
+--------------------------------------------------------
+

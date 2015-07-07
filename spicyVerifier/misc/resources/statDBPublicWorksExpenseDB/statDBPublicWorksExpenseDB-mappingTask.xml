@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>statDBPublicWorks.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>statDBPublicWorks-instance1.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>expenseDB.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>expenseDB-instance1.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+  </target>
+  <correspondences />
+</mappingtask>
+

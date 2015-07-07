@@ -1,0 +1,15 @@
+--------------------------------------------------------
+MatchResult of simMatrix [6,6]
+ + Name: Mapping1
+ + Info: COMA
+ + Source: Source_mondial_xsd|SIMPLIFIED
+ + Target: Target_organization_Set_xsd|SIMPLIFIED
+ + Matcher: COMA
+ + Config: 124|COMA|101|DOWNPATHS|114,117,119,120,121|AVERAGE|BOTH|MULTIPLE(0,0.0080,0.5)|AVERAGE
+ - mondial.organization_Set.organization.organization_Sequence.abbrev.abbrev_PCDATA <-> organization_Set.organization.abbrev: 0.7738889
+ - mondial.organization_Set.organization.organization_Sequence.established.established_PCDATA <-> organization_Set.organization.established: 0.7738889
+ - mondial.organization_Set.organization.organization_Sequence.name <-> organization_Set.organization.name: 0.70389724
+ - mondial.organization_Set.organization.organization_Sequence.members_Set.members.type <-> organization_Set.organization.organization_Sequence.members_Set.members.type: 0.7227777
+ + Total: 6 correspondences
+--------------------------------------------------------
+

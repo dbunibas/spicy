@@ -1,0 +1,16 @@
+--------------------------------------------------------
+MatchResult of simMatrix [7,6]
+ + Name: Mapping2
+ + Info: COMA
+ + Source: Source_people_xsd|SIMPLIFIED
+ + Target: Target_people_xsd|SIMPLIFIED
+ + Matcher: COMA
+ + Config: 124|COMA|101|DOWNPATHS|114,117,119,120,121|AVERAGE|BOTH|MULTIPLE(0,0.0080,0.5)|AVERAGE
+ - people.address.address_TUPLE.email <-> people.person.person_TUPLE.email: 0.795601
+ - people.professor.professor_TUPLE.email <-> people.person.person_TUPLE.email: 0.8008642
+ - people.personjoin.personjoin_TUPLE.name <-> people.person.person_TUPLE.name: 0.8809515
+ - people.personjoin.personjoin_TUPLE.birthdate <-> people.person.person_TUPLE.birthdate: 0.8869402
+ - people.personjoin.personjoin_TUPLE.surname <-> people.person.person_TUPLE.surname: 0.9069517
+ + Total: 7 correspondences
+--------------------------------------------------------
+

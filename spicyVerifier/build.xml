@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="spicyVerifier" default="build">
+
+ <!-- ***************************************************
+            Importazione del template
+      *************************************************** -->
+
+    <import file="../spicy-template-build.xml" />   
+            
+    <property file="../common.properties" />
+            
+    <property name="guice.ver" value="1.0" />  
+      
+    <fileset id="guice.jars" dir="${lib.dir}">
+        <include name="guice-${guice.ver}.jar" />
+    </fileset>
+
+    <target name="-init-classpath" depends="-init-folders">
+        <property name="build.sysclasspath" value="ignore" />
+        <path id="compile.classpath">
+            <pathelement location="${build.dir}" />
+            <pathelement location="${lib.dir}/antlr-3.1.1-runtime.jar" />            
+            <pathelement location="${lib.dir}/commons-logging-${commons-logging.ver}.jar" />
+            <pathelement location="${lib.dir}/jscience.jar" /> 
+            <fileset refid="guice.jars" />
+
+            <pathelement location="${lib.dir}/jep-${jep.ver}.jar" />            
+            <pathelement location="${lib.dir}/spicyEngine-${spicyEngine.ver}.jar" />
+        </path>
+        <path id="run.classpath">
+            <path refid="compile.classpath" />
+            <pathelement location="${lib.dir}/log4j-${log4j.ver}.jar" />
+            <pathelement location="${lib.dir}/jdom.jar" />
+            <pathelement location="${lib.dir}/xercesImpl.jar" />            
+        </path>
+        <path id="test.classpath">
+            <path refid="compile.classpath" />
+            <pathelement location="${test.build.dir}" />
+            <pathelement location="${lib.dir}/jdom.jar" />
+            <pathelement location="${lib.dir}/xercesImpl.jar" />
+            <pathelement location="${lib.dir}/junit.jar" />
+            <pathelement location="${lib.dir}/log4j-${log4j.ver}.jar" />
+        </path>
+    </target>    
+
+    <target name="-light-deploy-spicyEngine" depends="init">
+        <ant dir="${spicyEngine.dir}" inheritAll="false" target="light-deploy" />
+    </target>
+        
+    <target name="build" depends="-light-deploy-spicyEngine, compile, compile-test" description="compila ed esegue i test">
+    </target>
+
+</project>

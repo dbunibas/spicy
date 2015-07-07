@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SourceHoustonDoubleCoverage>
+    <As>
+        <A>
+            <a>A0</a>
+            <b>B0</b>
+			<c>C0</c>
+        </A>
+        <A>
+            <a>A1</a>
+            <b>B1</b>
+			<c>C1</c>
+        </A>
+    </As>
+    <Bs>
+        <B>
+            <a>A0</a>
+            <b>B0</b>
+			<d>C0</d>
+        </B>
+        <B>
+            <a>A1</a>
+            <b>B1</b>
+			<d>D1</d>
+        </B>
+    </Bs>
+    <Cs>
+        <C>
+            <a>C0</a>
+            <c>D0</c>
+        </C>
+        <C>
+            <a>D1</a>
+            <c>C1</c>
+        </C>
+    </Cs>
+</SourceHoustonDoubleCoverage>

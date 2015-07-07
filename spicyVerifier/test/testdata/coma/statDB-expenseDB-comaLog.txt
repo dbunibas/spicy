@@ -1,0 +1,17 @@
+--------------------------------------------------------
+MatchResult of simMatrix [10,10]
+ + Name: Mapping2
+ + Info: COMA
+ + Source: Source_statDB_xsd|SIMPLIFIED
+ + Target: Target_expenseDB_xsd|SIMPLIFIED
+ + Matcher: COMA
+ + Config: 124|COMA|101|DOWNPATHS|114,117,119,120,121|AVERAGE|BOTH|MULTIPLE(0,0.0080,0.5)|AVERAGE
+ - statDB.cityStat.organizations.organization.companyName <-> expenseDB.companies.company.companyName: 0.7075415
+ - statDB.cityStat.organizations.organization.fundings.fund.principalInvestigator <-> expenseDB.grants.grant.principalInvestigator: 0.6639879
+ - statDB.cityStat.city <-> expenseDB.companies.company.city: 0.6286031
+ - statDB.cityStat.financials.financial.amount <-> expenseDB.grants.grant.amount: 0.682533
+ - statDB.cityStat.financials.financial.year <-> expenseDB.projects.project.year: 0.7258996
+ - statDB.cityStat.financials.financial.project <-> expenseDB.projects.project.projectName: 0.66244674
+ + Total: 10 correspondences
+--------------------------------------------------------
+

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<univDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="univDB.xsd">
+    <departments>
+        <department>
+            <name>Department of Computer Science</name>
+            <staff>
+                <id>1</id>
+                <name>Elena Spalla</name>
+            </staff>
+            <staff>
+                <id>2</id>
+                <name>Ivana Perri</name>
+            </staff>
+            <staff>
+                <id>3</id>
+                <name>Chiara Fucksia</name>
+            </staff>
+            <professor>
+                <id>1</id>
+                <name>Paolo Atzeni</name>
+                <position>full prof.</position>
+            </professor>
+            <professor>
+                <id>2</id>
+                <name>Giuseppe Di Battista</name>
+                <position>full prof.</position>
+            </professor>
+            <professor>
+                <id>3</id>
+                <name>Paolo Merialdo</name>
+                <position>assoc. prof.</position>
+            </professor>
+        </department>
+        <department>
+            <name>Department of Mathematics</name>
+            <staff>
+                <id>4</id>
+                <name>Tiziano Orsellini</name>
+            </staff>
+            <staff>
+                <id>5</id>
+                <name>Giuseppe Linsalata</name>
+            </staff>
+            <staff>
+                <id>6</id>
+                <name>Donato Vertone</name>
+            </staff>
+            <professor>
+                <id>4</id>
+                <name>Giuseppe Mastroianni</name>
+                <position>full prof.</position>
+            </professor>
+            <professor>
+                <id>5</id>
+                <name>Donatella Occorsio</name>
+                <position>full prof.</position>
+            </professor>
+            <professor>
+                <id>6</id>
+                <name>Maria Grazia Russo</name>
+                <position>assist. prof.</position>
+            </professor>
+        </department>
+    </departments>
+    <courses>
+        <course>
+            <courseName>Databases 101</courseName>
+            <credits>9</credits>
+            <instructorId>1</instructorId>
+            <year>2007</year>
+        </course>
+        <course>
+            <courseName>Information Systems 303</courseName>
+            <credits>6</credits>
+            <instructorId>1</instructorId>
+            <year>2008</year>
+        </course>
+        <course>
+            <courseName>Networks 402</courseName>
+            <credits>6</credits>
+            <instructorId>2</instructorId>
+            <year>2007</year>
+        </course>
+        <course>
+            <courseName>Web Development 653</courseName>
+            <credits>3</credits>
+            <instructorId>3</instructorId>
+            <year>2008</year>
+        </course>
+        <course>
+            <courseName>Approximation 702</courseName>
+            <credits>6</credits>
+            <instructorId>4</instructorId>
+            <year>2005</year>
+        </course>
+        <course>
+            <courseName>Numerical Calculus 101</courseName>
+            <credits>6</credits>
+            <instructorId>5</instructorId>
+            <year>2007</year>
+        </course>
+    </courses>
+</univDB>

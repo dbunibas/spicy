@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<courseDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="courseDB.xsd">
+    <course>
+        <courseName>Operating Systems 303</courseName>
+        <credits>6</credits>
+        <instructorName>Valter Crescenzi</instructorName>
+        <year>2007</year>
+    </course>
+    <course>
+        <courseName>Geometry 202</courseName>
+        <credits>6</credits>
+        <instructorName>Martin Funkin</instructorName>
+        <year>2007</year>
+    </course>
+    <course>
+        <courseName>O.O. Programming 404</courseName>
+        <credits>9</credits>
+        <instructorName>Angela Bonifati</instructorName>
+        <year>2008</year>
+    </course>
+    <course>
+        <courseName>Analysis 102</courseName>
+        <credits>6</credits>
+        <instructorName>Alberto Cialdea</instructorName>
+        <year>2006</year>
+    </course>
+    <course>
+        <courseName>Cryptography 204</courseName>
+        <credits>6</credits>
+        <instructorName>Alex Siciliano</instructorName>
+        <year>2006</year>
+    </course>
+</courseDB>

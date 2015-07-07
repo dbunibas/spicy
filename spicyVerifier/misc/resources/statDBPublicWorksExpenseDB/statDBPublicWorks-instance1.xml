@@ -1,0 +1,2436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<statDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="statDB.xsd">
+  <cityStat>
+    <city>New York</city>
+    <organizations>
+      <organization>
+        <companyId>1</companyId>
+        <companyName>IBM</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Frank Miller</principalInvestigator>
+            <financialIdRef>101</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Neal Adams</principalInvestigator>
+            <financialIdRef>102</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>101</financialId>
+        <amount>10000.0</amount>
+        <project>Clio</project>
+        <year>2000</year>
+      </financial>
+      <financial>
+        <financialId>102</financialId>
+        <amount>50000.0</amount>
+        <project>DB2</project>
+        <year>1980</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1990</startYear>
+        <endYear>2000</endYear>
+        <budget>3500.0</budget>
+        <publicWorkName>publicWork</publicWorkName>
+        <director>Joseph De Nicolas</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1981</startYear>
+        <endYear>2007</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>ABC WORLD</publicWorkName>
+        <director>Mary Luois</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1993</startYear>
+        <endYear>2001</endYear>
+        <budget>1500.0</budget>
+        <publicWorkName>TESTING</publicWorkName>
+        <director>Lucy Andy</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Seattle</city>
+    <organizations>
+      <organization>
+        <companyId>2</companyId>
+        <companyName>Microsoft</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Stan Lee</principalInvestigator>
+            <financialIdRef>103</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+      <organization>
+        <companyId>3</companyId>
+        <companyName>Boing</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Steve Ditko</principalInvestigator>
+            <financialIdRef>104</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>103</financialId>
+        <amount>1000.0</amount>
+        <project>SQL Server</project>
+        <year>1980</year>
+      </financial>
+      <financial>
+        <financialId>104</financialId>
+        <amount>1500.0</amount>
+        <project>B530</project>
+        <year>2006</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1990</startYear>
+        <endYear>2000</endYear>
+        <budget>3500.0</budget>
+        <publicWorkName>publicWork</publicWorkName>
+        <director>Gerard McQuine</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1991</startYear>
+        <endYear>2007</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>Excalibur</publicWorkName>
+        <director>Andrew Paine</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1983</startYear>
+        <endYear>2001</endYear>
+        <budget>1500.0</budget>
+        <publicWorkName>WorldWide</publicWorkName>
+        <director>Giselle Dolores</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Rome</city>
+    <organizations>
+      <organization>
+        <companyId>6</companyId>
+        <companyName>Reverting</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Tim Pink</principalInvestigator>
+            <financialIdRef>1001</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Marian Bloskin</principalInvestigator>
+            <financialIdRef>1002</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>1001</financialId>
+        <amount>1000.0</amount>
+        <project>Craft</project>
+        <year>1999</year>
+      </financial>
+      <financial>
+        <financialId>1002</financialId>
+        <amount>5000.0</amount>
+        <project>Miami</project>
+        <year>1980</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1990</startYear>
+        <endYear>2000</endYear>
+        <budget>3500.0</budget>
+        <publicWorkName>publicWork</publicWorkName>
+        <director>Dino Mancini</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1991</startYear>
+        <endYear>2007</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>Excalibur</publicWorkName>
+        <director>Bill Clinton</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1992</startYear>
+        <endYear>2003</endYear>
+        <budget>1500.0</budget>
+        <publicWorkName>WorldWide</publicWorkName>
+        <director>Gino Selvaggi</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Florence</city>
+    <organizations>
+      <organization>
+        <companyId>7</companyId>
+        <companyName>Red Mountain</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Priam Prori</principalInvestigator>
+            <financialIdRef>1101</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Erich Siani</principalInvestigator>
+            <financialIdRef>1102</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>1101</financialId>
+        <amount>1000.0</amount>
+        <project>W3C</project>
+        <year>2000</year>
+      </financial>
+      <financial>
+        <financialId>1102</financialId>
+        <amount>5000.0</amount>
+        <project>Broad Board</project>
+        <year>1980</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1999</startYear>
+        <endYear>2000</endYear>
+        <budget>1300.0</budget>
+        <publicWorkName>publicWorkming</publicWorkName>
+        <director>Peter Ball</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1971</startYear>
+        <endYear>2007</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>WorldCup</publicWorkName>
+        <director>Moby Parker</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1982</startYear>
+        <endYear>2003</endYear>
+        <budget>1500.0</budget>
+        <publicWorkName>B2B Consumer</publicWorkName>
+        <director>Tony Stark</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Paris</city>
+    <organizations>
+      <organization>
+        <companyId>8</companyId>
+        <companyName>Happy Week</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Peter Sarli</principalInvestigator>
+            <financialIdRef>1201</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>James Smith</principalInvestigator>
+            <financialIdRef>1202</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>1201</financialId>
+        <amount>3000.0</amount>
+        <project>White Paper</project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>1202</financialId>
+        <amount>6000.0</amount>
+        <project>Rich World</project>
+        <year>1989</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1999</startYear>
+        <endYear>2000</endYear>
+        <budget>1350.0</budget>
+        <publicWorkName>Picture Image</publicWorkName>
+        <director>Peter Sarli</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1971</startYear>
+        <endYear>2007</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>World Cup</publicWorkName>
+        <director>Tim Brown</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1982</startYear>
+        <endYear>2003</endYear>
+        <budget>1500.0</budget>
+        <publicWorkName>BBC Lumen</publicWorkName>
+        <director>Erich Clapton</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Vienna</city>
+    <organizations>
+      <organization>
+        <companyId>9</companyId>
+        <companyName>Yoyo</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Tim Black</principalInvestigator>
+            <financialIdRef>1301</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Brian White</principalInvestigator>
+            <financialIdRef>1302</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>1301</financialId>
+        <amount>3500.0</amount>
+        <project>Piper Spicy</project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>1302</financialId>
+        <amount>7000.0</amount>
+        <project>The Next Day</project>
+        <year>1989</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1980</startYear>
+        <endYear>2007</endYear>
+        <budget>3500.0</budget>
+        <publicWorkName>Progra Olding</publicWorkName>
+        <director>Tony Green</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1971</startYear>
+        <endYear>2005</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>World Champ</publicWorkName>
+        <director>Frank Black</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1982</startYear>
+        <endYear>2004</endYear>
+        <budget>2500.0</budget>
+        <publicWorkName>Another Project</publicWorkName>
+        <director>Giovanni Mancini</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Washington</city>
+    <organizations>
+      <organization>
+        <companyId>10</companyId>
+        <companyName>World Champs</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Jerry Minogue</principalInvestigator>
+            <financialIdRef>1401</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Brian Clapton</principalInvestigator>
+            <financialIdRef>1402</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Erich Clapton</principalInvestigator>
+            <financialIdRef>1403</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>1401</financialId>
+        <amount>4500.0</amount>
+        <project>Mondial DB</project>
+        <year>1933</year>
+      </financial>
+      <financial>
+        <financialId>1402</financialId>
+        <amount>7500.0</amount>
+        <project>Best Wary</project>
+        <year>1999</year>
+      </financial>
+      <financial>
+        <financialId>1403</financialId>
+        <amount>9500.0</amount>
+        <project>Music 4U</project>
+        <year>1999</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1982</startYear>
+        <endYear>2007</endYear>
+        <budget>3500.0</budget>
+        <publicWorkName>Test Time</publicWorkName>
+        <director>Federica Brownian</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1991</startYear>
+        <endYear>1994</endYear>
+        <budget>7500.0</budget>
+        <publicWorkName>Machin</publicWorkName>
+        <director>james Smith</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1992</startYear>
+        <endYear>1999</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>Twice 3</publicWorkName>
+        <director>Lucy Archindolf</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Naples</city>
+    <organizations>
+      <organization>
+        <companyId>11</companyId>
+        <companyName>Masking</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Stan Lee</principalInvestigator>
+            <financialIdRef>1503</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+      <organization>
+        <companyId>12</companyId>
+        <companyName>Whirpool</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Mark White</principalInvestigator>
+            <financialIdRef>1504</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>1503</financialId>
+        <amount>1000.0</amount>
+        <project>Bionic</project>
+        <year>1985</year>
+      </financial>
+      <financial>
+        <financialId>1504</financialId>
+        <amount>3500.0</amount>
+        <project>AfterDay</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1995</startYear>
+        <endYear>2005</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>Data Area</publicWorkName>
+        <director>Jerry Martines</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1997</startYear>
+        <endYear>2007</endYear>
+        <budget>7500.0</budget>
+        <publicWorkName>Subject </publicWorkName>
+        <director>Mary Castellano</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1999</startYear>
+        <endYear>2003</endYear>
+        <budget>1500.0</budget>
+        <publicWorkName>Primary 3</publicWorkName>
+        <director>Jerry Hork</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Budapest</city>
+    <organizations>
+      <organization>
+        <companyId>13</companyId>
+        <companyName>Eucaliptus</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Luis Scorn</principalInvestigator>
+            <financialIdRef>1601</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Lucy Mariani</principalInvestigator>
+            <financialIdRef>1602</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>1601</financialId>
+        <amount>1500.0</amount>
+        <project>Biek Story</project>
+        <year>1933</year>
+      </financial>
+      <financial>
+        <financialId>1602</financialId>
+        <amount>1000.0</amount>
+        <project>Missing</project>
+        <year>1999</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1998</startYear>
+        <endYear>2000</endYear>
+        <budget>7500.0</budget>
+        <publicWorkName>One Two</publicWorkName>
+        <director>mary Winner</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Manchester</city>
+    <organizations>
+      <organization>
+        <companyId>14</companyId>
+        <companyName>Alitalia</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Joe Pesci</principalInvestigator>
+            <financialIdRef>1701</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Sean Connery</principalInvestigator>
+            <financialIdRef>1702</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>1701</financialId>
+        <amount>5500.0</amount>
+        <project>Returned</project>
+        <year>1999</year>
+      </financial>
+      <financial>
+        <financialId>1702</financialId>
+        <amount>6000.0</amount>
+        <project>Question</project>
+        <year>1999</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2001</startYear>
+        <endYear>1994</endYear>
+        <budget>9500.0</budget>
+        <publicWorkName>Rin Bong</publicWorkName>
+        <director>Agatha Risk</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2003</startYear>
+        <endYear>1999</endYear>
+        <budget>6500.0</budget>
+        <publicWorkName>Semantic</publicWorkName>
+        <director>Tim Jellow</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>London</city>
+    <organizations>
+      <organization>
+        <companyId>15</companyId>
+        <companyName>AMI</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Brian McLoudy</principalInvestigator>
+            <financialIdRef>1801</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Ridge Namanni</principalInvestigator>
+            <financialIdRef>1802</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>1801</financialId>
+        <amount>3500.0</amount>
+        <project>Holiday 99</project>
+        <year>2007</year>
+      </financial>
+      <financial>
+        <financialId>1802</financialId>
+        <amount>7000.0</amount>
+        <project>BionDay Circ</project>
+        <year>2000</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1999</startYear>
+        <endYear>2005</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>Three Times</publicWorkName>
+        <director>Alex Rinoh</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Milan</city>
+    <organizations>
+      <organization>
+        <companyId>16</companyId>
+        <companyName>Rion Plus</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Timmy Orian</principalInvestigator>
+            <financialIdRef>1901</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Brooke White</principalInvestigator>
+            <financialIdRef>1902</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>1901</financialId>
+        <amount>3500.0</amount>
+        <project>Tuple</project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>1902</financialId>
+        <amount>7000.0</amount>
+        <project>Another</project>
+        <year>1989</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1982</startYear>
+        <endYear>2007</endYear>
+        <budget>3500.0</budget>
+        <publicWorkName>Time</publicWorkName>
+        <director>Andry Pitter</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1997</startYear>
+        <endYear>1994</endYear>
+        <budget>7500.0</budget>
+        <publicWorkName>Next</publicWorkName>
+        <director>Marwell Green</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Moscow</city>
+    <organizations>
+      <organization>
+        <companyId>17</companyId>
+        <companyName>NetWiring</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Berners Lee</principalInvestigator>
+            <financialIdRef>2003</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+      <organization>
+        <companyId>18</companyId>
+        <companyName>Rainbow</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Mark Horlock</principalInvestigator>
+            <financialIdRef>2004</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>2003</financialId>
+        <amount>1000.0</amount>
+        <project>Reneview</project>
+        <year>2005</year>
+      </financial>
+      <financial>
+        <financialId>2004</financialId>
+        <amount>3500.0</amount>
+        <project>Florence01</project>
+        <year>2007</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>3000.0</budget>
+        <publicWorkName>Paper</publicWorkName>
+        <director>Angie Bridge</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2001</startYear>
+        <endYear>2094</endYear>
+        <budget>5000.0</budget>
+        <publicWorkName>Topic</publicWorkName>
+        <director>Ridge Parran</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2005</startYear>
+        <endYear>2007</endYear>
+        <budget>5000.0</budget>
+        <publicWorkName>Interest</publicWorkName>
+        <director>Joe Pink</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Berlin</city>
+    <organizations>
+      <organization>
+        <companyId>19</companyId>
+        <companyName>Orange</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Alicia Brown</principalInvestigator>
+            <financialIdRef>2101</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Sean White</principalInvestigator>
+            <financialIdRef>2102</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>2101</financialId>
+        <amount>3500.0</amount>
+        <project>Green Police</project>
+        <year>1999</year>
+      </financial>
+      <financial>
+        <financialId>2102</financialId>
+        <amount>7000.0</amount>
+        <project>Blue World</project>
+        <year>1989</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>1500.0</budget>
+        <publicWorkName>Twisted</publicWorkName>
+        <director>Andrew White</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2001</startYear>
+        <endYear>2004</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>Finished</publicWorkName>
+        <director>Alicia Foreman</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>6500.0</budget>
+        <publicWorkName>Change</publicWorkName>
+        <director>Miguel Bias</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Amsterdam</city>
+    <organizations>
+      <organization>
+        <companyId>20</companyId>
+        <companyName>DAyTrain</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Mary Black</principalInvestigator>
+            <financialIdRef>2201</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Brian White</principalInvestigator>
+            <financialIdRef>2202</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>2201</financialId>
+        <amount>15500.0</amount>
+        <project>Nice Rainbows</project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>2202</financialId>
+        <amount>6000.0</amount>
+        <project>Old Stories</project>
+        <year>1999</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>3500.0</budget>
+        <publicWorkName>Test Time</publicWorkName>
+        <director>Brian Quisoski</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2001</startYear>
+        <endYear>2004</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>Machin</publicWorkName>
+        <director>Mike Lindows</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Lione</city>
+    <organizations>
+      <organization>
+        <companyId>21</companyId>
+        <companyName>Yoyo</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>John Narrow</principalInvestigator>
+            <financialIdRef>2301</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Brian White</principalInvestigator>
+            <financialIdRef>2302</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>2301</financialId>
+        <amount>3500.0</amount>
+        <project>Piper Spicy</project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>2302</financialId>
+        <amount>7000.0</amount>
+        <project>The Next Day</project>
+        <year>1999</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>6500.0</budget>
+        <publicWorkName>Best Time</publicWorkName>
+        <director>Tim Smith</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Tokyo</city>
+    <organizations>
+      <organization>
+        <companyId>22</companyId>
+        <companyName>New Story</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Stan Lee</principalInvestigator>
+            <financialIdRef>2403</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+      <organization>
+        <companyId>23</companyId>
+        <companyName>Old Versions</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Mark White</principalInvestigator>
+            <financialIdRef>2404</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>2403</financialId>
+        <amount>6000.0</amount>
+        <project>Titanic</project>
+        <year>1985</year>
+      </financial>
+      <financial>
+        <financialId>2404</financialId>
+        <amount>9500.0</amount>
+        <project>Science</project>
+        <year>2403</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2005</startYear>
+        <endYear>2007</endYear>
+        <budget>3500.0</budget>
+        <publicWorkName>Rational</publicWorkName>
+        <director>Tim Blues</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2003</startYear>
+        <endYear>2004</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>Logical</publicWorkName>
+        <director>Brian Abelasco</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2005</startYear>
+        <endYear>2007</endYear>
+        <budget>6500.0</budget>
+        <publicWorkName>Because 3</publicWorkName>
+        <director>Brian Abelasco</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>York</city>
+    <organizations>
+      <organization>
+        <companyId>24</companyId>
+        <companyName>Ioni</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>George Brian</principalInvestigator>
+            <financialIdRef>2501</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Joseph McGate</principalInvestigator>
+            <financialIdRef>2502</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>2501</financialId>
+        <amount>3500.0</amount>
+        <project>Simple Spicy</project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>2502</financialId>
+        <amount>7000.0</amount>
+        <project>Nice Day</project>
+        <year>2000</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1999</startYear>
+        <endYear>2007</endYear>
+        <budget>1500.0</budget>
+        <publicWorkName>Sources</publicWorkName>
+        <director>Joseph Brown</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1999</startYear>
+        <endYear>2004</endYear>
+        <budget>3500.0</budget>
+        <publicWorkName>Targets</publicWorkName>
+        <director>George Thomson</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>1500.0</budget>
+        <publicWorkName>Reality</publicWorkName>
+        <director>Peter Simon</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Perugia</city>
+    <organizations>
+      <organization>
+        <companyId>25</companyId>
+        <companyName>Particles</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Jean Miani</principalInvestigator>
+            <financialIdRef>2601</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Abelardo Sort</principalInvestigator>
+            <financialIdRef>2602</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>2601</financialId>
+        <amount>3500.0</amount>
+        <project>ATT</project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>2602</financialId>
+        <amount>7000.0</amount>
+        <project>BNW</project>
+        <year>1999</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>6500.0</budget>
+        <publicWorkName>Emp 32</publicWorkName>
+        <director>Simon White</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Standford</city>
+    <organizations>
+      <organization>
+        <companyId>26</companyId>
+        <companyName>GIS</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Jack Smith</principalInvestigator>
+            <financialIdRef>2701</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>George Milk</principalInvestigator>
+            <financialIdRef>2702</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>2701</financialId>
+        <amount>6500.0</amount>
+        <project>Monkey Qlc</project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>2702</financialId>
+        <amount>6000.0</amount>
+        <project>Mummy</project>
+        <year>1999</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2005</startYear>
+        <endYear>2007</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>Test</publicWorkName>
+        <director>Jack Brown</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2003</startYear>
+        <endYear>2004</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>Machin</publicWorkName>
+        <director>Nick Nicholas</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Bari</city>
+    <organizations>
+      <organization>
+        <companyId>27</companyId>
+        <companyName>CinCinCin</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Jerry Simbian</principalInvestigator>
+            <financialIdRef>2801</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Maurice Aspolos</principalInvestigator>
+            <financialIdRef>2802</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>2801</financialId>
+        <amount>3500.0</amount>
+        <project>White And Blue</project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>2802</financialId>
+        <amount>7000.0</amount>
+        <project>Beach Volley</project>
+        <year>1999</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2000</startYear>
+        <endYear>2003</endYear>
+        <budget>3500.0</budget>
+        <publicWorkName>Instance</publicWorkName>
+        <director>James Brown</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Venice</city>
+    <organizations>
+      <organization>
+        <companyId>28</companyId>
+        <companyName>Yoyo</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Tim Black</principalInvestigator>
+            <financialIdRef>2901</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Brian White</principalInvestigator>
+            <financialIdRef>2902</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>2901</financialId>
+        <amount>3500.0</amount>
+        <project>Brian Flower</project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>2902</financialId>
+        <amount>7000.0</amount>
+        <project>Months</project>
+        <year>1999</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>3500.0</budget>
+        <publicWorkName>DNG Pro</publicWorkName>
+        <director>James Perillo</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2001</startYear>
+        <endYear>2004</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>publicWork</publicWorkName>
+        <director>Antea Bison</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>3500.0</budget>
+        <publicWorkName>New publicWork</publicWorkName>
+        <director>Ridge Connery</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>El Cairo</city>
+    <organizations>
+      <organization>
+        <companyId>29</companyId>
+        <companyName>Codex</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>James White</principalInvestigator>
+            <financialIdRef>3001</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Jack Nicolosi</principalInvestigator>
+            <financialIdRef>3002</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>3001</financialId>
+        <amount>3500.0</amount>
+        <project>AAS</project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>3002</financialId>
+        <amount>7000.0</amount>
+        <project>BRC project</project>
+        <year>1999</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>3500.0</budget>
+        <publicWorkName>AAB 325</publicWorkName>
+        <director>Erich Bertone</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Sharm</city>
+    <organizations>
+      <organization>
+        <companyId>30</companyId>
+        <companyName>Rioni</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Timmy Brooke</principalInvestigator>
+            <financialIdRef>3101</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Luise Sepulveda</principalInvestigator>
+            <financialIdRef>3102</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>3101</financialId>
+        <amount>5500.0</amount>
+        <project>Nouvel Space</project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>3102</financialId>
+        <amount>7050.0</amount>
+        <project>Bias Standard</project>
+        <year>2006</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1995</startYear>
+        <endYear>2007</endYear>
+        <budget>2500.0</budget>
+        <publicWorkName>pTime</publicWorkName>
+        <director>Loredan Simon</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Bruxelles</city>
+    <organizations>
+      <organization>
+        <companyId>31</companyId>
+        <companyName>Morier Tech</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Nancy Rian</principalInvestigator>
+            <financialIdRef>3201</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Andrew Spock</principalInvestigator>
+            <financialIdRef>3202</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>3201</financialId>
+        <amount>15500.0</amount>
+        <project>Loving Day</project>
+        <year>2005</year>
+      </financial>
+      <financial>
+        <financialId>3202</financialId>
+        <amount>9000.0</amount>
+        <project>Knowing People</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1999</startYear>
+        <endYear>2007</endYear>
+        <budget>8500.0</budget>
+        <publicWorkName>delta Time</publicWorkName>
+        <director>Simon Brown</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1990</startYear>
+        <endYear>2004</endYear>
+        <budget>7500.0</budget>
+        <publicWorkName>Omega</publicWorkName>
+        <director>Nancy Bridge</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Belgrado</city>
+    <organizations>
+      <organization>
+        <companyId>32</companyId>
+        <companyName>Ticchi</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Amy Stuart</principalInvestigator>
+            <financialIdRef>3301</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Veronique Mancini</principalInvestigator>
+            <financialIdRef>3302</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>3301</financialId>
+        <amount>3500.0</amount>
+        <project>Piper</project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>3302</financialId>
+        <amount>7000.0</amount>
+        <project>Oracle</project>
+        <year>1999</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2000</startYear>
+        <endYear>2007</endYear>
+        <budget>1300.0</budget>
+        <publicWorkName>GDP STAT</publicWorkName>
+        <director>Brian Bridge</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Tirane</city>
+    <organizations>
+      <organization>
+        <companyId>33</companyId>
+        <companyName>LSUHttp</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Tim Black</principalInvestigator>
+            <financialIdRef>3401</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Brian White</principalInvestigator>
+            <financialIdRef>3402</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>3401</financialId>
+        <amount>3500.0</amount>
+        <project>Web Pack</project>
+        <year>2000</year>
+      </financial>
+      <financial>
+        <financialId>3402</financialId>
+        <amount>7000.0</amount>
+        <project>Broad Meeting</project>
+        <year>2007</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>2500.0</budget>
+        <publicWorkName>alfa</publicWorkName>
+        <director>Brian Brown</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2004</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>beta</publicWorkName>
+        <director>Tim Brown</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2005</startYear>
+        <endYear>2007</endYear>
+        <budget>9500.0</budget>
+        <publicWorkName>Gamma 5</publicWorkName>
+        <director>Nick Roan</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Cuba</city>
+    <organizations>
+      <organization>
+        <companyId>34</companyId>
+        <companyName>Invoked</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Bridge Boorlin</principalInvestigator>
+            <financialIdRef>3501</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Mark Estwood</principalInvestigator>
+            <financialIdRef>3502</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>3501</financialId>
+        <amount>3500.0</amount>
+        <project>Niack </project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>3502</financialId>
+        <amount>7000.0</amount>
+        <project>join later</project>
+        <year>1999</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1990</startYear>
+        <endYear>2007</endYear>
+        <budget>3500.0</budget>
+        <publicWorkName>Epsilon</publicWorkName>
+        <director>Mark Rain</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>San Francisco</city>
+    <organizations>
+      <organization>
+        <companyId>35</companyId>
+        <companyName>Apple Mac</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>George Black</principalInvestigator>
+            <financialIdRef>3601</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Nick George</principalInvestigator>
+            <financialIdRef>3602</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>3601</financialId>
+        <amount>3600.0</amount>
+        <project>BBC World</project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>3602</financialId>
+        <amount>7000.0</amount>
+        <project>Bland</project>
+        <year>2000</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>36000.0</budget>
+        <publicWorkName>Hi</publicWorkName>
+        <director>George White</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2003</startYear>
+        <endYear>2004</endYear>
+        <budget>1500.0</budget>
+        <publicWorkName>Delta T</publicWorkName>
+        <director>James Sinco</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Trieste</city>
+    <organizations>
+      <organization>
+        <companyId>36</companyId>
+        <companyName>Tedious</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Timmy Black</principalInvestigator>
+            <financialIdRef>3701</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Jack White</principalInvestigator>
+            <financialIdRef>3702</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>3701</financialId>
+        <amount>4700.0</amount>
+        <project>Aulicus</project>
+        <year>2003</year>
+      </financial>
+      <financial>
+        <financialId>3702</financialId>
+        <amount>16600.0</amount>
+        <project>Starting</project>
+        <year>2002</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1990</startYear>
+        <endYear>2000</endYear>
+        <budget>17000.0</budget>
+        <publicWorkName>Alpha 3</publicWorkName>
+        <director>Jack Donald</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Nuoro</city>
+    <organizations>
+      <organization>
+        <companyId>37</companyId>
+        <companyName>Stored Data</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Jack Blue</principalInvestigator>
+            <financialIdRef>3801</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>James Rion</principalInvestigator>
+            <financialIdRef>3802</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>3801</financialId>
+        <amount>3800.0</amount>
+        <project>Returned</project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>3802</financialId>
+        <amount>7000.0</amount>
+        <project>Pensamiento</project>
+        <year>2001</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1999</startYear>
+        <endYear>2007</endYear>
+        <budget>1800.0</budget>
+        <publicWorkName>Power</publicWorkName>
+        <director>Carmen Brion</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Tunisi</city>
+    <organizations>
+      <organization>
+        <companyId>38</companyId>
+        <companyName>Lording</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Brooke Smirlian</principalInvestigator>
+            <financialIdRef>3901</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Chang Lee</principalInvestigator>
+            <financialIdRef>3902</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>3901</financialId>
+        <amount>6900.0</amount>
+        <project>History in Chine</project>
+        <year>1993</year>
+      </financial>
+      <financial>
+        <financialId>3902</financialId>
+        <amount>17000.0</amount>
+        <project>Back to '90s</project>
+        <year>1999</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1990</startYear>
+        <endYear>2007</endYear>
+        <budget>3900.0</budget>
+        <publicWorkName>Mailing</publicWorkName>
+        <director>Carmen Brown</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1995</startYear>
+        <endYear>2004</endYear>
+        <budget>95000.0</budget>
+        <publicWorkName>List</publicWorkName>
+        <director>Chon Yang Ying</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Dubai</city>
+    <organizations>
+      <organization>
+        <companyId>39</companyId>
+        <companyName>Semantic</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Miguel Bain</principalInvestigator>
+            <financialIdRef>4003</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+      <organization>
+        <companyId>40</companyId>
+        <companyName>White</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Jack Torn</principalInvestigator>
+            <financialIdRef>4004</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>4003</financialId>
+        <amount>5000.0</amount>
+        <project>European Cities</project>
+        <year>2000</year>
+      </financial>
+      <financial>
+        <financialId>4004</financialId>
+        <amount>13500.0</amount>
+        <project>Citizens</project>
+        <year>2001</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2001</startYear>
+        <endYear>2007</endYear>
+        <budget>1400.0</budget>
+        <publicWorkName>Test Time</publicWorkName>
+        <director>James Torn</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1990</startYear>
+        <endYear>2004</endYear>
+        <budget>40000.0</budget>
+        <publicWorkName>Machin</publicWorkName>
+        <director>Jack Brown</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1995</startYear>
+        <endYear>2007</endYear>
+        <budget>71500.0</budget>
+        <publicWorkName>Twice 3</publicWorkName>
+        <director>James Thomson</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Malta</city>
+    <organizations>
+      <organization>
+        <companyId>41</companyId>
+        <companyName>Malta Store</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Bion Taku</principalInvestigator>
+            <financialIdRef>4101</financialIdRef>
+          </fund>
+          <fund>
+            <principalInvestigator>Rocky Mountanion</principalInvestigator>
+            <financialIdRef>4102</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>4101</financialId>
+        <amount>4100.0</amount>
+        <project>Look Advance</project>
+        <year>2000</year>
+      </financial>
+      <financial>
+        <financialId>4102</financialId>
+        <amount>7000.0</amount>
+        <project>Future Work</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>4100.0</budget>
+        <publicWorkName>1986</publicWorkName>
+        <director>Terry Red</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2001</startYear>
+        <endYear>2004</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>October</publicWorkName>
+        <director>Mondal Andrie</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>New England</city>
+    <organizations>
+      <organization>
+        <companyId>42</companyId>
+        <companyName>Summer</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>James Bricks</principalInvestigator>
+            <financialIdRef>4201</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>4201</financialId>
+        <amount>6200.0</amount>
+        <project>News Online</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>9200.0</budget>
+        <publicWorkName>Version</publicWorkName>
+        <director>Peter Brown</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1991</startYear>
+        <endYear>2004</endYear>
+        <budget>65000.0</budget>
+        <publicWorkName>Contents</publicWorkName>
+        <director>George Simon</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Prague</city>
+    <organizations>
+      <organization>
+        <companyId>43</companyId>
+        <companyName>Spring</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Antony Didimo</principalInvestigator>
+            <financialIdRef>4301</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>4301</financialId>
+        <amount>8200.0</amount>
+        <project>Strategy</project>
+        <year>2004</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2005</startYear>
+        <endYear>2007</endYear>
+        <budget>19000.0</budget>
+        <publicWorkName>Manager</publicWorkName>
+        <director>Donad Singer</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1997</startYear>
+        <endYear>2004</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>Login Pro</publicWorkName>
+        <director>Andrew Science</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Eldorado</city>
+    <organizations>
+      <organization>
+        <companyId>44</companyId>
+        <companyName>Presents</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Andrew Tiny</principalInvestigator>
+            <financialIdRef>4401</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>4401</financialId>
+        <amount>6200.0</amount>
+        <project>News Magazine</project>
+        <year>2005</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>3200.0</budget>
+        <publicWorkName>News 65</publicWorkName>
+        <director>Alicia Morphing</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2000</startYear>
+        <endYear>2004</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>Revisted 63</publicWorkName>
+        <director>Stacy Sionai</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>New Everest</city>
+    <organizations>
+      <organization>
+        <companyId>45</companyId>
+        <companyName>Cold</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Matthew Rinoh</principalInvestigator>
+            <financialIdRef>4501</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>4501</financialId>
+        <amount>6200.0</amount>
+        <project>ColdFusion</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>6200.0</budget>
+        <publicWorkName>publicWork 07</publicWorkName>
+        <director>Stuart Brik</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1991</startYear>
+        <endYear>2006</endYear>
+        <budget>1500.0</budget>
+        <publicWorkName>P alpha 06</publicWorkName>
+        <director>Martin Funk</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Matera</city>
+    <organizations>
+      <organization>
+        <companyId>46</companyId>
+        <companyName>Stylus</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>James Bricks</principalInvestigator>
+            <financialIdRef>4601</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>4601</financialId>
+        <amount>6200.0</amount>
+        <project>Online</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2005</startYear>
+        <endYear>2007</endYear>
+        <budget>9200.0</budget>
+        <publicWorkName>Online +</publicWorkName>
+        <director>Gianni Brown</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1993</startYear>
+        <endYear>2004</endYear>
+        <budget>3500.0</budget>
+        <publicWorkName>Project D</publicWorkName>
+        <director>James Moral</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>New Orleans</city>
+    <organizations>
+      <organization>
+        <companyId>47</companyId>
+        <companyName>Didimo</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Jack Sioni</principalInvestigator>
+            <financialIdRef>4701</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>4701</financialId>
+        <amount>7200.0</amount>
+        <project>Better Choice</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>9200.0</budget>
+        <publicWorkName>EDP Vers</publicWorkName>
+        <director>Brian Brown</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1991</startYear>
+        <endYear>2004</endYear>
+        <budget>6500.0</budget>
+        <publicWorkName>IGP</publicWorkName>
+        <director>Simon Brown</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Siena</city>
+    <organizations>
+      <organization>
+        <companyId>48</companyId>
+        <companyName>Monte Paschi</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Ronald Trust</principalInvestigator>
+            <financialIdRef>4801</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>4801</financialId>
+        <amount>6200.0</amount>
+        <project>Just In Time</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>1100.0</budget>
+        <publicWorkName>Checking</publicWorkName>
+        <director>Nick Brown</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2003</startYear>
+        <endYear>2004</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>Corrents</publicWorkName>
+        <director>James Ronaldons</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Loren</city>
+    <organizations>
+      <organization>
+        <companyId>49</companyId>
+        <companyName>ED Projects</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Lorenzo Salvemini</principalInvestigator>
+            <financialIdRef>4901</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>4901</financialId>
+        <amount>6200.0</amount>
+        <project>Rioni</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2005</startYear>
+        <endYear>2007</endYear>
+        <budget>1200.0</budget>
+        <publicWorkName>Old</publicWorkName>
+        <director>Joe Rain</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1995</startYear>
+        <endYear>2004</endYear>
+        <budget>3500.0</budget>
+        <publicWorkName>Times</publicWorkName>
+        <director>James Soltan</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Tel Aviv</city>
+    <organizations>
+      <organization>
+        <companyId>50</companyId>
+        <companyName>new Society</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Timmi Doe</principalInvestigator>
+            <financialIdRef>5001</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>5001</financialId>
+        <amount>6200.0</amount>
+        <project>Rionline</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2005</startYear>
+        <endYear>2006</endYear>
+        <budget>9200.0</budget>
+        <publicWorkName>Rioni 8</publicWorkName>
+        <director>Tim Brown</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1999</startYear>
+        <endYear>1999</endYear>
+        <budget>2500.0</budget>
+        <publicWorkName>Factotum</publicWorkName>
+        <director>James Do</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Redmond</city>
+    <organizations>
+      <organization>
+        <companyId>51</companyId>
+        <companyName>Systems</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Jhonny Bricks</principalInvestigator>
+            <financialIdRef>5101</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>5101</financialId>
+        <amount>6200.0</amount>
+        <project>Retrieval</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2001</startYear>
+        <endYear>2007</endYear>
+        <budget>2500.0</budget>
+        <publicWorkName>Values</publicWorkName>
+        <director>James De Niro</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Pechino</city>
+    <organizations>
+      <organization>
+        <companyId>52</companyId>
+        <companyName>D Time</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Jack Brown</principalInvestigator>
+            <financialIdRef>5201</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>5201</financialId>
+        <amount>6200.0</amount>
+        <project>Airline</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2006</startYear>
+        <endYear>2007</endYear>
+        <budget>4500.0</budget>
+        <publicWorkName>Correspondence</publicWorkName>
+        <director>Marcel Pinori</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2003</startYear>
+        <endYear>2004</endYear>
+        <budget>4520.0</budget>
+        <publicWorkName>Runner</publicWorkName>
+        <director>Marcel Jacobson</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Trieste</city>
+    <organizations>
+      <organization>
+        <companyId>53</companyId>
+        <companyName>Sie Stafind</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Erbert Triani</principalInvestigator>
+            <financialIdRef>5301</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>5301</financialId>
+        <amount>7200.0</amount>
+        <project>Books Online</project>
+        <year>2004</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2005</startYear>
+        <endYear>2007</endYear>
+        <budget>9200.0</budget>
+        <publicWorkName>Strategies</publicWorkName>
+        <director>Helmut Tonk</director>
+      </publicWork>
+      <publicWork>
+        <startYear>2001</startYear>
+        <endYear>2004</endYear>
+        <budget>6530.0</budget>
+        <publicWorkName>Old Values</publicWorkName>
+        <director>Tony Rames</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>New Rio</city>
+    <organizations>
+      <organization>
+        <companyId>54</companyId>
+        <companyName>Spectrum</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Terry Binds</principalInvestigator>
+            <financialIdRef>5401</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>5401</financialId>
+        <amount>6200.0</amount>
+        <project>Rio Online</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2005</startYear>
+        <endYear>2007</endYear>
+        <budget>8500.0</budget>
+        <publicWorkName>Times</publicWorkName>
+        <director>James Bind</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Edimburgh</city>
+    <organizations>
+      <organization>
+        <companyId>55</companyId>
+        <companyName>APT Get</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Nicholas Negroponte</principalInvestigator>
+            <financialIdRef>5501</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>5501</financialId>
+        <amount>6200.0</amount>
+        <project>Revolution 65</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2005</startYear>
+        <endYear>2007</endYear>
+        <budget>1100.0</budget>
+        <publicWorkName>BTB Visions</publicWorkName>
+        <director>Nancy Binori</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>New Dublin</city>
+    <organizations>
+      <organization>
+        <companyId>56</companyId>
+        <companyName>RDD Volt</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>James Bricks</principalInvestigator>
+            <financialIdRef>5601</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>5601</financialId>
+        <amount>5500.0</amount>
+        <project>BCC Consul</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>Prog 123</publicWorkName>
+        <director>Erick Torn</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1989</startYear>
+        <endYear>2004</endYear>
+        <budget>5500.0</budget>
+        <publicWorkName>Rewind</publicWorkName>
+        <director>Mioni Sances</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Jerusalem</city>
+    <organizations>
+      <organization>
+        <companyId>57</companyId>
+        <companyName>ATech  Consulting</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Peter Rin</principalInvestigator>
+            <financialIdRef>5701</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>5701</financialId>
+        <amount>6200.0</amount>
+        <project>Rin</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2000</startYear>
+        <endYear>2007</endYear>
+        <budget>1500.0</budget>
+        <publicWorkName>Old Radio</publicWorkName>
+        <director>Naomi Brown</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Vienna</city>
+    <organizations>
+      <organization>
+        <companyId>58</companyId>
+        <companyName>RTDC Games</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Nick Oslo</principalInvestigator>
+            <financialIdRef>5801</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>5801</financialId>
+        <amount>6200.0</amount>
+        <project>Revolved</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>2002</startYear>
+        <endYear>2007</endYear>
+        <budget>9200.0</budget>
+        <publicWorkName>Precision</publicWorkName>
+        <director>Mike Bridge</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Adrian</city>
+    <organizations>
+      <organization>
+        <companyId>59</companyId>
+        <companyName>Solutions</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Abram Lion</principalInvestigator>
+            <financialIdRef>5901</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>5901</financialId>
+        <amount>6200.0</amount>
+        <project>Abt Proj</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1999</startYear>
+        <endYear>2007</endYear>
+        <budget>9500.0</budget>
+        <publicWorkName>Beta Progr</publicWorkName>
+        <director>Peter Brown</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+  <cityStat>
+    <city>Barcot</city>
+    <organizations>
+      <organization>
+        <companyId>60</companyId>
+        <companyName>Baconton</companyName>
+        <fundings>
+          <fund>
+            <principalInvestigator>Rebecca Halls</principalInvestigator>
+            <financialIdRef>6001</financialIdRef>
+          </fund>
+        </fundings>
+      </organization>
+    </organizations>
+    <financials>
+      <financial>
+        <financialId>6001</financialId>
+        <amount>9500.0</amount>
+        <project>Misc</project>
+        <year>2003</year>
+      </financial>
+    </financials>
+    <publicWorks>
+      <publicWork>
+        <startYear>1995</startYear>
+        <endYear>1999</endYear>
+        <budget>9500.0</budget>
+        <publicWorkName>New Version</publicWorkName>
+        <director>Torn Rossi</director>
+      </publicWork>
+      <publicWork>
+        <startYear>1999</startYear>
+        <endYear>2004</endYear>
+        <budget>6600.0</budget>
+        <publicWorkName>After Contents</publicWorkName>
+        <director>Ridge Ball</director>
+      </publicWork>
+    </publicWorks>
+  </cityStat>
+</statDB>

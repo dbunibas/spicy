@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="SourceHoustonBig">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="A_Set" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+						  <xs:element name="A" minOccurs="1" maxOccurs="unbounded">
+							<xs:complexType>
+							  <xs:sequence>
+							    <xs:element name="a" type="xs:string" nillable="true"/>
+							    <xs:element name="b" type="xs:string" nillable="true"/>
+							  </xs:sequence>
+							</xs:complexType>
+						  </xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="B_Set" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+						  <xs:element name="B" minOccurs="1" maxOccurs="unbounded">
+							<xs:complexType>
+							  <xs:sequence>
+							    <xs:element name="a" type="xs:string" nillable="true"/>
+							    <xs:element name="b" type="xs:string" nillable="true"/>
+							  </xs:sequence>
+							</xs:complexType>
+						  </xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="C_Set" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+						  <xs:element name="C" minOccurs="1" maxOccurs="unbounded">
+							<xs:complexType>
+							  <xs:sequence>
+							    <xs:element name="a" type="xs:string" nillable="true"/>
+							    <xs:element name="b" type="xs:string" nillable="true"/>
+							  </xs:sequence>
+							</xs:complexType>
+						  </xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="D_Set" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+						  <xs:element name="D" minOccurs="1" maxOccurs="unbounded">
+							<xs:complexType>
+							  <xs:sequence>
+							    <xs:element name="a" type="xs:string" nillable="true"/>
+							    <xs:element name="b" type="xs:string" nillable="true"/>
+							  </xs:sequence>
+							</xs:complexType>
+						  </xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="E_Set" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+						  <xs:element name="E" minOccurs="1" maxOccurs="unbounded">
+							<xs:complexType>
+							  <xs:sequence>
+							    <xs:element name="a" type="xs:string" nillable="true"/>
+							    <xs:element name="b" type="xs:string" nillable="true"/>
+							  </xs:sequence>
+							</xs:complexType>
+						  </xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="F_Set" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+						  <xs:element name="F" minOccurs="1" maxOccurs="unbounded">
+							<xs:complexType>
+							  <xs:sequence>
+							    <xs:element name="a" type="xs:string" nillable="true"/>
+							    <xs:element name="b" type="xs:string" nillable="true"/>
+							    <xs:element name="c" type="xs:string" nillable="true"/>
+							  </xs:sequence>
+							</xs:complexType>
+						  </xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="G_Set" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+						  <xs:element name="G" minOccurs="1" maxOccurs="unbounded">
+							<xs:complexType>
+							  <xs:sequence>
+							    <xs:element name="a" type="xs:string" nillable="true"/>
+							    <xs:element name="b" type="xs:string" nillable="true"/>
+							    <xs:element name="c" type="xs:string" nillable="true"/>
+							  </xs:sequence>
+							</xs:complexType>
+						  </xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

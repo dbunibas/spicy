@@ -1,0 +1,13 @@
+--------------------------------------------------------
+MatchResult of simMatrix [2,2]
+ + Name: Mapping1
+ + Info: COMA
+ + Source: Source_lb_db_xsd|SIMPLIFIED
+ + Target: Target_studenti_xsd|SIMPLIFIED
+ + Matcher: COMA
+ + Config: 124|COMA|101|DOWNPATHS|114,117,119,120,121|AVERAGE|BOTH|MULTIPLE(0,0.0080,0.5)|AVERAGE
+ - lb_db.lb_user.lb_user_TUPLE.u_cognome <-> studenti.studenti_TUPLE.cognome: 0.5216467
+ - lb_db.lb_user.lb_user_TUPLE.u_email <-> studenti.studenti_TUPLE.email: 0.5299787
+ + Total: 2 correspondences
+--------------------------------------------------------
+

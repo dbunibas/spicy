@@ -1,0 +1,13 @@
+--------------------------------------------------------
+MatchResult of simMatrix [3,3]
+ + Name: Mapping1
+ + Info: COMA
+ + Source: Source_moodle_xsd|SIMPLIFIED
+ + Target: Target_lb_user_xsd|SIMPLIFIED
+ + Matcher: COMA
+ + Config: 124|COMA|101|DOWNPATHS|114,117,119,120,121|AVERAGE|BOTH|MULTIPLE(0,0.0080,0.5)|AVERAGE
+ - moodle.mdl_user.mdl_user_TUPLE.email <-> lb_user.lb_user_TUPLE.u_email: 0.5607856
+ - moodle.mdl_user.mdl_user_TUPLE.firstname <-> lb_user.lb_user_TUPLE.u_name: 0.5614442
+ + Total: 3 correspondences
+--------------------------------------------------------
+

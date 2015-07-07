@@ -1,0 +1,13 @@
+--------------------------------------------------------
+MatchResult of simMatrix [2,2]
+ + Name: Mapping5
+ + Info: COMA
+ + Source: Source_mondial_xsd|SIMPLIFIED
+ + Target: Target_gs_xsd|SIMPLIFIED
+ + Matcher: COMA
+ + Config: 124|COMA|101|DOWNPATHS|114,117,119,120,121|AVERAGE|BOTH|MULTIPLE(0,0.0080,0.5)|AVERAGE
+ - mondial.country_Set.country.country_Sequence.province_Set.province.province_Sequence.name <-> gs.province_Set.province.name: 0.6502105
+ - mondial.country_Set.country.country_Sequence.province_Set.province.province_Sequence.area <-> gs.province_Set.province.area: 0.6675732
+ + Total: 2 correspondences
+--------------------------------------------------------
+

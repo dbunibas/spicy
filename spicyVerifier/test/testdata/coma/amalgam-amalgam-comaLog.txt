@@ -1,0 +1,18 @@
+--------------------------------------------------------
+MatchResult of simMatrix [10,10]
+ + Name: Mapping1
+ + Info: COMA
+ + Source: Source_amalgam_pub1_xsd|SIMPLIFIED
+ + Target: Target_amalgam_pub2_xsd|SIMPLIFIED
+ + Matcher: COMA
+ + Config: 124|COMA|101|DOWNPATHS|114,117,119,120,121|AVERAGE|BOTH|MULTIPLE(0,0.0080,0.5)|AVERAGE
+ - amalgam.pub1.pub1_TUPLE.number <-> amalgam.pub2.pub2_TUPLE.number: 1.0
+ - amalgam.pub1.pub1_TUPLE.pages <-> amalgam.pub2.pub2_TUPLE.pages: 1.0
+ - amalgam.pub1.pub1_TUPLE.year <-> amalgam.pub2.pub2_TUPLE.year: 1.0
+ - amalgam.pub1.pub1_TUPLE.articleid <-> amalgam.pub2.pub2_TUPLE.articleid: 1.0
+ - amalgam.pub1.pub1_TUPLE.volume <-> amalgam.pub2.pub2_TUPLE.volume: 1.0
+ - amalgam.pub1.pub1_TUPLE.journal <-> amalgam.pub2.pub2_TUPLE.journal: 1.0
+ - amalgam.pub1.pub1_TUPLE.titles <-> amalgam.pub2.pub2_TUPLE.titles: 1.0
+ + Total: 10 correspondences
+--------------------------------------------------------
+

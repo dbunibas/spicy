@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+    <source>
+        <type>XML</type>
+        <xml>
+            <xml-schema>depts.xsd</xml-schema>
+            <xml-instances>
+                <xml-instance>depts-instance.xml</xml-instance>
+            </xml-instances>
+        </xml>
+        <inclusions />
+        <exclusions />
+        <duplications />
+        <selectionConditions />
+        <joinConditions />
+    </source>
+    <target>
+        <type>XML</type>
+        <xml>
+            <xml-schema>otherDepts.xsd</xml-schema>
+            <xml-instances>
+                <xml-instance>otherDepts-instance.xml</xml-instance>
+            </xml-instances>
+        </xml>
+        <inclusions />
+        <exclusions />
+        <duplications />
+        <selectionConditions />
+        <joinConditions>
+            <joinCondition>
+                <join>
+                    <from>tdepts.tdept.emps.emp.projectRefs.projectRef.projectIdRef</from>
+                    <to>tdepts.tdept.projects.project.projectId</to>
+                </join>
+                <foreignKey>true</foreignKey>
+                <mandatory>false</mandatory>
+            </joinCondition>
+        </joinConditions>
+    </target>
+    <correspondences>
+<!--        <correspondence>
+            <source-paths>
+                <source-path>depts.dept.deptName</source-path>
+            </source-paths>
+            <target-path>tdepts.tdept.deptName</target-path>
+            <transformation-function>depts.dept.deptName</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>depts.dept.location</source-path>
+            </source-paths>
+            <target-path>tdepts.tdept.location</target-path>
+            <transformation-function>depts.dept.location</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>depts.dept.emps.emp.empName</source-path>
+            </source-paths>
+            <target-path>tdepts.tdept.emps.emp.empName</target-path>
+            <transformation-function>depts.dept.emps.emp.empName</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>depts.dept.emps.emp.dependents.dependent.dependentName</source-path>
+            </source-paths>
+            <target-path>tdepts.tdept.emps.emp.dependents.dependent.dependentName</target-path>
+            <transformation-function>depts.dept.emps.emp.dependents.dependent.dependentName</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>depts.dept.emps.emp.dependents.dependent.age</source-path>
+            </source-paths>
+            <target-path>tdepts.tdept.emps.emp.dependents.dependent.age</target-path>
+            <transformation-function>depts.dept.emps.emp.dependents.dependent.age</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>depts.dept.emps.emp.projects.project.projectName</source-path>
+            </source-paths>
+            <target-path>tdepts.tdept.projects.project.projectName</target-path>
+            <transformation-function>depts.dept.emps.emp.projects.project.projectName</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>depts.dept.emps.emp.salary</source-path>
+            </source-paths>
+            <target-path>tdepts.tdept.emps.emp.salary</target-path>
+            <transformation-function>depts.dept.emps.emp.salary</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>
+        <correspondence>
+            <source-paths>
+                <source-path>depts.dept.emps.emp.researchSubject</source-path>
+            </source-paths>
+            <target-path>tdepts.tdept.researchSubject</target-path>
+            <transformation-function>depts.dept.emps.emp.researchSubject</transformation-function>
+            <filter>true</filter>
+            <confidence>1.0</confidence>
+        </correspondence>-->
+    </correspondences>
+</mappingtask>
+

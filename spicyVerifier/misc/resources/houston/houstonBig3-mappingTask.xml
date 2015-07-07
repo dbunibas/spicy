@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>houstonBig3-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>houstonBig3-source-instance.xml</xml-instance>
+        <xml-instance>houstonBig3-source20-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>houstonBig3-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>TargetHouston.R_Set.R.b</from>
+          <to>TargetHouston.S_Set.S.a</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>TargetHouston.S_Set.S.b</from>
+          <to>TargetHouston.T_Set.T.a</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>TargetHouston.S_Set.S.b</from>
+          <to>TargetHouston.W_Set.W.a</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonBig.A_Set.A.a</source-path>
+      </source-paths>
+      <target-path>TargetHouston.R_Set.R.a</target-path>
+      <transformation-function>SourceHoustonBig.A_Set.A.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonBig.A_Set.A.c</source-path>
+      </source-paths>
+      <target-path>TargetHouston.T_Set.T.b</target-path>
+      <transformation-function>SourceHoustonBig.A_Set.A.c</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonBig.B_Set.B.a</source-path>
+      </source-paths>
+      <target-path>TargetHouston.R_Set.R.a</target-path>
+      <transformation-function>SourceHoustonBig.B_Set.B.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonBig.B_Set.B.b</source-path>
+      </source-paths>
+      <target-path>TargetHouston.R_Set.R.b</target-path>
+      <transformation-function>SourceHoustonBig.B_Set.B.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonBig.C_Set.C.b</source-path>
+      </source-paths>
+      <target-path>TargetHouston.T_Set.T.b</target-path>
+      <transformation-function>SourceHoustonBig.C_Set.C.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonBig.C_Set.C.c</source-path>
+      </source-paths>
+      <target-path>TargetHouston.W_Set.W.b</target-path>
+      <transformation-function>SourceHoustonBig.C_Set.C.c</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonBig.C_Set.C.a</source-path>
+      </source-paths>
+      <target-path>TargetHouston.S_Set.S.a</target-path>
+      <transformation-function>SourceHoustonBig.C_Set.C.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

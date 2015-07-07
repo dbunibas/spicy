@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>houstonDoubleCoverage-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>houstonDoubleCoverage-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>houstonDoubleCoverage-target.xsd</xml-schema>
+      <xml-instances />
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>TargetHoustonDoubleCoverage.Rs.R.b</from>
+          <to>TargetHoustonDoubleCoverage.Ss.S.a</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>TargetHoustonDoubleCoverage.Rs.R.b</from>
+          <to>TargetHoustonDoubleCoverage.Ts.T.a</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+      <joinCondition>
+        <join>
+          <from>TargetHoustonDoubleCoverage.Rs.R.b</from>
+          <to>TargetHoustonDoubleCoverage.Ws.W.a</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>false</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonDoubleCoverage.As.A.a</source-path>
+      </source-paths>
+      <target-path>TargetHoustonDoubleCoverage.Rs.R.a</target-path>
+      <transformation-function>SourceHoustonDoubleCoverage.As.A.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonDoubleCoverage.As.A.b</source-path>
+      </source-paths>
+      <target-path>TargetHoustonDoubleCoverage.Ss.S.b</target-path>
+      <transformation-function>SourceHoustonDoubleCoverage.As.A.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonDoubleCoverage.As.A.c</source-path>
+      </source-paths>
+      <target-path>TargetHoustonDoubleCoverage.Ts.T.b</target-path>
+      <transformation-function>SourceHoustonDoubleCoverage.As.A.c</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonDoubleCoverage.Bs.B.a</source-path>
+      </source-paths>
+      <target-path>TargetHoustonDoubleCoverage.Rs.R.a</target-path>
+      <transformation-function>SourceHoustonDoubleCoverage.Bs.B.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonDoubleCoverage.Bs.B.b</source-path>
+      </source-paths>
+      <target-path>TargetHoustonDoubleCoverage.Ss.S.b</target-path>
+      <transformation-function>SourceHoustonDoubleCoverage.Bs.B.b</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonDoubleCoverage.Bs.B.d</source-path>
+      </source-paths>
+      <target-path>TargetHoustonDoubleCoverage.Ws.W.b</target-path>
+      <transformation-function>SourceHoustonDoubleCoverage.Bs.B.d</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonDoubleCoverage.Cs.C.a</source-path>
+      </source-paths>
+      <target-path>TargetHoustonDoubleCoverage.Ws.W.a</target-path>
+      <transformation-function>SourceHoustonDoubleCoverage.Cs.C.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonDoubleCoverage.Cs.C.c</source-path>
+      </source-paths>
+      <target-path>TargetHoustonDoubleCoverage.Ws.W.b</target-path>
+      <transformation-function>SourceHoustonDoubleCoverage.Cs.C.c</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonDoubleCoverage.Cs.C.a</source-path>
+      </source-paths>
+      <target-path>TargetHoustonDoubleCoverage.Ts.T.a</target-path>
+      <transformation-function>SourceHoustonDoubleCoverage.Cs.C.a</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHoustonDoubleCoverage.Cs.C.c</source-path>
+      </source-paths>
+      <target-path>TargetHoustonDoubleCoverage.Ts.T.b</target-path>
+      <transformation-function>SourceHoustonDoubleCoverage.Cs.C.c</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+

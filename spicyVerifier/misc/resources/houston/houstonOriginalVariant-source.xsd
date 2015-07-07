@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="S">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" name="A_Set" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="A" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" name="a" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="b" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="c" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="d" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="B_Set" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="B" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" name="a" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="b" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="c" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="d" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="C_Set" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="C" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="1" name="a" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="b" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="c" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="1" name="d" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,14 @@
+--------------------------------------------------------
+MatchResult of simMatrix [3,3]
+ + Name: Mapping4
+ + Info: COMA
+ + Source: Source_mondial_xsd|SIMPLIFIED
+ + Target: Target_cia_xsd|SIMPLIFIED
+ + Matcher: COMA
+ + Config: 124|COMA|101|DOWNPATHS|114,117,119,120,121|AVERAGE|BOTH|MULTIPLE(0,0.0080,0.5)|AVERAGE
+ - mondial.country_Set.country.country_Sequence.government.government_PCDATA <-> cia.country_Set.country.government: 0.60015696
+ - mondial.country_Set.country.area <-> cia.country_Set.country.total_area: 0.53379405
+ - mondial.country_Set.country.country_Sequence.population_growth.population_growth_PCDATA <-> cia.country_Set.country.population_growth: 0.59922755
+ + Total: 3 correspondences
+--------------------------------------------------------
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tdepts xsi:noNamespaceSchemaLocation="tdepts.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<tdept>
+		<deptName>Department of Pure and Applied Mathematics</deptName>
+		<location>Potenza</location>
+		<researchSubject>Math</researchSubject>>
+		<emps>
+			<emp>
+				<empName>Prof. Sorin Dragomir</empName>
+				<salary>10000.0</salary>
+				<dependents>
+					<dependent>
+						<dependentName>Barletta</dependentName>
+						<age>45</age>
+					</dependent>
+				</dependents>
+				<projectRefs>
+					<projectRef>
+						<projectIdRef>1</projectIdRef>
+					</projectRef>
+				</projectRefs>
+			</emp>
+			<emp>
+				<empName>Prof. Alberto Cialdea</empName>
+				<salary>50000.0</salary>
+				<dependents>
+					<dependent>
+						<dependentName>Leonessa</dependentName>
+						<age>30</age>
+					</dependent>
+					<dependent>
+						<dependentName>Malaspina</dependentName>
+						<age>35</age>
+					</dependent>
+				</dependents>
+				<projectRefs>
+					<projectRef>
+						<projectIdRef>2</projectIdRef>
+					</projectRef>
+				</projectRefs>
+			</emp>
+		</emps>
+		<projects>
+			<project>
+				<projectId>1</projectId>
+				<projectName>Differential Geometry</projectName>
+			</project>
+			<project>
+				<projectId>2</projectId>
+				<projectName>Mathematical Analysis</projectName>
+			</project>
+		</projects>
+	</tdept>
+	<tdept>
+		<deptName>Department of Chemistry</deptName>
+		<location>Potenza</location>
+		<researchSubject>Chemistry</researchSubject>>
+		<emps>
+			<emp>
+				<empName>Prof. Antonio Tamburro</empName>
+				<salary>80000.0</salary>
+				<dependents>
+					<dependent>
+						<dependentName>Bochicchio</dependentName>
+						<age>30</age>
+					</dependent>
+				</dependents>
+				<projectRefs>
+					<projectRef>
+						<projectIdRef>3</projectIdRef>
+					</projectRef>
+				</projectRefs>
+			</emp>
+		</emps>
+		<projects>
+			<project>
+				<projectId>3</projectId>
+				<projectName>Elastyn</projectName>
+			</project>
+		</projects>
+	</tdept>	
+</tdepts>

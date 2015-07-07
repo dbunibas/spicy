@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<livesInSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="livesIn-source.xsd">
+  <EmpCitySet>
+    <EmpCity>
+      <empName>Alice</empName>
+      <empCity>SJ</empCity>
+    </EmpCity>
+     <EmpCity>
+      <empName>Bob</empName>
+      <empCity>SD</empCity>
+    </EmpCity>
+    <EmpCity>
+      <empName>FrankNoLivesIn</empName>
+      <empCity>NY</empCity>
+    </EmpCity>
+  </EmpCitySet>
+  <LivesInSet>
+    <LivesIn>
+      <name>Alice</name>
+      <city>SF</city>
+    </LivesIn>
+    <LivesIn>
+      <name>Bob</name>
+      <city>LA</city>
+    </LivesIn>
+    <LivesIn>
+      <name>MaryNoEmpCity</name>
+      <city>MW</city>
+    </LivesIn>
+  </LivesInSet>
+</livesInSource>

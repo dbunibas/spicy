@@ -1,0 +1,16 @@
+--------------------------------------------------------
+MatchResult of simMatrix [6,5]
+ + Name: Mapping3
+ + Info: COMA
+ + Source: Source_universityDB_xsd|SIMPLIFIED
+ + Target: Target_personnelSet_xsd|SIMPLIFIED
+ + Matcher: COMA
+ + Config: 124|COMA|101|DOWNPATHS|114,117,119,120,121|AVERAGE|BOTH|MULTIPLE(0,0.0080,0.5)|AVERAGE
+ - universityDB.addresses.addressTuple.address <-> personnelSet.personnel.address: 0.75569624
+ - universityDB.payRates.payRate.salary <-> personnelSet.personnel.salary: 0.6551006
+ - universityDB.professors.professor.professorName <-> personnelSet.personnel.name: 0.64950716
+ - universityDB.professors.professor.professorId <-> personnelSet.personnel.id: 0.6596659
+ - universityDB.professors.professor.professorSalary <-> personnelSet.personnel.salary: 0.6501831
+ + Total: 6 correspondences
+--------------------------------------------------------
+

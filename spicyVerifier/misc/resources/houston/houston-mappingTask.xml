@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingtask>
+  <source>
+    <type>XML</type>
+    <xml>
+      <xml-schema>houston-source.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>houston-source-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications />
+    <selectionConditions />
+    <joinConditions />
+  </source>
+  <target>
+    <type>XML</type>
+    <xml>
+      <xml-schema>houston-target.xsd</xml-schema>
+      <xml-instances>
+        <xml-instance>houston-target-instance.xml</xml-instance>
+      </xml-instances>
+    </xml>
+    <inclusions />
+    <exclusions />
+    <duplications>
+      <duplication>TargetHouston.Students</duplication>
+    </duplications>
+    <selectionConditions />
+    <joinConditions>
+      <joinCondition>
+        <join>
+          <from>TargetHouston.Students_1_.Student.Name</from>
+          <to>TargetHouston.Profs.Prof.PSurname</to>
+        </join>
+        <foreignKey>false</foreignKey>
+        <mandatory>true</mandatory>
+      </joinCondition>
+    </joinConditions>
+  </target>
+  <correspondences>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHouston.People.Person.Name</source-path>
+      </source-paths>
+      <target-path>TargetHouston.Students.Student.Name</target-path>
+      <transformation-function>SourceHouston.People.Person.Name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHouston.People.Person.Surname</source-path>
+      </source-paths>
+      <target-path>TargetHouston.Students.Student.Surname</target-path>
+      <transformation-function>SourceHouston.People.Person.Surname</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHouston.People.Person.Name</source-path>
+      </source-paths>
+      <target-path>TargetHouston.Profs.Prof.PName</target-path>
+      <transformation-function>SourceHouston.People.Person.Name</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+    <correspondence>
+      <source-paths>
+        <source-path>SourceHouston.People.Person.Surname</source-path>
+      </source-paths>
+      <target-path>TargetHouston.Students_1_.Student.Surname</target-path>
+      <transformation-function>SourceHouston.People.Person.Surname</transformation-function>
+      <filter>true</filter>
+      <confidence>1.0</confidence>
+    </correspondence>
+  </correspondences>
+</mappingtask>
+
