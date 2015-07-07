@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="jep" default="build">
+    
+ <!-- ***************************************************
+            Importazione del template
+      *************************************************** -->
+
+    <import file="../spicy-template-build.xml" />   
+    
+    <target name="compile" depends="prepare, -prepare-resources, -prepare-conf" description="compila il codice">
+        <javac srcdir="${src.dir}"
+               destdir="${build.dir}"
+               classpathref="compile.classpath" 
+               debug="${build.debug}"
+               debuglevel="${build.debuglevel}"
+               optimize="${build.optimize}">
+              <!-- <compilerarg value="-Xlint:unchecked" /> -->
+        </javac>
+    </target>
+
+</project>
