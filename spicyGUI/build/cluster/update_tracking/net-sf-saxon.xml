@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="net.sf.saxon">
+    <module_version install_time="1436282818605" last="true" origin="installer" specification_version="1.0">
+        <file crc="3190840201" name="config/Modules/net-sf-saxon.xml"/>
+        <file crc="872300963" name="modules/ext/saxon9.jar"/>
+        <file crc="1309864210" name="modules/net-sf-saxon.jar"/>
+    </module_version>
+</module>

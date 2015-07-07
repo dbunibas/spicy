@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.google.inject">
+    <module_version install_time="1436282817563" last="true" origin="installer" specification_version="1.0">
+        <file crc="3028215335" name="config/Modules/com-google-inject.xml"/>
+        <file crc="2559051780" name="modules/com-google-inject.jar"/>
+        <file crc="2927938166" name="modules/ext/guice-1.0.jar"/>
+    </module_version>
+</module>

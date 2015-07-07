@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE module_updates PUBLIC "-//NetBeans//DTD Autoupdate Catalog 2.6//EN" "http://www.netbeans.org/dtds/autoupdate-catalog-2_6.dtd">
+<module_updates timestamp="03/14/08/02/06/2011">
+
+
+<module autoload="true" codenamebase="org.netbeans.lib.awtextra" distribution="org-netbeans-lib-awtextra.nbm" downloadsize="3988" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.netbeans.lib.awtextra" OpenIDE-Module-Implementation-Version="110601" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Name="AbsoluteLayout" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="org.antlr.runtime" distribution="org-antlr-runtime.nbm" downloadsize="34543" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.antlr.runtime" OpenIDE-Module-Implementation-Version="110601" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Name="antlr-3.1.1-runtime" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="org.jdesktop.el" distribution="org-jdesktop-el.nbm" downloadsize="72243" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.jdesktop.el" OpenIDE-Module-Implementation-Version="110601" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Name="beansbinding" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="org.apache.commons.logging" distribution="org-apache-commons-logging.nbm" downloadsize="25684" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.apache.commons.logging" OpenIDE-Module-Implementation-Version="110602" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Module-Dependencies="org.apache.log4j &gt; 1.0" OpenIDE-Module-Name="commons-logging" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="org.apache.derby.jdbc" distribution="org-apache-derby-jdbc.nbm" downloadsize="243491" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.apache.derby.jdbc" OpenIDE-Module-Implementation-Version="110601" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Name="derbyclient" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="com.google.inject" distribution="com-google-inject.nbm" downloadsize="142564" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="com.google.inject" OpenIDE-Module-Implementation-Version="110601" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Name="guice" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="com.ibatis.common.jdbc" distribution="com-ibatis-common-jdbc.nbm" downloadsize="105777" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="com.ibatis.common.jdbc" OpenIDE-Module-Implementation-Version="110601" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Name="ibatis" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="org.jdom" distribution="org-jdom.nbm" downloadsize="52401" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.jdom" OpenIDE-Module-Implementation-Version="110601" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Name="jdom" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="org.nfunk.jep" distribution="org-nfunk-jep.nbm" downloadsize="40332" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.nfunk.jep" OpenIDE-Module-Implementation-Version="110602" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Name="jep" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="org.jscience" distribution="org-jscience.nbm" downloadsize="126194" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.jscience" OpenIDE-Module-Implementation-Version="110601" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Name="jscience" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="org.apache.log4j" distribution="org-apache-log4j.nbm" downloadsize="101886" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.apache.log4j" OpenIDE-Module-Implementation-Version="110601" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Name="log4j" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="com.jgoodies.looks" distribution="com-jgoodies-looks.nbm" downloadsize="113519" homepage="" license="80EDC750" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="com.jgoodies.looks" OpenIDE-Module-Implementation-Version="110601" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Name="looks" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="com.mysql.jdbc" distribution="com-mysql-jdbc.nbm" downloadsize="199085" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="com.mysql.jdbc" OpenIDE-Module-Implementation-Version="110601" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Name="mysql-connector-java-5.0.3-bin" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="org.postgresql" distribution="org-postgresql.nbm" downloadsize="142740" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.postgresql" OpenIDE-Module-Implementation-Version="110601" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Name="postgresql-8.1-407.jdbc" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="net.sf.saxon" distribution="net-sf-saxon.nbm" downloadsize="718632" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="net.sf.saxon" OpenIDE-Module-Implementation-Version="110601" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Name="saxon" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="net.sf.saxon.xqj" distribution="net-sf-saxon-xqj.nbm" downloadsize="31108" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="net.sf.saxon.xqj" OpenIDE-Module-Implementation-Version="110602" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Module-Dependencies="net.sf.saxon &gt; 1.0" OpenIDE-Module-Name="saxon9-xqj" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module codenamebase="it.unibas.spicy" distribution="it-unibas-spicy.nbm" downloadsize="190411" homepage="http://www.db.unibas.it/projects/spicy/" license="CCF76ADC" moduleauthor="Giansalvatore Mecca - Salvatore Raunich" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="true" OpenIDE-Module="it.unibas.spicy" OpenIDE-Module-Implementation-Version="110602" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Module-Dependencies="com.ibatis.common.jdbc &gt; 1.0, com.mysql.jdbc &gt; 1.0, net.sf.saxon &gt; 1.0, net.sf.saxon.xqj &gt; 1.0, org.antlr.runtime &gt; 1.0, org.apache.commons.logging &gt; 1.0, org.apache.derby.jdbc &gt; 1.0, org.apache.wml &gt; 1.0, org.jdom &gt; 1.0, org.nfunk.jep &gt; 1.0, org.postgresql &gt; 1.0" OpenIDE-Module-Name="spicyEngine" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0.4"/>
+    
+</module>
+
+<module codenamebase="it.unibas.spicygui" distribution="it-unibas-spicygui.nbm" downloadsize="773293" homepage="http://www.db.unibas.it/projects/spicy/" license="CCF76ADC" moduleauthor="Giansalvatore Mecca - Salvatore Raunich - Marcello Buoncristiano" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="true" OpenIDE-Module="it.unibas.spicygui" OpenIDE-Module-Implementation-Version="110602" OpenIDE-Module-Java-Dependencies="Java &gt; 1.5" OpenIDE-Module-Module-Dependencies="com.ibatis.common.jdbc &gt; 1.0, com.jgoodies.looks &gt; 1.0, com.jgoodies.validation &gt; 1.0, it.unibas.spicy &gt; 1.0, it.unibas.spicygui.commons &gt; 1.0, it.unibas.spicyverifier &gt; 1.0, org.apache.commons.logging &gt; 1.0, org.apache.log4j &gt; 1.0, org.jdesktop.el &gt; 1.0, org.jdesktop.layout/1 &gt; 1.4.1, org.netbeans.api.java/1 &gt; 1.13.1, org.netbeans.api.visual &gt; 2.9.1, org.netbeans.lib.awtextra &gt; 1.0, org.netbeans.modules.options.api/0-1 &gt; 1.5.1, org.netbeans.modules.queries/1 &gt; 1.10.1, org.netbeans.modules.settings/1 &gt; 1.26.1, org.openide.actions &gt; 6.6.1.1, org.openide.awt &gt; 6.11.1.1, org.openide.dialogs &gt; 7.5.1, org.openide.execution &gt; 1.10.1, org.openide.explorer &gt; 6.12.1, org.openide.filesystems &gt; 7.3.1, org.openide.io &gt; 1.11.1, org.openide.loaders &gt; 6.7.1, org.openide.modules &gt; 7.3.1, org.openide.nodes &gt; 7.2.1.1, org.openide.util &gt; 7.10.1.1, org.openide.util.lookup &gt; 8.3.1, org.openide.windows &gt; 6.18.1" OpenIDE-Module-Name="spicygui" OpenIDE-Module-Requires="org.netbeans.api.javahelp.Help, org.openide.windows.WindowManager, org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0.2"/>
+    
+</module>
+
+<module autoload="true" codenamebase="it.unibas.spicygui.commons" distribution="it-unibas-spicygui-commons.nbm" downloadsize="5965" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="it.unibas.spicygui.commons" OpenIDE-Module-Implementation-Version="110602" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Module-Dependencies="org.apache.commons.logging &gt; 1.0" OpenIDE-Module-Name="spicyguicommons" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="it.unibas.spicyverifier" distribution="it-unibas-spicyverifier.nbm" downloadsize="44679" homepage="http://www.db.unibas.it/projects/spicy/" license="CCF76ADC" moduleauthor="Giansalvatore Mecca - Salvatore Raunich" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="it.unibas.spicyverifier" OpenIDE-Module-Implementation-Version="110602" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Module-Dependencies="com.google.inject &gt; 1.0, it.unibas.spicy &gt; 1.0, org.antlr.runtime &gt; 1.0, org.apache.commons.logging &gt; 1.0, org.jscience &gt; 1.0, org.nfunk.jep &gt; 1.0" OpenIDE-Module-Name="spicyVerifier" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="com.jgoodies.validation" distribution="com-jgoodies-validation.nbm" downloadsize="17237" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="com.jgoodies.validation" OpenIDE-Module-Implementation-Version="110601" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Name="validation" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<module autoload="true" codenamebase="org.apache.wml" distribution="org-apache-wml.nbm" downloadsize="346124" homepage="" license="AD9FBBC9" moduleauthor="" needsrestart="false" releasedate="2011/06/02" targetcluster="spicy">
+    <manifest AutoUpdate-Show-In-Client="false" OpenIDE-Module="org.apache.wml" OpenIDE-Module-Implementation-Version="110601" OpenIDE-Module-Java-Dependencies="Java &gt; 1.4" OpenIDE-Module-Name="xercesImpl" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Specification-Version="1.0"/>
+    
+</module>
+
+<license name="CCF76ADC" url="licenses/CCF76ADC.license"/>
+<license name="AD9FBBC9" url="licenses/AD9FBBC9.license"/>
+<license name="80EDC750" url="licenses/80EDC750.license"/>
+</module_updates>
+

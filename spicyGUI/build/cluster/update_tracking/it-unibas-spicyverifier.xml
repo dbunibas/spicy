@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="it.unibas.spicyverifier">
+    <module_version install_time="1436282826800" last="true" origin="installer" specification_version="1.0">
+        <file crc="244491016" name="config/Modules/it-unibas-spicyverifier.xml"/>
+        <file crc="143877967" name="modules/ext/spicyVerifier-1.0.jar"/>
+        <file crc="974408084" name="modules/it-unibas-spicyverifier.jar"/>
+    </module_version>
+</module>

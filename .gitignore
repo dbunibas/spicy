@@ -9,3 +9,17 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+spicyEngine/build
+spicyEngine/nbproject/private
+nbproject.properties
+/spicyVerifier/build/test/classes/
+spicyEngine/dist
+spicyVerifier/build
+spicyVerifier/nbproject/private
+jep-2.4.1/dist
+jep-2.4.1/build
+jep-2.4.1/nbproject/private
+spicyVerifier/dist
+spicyGUICommons/build
+spicyGUICommons/dist
+spicyGUI/*/build

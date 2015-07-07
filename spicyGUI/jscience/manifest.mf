@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.jscience
+OpenIDE-Module-Localizing-Bundle: org/jscience/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

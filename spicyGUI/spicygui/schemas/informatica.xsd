@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="informatica">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" name="account" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="account_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="username" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="password" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ruolo" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="annoaccademico" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="annoaccademico_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="annoaccademico" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="datainizio" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="datafine" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="appelli" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="appelli_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codiceappello" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codiceinsegnamento" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="descrizioneappello" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="data" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="attivita" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="attivita_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codicedocente" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codiceinsegnamento" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="annoaccademico" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codice" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="sitoattivato" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="programma" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="brevedescrizione" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="fileprogramma" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="indirizzo" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="avvisi" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="avvisi_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codice" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codcorso" nillable="true" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="data" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="avviso" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="avvisitirocini" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="avvisitirocini_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="dataavviso" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="testoavviso" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codiceavviso" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="aziende" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="aziende_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codiceazienda" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="organizzazione" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="partitaiva" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="indirizzo" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="cap" nillable="true" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="numerotelefonico" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="numerofax" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="indirizzoemail" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="indirizzosito" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="profiloaziendale" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="numerodipendenti" nillable="true" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="dataconvenzione" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="convenzionata" nillable="true" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="facolta" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="numerodirepertorio" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="note" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="configcorso" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="configcorso_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codcorso" nillable="false" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="struttura" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="fogliodistile" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="confighome" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="confighome_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="coddocente" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="struttura" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="fogliodistile" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="dateimportanti" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="dateimportanti_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codice" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codcorso" nillable="true" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="data" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="descrizione" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="note" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="docenti" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="docenti_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="stato" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codice" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="cognome" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="nome" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="email" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="qualifica" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="telefono" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="dipartimento" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="facolta" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="fotografia" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="tipodocente" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="curriculum" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="sitoweb" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="insegnamenti" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="insegnamenti_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codiceinsegnamento" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="nomeinsegnamento" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="stato" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="tipo" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="creditifrontali" nillable="true" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="creditilaboratorio" nillable="true" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="creditiesercitazioni" nillable="true" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="credititotali" nillable="true" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="settoredisciplinare" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="opzionale" nillable="true" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="annocorso" nillable="true" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="semestre" nillable="true" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="laurea" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="iscritti" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="iscritti_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codiceinsegnamento" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="annoaccademico" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="matricola" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="note" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="iscrizioni" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="iscrizioni_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codiceinsegnamento" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="scadenza" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="note" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="annoaccademico" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="materialididattici" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="materialididattici_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codice" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codcorso" nillable="true" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="descrizione" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="nomefile" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="datainserimento" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="tipomateriale" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="orariricevimento" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="orariricevimento_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codice" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="orario" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codcorso" nillable="true" type="xs:integer"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="partecipazioni" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="partecipazioni_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codiceinsegnamento" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codicedocente" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="dataappello" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="matricola" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codiceprova" nillable="false" type="xs:integer"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="prenotazioni" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="prenotazioni_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codiceinsegnamento" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="dataappello" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="matricola" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="valutato" nillable="true" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="eliminata" nillable="true" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="codiceprova" nillable="false" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="oraappello" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="aulaappello" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codiceprenotazione" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="propostetirocini" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="propostetirocini_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codiceazienda" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="sottoscrivente" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ruolosottoscrivente" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="tematirocinio" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="tutore" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="periodotirocinio" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="numeroposti" nillable="true" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="contattoorganizzazione" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="note" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="tipologiaproposta" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="dataproposta" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="datavalidazionemanager" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="datavalidazionecip" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="dataaccettazioneproposta" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="statoproposta" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="corsodilaurea" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codiceproposta" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="prove" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="prove_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codiceinsegnamento" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codicedocente" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="dataappello" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="oraappello" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="aulaappello" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="scadenza" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="tipo" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="note" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="prenotazioni" nillable="true" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="codiceappello" nillable="false" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="codiceprova" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="richiestetirocini" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="richiestetirocini_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codiceproposta" nillable="false" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="matricola" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="docentereferente" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="obiettiviemodalitatirocinio" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ripartizionedeicrediti" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="datarichiesta" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="datavalidazionemanager" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="datavalidazionecip" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="datainiziotirocinio" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="datafinetirocinio" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="statorichiesta" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="corsodilaurea" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codicerichiesta" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="risultati" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="risultati_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="matricola" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codice" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="dataappello" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="idoneita" nillable="true" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="giudizio" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="lode" nillable="true" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="codiceprova" nillable="false" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="notavalutazione" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="valutato" nillable="true" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="codiceappello" nillable="true" type="xs:integer"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="sessioni" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="sessioni_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="sessione" nillable="false" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="datainizio" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="datafine" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="studenti" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="studenti_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="stato" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="matricola" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="cognome" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="nome" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="datanascita" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="dataimmatricolazione" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="nazionalita" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="handicap" nillable="true" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="luogodinascita" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="sesso" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="cf" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="email" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="statolavorativo" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="comuneresidenza" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="telefono" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="trasferito" nillable="true" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="annodiploma" nillable="true" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="votodiploma" nillable="true" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="ris1" nillable="true" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="ris2" nillable="true" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="ris3" nillable="true" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="risfinale" nillable="true" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="diploma" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="coorte" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="altrafacolta" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="laureato" nillable="true" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="annocorso" nillable="true" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="dataiscrizione" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="specialistica" nillable="true" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="credititirocinio" nillable="true" type="xs:boolean"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="tirocini" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="tirocini_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codiceazienda" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="matricolastudente" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="tematirocinio" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="datainiziotirocinio" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="datafinetirocinio" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="tutore" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="docentereferente" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="obiettiviemodalitatirocinio" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ripartizionedeicrediti" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="stato" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codicetirocinio" nillable="false" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="tutormanager" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="tutormanager_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="stato" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codice" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="cognome" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="nome" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="email" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="sitoweb" nillable="true" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="1" name="valutazioni" nillable="false">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" minOccurs="1" name="valutazioni_TUPLE" nillable="false">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="codiceappello" nillable="false" type="xs:integer"/>
+                    <xs:element minOccurs="0" name="matricola" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="cognome" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="nome" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="codice" nillable="false" type="xs:string"/>
+                    <xs:element minOccurs="0" name="idoneita" nillable="true" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="voto" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="lode" nillable="true" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="notavalutazione" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="verbalizzata" nillable="true" type="xs:boolean"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:key name="key1">
+      <xs:selector xpath=".//account_TUPLE"/>
+      <xs:field xpath="username"/>
+    </xs:key>
+    <xs:key name="key2">
+      <xs:selector xpath=".//appelli_TUPLE"/>
+      <xs:field xpath="codiceappello"/>
+    </xs:key>
+    <xs:key name="key3">
+      <xs:selector xpath=".//attivita_TUPLE"/>
+      <xs:field xpath="codicedocente"/>
+      <xs:field xpath="codiceinsegnamento"/>
+      <xs:field xpath="annoaccademico"/>
+    </xs:key>
+    <xs:key name="key4">
+      <xs:selector xpath=".//avvisi_TUPLE"/>
+      <xs:field xpath="codice"/>
+    </xs:key>
+    <xs:key name="key5">
+      <xs:selector xpath=".//avvisitirocini_TUPLE"/>
+      <xs:field xpath="codiceavviso"/>
+    </xs:key>
+    <xs:key name="key6">
+      <xs:selector xpath=".//aziende_TUPLE"/>
+      <xs:field xpath="codiceazienda"/>
+    </xs:key>
+    <xs:key name="key7">
+      <xs:selector xpath=".//configcorso_TUPLE"/>
+      <xs:field xpath="codcorso"/>
+    </xs:key>
+    <xs:key name="key8">
+      <xs:selector xpath=".//confighome_TUPLE"/>
+      <xs:field xpath="coddocente"/>
+    </xs:key>
+    <xs:key name="key9">
+      <xs:selector xpath=".//dateimportanti_TUPLE"/>
+      <xs:field xpath="codice"/>
+    </xs:key>
+    <xs:key name="key10">
+      <xs:selector xpath=".//docenti_TUPLE"/>
+      <xs:field xpath="codice"/>
+    </xs:key>
+    <xs:key name="key12">
+      <xs:selector xpath=".//insegnamenti_TUPLE"/>
+      <xs:field xpath="codiceinsegnamento"/>
+    </xs:key>
+    <xs:key name="key13">
+      <xs:selector xpath=".//iscritti_TUPLE"/>
+      <xs:field xpath="codiceinsegnamento"/>
+      <xs:field xpath="annoaccademico"/>
+      <xs:field xpath="matricola"/>
+    </xs:key>
+    <xs:key name="key14">
+      <xs:selector xpath=".//iscrizioni_TUPLE"/>
+      <xs:field xpath="codiceinsegnamento"/>
+      <xs:field xpath="annoaccademico"/>
+    </xs:key>
+    <xs:key name="key15">
+      <xs:selector xpath=".//materialididattici_TUPLE"/>
+      <xs:field xpath="codice"/>
+    </xs:key>
+    <xs:key name="key16">
+      <xs:selector xpath=".//orariricevimento_TUPLE"/>
+      <xs:field xpath="codice"/>
+    </xs:key>
+    <xs:key name="key17">
+      <xs:selector xpath=".//partecipazioni_TUPLE"/>
+      <xs:field xpath="codiceprova"/>
+      <xs:field xpath="matricola"/>
+    </xs:key>
+    <xs:key name="key18">
+      <xs:selector xpath=".//prenotazioni_TUPLE"/>
+      <xs:field xpath="codiceprova"/>
+      <xs:field xpath="matricola"/>
+    </xs:key>
+    <xs:key name="key19">
+      <xs:selector xpath=".//propostetirocini_TUPLE"/>
+      <xs:field xpath="codiceproposta"/>
+    </xs:key>
+    <xs:key name="key20">
+      <xs:selector xpath=".//prove_TUPLE"/>
+      <xs:field xpath="codiceprova"/>
+    </xs:key>
+    <xs:key name="key21">
+      <xs:selector xpath=".//richiestetirocini_TUPLE"/>
+      <xs:field xpath="codicerichiesta"/>
+    </xs:key>
+    <xs:key name="key22">
+      <xs:selector xpath=".//risultati_TUPLE"/>
+      <xs:field xpath="matricola"/>
+      <xs:field xpath="codiceprova"/>
+    </xs:key>
+    <xs:key name="key23">
+      <xs:selector xpath=".//sessioni_TUPLE"/>
+      <xs:field xpath="sessione"/>
+    </xs:key>
+    <xs:key name="key24">
+      <xs:selector xpath=".//studenti_TUPLE"/>
+      <xs:field xpath="matricola"/>
+    </xs:key>
+    <xs:key name="key25">
+      <xs:selector xpath=".//tirocini_TUPLE"/>
+      <xs:field xpath="codicetirocinio"/>
+    </xs:key>
+    <xs:key name="key26">
+      <xs:selector xpath=".//valutazioni_TUPLE"/>
+      <xs:field xpath="codiceappello"/>
+      <xs:field xpath="matricola"/>
+    </xs:key>
+    <xs:keyref name="keyRef1" refer="key10">
+      <xs:selector xpath=".//attivita_TUPLE"/>
+      <xs:field xpath="codicedocente"/>
+    </xs:keyref>
+    <xs:keyref name="keyRef2" refer="key10">
+      <xs:selector xpath=".//confighome_TUPLE"/>
+      <xs:field xpath="coddocente"/>
+    </xs:keyref>
+    <xs:keyref name="keyRef4" refer="key14">
+      <xs:selector xpath=".//iscritti_TUPLE"/>
+      <xs:field xpath="codiceinsegnamento"/>
+      <xs:field xpath="annoaccademico"/>
+    </xs:keyref>
+    <xs:keyref name="keyRef5" refer="key24">
+      <xs:selector xpath=".//partecipazioni_TUPLE"/>
+      <xs:field xpath="matricola"/>
+    </xs:keyref>
+    <xs:keyref name="keyRef6" refer="key24">
+      <xs:selector xpath=".//prenotazioni_TUPLE"/>
+      <xs:field xpath="matricola"/>
+    </xs:keyref>
+    <xs:keyref name="keyRef7" refer="key6">
+      <xs:selector xpath=".//propostetirocini_TUPLE"/>
+      <xs:field xpath="codiceazienda"/>
+    </xs:keyref>
+    <xs:keyref name="keyRef8" refer="key2">
+      <xs:selector xpath=".//prove_TUPLE"/>
+      <xs:field xpath="codiceappello"/>
+    </xs:keyref>
+    <xs:keyref name="keyRef9" refer="key19">
+      <xs:selector xpath=".//richiestetirocini_TUPLE"/>
+      <xs:field xpath="codiceproposta"/>
+    </xs:keyref>
+    <xs:keyref name="keyRef10" refer="key24">
+      <xs:selector xpath=".//risultati_TUPLE"/>
+      <xs:field xpath="matricola"/>
+    </xs:keyref>
+    <xs:keyref name="keyRef11" refer="key6">
+      <xs:selector xpath=".//tirocini_TUPLE"/>
+      <xs:field xpath="codiceazienda"/>
+    </xs:keyref>
+    <xs:keyref name="keyRef12" refer="key24">
+      <xs:selector xpath=".//valutazioni_TUPLE"/>
+      <xs:field xpath="matricola"/>
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

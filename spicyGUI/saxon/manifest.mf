@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: net.sf.saxon
+OpenIDE-Module-Localizing-Bundle: net/sf/saxon/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

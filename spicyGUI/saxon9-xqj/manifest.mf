@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: net.sf.saxon.xqj
+OpenIDE-Module-Localizing-Bundle: net/sf/saxon/xqj/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

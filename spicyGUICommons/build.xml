@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="spicyguicommons" default="build">
+
+ <!-- ***************************************************
+            Importazione del template
+      *************************************************** -->
+
+    <import file="../spicy-template-build.xml" />   
+            
+    <property file="../common.properties" />
+            
+    <target name="-init-classpath" depends="-init-folders">
+        <property name="build.sysclasspath" value="ignore" />
+        <path id="compile.classpath">
+            <pathelement location="${build.dir}" />
+            <pathelement location="${lib.dir}/commons-logging-${commons-logging.ver}.jar" />
+            <pathelement location="${lib.dir}/log4j-${log4j.ver}.jar" />
+        </path>
+        <path id="run.classpath">
+            <path refid="compile.classpath" />
+        </path>
+        <path id="run.jar.classpath">
+            <pathelement location="${lib.dir}/commons-logging-${commons-logging.ver}.jar" />
+            <pathelement location="${lib.dir}/log4j-${log4j.ver}.jar" />
+        </path>
+        <path id="test.classpath">
+            <path refid="compile.classpath" />
+            <pathelement location="${test.build.dir}" />
+            <pathelement location="${lib.dir}/junit.jar" />
+            <pathelement location="${lib.dir}/jdom.jar" />
+            <pathelement location="${lib.dir}/xercesImpl.jar" />              
+        </path>
+    </target>    
+
+    <target name="jar" depends="-clean-dist-dir, -init-version, rebuild, -create-manifest" description="crea il jar">
+        <jar destfile="${dist.dir}/${ant.project.name}-${major.version}.${minor.version}.jar"
+             manifest="${dist.dir}/MANIFEST.MF">
+            <fileset dir="${build.dir}">
+                <include name="**/*.*" />
+                <exclude name="**/*.template" />
+                <exclude name="**/conf/**" />
+                <exclude name="**/resources/**" />
+            </fileset>
+        </jar>
+    </target>
+
+    <target name="dist" depends="-clean-dist-dir, rebuild, -init-version, jar, javadoc" description="crea lo zip distribuibile">
+        <zip zipfile="${dist.dir}/${ant.project.name}-java-${major.version}.${minor.version}-build${build.number}.zip">
+            <!-- jar -->
+            <zipfileset dir="${dist.dir}" prefix="${ant.project.name}" includes="${ant.project.name}*.jar" />
+            <!-- jar -->
+            <zipfileset dir="${lib.dir}" prefix="${ant.project.name}/lib" includes="commons-logging-*.jar" />
+            <zipfileset dir="${lib.dir}" prefix="${ant.project.name}/lib" includes="log4j-${log4j.ver}.jar" />
+            <!-- sorgenti -->
+<!--            <zipfileset dir="${src.dir}" prefix="${ant.project.name}/src" /> -->
+            <!-- test -->
+<!--            <zipfileset dir="${test.src.dir}" prefix="${ant.project.name}/test" /> -->
+            <!-- javadoc -->
+<!--            <zipfileset dir="${javadoc.dir}" prefix="${ant.project.name}/javadoc" /> -->
+            <!-- varie -->
+<!--            <zipfileset dir="${misc.dir}" prefix="${ant.project.name}/varie" /> -->
+            <!-- build -->
+            <zipfileset dir="." prefix="${ant.project.name}" includes="*.bat" />
+            <zipfileset dir="${misc.dir}" prefix="${ant.project.name}" includes="**/config.properties" /> 
+        </zip>
+    </target>
+
+    <target name="profile" depends="build" description="Profile Project">
+        <fail unless="netbeans.home">This target can only run inside the NetBeans IDE.</fail>
+
+        <nbprofiledirect>
+            <classpath refid="run.classpath" />
+        </nbprofiledirect>
+
+        <java classname="it.unibas.spicy.experiments.Main" fork="false">
+            <jvmarg value="${profiler.info.jvmargs.agent}"/>
+            <classpath refid="run.classpath" />
+        </java>
+    </target>
+		
+</project>

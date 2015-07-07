@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: it.unibas.spicyverifier
+OpenIDE-Module-Localizing-Bundle: it/unibas/spicyverifier/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

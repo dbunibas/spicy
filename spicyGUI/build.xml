@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="SpicyGUI" basedir=".">
+    <description>Builds the module suite SpicyGUI.</description>
+
+    <import file="nbproject/build-impl.xml"/>
+
+    <property file="../common.properties" />
+
+    <target name="clean-dependencies" >
+        <delete failonerror="false">
+            <fileset dir=".\jep\release\modules\ext" includes="*.jar"/>
+        </delete>
+        <delete failonerror="false">
+            <fileset dir=".\spicyEngine\release\modules\ext" includes="*.jar"/>
+        </delete>
+        <delete failonerror="false">
+            <fileset dir=".\spicyVerifier\release\modules\ext" includes="*.jar"/>
+        </delete>
+    </target>
+
+    <target name="update-dependencies" depends="clean-dependencies, build-all">
+        <copy toDir=".\jep\release\modules\ext" >
+            <fileset dir="../lib" includes="jep-*.jar"/>
+        </copy>
+        <copy toDir=".\spicyEngine\release\modules\ext" >
+            <fileset dir="../lib" includes="spicyEngine-*.jar"/>
+        </copy>
+        <copy toDir=".\spicyguicommons\release\modules\ext" >
+            <fileset dir="../lib" includes="spicyguicommons-*.jar"/>
+        </copy>
+        <copy toDir=".\spicyVerifier\release\modules\ext" >
+            <fileset dir="../lib" includes="spicyVerifier-*.jar"/>
+        </copy>
+    </target>
+    <!-- per le piattaforme precedenti la 6.7 -->
+<!--    <target name="run" depends="update-dependencies, build,-jdk-init" description="Runs this suite in place.">
+        <ant antfile="${harness.dir}/run.xml" target="run"/>
+    </target>
+-->
+    <target name="run" depends="update-dependencies,build,-jdk-init" description="Runs this suite in place.">
+        <ant antfile="${harness.dir}/run.xml" target="run">
+            <reference refid="cluster.path.id"/>
+        </ant>
+    </target>
+
+    <target name="run-fast" depends="build,-jdk-init" description="Runs this suite in place.">
+        <ant antfile="${harness.dir}/run.xml" target="run"/>
+    </target>
+
+    <taskdef resource="proguard/ant/task.properties"
+             classpath="../lib/proguard.jar" />
+
+    <target name="obfuscate" depends="clean-dependencies, rebuild-all">
+        <proguard configuration="../lib/spicyGUI.pro"/>
+    </target>
+
+    <target name="dist-obfuscated" depends="update-dependencies-obfuscated, build-zip">
+    </target>
+
+    <target name="dist" depends="update-dependencies, build-zip">
+    </target>
+
+    <target name="update-dependencies-obfuscated" depends="obfuscate">
+        <copy todir=".\jep\release\modules\ext" >
+            <fileset dir="../lib" includes="jep-*.jar"/>
+        </copy>
+        <copy todir=".\spicyguicommons\release\modules\ext" >
+            <fileset dir="../lib" includes="spicyguicommons-*.jar"/>
+        </copy>
+        <copy toDir=".\spicyEngine\release\modules\ext" >
+            <fileset dir="../lib/obfuscated" includes="spicyEngine-*.jar"/>
+        </copy>
+        <copy toDir=".\spicyVerifier\release\modules\ext" >
+            <fileset dir="../lib/obfuscated" includes="spicyVerifier-*.jar"/>
+        </copy>
+        <delete dir="../lib/obfuscated" />
+    </target>
+
+    <target name="rebuild-all" depends="" description="compila">
+        <delete failonerror="false" file="../lib/jep-${jep.ver}.jar" />
+        <delete failonerror="false" file="../lib/spicyguicommons-${spicyguicommons.ver}.jar" />
+        <delete failonerror="false" file="../lib/spicyEngine-${spicyEngine.ver}.jar" />
+        <delete failonerror="false" file="../lib/spicyVerifier-${spicyVerifier.ver}.jar" />
+        <ant dir="${jep.dir}" inheritAll="false" target="clean" />
+        <ant dir="${jep.dir}" inheritAll="false" target="build" />
+        <ant dir="${spicyguicommons.dir}" inheritAll="false" target="clean" />
+        <ant dir="${spicyguicommons.dir}" inheritAll="false" target="build" />
+        <ant dir="${spicyguicommons.dir}" inheritAll="false" target="light-deploy" />
+        <ant dir="${spicyEngine.dir}" inheritAll="false" target="clean" />
+        <ant dir="${spicyEngine.dir}" inheritAll="false" target="build" />
+        <ant dir="${spicyEngine.dir}" inheritAll="false" target="light-deploy" />
+        <ant dir="${spicyVerifier.dir}" inheritAll="false" target="clean" />
+        <ant dir="${spicyVerifier.dir}" inheritAll="false" target="build" />
+        <ant dir="${spicyVerifier.dir}" inheritAll="false" target="light-deploy" />
+        <antcall target="clean" />
+    </target>
+
+    <target name="clean-all" depends="" description="ripulisce">
+        <ant dir="${jep.dir}" inheritAll="false" target="clean" />
+        <ant dir="${spicyEngine.dir}" inheritAll="false" target="clean" />
+        <ant dir="${spicyVerifier.dir}" inheritAll="false" target="clean" />
+        <antcall target="clean" />
+    </target>
+
+    <target name="build-all" depends="" description="compila">
+        <ant dir="${jep.dir}" inheritAll="false" target="build" />
+        <ant dir="${spicyEngine.dir}" inheritAll="false" target="build" />
+        <ant dir="${spicyEngine.dir}" inheritAll="false" target="light-deploy" />
+        <ant dir="${spicyguicommons.dir}" inheritAll="false" target="build" />
+        <ant dir="${spicyguicommons.dir}" inheritAll="false" target="light-deploy" />
+        <ant dir="${spicyVerifier.dir}" inheritAll="false" target="build" />
+        <ant dir="${spicyVerifier.dir}" inheritAll="false" target="light-deploy" />
+        <antcall target="clean" />
+    </target>
+
+    <target name="gfp-all" depends="" description="rigenera le proprieta' del progetto freeform">
+        <ant dir="${jep.dir}" inheritAll="false" target="generate-freeform-properties" />
+        <ant dir="${spicyEngine.dir}" inheritAll="false" target="generate-freeform-properties" />
+        <ant dir="${spicyguicommons.dir}" inheritAll="false" target="generate-freeform-properties" />
+        <ant dir="${spicyVerifier.dir}" inheritAll="false" target="generate-freeform-properties" />
+    </target>
+    
+    <target name="dist-src" depends="" description="genera il file zip contenente tutti i sorgenti">
+    	<delete file="dist/spicy-src.zip" />
+    	<zip zipfile="dist/spicy-src.zip">
+            <zipfileset dir="${spicyEngine.dir}/src" prefix="spicy-engine" />
+            <zipfileset dir="${spicygui.dir}" prefix="spicy-gui" excludes="build.xml, dist/, **/build/, **/release/"/>
+            <zipfileset dir="${spicyguicommons.dir}/src" prefix="spicygui-commons"/>
+            <zipfileset dir="${spicyVerifier.dir}/src" prefix="spicy-verifier" />
+            <zipfileset dir="${jep.dir}/src" prefix="jep" />
+            <zipfileset dir="../lib" prefix="lib"/>
+        </zip>
+    </target>
+
+</project>

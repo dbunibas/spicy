@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.mysql.jdbc">
+    <module_version install_time="1436282818400" last="true" origin="installer" specification_version="1.0">
+        <file crc="1330772516" name="config/Modules/com-mysql-jdbc.xml"/>
+        <file crc="3706492889" name="modules/com-mysql-jdbc.jar"/>
+        <file crc="3511157180" name="modules/ext/mysql-connector-java-5.0.3-bin.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.apisupport.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/nb-module-project/3">
+            <code-name-base>org.nfunk.jep</code-name-base>
+            <suite-component/>
+            <module-dependencies/>
+            <public-packages>
+                <package>org.nfunk.jep</package>
+                <package>org.nfunk.jep.evaluation</package>
+                <package>org.nfunk.jep.function</package>
+                <package>org.nfunk.jep.type</package>
+            </public-packages>
+            <class-path-extension>
+                <runtime-relative-path>ext/jep-2.4.1.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/jep-2.4.1.jar</binary-origin>
+            </class-path-extension>
+        </data>
+    </configuration>
+</project>

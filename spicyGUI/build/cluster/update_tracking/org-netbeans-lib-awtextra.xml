@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.lib.awtextra">
+    <module_version install_time="1436282822639" last="true" origin="installer" specification_version="1.0">
+        <file crc="1161404346" name="config/Modules/org-netbeans-lib-awtextra.xml"/>
+        <file crc="1574836921" name="modules/ext/AbsoluteLayout.jar"/>
+        <file crc="3944649605" name="modules/org-netbeans-lib-awtextra.jar"/>
+    </module_version>
+</module>

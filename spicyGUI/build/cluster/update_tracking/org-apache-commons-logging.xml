@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.apache.commons.logging">
+    <module_version install_time="1436282821203" last="true" origin="installer" specification_version="1.0">
+        <file crc="1068255805" name="config/Modules/org-apache-commons-logging.xml"/>
+        <file crc="3997199286" name="modules/ext/commons-logging-1.1.jar"/>
+        <file crc="378052356" name="modules/org-apache-commons-logging.jar"/>
+    </module_version>
+</module>

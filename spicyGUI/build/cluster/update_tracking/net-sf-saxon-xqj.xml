@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="net.sf.saxon.xqj">
+    <module_version install_time="1436282820324" last="true" origin="installer" specification_version="1.0">
+        <file crc="938124693" name="config/Modules/net-sf-saxon-xqj.xml"/>
+        <file crc="2921497337" name="modules/ext/saxon9-xqj.jar"/>
+        <file crc="1653854610" name="modules/net-sf-saxon-xqj.jar"/>
+    </module_version>
+</module>

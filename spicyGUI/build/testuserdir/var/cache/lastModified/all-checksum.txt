@@ -1,0 +1,11 @@
+/Applications/NetBeans/NetBeans 8.0.app/Contents/Resources/NetBeans/platform=1413644248000
+cluster./Users/donatello/Projects/spicy-git/spicyGUI/build/cluster=1436284253000
+cluster./Applications/NetBeans/NetBeans 8.0.app/Contents/Resources/NetBeans/ide=1413644247000
+cluster./Applications/NetBeans/NetBeans 8.0.app/Contents/Resources/NetBeans/java=1413644245000
+cluster./Applications/NetBeans/NetBeans 8.0.app/Contents/Resources/NetBeans/platform=1413644248000
+user=1436284253000
+crc=7
+locale=en_US
+branding=spicy
+java.version=1.7.0_67
+java.vm.version=24.65-b04

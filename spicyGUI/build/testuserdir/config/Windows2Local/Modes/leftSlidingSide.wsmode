@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mode version="2.4">
+    <module name="org.netbeans.core.ui/1" spec="1.2" />
+    <name unique="leftSlidingSide"  />
+  <kind type="sliding" />
+  <slidingSide side="left" />
+  <slide-in-size tc-id="TGDListTopComponent" size="211" />
+  <state type="joined"  />
+  <bounds x="24" y="0" width="211" height="601" />
+  <frame state="0"/>
+    <empty-behavior permanent="true"/>
+</mode>

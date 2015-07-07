@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.apisupport.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/nb-module-project/3">
+            <code-name-base>com.google.inject</code-name-base>
+            <suite-component/>
+            <module-dependencies/>
+            <public-packages>
+                <package>com.google.inject</package>
+                <package>com.google.inject.asm</package>
+                <package>com.google.inject.asm.signature</package>
+                <package>com.google.inject.binder</package>
+                <package>com.google.inject.cglib.asm</package>
+                <package>com.google.inject.cglib.asm.signature</package>
+                <package>com.google.inject.cglib.beans</package>
+                <package>com.google.inject.cglib.core</package>
+                <package>com.google.inject.cglib.proxy</package>
+                <package>com.google.inject.cglib.reflect</package>
+                <package>com.google.inject.cglib.transform</package>
+                <package>com.google.inject.cglib.transform.impl</package>
+                <package>com.google.inject.cglib.util</package>
+                <package>com.google.inject.jndi</package>
+                <package>com.google.inject.matcher</package>
+                <package>com.google.inject.name</package>
+                <package>com.google.inject.spi</package>
+                <package>com.google.inject.tools.jmx</package>
+                <package>com.google.inject.util</package>
+            </public-packages>
+            <class-path-extension>
+                <runtime-relative-path>ext/guice-1.0.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/guice-1.0.jar</binary-origin>
+            </class-path-extension>
+        </data>
+    </configuration>
+</project>

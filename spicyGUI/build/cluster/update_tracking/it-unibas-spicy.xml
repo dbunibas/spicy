@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="it.unibas.spicy">
+    <module_version install_time="1436282826157" last="true" origin="installer" specification_version="1.1.0">
+        <file crc="3294048442" name="config/Modules/it-unibas-spicy.xml"/>
+        <file crc="2511778969" name="modules/ext/spicyEngine-1.0.jar"/>
+        <file crc="3529363880" name="modules/it-unibas-spicy.jar"/>
+    </module_version>
+</module>

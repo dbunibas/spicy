@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.jdesktop.el
+OpenIDE-Module-Localizing-Bundle: org/jdesktop/el/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

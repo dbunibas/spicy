@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="it.unibas.spicygui.commons">
+    <module_version install_time="1436282821402" last="true" origin="installer" specification_version="1.0">
+        <file crc="3026964818" name="config/Modules/it-unibas-spicygui-commons.xml"/>
+        <file crc="2610731575" name="modules/ext/spicyguicommons-0.1.jar"/>
+        <file crc="1717860843" name="modules/ext/spicyguicommons-1.0.jar"/>
+        <file crc="240250525" name="modules/ext/tempfile.2.tmp"/>
+        <file crc="240250525" name="modules/ext/tempfile.3.tmp"/>
+        <file crc="240250525" name="modules/ext/tempfile.tmp"/>
+        <file crc="2856231993" name="modules/it-unibas-spicygui-commons.jar"/>
+    </module_version>
+</module>

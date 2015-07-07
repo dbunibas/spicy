@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <attr name="Menu\File\Separator2.instance\position" intvalue="300"/>
+    <attr name="Menu\File\Separator3.instance\position" intvalue="400"/>
+    <attr name="Menu\File\Separator4.instance\position" intvalue="750"/>
+    <attr name="Menu\File\org-netbeans-core-actions-SystemExit.instance\position" intvalue="900"/>
+    <attr name="Toolbars\Build\position" intvalue="0"/>
+    <attr name="Toolbars\Memory\position" intvalue="200"/>
+    <attr name="Toolbars\Standard.xml\position" intvalue="500"/>
+    <folder name="Actions">
+        <folder name="System">
+            <file name="org-netbeans-modules-autoupdate-ui-actions-CheckForUpdatesAction.instance" url="platformconfig/org-netbeans-modules-autoupdate-ui-actions-CheckForUpdatesAction.instance"/>
+        </folder>
+    </folder>
+    <folder name="Keymaps">
+        <folder name="Eclipse"/>
+        <folder name="Emacs"/>
+        <folder name="Idea"/>
+        <folder name="NetBeans"/>
+    </folder>
+    <folder name="Loaders">
+        <folder name="text">
+            <folder name="x-tgd">
+                <folder name="Actions">
+                    <file name="org-openide-actions-CopyAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CopyAction.instance"/>
+                        <attr name="position" intvalue="400"/>
+                    </file>
+                    <file name="org-openide-actions-CutAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-CutAction.instance"/>
+                        <attr name="position" intvalue="300"/>
+                    </file>
+                    <file name="org-openide-actions-DeleteAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-DeleteAction.instance"/>
+                        <attr name="position" intvalue="600"/>
+                    </file>
+                    <file name="org-openide-actions-FileSystemAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-FileSystemAction.instance"/>
+                        <attr name="position" intvalue="1100"/>
+                    </file>
+                    <file name="org-openide-actions-OpenAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-OpenAction.instance"/>
+                        <attr name="position" intvalue="100"/>
+                    </file>
+                    <file name="org-openide-actions-PropertiesAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-PropertiesAction.instance"/>
+                        <attr name="position" intvalue="1400"/>
+                    </file>
+                    <file name="org-openide-actions-RenameAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-RenameAction.instance"/>
+                        <attr name="position" intvalue="700"/>
+                    </file>
+                    <file name="org-openide-actions-SaveAsTemplateAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-SaveAsTemplateAction.instance"/>
+                        <attr name="position" intvalue="900"/>
+                    </file>
+                    <file name="org-openide-actions-ToolsAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-ToolsAction.instance"/>
+                        <attr name="position" intvalue="1300"/>
+                    </file>
+                    <file name="sep-1.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="200"/>
+                    </file>
+                    <file name="sep-2.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="500"/>
+                    </file>
+                    <file name="sep-3.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="800"/>
+                    </file>
+                    <file name="sep-4.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="1000"/>
+                    </file>
+                    <file name="sep-5.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="1200"/>
+                    </file>
+                </folder>
+                <folder name="Factories">
+                    <file name="TGDDataLoader.instance">
+                        <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/misc/icons/tgd_file.png"/>
+                        <attr name="dataObjectClass" stringvalue="it.unibas.spicygui.file.TGDDataObject"/>
+                        <attr name="instanceCreate" methodvalue="org.openide.loaders.DataLoaderPool.factory"/>
+                        <attr name="mimeType" stringvalue="text/x-tgd"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Modello">
+        <file name="it-unibas-spicygui-commons-Modello.instance"/>
+    </folder>
+    <folder name="Templates">
+        <folder name="Other">
+            <file name="TGDTemplate.tgd" url="TGDTemplate.tgd">
+                <attr name="displayName" bundlevalue="it.unibas.spicygui.Bundle#Templates/Other/TGDTemplate.tgd"/>
+                <attr name="template" boolvalue="true"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Vista">
+        <file name="it-unibas-spicygui-vista-Vista.instance"/>
+        <file name="it-unibas-spicygui-vista-wizard-CaricamentoVisualPanel.instance"/>
+    </folder>
+    <folder name="Azione">
+        <file name="it-unibas-spicygui-controllo-file-ActionNewMappingTask.instance"/>
+        <file name="it-unibas-spicygui-controllo-file-ActionOpenMappingTask.instance"/>
+   <!--     <file name="it-unibas-spicygui-controllo-file-ActionLoadTGDs.instance"/> -->
+        <file name="it-unibas-spicygui-controllo-file-ActionSaveMappingTask.instance"/>
+        <file name="it-unibas-spicygui-controllo-file-ActionSaveAsMappingTask.instance"/>
+        <file name="it-unibas-spicygui-controllo-file-ActionCloseMappingTask.instance"/>
+        <file name="it-unibas-spicygui-controllo-file-ActionFileChooserSchema.instance"/>
+        <file name="it-unibas-spicygui-controllo-file-ActionFileChooserInstances.instance"/>
+        <file name="it-unibas-spicygui-controllo-datasource-ActionAddTargetInstance.instance"/>
+        <file name="it-unibas-spicygui-controllo-datasource-ActionAddSourceInstance.instance"/>
+        <file name="it-unibas-spicygui-controllo-datasource-ActionViewInstances.instance"/>
+        <file name="it-unibas-spicygui-controllo-tree-ActionShowHideConstraints.instance"/>
+        <file name="it-unibas-spicygui-controllo-tree-ActionShowHideJoinConditions.instance"/>
+        <file name="it-unibas-spicygui-controllo-tree-ActionShowHideFunctionalDependencies.instance"/>
+        <file name="it-unibas-spicygui-controllo-mapping-ActionGenerateTransformations.instance"/>
+        <file name="it-unibas-spicygui-controllo-mapping-ActionTranslate.instance"/>
+        <file name="it-unibas-spicygui-controllo-mapping-ActionGenerateAndTranslate.instance"/>
+        <file name="it-unibas-spicygui-controllo-mapping-ActionViewTransformation.instance"/>
+        <file name="it-unibas-spicygui-controllo-mapping-ActionGenerateXQuery.instance"/>
+        <file name="it-unibas-spicygui-controllo-mapping-ActionGenerateSql.instance"/>
+        <file name="it-unibas-spicygui-controllo-mapping-ActionViewTGDs.instance"/>
+        <file name="it-unibas-spicygui-controllo-mapping-ActionViewTGD.instance"/>
+        <file name="it-unibas-spicygui-controllo-mapping-ActionExportTranslatedInstances.instance"/>
+        <file name="it-unibas-spicygui-controllo-datasource-ActionViewSchema.instance"/>
+        <file name="it-unibas-spicygui-controllo-window-ActionProjectTree.instance"/>
+        <file name="it-unibas-spicygui-controllo-window-ActionComposition.instance"/>
+
+        <file name="it-unibas-spicygui-controllo-spicy-ActionViewSpicy.instance"/>
+        <file name="it-unibas-spicygui-controllo-spicy-ActionRunMatcher.instance"/>
+        <file name="it-unibas-spicygui-controllo-spicy-ActionFindMappings.instance"/>
+        <file name="it-unibas-spicygui-controllo-spicy-ActionFindConfidenceMappings.instance"/>
+        <file name="it-unibas-spicygui-controllo-spicy-ActionViewBestMappings.instance"/>
+        <file name="it-unibas-spicygui-controllo-spicy-ActionViewRankedTransformations.instance"/>
+        <file name="it-unibas-spicygui-controllo-spicy-ActionRankTransformations.instance"/>
+        <!--<file name="it-unibas-spicygui-controllo-spicy-ActionLoadComaCorrespondences.instance"/>-->
+
+    </folder>
+<!--    <folder name="Vista">
+        <file name="it-unibas-spicygui-vista-wizard-CaricamentoVisualPanel.instance"/>
+    </folder>-->
+    <folder name="Services">
+        <folder name="AutoupdateType">
+            <file name="++SpicyAUC.instance">
+                <attr name="displayName" stringvalue="++Spicy Autoupdate Center"/>
+<!--            <attr name="categoryIconBase" urlvalue="misc/icons/java.gif"/>
+                <attr name="SystemFileSystem.icon" urlvalue="misc/icons/spicy.gif"/> -->
+                <attr name="enabled" boolvalue="true"/>
+                <attr name="instanceCreate" methodvalue="org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogFactory.createUpdateProvider"/>
+                <attr name="instanceOf" stringvalue="org.netbeans.spi.autoupdate.UpdateProvider"/>
+                <attr name="url" stringvalue="http://www.db.unibas.it/projects/spicy/updates/updates.xml"/>
+            </file>
+        </folder>
+
+        <folder name="JavaHelp">
+            <file name="spicygui-helpset.xml" url="spicygui-helpset.xml">
+                <attr name="position" intvalue="3207"/>
+            </file>
+        </folder>
+        <folder name="MIMEResolver">
+            <file name="TGDResolver.xml" url="TGDResolver.xml">
+                <attr name="displayName" bundlevalue="it.unibas.spicygui.Bundle#Services/MIMEResolver/TGDResolver.xml"/>
+            </file>
+        </folder>
+        <file name="it-unibas-spicygui-commons-Modello.shadow">
+            <attr name="originalFile" stringvalue="Modello/it-unibas-spicygui-commons-Modello.instance"/>
+        </file>
+        <file name="it-unibas-spicygui-vista-Vista.shadow">
+            <attr name="originalFile" stringvalue="Vista/it-unibas-spicygui-vista-Vista.instance"/>
+        </file>
+        <file name="it-unibas-spicygui-vista-file-CaricamentoVisualPanel.shadow">
+            <attr name="originalFile" stringvalue="Vista/it-unibas-spicygui-vista-wizard-CaricamentoVisualPanel.instance"/>
+        </file>
+    </folder>
+    <folder name="Menu">
+
+        <folder name="File">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="it.unibas.spicygui.Bundle"/>
+            <file name="F1.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-file-ActionNewMappingTask.instance"/>
+                <attr name="position" intvalue="0"/>
+            </file>
+<!--            <file name="F2.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-file-ActionLoadTGDs.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file> -->
+            <file name="F2.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-file-ActionOpenMappingTask.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+            <file name="F3.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-file-ActionSaveMappingTask.instance"/>
+                <attr name="position" intvalue="150"/>
+            </file>
+            <file name="F4.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-file-ActionSaveAsMappingTask.instance"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+            <file name="F5.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-file-ActionCloseMappingTask.instance"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+            <file name="org-netbeans-modules-editor-ExportHtmlAction.instance_hidden"/>
+            <file name="org-openide-actions-PageSetupAction.instance_hidden"/>
+            <file name="org-openide-actions-PrintAction.instance_hidden"/>
+            <file name="org-openide-actions-SaveAllAction.instance_hidden"/>
+            <file name="org-openide-actions-SaveAllAction.shadow_hidden"/>
+            <file name="org-openide-actions-SaveAsAction.shadow_hidden"/>
+        </folder>
+        <folder name="DataSource">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="it.unibas.spicygui.Bundle"/>
+            <attr name="position" intvalue="150"/>
+            <!--         <file name="Proprieta' Sorgente">
+                <attr name="position" intvalue="100"/>
+            </file>
+            <file name="Proprieta' Target">
+                <attr name="position" intvalue="150"/>
+            </file>
+            <file name="Separator3.instance" url="Separator3.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="250"/>
+            </file> -->
+            <file name="DS1.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-datasource-ActionAddTargetInstance.instance"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+            <file name="DS2.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-datasource-ActionAddSourceInstance.instance"/>
+                <attr name="position" intvalue="250"/>
+            </file>
+            <file name="DS3.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-datasource-ActionViewInstances.instance"/>
+                <attr name="position" intvalue="350"/>
+            </file>
+        </folder>
+        <folder name="Help">
+            <file name="master-help.xml" url="platformconfig/master-help.xml">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.javahelp.resources.Bundle"/>
+                <attr name="position" intvalue="0"/>
+            </file>
+        </folder>
+        <folder name="Map">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="it.unibas.spicygui.Bundle"/>
+            <attr name="position" intvalue="175"/>
+            <file name="M1.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-mapping-ActionGenerateTransformations.instance"/>
+                <attr name="position" intvalue="0"/>
+            </file>
+            <file name="M2.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-mapping-ActionTranslate.instance"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+            <file name="M3.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-mapping-ActionGenerateAndTranslate.instance"/>
+                <attr name="position" intvalue="250"/>
+            </file>
+            <file name="M5.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-mapping-ActionGenerateXQuery.instance"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+            <file name="M6.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-mapping-ActionGenerateSql.instance"/>
+                <attr name="position" intvalue="350"/>
+            </file>
+            <file name="M7.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-mapping-ActionExportTranslatedInstances.instance"/>
+                <attr name="position" intvalue="400"/>
+            </file>
+            <file name="M8.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-mapping-ActionViewTransformation.instance"/>
+                <attr name="position" intvalue="450"/>
+            </file>
+            <file name="M9.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-mapping-ActionViewTGDs.instance"/>
+                <attr name="position" intvalue="500"/>
+            </file>
+            <file name="M10.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-mapping-ActionViewTGD.instance"/>
+                <attr name="position" intvalue="550"/>
+            </file>
+        </folder>
+        <file name="Source_hidden"/>
+
+        <folder name="Spicy">
+    <!--        <attr name="SystemFileSystem.localizingBundle" stringvalue="it.unibas.spicygui.Bundle"/> -->
+            <attr name="position" intvalue="187"/>
+            <file name="S1.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-spicy-ActionRunMatcher.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+<!--            <file name="S2.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-spicy-ActionLoadComaCorrespondences.instance"/>
+                <attr name="position" intvalue="150"/>
+            </file>
+-->
+            <folder name="Best Mapping">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="it.unibas.spicygui.Bundle"/>
+                <attr name="position" intvalue="200"/>
+                <file name="S3.shadow">
+                    <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-spicy-ActionFindMappings.instance"/>
+                </file>
+                <file name="S4.shadow">
+                    <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-spicy-ActionFindConfidenceMappings.instance"/>
+                </file>
+            </folder>
+            <file name="S5.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-spicy-ActionViewBestMappings.instance"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+            <file name="S6.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-spicy-ActionViewSpicy.instance"/>
+                <attr name="position" intvalue="400"/>
+            </file>
+            <file name="S7.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-spicy-ActionRankTransformations.instance"/>
+                <attr name="position" intvalue="500"/>
+            </file>
+            <file name="S8.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-spicy-ActionViewRankedTransformations.instance"/>
+                <attr name="position" intvalue="600"/>
+            </file>
+        </folder>
+
+        <folder name="Tools">
+            <file name="org-netbeans-modules-favorites-templates-TemplatesAction.instance_hidden"/>
+        </folder>
+        <folder name="View">
+            <file name="Separator1.instance_hidden"/>
+            <file name="org-netbeans-core-actions-HTMLViewAction.instance_hidden"/>
+            <file name="org-netbeans-core-multiview-EditorsAction.instance_hidden"/>
+            <file name="org-netbeans-modules-editor-NbCodeFoldingAction.instance_hidden"/>
+        </folder>
+        <folder name="Window">
+            <file name="W1.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-datasource-ActionViewSchema.instance"/>
+                <attr name="position" intvalue="0"/>
+            </file>
+            <file name="W2.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-tree-ActionShowHideConstraints.instance"/>
+                <attr name="position" intvalue="50"/>
+            </file>
+            <file name="W3.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-tree-ActionShowHideJoinConditions.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+            <file name="W4.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-tree-ActionShowHideFunctionalDependencies.instance"/>
+                <attr name="position" intvalue="150"/>
+            </file>
+            <file name="W5.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-window-ActionProjectTree.instance"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+<!--            <file name="W6.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-window-ActionComposition.instance"/>
+                <attr name="position" intvalue="250"/>
+            </file>-->
+        </folder>
+        <file name="Edit_hidden"/>
+        <file name="GoTo_hidden"/>
+    </folder>
+    <folder name="Toolbars">
+        <file name="Clipboard_hidden"/>
+        <file name="QuickSearch_hidden"/>
+        <file name="UndoRedo_hidden"/>
+        <file name="Edit_hidden"/>
+        <folder name="File">
+            <attr name="position" intvalue="100"/>
+            <file name="TBF1.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-file-ActionNewMappingTask.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+            <file name="TBF2.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-file-ActionOpenMappingTask.instance"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+            <file name="TBF3.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-file-ActionSaveMappingTask.instance"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+            <file name="org-openide-actions-SaveAllAction.shadow_hidden"/>
+        </folder>
+        <folder name="Map">
+            <attr name="position" intvalue="400"/>
+            <file name="TBM1.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-mapping-ActionGenerateTransformations.instance"/>
+            </file>
+            <file name="TBM2.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-mapping-ActionTranslate.instance"/>
+            </file>
+            <file name="TBM3.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-mapping-ActionGenerateAndTranslate.instance"/>
+            </file>
+            <file name="TBM5.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-mapping-ActionViewTransformation.instance"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <attr name="position" intvalue="300"/>
+            <file name="TBW1.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-datasource-ActionViewSchema.instance"/>
+            </file>
+            <file name="TBW2.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-tree-ActionShowHideConstraints.instance"/>
+            </file>
+            <file name="TBW3.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-tree-ActionShowHideJoinConditions.instance"/>
+            </file>
+            <file name="TBW4.shadow">
+                <attr name="originalFile" stringvalue="Azione/it-unibas-spicygui-controllo-tree-ActionShowHideFunctionalDependencies.instance"/>
+            </file>
+        </folder>
+        <folder name="Memory">
+            <attr name="position" intvalue="450"/>
+            <file name="org-netbeans-modules-timers-OpenTimeComponentAction.instance_hidden"/>
+        </folder>
+    </folder>
+    <folder name="Shortcuts">
+        <file name="C-N.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.file.ActionNewMappingTask"/>
+        </file>
+        <file name="C-S.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.file.ActionSaveMappingTask"/>
+        </file>
+        <file name="CS-S.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.file.ActionSaveAsMappingTask"/>
+        </file>
+        <file name="C-O.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.file.ActionOpenMappingTask"/>
+        </file>
+        <file name="C-C.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.file.ActionCloseMappingTask"/>
+        </file>
+<!--        <file name="C-L.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.file.ActionLoadTGDs"/>
+        </file> -->
+        <file name="C-P.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.window.ActionProjectTree"/>
+        </file>
+        <file name="C-A.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.datasource.ActionAddTargetInstance"/>
+        </file>
+        <file name="CS-A.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.datasource.ActionAddSourceInstance"/>
+        </file>
+        <file name="C-V.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.datasource.ActionViewInstances"/>
+        </file>
+        <file name="CS-T.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.mapping.ActionViewTransformation"/>
+        </file>
+        <file name="C-T.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.mapping.ActionTranslate"/>
+        </file>
+        <file name="C-G.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.mapping.ActionGenerateTransformations"/>
+        </file>
+        <file name="CS-G.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.mapping.ActionGenerateAndTranslate"/>
+        </file>
+        <file name="C-Q.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.mapping.ActionGenerateXQuery"/>
+        </file>
+        <file name="CS-Q.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.mapping.ActionGenerateSql"/>
+        </file>
+        <file name="C-E.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.mapping.ActionExportTranslatedInstances"/>
+        </file>
+        <file name="C-D.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.mapping.ActionViewTGDs"/>
+        </file>
+        <file name="CS-D.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.mapping.ActionViewTGD"/>
+        </file>
+
+
+        <file name="CS-M.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.spicy.ActionRunMatcher"/>
+        </file>
+        <file name="CS-F.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.spicy.ActionFindMappings"/>
+        </file>
+        <file name="CS-C.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.spicy.ActionFindConfidenceMappings"/>
+        </file>
+        <file name="CS-V.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.spicy.ActionViewBestMappings"/>
+        </file>
+        <file name="CS-R.instance">
+            <attr name="instanceClass" stringvalue="it.unibas.spicygui.controllo.spicy.ActionRankTransformations"/>
+        </file>
+
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="CompositionTopComponent.settings" url="platformconfig/CompositionTopComponentSettings.xml"/>
+            <file name="ProjectTreeTopComponent.settings" url="platformconfig/ProjectTreeTopComponentSettings.xml"/>
+            <file name="XQueryTopComponent.settings" url="platformconfig/XQueryTopComponentSettings.xml"/>
+            <file name="SqlTopComponent.settings" url="platformconfig/SqlTopComponentSettings.xml"/>
+            <file name="TGDListTopComponent.settings" url="platformconfig/TGDListTopComponentSettings.xml"/>
+            <file name="MappingTaskTopComponent.settings" url="platformconfig/MappingTaskTopComponentSettings.xml"/>
+            <file name="TGDCorrespondencesTopComponent.settings" url="platformconfig/TGDCorrespondencesTopComponentSettings.xml"/>
+            <file name="InstancesTopComponent.settings" url="platformconfig/InstancesTopComponentSettings.xml"/>
+            <file name="TransformationTopComponent.settings" url="platformconfig/TransformationTopComponentSettings.xml"/>
+
+            <file name="BestMappingsTopComponent.settings" url="platformconfig/BestMappingsTopComponentSettings.xml"/>
+            <file name="SelectedTransformationTopComponent.settings" url="platformconfig/SelectedTransformationTopComponentSettings.xml"/>
+            <file name="RankedTransformationsTopComponent.settings" url="platformconfig/RankedTransformationsTopComponentSettings.xml"/>
+            <file name="SpicyTopComponent.settings" url="platformconfig/SpicyTopComponentSettings.xml"/>
+
+            <file name="runtime.settings_hidden"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+<!--                <file name="SqlTopComponent.wstcref" url="SqlTopComponentWstcref.xml"/>-->
+                <file name="XQueryTopComponent.wstcref" url="platformconfig/XQueryTopComponentWstcref.xml"/>
+                <file name="SqlTopComponent.wstcref" url="platformconfig/SqlTopComponentWstcref.xml"/>
+                <file name="TGDListTopComponent.wstcref" url="platformconfig/TGDListTopComponentWstcref.xml"/>
+                <file name="MappingTaskTopComponent.wstcref" url="platformconfig/MappingTaskTopComponentWstcref.xml"/>
+                <file name="TGDCorrespondencesTopComponent.wstcref" url="platformconfig/TGDCorrespondencesTopComponentWstcref.xml"/>
+                <file name="InstancesTopComponent.wstcref" url="platformconfig/InstancesTopComponentWstcref.xml"/>
+                <file name="TransformationTopComponent.wstcref" url="platformconfig/TransformationTopComponentWstcref.xml"/>
+
+                <file name="SpicyTopComponent.wstcref" url="platformconfig/SpicyTopComponentWstcref.xml"/>
+                <file name="SelectedTransformationTopComponent.wstcref" url="platformconfig/SelectedTransformationTopComponentWstcref.xml"/>
+            </folder>
+         <!--  <file name="explorer.wsmode" url="platformconfig/explorerWsmode.xml"/> -->
+            <file name="leftSlidingSide.wsmode" url="platformconfig/leftSlidingSideWsmode.xml"/>
+            <folder name="leftSlidingSide">
+         <!--   <folder name="explorer"> -->
+            </folder>
+            <file name="explorer.wsmode" url="platformconfig/explorerWsmode.xml"/>
+            <folder name="explorer">
+                <file name="ProjectTreeTopComponent.wstcref" url="platformconfig/ProjectTreeTopComponentWstcref.xml">
+                    <attr name="position" intvalue="50"/>
+                </file>
+                <file name="RankedTransformationsTopComponent.wstcref" url="platformconfig/RankedTransformationsTopComponentWstcref.xml">
+                    <attr name="position" intvalue="100"/>
+                </file>
+                <file name="BestMappingsTopComponent.wstcref" url="platformconfig/BestMappingsTopComponentWstcref.xml">
+                    <attr name="position" intvalue="150"/>
+                </file>
+                <file name="runtime.wstcref_hidden"/>
+            </folder>
+            <folder name="output">
+                <file name="CompositionTopComponent.wstcref" url="platformconfig/CompositionTopComponentWstcref.xml">
+                    <attr name="position" intvalue="50"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

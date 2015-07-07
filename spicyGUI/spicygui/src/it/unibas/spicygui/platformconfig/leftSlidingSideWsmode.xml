@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mode PUBLIC
+          "-//NetBeans//DTD Mode Properties 2.1//EN"
+          "http://www.netbeans.org/dtds/mode-properties2_1.dtd">
+
+<mode version="2.1">
+    <module name="org.netbeans.core.ui/1" spec="1.2" />
+    <name unique="leftSlidingSide" />
+    <kind type="sliding" />
+    <slidingSide side="left" />
+<!-- initial dimension is 0,0, we set it according to the first component to be docked -->
+  <slide-in-size tc-id="TGDListTopComponent" size="211" />
+  <state type="joined" />
+  <bounds x="24" y="0" width="211" height="601" />
+    <empty-behavior permanent="true" />
+</mode>

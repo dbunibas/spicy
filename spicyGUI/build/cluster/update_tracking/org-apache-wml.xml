@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.apache.wml">
+    <module_version install_time="1436282821678" last="true" origin="installer" specification_version="1.0">
+        <file crc="391663275" name="config/Modules/org-apache-wml.xml"/>
+        <file crc="3886415275" name="modules/ext/xercesImpl.jar"/>
+        <file crc="998722613" name="modules/org-apache-wml.jar"/>
+    </module_version>
+</module>

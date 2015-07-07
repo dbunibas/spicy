@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.apache.log4j">
+    <module_version install_time="1436282820914" last="true" origin="installer" specification_version="1.0">
+        <file crc="1619923168" name="config/Modules/org-apache-log4j.xml"/>
+        <file crc="1627829320" name="modules/ext/log4j-1.2.14.jar"/>
+        <file crc="180278781" name="modules/org-apache-log4j.jar"/>
+    </module_version>
+</module>

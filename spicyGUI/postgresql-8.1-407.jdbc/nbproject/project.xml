@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.apisupport.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/nb-module-project/3">
+            <code-name-base>org.postgresql</code-name-base>
+            <suite-component/>
+            <module-dependencies/>
+            <public-packages>
+                <package>org.postgresql</package>
+                <package>org.postgresql.core</package>
+                <package>org.postgresql.core.types</package>
+                <package>org.postgresql.core.v2</package>
+                <package>org.postgresql.core.v3</package>
+                <package>org.postgresql.ds</package>
+                <package>org.postgresql.ds.common</package>
+                <package>org.postgresql.fastpath</package>
+                <package>org.postgresql.geometric</package>
+                <package>org.postgresql.jdbc2</package>
+                <package>org.postgresql.jdbc2.optional</package>
+                <package>org.postgresql.jdbc3</package>
+                <package>org.postgresql.largeobject</package>
+                <package>org.postgresql.ssl</package>
+                <package>org.postgresql.translation</package>
+                <package>org.postgresql.util</package>
+                <package>org.postgresql.xa</package>
+            </public-packages>
+            <class-path-extension>
+                <runtime-relative-path>ext/postgresql-8.1-407.jdbc3.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/postgresql-8.1-407.jdbc3.jar</binary-origin>
+            </class-path-extension>
+        </data>
+    </configuration>
+</project>
