@@ -25,3 +25,4 @@ spicyGUICommons/dist
 spicyGUI/*/build
 spicyGUI/build
 /spicyGUI/dist/
+spicyGUI/nbproject/private
