@@ -16,6 +16,10 @@ It is the first mapping system that brings together:
 
 **For a new and improved chase engine for data cleaning and schema mappings altogether please check the [LLunatic project](http://db.unibas.it/projects/llunatic/)**
 
+### How to import project in NetBeans ####
+1. In NetBeans, File -> Open projects... and select the project folder
+2. Execute ant target task `gfp`, either using command-line `ant gfp`, or using NetBeans (in the projects windows, right click on build.xml -> Run Target -> Other Targets -> gfp)
+
 #Screenshots
 [![image](http://db.unibas.it/projects/spicy/screenshots/spicy1_th.jpg)](http://db.unibas.it/projects/spicy/screenshots/spicy1.png)
 [![image](http://db.unibas.it/projects/spicy/screenshots/spicy2_th.jpg)](http://db.unibas.it/projects/spicy/screenshots/spicy2.png)
@@ -23,6 +27,9 @@ It is the first mapping system that brings together:
 [![image](http://db.unibas.it/projects/spicy/screenshots/spicy4_th.jpg)](http://db.unibas.it/projects/spicy/screenshots/spicy4.png)
 [![image](http://db.unibas.it/projects/spicy/screenshots/spicy6_th.jpg)](http://db.unibas.it/projects/spicy/screenshots/spicy6.png)
 [![image](http://db.unibas.it/projects/spicy/screenshots/spicy7_th.jpg)](http://db.unibas.it/projects/spicy/screenshots/spicy7.png)
+
+#Download
+* [Version 1.1](https://github.com/dbunibas/spicy/releases/tag/1.1) (July 2015)
 
 #Pubblications
 * [CIKM12] G. Mecca, P. Papotti, S. Raunich, D. Santoro - What is the IQ of your Data Transformation System? In CIKM 2012 ([link](https://dl.dropboxusercontent.com/u/5049685/fp125-mecca.pdf))
