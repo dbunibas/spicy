@@ -26,3 +26,4 @@ spicyGUI/*/build
 spicyGUI/build
 /spicyGUI/dist/
 spicyGUI/nbproject/private
+/spicyGUI/spicygui/nbproject/private/
