@@ -12,7 +12,7 @@ public class RewriteAndExportSTTgds {
     private final DAOMappingTaskTgds daoMappingTaskTgds = new DAOMappingTaskTgds();
     private final RewriteTgds rewriter = new RewriteTgds();
 
-    protected String rewriteAndExport(String tgdString) throws DAOException {
+    public String rewriteAndExport(String tgdString) throws DAOException {
         String mappingTaskString = generateMappingTaskString(tgdString);
         MappingTask mappingTask = loadMappingTask(mappingTaskString);
         List<FORule> rewrittenTgds = rewriteRules(mappingTask);
