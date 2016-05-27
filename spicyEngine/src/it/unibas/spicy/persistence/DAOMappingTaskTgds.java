@@ -20,9 +20,7 @@ along with ++Spicy.  If not, see <http://www.gnu.org/licenses/>.
  */
 package it.unibas.spicy.persistence;
 
-import it.unibas.spicy.model.datasource.FunctionalDependency;
 import it.unibas.spicy.model.datasource.INode;
-import it.unibas.spicy.model.datasource.KeyConstraint;
 import it.unibas.spicy.model.mapping.EngineConfiguration;
 import it.unibas.spicy.model.mapping.FORule;
 import it.unibas.spicy.model.mapping.IDataSourceProxy;
@@ -51,6 +49,21 @@ public class DAOMappingTaskTgds {
         try {
             IParseMappingTask generator = new ParseMappingTask();
             MappingTask mappingTask = generator.generateMappingTask(filePath);
+            mappingTask.setModified(false);
+            mappingTask.setToBeSaved(false);
+            return mappingTask;
+        } catch (Exception ex) {
+//            ex.printStackTrace();
+            logger.error(ex);
+            throw new DAOException(ex.getMessage());
+        }
+        
+    }
+    
+    public MappingTask loadMappingTaskFromString(String mappingTaskString) throws DAOException {
+        try {
+            IParseMappingTask generator = new ParseMappingTask();
+            MappingTask mappingTask = generator.generateMappingTaskFromString(mappingTaskString);
             mappingTask.setModified(false);
             mappingTask.setToBeSaved(false);
             return mappingTask;

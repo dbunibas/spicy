@@ -22,14 +22,12 @@ package it.unibas.spicy.model.mapping.rewriting.egds.operators;
 
 import it.unibas.spicy.model.mapping.FORule;
 import it.unibas.spicy.model.mapping.IDataSourceProxy;
-import it.unibas.spicy.model.mapping.rewriting.egds.operators.IGenerateSTTGDOverlapMap;
 import it.unibas.spicy.model.mapping.MappingTask;
 import it.unibas.spicy.model.mapping.operators.NormalizeSTTGDs;
 import it.unibas.spicy.model.mapping.operators.RenameSetAliases;
 import it.unibas.spicy.model.mapping.rewriting.egds.STTGDOverlapMap;
 import it.unibas.spicy.model.mapping.rewriting.egds.Determination;
 import it.unibas.spicy.model.mapping.rewriting.egds.VariableOverlap;
-import it.unibas.spicy.model.mapping.rewriting.egds.operators.EGDUtility;
 import it.unibas.spicy.model.mapping.rewriting.operators.CheckTGDHomomorphism;
 import it.unibas.spicy.model.paths.SetAlias;
 import it.unibas.spicy.model.paths.VariableFunctionalDependency;

@@ -46,6 +46,7 @@ import it.unibas.spicy.utility.SpicyEngineConstants;
 import java.util.ArrayList;
 import java.util.List;
 import org.antlr.runtime.ANTLRFileStream;
+import org.antlr.runtime.ANTLRStringStream;
 import org.antlr.runtime.CommonTokenStream;
 import org.antlr.runtime.RecognitionException;
 import org.apache.commons.logging.Log;
@@ -86,6 +87,28 @@ abstract class AbstractParseMappingTask implements IParseMappingTask {
                 throw new ParserException(ex);
             }
             mappingTask.setFileName(mappingTaskFile);
+            return this.mappingTask;
+        } catch (Exception e) {
+            e.printStackTrace();
+            logger.error(e);
+            throw new ParserException(e);
+        }
+    }
+
+    /////////////////////   CALLBACK METHODS FOR THE GRAMMAR  ////////////////////////////
+    public MappingTask generateMappingTaskFromString(String mappingTaskString) throws Exception {
+        try {
+            TGDMappingTaskLexer lex = new TGDMappingTaskLexer(new ANTLRStringStream(mappingTaskString));
+            CommonTokenStream tokens = new CommonTokenStream(lex);
+            TGDMappingTaskParser g = new TGDMappingTaskParser(tokens);
+            try {
+                g.setGenerator(this);
+                g.prog();
+            } catch (RecognitionException ex) {
+                logger.error("Unable to load mapping task: " + ex.getMessage());
+                throw new ParserException(ex);
+            }
+            mappingTask.setFileName("");
             return this.mappingTask;
         } catch (Exception e) {
             e.printStackTrace();

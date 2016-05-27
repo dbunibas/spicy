@@ -124,7 +124,7 @@ public class MappingData {
         }
         return this.stTgds;
     }
-
+    
     public List<FORule> getSTTgdsForCanonicalSolutions() {
         if (this.stTgdsForCanonicalSolution == null) {
             RemoveClonesFromConclusion cloneRemover = new RemoveClonesFromConclusion();

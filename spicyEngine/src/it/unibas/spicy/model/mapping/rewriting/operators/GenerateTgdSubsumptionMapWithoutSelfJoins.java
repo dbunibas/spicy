@@ -67,7 +67,10 @@ public class GenerateTgdSubsumptionMapWithoutSelfJoins {
                     if (subsumption != null) {
 //                            if (!mappingTask.getConfig().rewriteOnlyProperHomomorphisms() ||
 //                                    properSubsumptionChecker.checkProperHomomorphism(candidatetgd, othertgd, mappingTask)) {
-                        if (subsumptionChecker.isProperHomomorphism(candidatetgd, othertgd, mappingTask)) {
+//++                        if (subsumptionChecker.isProperHomomorphism(candidatetgd, othertgd, mappingTask)) {
+//++                            ancestors.add(subsumption);
+//++                        }
+                        if (submsumptionToAdd(candidatetgd, othertgd, subsumptionMap, mappingTask)) {
                             ancestors.add(subsumption);
                         }
                     }
@@ -116,4 +119,24 @@ public class GenerateTgdSubsumptionMapWithoutSelfJoins {
 //        }
 //        return result;
 //    }
+
+    private boolean submsumptionToAdd(FORule candidatetgd, FORule othertgd, Map<FORule, List<Subsumption>> subsumptionMap, MappingTask mappingTask) {
+        if (mappingTask.getConfig().rewriteOnlyProperHomomorphisms()) {
+            return subsumptionChecker.isProperHomomorphism(candidatetgd, othertgd, mappingTask);
+        }
+        List<Subsumption> fathersOfOther = subsumptionMap.get(othertgd);
+        return !containsFather(fathersOfOther, candidatetgd);
+    }
+
+    private boolean containsFather(List<Subsumption> fathersOfOther, FORule candidatetgd) {
+        if (fathersOfOther == null) {
+            return false;
+        }
+        for (Subsumption subsumption : fathersOfOther) {
+            if (subsumption.getRightTgd().equals(candidatetgd)) {
+                return true;
+            }
+        }
+        return false;
+    }
 }

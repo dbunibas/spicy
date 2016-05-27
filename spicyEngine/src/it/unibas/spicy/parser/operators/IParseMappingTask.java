@@ -47,6 +47,8 @@ public interface IParseMappingTask {
     void createMappingTask(List<String> sourceSchemaFiles, List<String> sourceInstanceFiles, String targetSchemaFile) throws Exception;
 
     MappingTask generateMappingTask(String mappingTaskFile) throws Exception;
+    
+    MappingTask generateMappingTaskFromString(String mappingTaskString) throws Exception;
 
     IDataSourceProxy loadSource(String schemaFile, String instanceFile);
 

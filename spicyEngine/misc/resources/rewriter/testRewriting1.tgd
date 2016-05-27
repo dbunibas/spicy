@@ -1,0 +1,23 @@
+Mapping task:
+Source schema: 		generate
+Source instance:	generate
+Target schema:		generate
+
+SOURCE TO TARGET TGDs:
+treatment(tid: $id, tpatient: $patient, thospital: $hospital, tnpi: $npi, tconf: $conf1),
+physician(pnpi: $npi, pname: $name, pspec: $spec, pconf: $conf2) ->
+    doctor(dnpi: $npi, dname: $name, dspec: $spec, dhospital: $hospital, dconf: $C2).
+
+medprescription(mid: $id, mpatient: $patient, mnpi: $npi, mdoctor: $doctor, mspec: $spec, mconf: $conf) ->
+    doctor(dnpi: $npi, dname: $doctor, dspec: $spec, dhospital: $H, dconf: $C2).
+
+treatment(tid: $id, tpatient: $patient, thospital: $hospital, tnpi: $npi, tconf: $conf1),
+physician(pnpi: $npi, pname: $name, pspec: $spec, pconf: $conf2) ->
+    prescription(rid: $id, rpatient: $patient, rnpi: $npi, rconf: $C1).
+
+medprescription(mid: $id, mpatient: $patient, mnpi: $npi, mdoctor: $doctor, mspec: $spec, mconf: $conf) ->
+    prescription(rid: $id, rpatient: $patient, rnpi: $npi, rconf: $C1).
+
+hospital(hdoctor: $doctor, hspec: $spec, hhospital: $hospital1, hnpi: $npi1, hconf: $hconf1) ->
+    targethospital(hdoctor: $doctor, hspec: $spec, hhospital: $hospital1, hnpi: $npi1, hconf: $hconf1).
+

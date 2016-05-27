@@ -483,6 +483,9 @@ public class References {
     public static final String coverageBig2XMLInstance = "/resources/coverage/coverageBig2-source-instance.xml";
     public static final String coverageBig2XMLExpectedInstance = "/resources/coverage/coverageBig2-source-instance-expected.csv";
 
+    //////////////////////////////////////////// XQUERY /////////////////////////////////////////////////
+    public static final String rewriter1 = "/resources/rewriter/testRewriting1.tgd";
+    public static final String rewriter2 = "/resources/rewriter/testRewriting2.tgd";
 
 
 }

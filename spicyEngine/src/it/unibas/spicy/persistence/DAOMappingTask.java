@@ -28,10 +28,10 @@ import org.apache.commons.logging.LogFactory;
 
 public class DAOMappingTask {
 
-    private static Log logger = LogFactory.getLog(DAOMappingTask.class);
+    private static final Log logger = LogFactory.getLog(DAOMappingTask.class);
     
-    private DAOMappingTaskLines daoLines = new DAOMappingTaskLines();
-    private DAOMappingTaskTgds daoTgds = new DAOMappingTaskTgds();
+    private final DAOMappingTaskLines daoLines = new DAOMappingTaskLines();
+    private final DAOMappingTaskTgds daoTgds = new DAOMappingTaskTgds();
 
     public MappingTask loadMappingTask(String filePath) throws DAOException {
         if (filePath.endsWith(".xml")) {
