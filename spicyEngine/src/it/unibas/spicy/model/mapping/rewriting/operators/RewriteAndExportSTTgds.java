@@ -13,9 +13,21 @@ public class RewriteAndExportSTTgds {
     private final RewriteTgds rewriter = new RewriteTgds();
 
     protected String rewriteAndExport(String tgdString) throws DAOException {
-        MappingTask mappingTask = loadMappingTask(tgdString);
+        String mappingTaskString = generateMappingTaskString(tgdString);
+        MappingTask mappingTask = loadMappingTask(mappingTaskString);
         List<FORule> rewrittenTgds = rewriteRules(mappingTask);
         return buildResultString(rewrittenTgds, mappingTask);
+    }
+
+    private String generateMappingTaskString(String tgdString) {
+        StringBuilder result = new StringBuilder();
+        result.append("Mapping task:\n");
+        result.append("Source schema:     generate\n");
+        result.append("Source instance:   generate\n");
+        result.append("Target schema:     generate\n");
+        result.append("SOURCE TO TARGET TGDs:\n");
+        result.append(tgdString);
+        return result.toString();
     }
 
     private MappingTask loadMappingTask(String tgdString) throws DAOException {
