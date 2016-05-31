@@ -45,7 +45,25 @@ public class ExpressionToString {
         }
     }
 
-    public String toStringWithDollars(JEP jepExpression) {
+    public String toStringWithDollarsAndUnderscore(JEP jepExpression) {
+        try {
+            ToStringVisitor visitor = new ToStringVisitor(jepExpression, false, true);
+            if (jepExpression == null || jepExpression.getTopNode() == null) {
+                return null;
+            }
+            jepExpression.getTopNode().jjtAccept(visitor, null);
+            String result = visitor.getResult();
+            if (result.startsWith("(") && result.endsWith(")")) {
+                result = result.substring(1, result.length() - 1);
+//                result = result.replaceAll("==", "=");
+            }
+            return result;
+        } catch (ParseException ex) {
+            return null;
+        }
+    }
+
+    public String toStringWithDollarsAndBrackets(JEP jepExpression) {
         try {
             ToStringVisitor visitor = new ToStringVisitor(jepExpression, false, true);
             if (jepExpression == null || jepExpression.getTopNode() == null) {
@@ -71,6 +89,7 @@ class ToStringVisitor implements ParserVisitor {
     private boolean withSlashes;
     private boolean withDollar;
     private boolean absolutePaths;
+    private boolean useBracketsForFunctions;
 
     public ToStringVisitor(JEP jepExpression) {
         this.jepExpression = jepExpression;
@@ -87,6 +106,14 @@ class ToStringVisitor implements ParserVisitor {
         this.withSlashes = withSlashes;
         this.withDollar = withDollar;
         this.absolutePaths = absolutePaths;
+    }
+
+    public ToStringVisitor(JEP jepExpression, boolean withSlashes, boolean withDollar, boolean absolutePaths, boolean useBracketsForFunctions) {
+        this.jepExpression = jepExpression;
+        this.withSlashes = withSlashes;
+        this.withDollar = withDollar;
+        this.absolutePaths = absolutePaths;
+        this.useBracketsForFunctions = useBracketsForFunctions;
     }
 
     public String getResult() {
@@ -124,8 +151,11 @@ class ToStringVisitor implements ParserVisitor {
             }
         } else if (isFunction(node)) {
             if (!withSlashes) {
-                if(withDollar){
+                if (withDollar && !useBracketsForFunctions) {
                     result.append("_");
+                }
+                if (withDollar && useBracketsForFunctions) {
+                    result.append("{");
                 }
                 result.append(node.getName() + "(");
             } else {
@@ -149,6 +179,9 @@ class ToStringVisitor implements ParserVisitor {
                 result.append("]");
             } else {
                 result.append(")");
+                if (withDollar && useBracketsForFunctions) {
+                    result.append("}");
+                }
             }
         }
         return null;

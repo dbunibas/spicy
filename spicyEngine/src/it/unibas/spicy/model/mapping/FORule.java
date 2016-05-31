@@ -312,12 +312,17 @@ public class FORule implements Cloneable, Comparable<FORule>, IIdentifiable {
     }
 
     private String toLogicalString(String indent, boolean printSkolems, MappingTask mappingTask) {
-        TGDToLogicalString toStringOperator = new TGDToLogicalString(printSkolems, false);
+        TGDToLogicalString toStringOperator = new TGDToLogicalString(printSkolems, false, false);
         return toStringOperator.toLogicalString(this, mappingTask, indent);
     }
 
     public String toSaveString(String indent, MappingTask mappingTask) {
-        TGDToLogicalString toStringOperator = new TGDToLogicalString(false, true);
+        TGDToLogicalString toStringOperator = new TGDToLogicalString(false, true, false);
+        return toStringOperator.toLogicalString(this, mappingTask, indent);
+    }
+
+    public String toExportString(String indent, MappingTask mappingTask) {
+        TGDToLogicalString toStringOperator = new TGDToLogicalString(false, true, true);
         return toStringOperator.toLogicalString(this, mappingTask, indent);
     }
 
