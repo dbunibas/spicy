@@ -179,13 +179,13 @@ public class EngineConfigurationPM implements Cloneable{
         return this.engineConfiguration.useSkolemStrings();
     }
 
-//    public void setRewriteAllHomomorphisms(boolean rewriteAllHomomorphisms) {
-//        this.engineConfiguration.setRewriteAllHomorphisms(rewriteAllHomomorphisms);
-//    }
-//
-//    public boolean isRewriteAllHomomorphisms() {
-//        return this.engineConfiguration.rewriteAllHomomorphisms();
-//    }
+    public void setRewriteAllHomomorphisms(boolean rewriteAllHomomorphisms) {
+        this.engineConfiguration.setRewriteOnlyProperHomomorphisms(!rewriteAllHomomorphisms);
+    }
+
+    public boolean isRewriteAllHomomorphisms() {
+        return !this.engineConfiguration.rewriteOnlyProperHomomorphisms();
+    }
 
     public void setUseLocalSkolem(boolean useLocalSkolem) {
         this.engineConfiguration.setUseLocalSkolem(useLocalSkolem);

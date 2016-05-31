@@ -44,7 +44,7 @@ public class RewriteAndExportSTTgds {
         mappingTask.getConfig().setRewriteOnlyProperHomomorphisms(config.isRewriteOnlyProperHomomorphisms());
         
         mappingTask.getConfig().setRewriteOverlaps(config.isRewriteOverlaps());
-        
+
         mappingTask.getConfig().setUseLocalSkolem(config.isUseLocalSkolems());
         return mappingTask;
     }
@@ -59,7 +59,7 @@ public class RewriteAndExportSTTgds {
     private String buildResultString(List<FORule> rewrittenTgds, MappingTask mappingTask) {
         StringBuilder result = new StringBuilder();
         for (FORule rule : rewrittenTgds) {
-            result.append(rule.toSaveString("", mappingTask)).append("\n");
+            result.append(rule.toExportString("", mappingTask)).append("\n");
         }
         return result.toString();
     }

@@ -50,10 +50,12 @@ public class TGDToLogicalString {
     private TGDToLogicalStringUtility utility = new TGDToLogicalStringUtility();
     private boolean useSaveFormat;
     private boolean printSkolems;
+    private boolean useExportFormat;
 
-    public TGDToLogicalString(boolean printSkolems, boolean useSaveFormat) {
+    public TGDToLogicalString(boolean printSkolems, boolean useSaveFormat, boolean useExportFormat) {
         this.printSkolems = printSkolems;
         this.useSaveFormat = useSaveFormat;
+        this.useExportFormat = useExportFormat;
     }
 
     public String toLogicalString(FORule rule, MappingTask mappingTask, String indent) {
@@ -95,7 +97,7 @@ public class TGDToLogicalString {
         FormulaVariableMaps variableMaps = rule.getVariableMaps(mappingTask);
         List<IIdentifiable> stack = new ArrayList<IIdentifiable>();
         stack.add(0, rule);
-        TGDToStringVisitor visitor = new TGDToStringVisitor(rule, variableMaps, stack, mappingTask, indent, useSaveFormat);
+        TGDToStringVisitor visitor = new TGDToStringVisitor(rule, variableMaps, stack, mappingTask, indent, useSaveFormat, useExportFormat);
         rule.getComplexSourceQuery().accept(visitor);
         return visitor.getResult();
     }
@@ -230,15 +232,17 @@ class TGDToStringVisitor implements IQueryVisitor {
     private List<List<FormulaVariable>> variables = new ArrayList<List<FormulaVariable>>();
     private String indent;
     private boolean useSaveFormat;
+    private boolean useExportFormat;
     private TGDToLogicalStringUtility utility = new TGDToLogicalStringUtility();
     private FindFormulaVariablesUtility variableFinder = new FindFormulaVariablesUtility();
 
-    public TGDToStringVisitor(FORule rule, FormulaVariableMaps variableMaps, List<IIdentifiable> stack, MappingTask mappingTask, String indent, boolean useSaveFormat) {
+    public TGDToStringVisitor(FORule rule, FormulaVariableMaps variableMaps, List<IIdentifiable> stack, MappingTask mappingTask, String indent, boolean useSaveFormat, boolean useExportFormat) {
         this.mappingTask = mappingTask;
         this.variableMaps = variableMaps;
         this.stack = stack;
         this.indent = indent;
         this.useSaveFormat = useSaveFormat;
+        this.useExportFormat = useExportFormat;
         List<FormulaVariable> universalVariables = rule.getUniversalFormulaVariables(mappingTask);
         variables.add(universalVariables);
     }
@@ -323,8 +327,11 @@ class TGDToStringVisitor implements IQueryVisitor {
             VariableSelectionCondition selection = query.getAllSelections().get(i);
             Expression expression = selection.getCondition().clone();
             utility.setVariableDescriptions(expression, variables);
-            if (useSaveFormat) {
+            if (useSaveFormat && !useExportFormat) {
                 String expressionString = expression.toSaveString();
+                localResult.append(expressionString);
+            }if (useSaveFormat && useExportFormat) {
+                String expressionString = expression.toExportString();
                 localResult.append(expressionString);
             } else {
                 localResult.append(expression.toString());
